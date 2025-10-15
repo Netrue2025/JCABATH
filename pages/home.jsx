@@ -1,13 +1,31 @@
 import { Link } from "react-router-dom"
 import "../styles/pages/home.css"
+
 //imported components
 import { Topnavbar } from "../components/topnavbar"
+import { Aboutdropdown } from "../components/aboutdropdown"    
+import { useState } from "react"
 
 export function Home(){
+  const [drop, setDrop] = useState(false)
     return(
-        <>
-        <Topnavbar />
+      <div>
+        
+        {drop === false ?
+          <Topnavbar onClick={() => setDrop(true)} />:
+          <Topnavbar onClick={() => setDrop(false)} />
+        }
+        
+  
+        {drop === true ?
+          <Aboutdropdown /> :
+          <Aboutdropdown id="hide"/>
+         
+        }
+     
+     
 
+    
         <h1>This is the home page</h1>
         <Link to={"/about-jca"}>
             <button>Go to About Jca 👉</button>
@@ -61,6 +79,6 @@ export function Home(){
             <button>Go to Testimonies 👉</button>
           </Link>
 
-        </>
+        </div>
     )
 }

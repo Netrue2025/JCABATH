@@ -1,14 +1,19 @@
 import { Link } from "react-router-dom";
 import logo from "../media/images/logo.png"
 import { FaChevronDown } from "react-icons/fa";
-
+import 'primeicons/primeicons.css';
+    
 //imported Style sheet
 import "../styles/components/topnavbar.css"
 
-export function Topnavbar(){
+// import { useState } from "react";
+
+export function Topnavbar(props){
+    // const [drop, setDrop] = useState(false)
     return(
         <>
-            <section className="nav-container">
+            <section className="nav-container" id={props.id}>
+               
                 <div className="inner-container">
                     <figure>
                         <div className="log"><img src={logo} alt="Logo" /></div>
@@ -16,7 +21,7 @@ export function Topnavbar(){
                     </figure>
                     <aside className="nav-menu">
                         <div><Link to={"../"}><input type="button" value="Home" /></Link></div>
-                        <div>
+                        <div onClick={props.onClick}>
                             <input type="button" value="About" />
                             <FaChevronDown className="arrow"/>
                         </div>
@@ -38,8 +43,14 @@ export function Topnavbar(){
                         </div>
                         <div><Link to={"/giving"}><input type="button" value="Give"/></Link></div>
                     </aside>
+                    <i className="pi pi-align-justify"></i>
                 </div>
+
             </section>
         </>
     )
+
+    // {drop && return <h1>This is the return</h1>
+
+    //  }
 }

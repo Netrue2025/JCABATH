@@ -15,7 +15,16 @@ body {
   margin: auto;
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  max-width: 1440px;
+  margin: auto;
+  /* background-color: red; */
   /* min-height: 100vh; */
 }
+@media screen and (max-width: 1040px){
+  body{
+    width: 100vw;
+    
+  }
+}
+
 
