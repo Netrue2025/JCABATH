@@ -1,0 +1,117 @@
+.nav-container{
+    width: 75vw;
+    // height: 117px;
+    border: 1px solid #00000017;
+    justify-content: space-between;
+    padding: 28px;
+    right: 120px;
+    top: 16px;
+    left: 120px;
+    background-color: #FFFFFF;
+    position: fixed;
+    margin: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    .inner-container{
+        display: flex;
+        // flex-direction: row;
+        width: 95%;
+        height: 42.78px;
+        // gap: 185px;
+        margin: auto;
+        
+        figure{
+            display: flex;
+            width: 22%;
+            height: 4.2vh;
+            gap: 8.26px;
+            // background-color: red;
+            box-sizing: border-box;
+            line-height: 0;
+            margin: 0;
+
+            .logo{
+                width: 30%;
+                height: 2.228vh;
+                border-radius: 21.39px;
+                padding: 4.06px;
+                gap: 0.6px;
+                
+            }
+            .logo-name{
+                display: flex;
+                flex-direction: column;
+                width: 70%;
+                height: 4.2vh;
+
+                h2{
+                    width: 70%;
+                    // height: 1.198vh;
+                    font-family: "Clash Display";
+                    font-weight: 600;
+                    // font-style: bold;
+                    font-size: 1.217rem;
+                    text-box-trim: NONE;
+                    line-height: 22.41px;
+                    letter-spacing: 0%;
+                    vertical-align: middle;
+                    text-transform: capitalize;
+                    color: #000000;
+                    margin: 0;
+
+                }
+                h1{
+                    width: 90%;
+                    // height: 1.198vh;
+                    transform: 0 deg;
+                    opacity: 1;
+                    font-family: "Clash Grotesk";
+                    font-weight: 600;
+                    // font-style: Semibold;
+                    font-size: 1.217rem;
+                    text-box-trim: NONE;
+                    line-height: 23.01px;
+                    letter-spacing: 0%;
+                    vertical-align: middle;
+                    text-transform: capitalize;
+                    color: #000000;
+                    margin: 0;
+
+                }
+            }
+        }
+
+        .nav-menu{
+            display: flex;
+            width: 70%;
+            height: 1.354vh;
+            justify-content: space-between;
+           float: right;
+           margin: auto;
+
+            div{
+                display: flex;
+                height: 26px;
+                justify-content: space-between;
+                
+
+                input{
+                    border: none;
+                    width: 5.313vw;
+                    background-color: white;
+                    height: 26px;
+                    gap: 8px;
+                    cursor: pointer;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 600;
+                    font-size: 1.6rem;
+                    line-height: 160%;
+                    letter-spacing: -2%;
+                }
+            }
+        }
+
+    }
+
+}
