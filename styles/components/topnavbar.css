@@ -1,10 +1,11 @@
 .nav-container {
   width: 75vw;
+  height: 117px;
   border: 1px solid rgba(0, 0, 0, 0.0901960784);
   justify-content: space-between;
   padding: 28px;
   right: 120px;
-  top: 16px;
+  top: 5px;
   left: 120px;
   background-color: #FFFFFF;
   position: fixed;
@@ -20,12 +21,11 @@
 }
 .nav-container .inner-container figure {
   display: flex;
-  width: 22%;
   height: 4.2vh;
   gap: 8.26px;
-  box-sizing: border-box;
   line-height: 0;
   margin: 0;
+  float: left;
 }
 .nav-container .inner-container figure .logo {
   width: 30%;
@@ -33,18 +33,19 @@
   border-radius: 21.39px;
   padding: 4.06px;
   gap: 0.6px;
+  float: left;
 }
 .nav-container .inner-container figure .logo-name {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 100%;
   height: 4.2vh;
 }
 .nav-container .inner-container figure .logo-name h2 {
-  width: 70%;
+  width: 100%;
   font-family: "Clash Display";
   font-weight: 600;
-  font-size: 1.317rem;
+  font-size: 19.17px;
   text-box-trim: NONE;
   line-height: 22.41px;
   letter-spacing: 0%;
@@ -54,12 +55,12 @@
   margin: 0;
 }
 .nav-container .inner-container figure .logo-name h1 {
-  width: 90%;
+  width: 100%;
   transform: 0 deg;
   opacity: 1;
   font-family: "Clash Grotesk";
   font-weight: 600;
-  font-size: 1.317rem;
+  font-size: 19.17px;
   text-box-trim: NONE;
   line-height: 23.01px;
   letter-spacing: 0%;
