@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-
+import "../styles/pages/home.css"
 //imported components
 import { Topnavbar } from "../components/topnavbar"
 
@@ -7,6 +7,7 @@ export function Home(){
     return(
         <>
         <Topnavbar />
+
         <h1>This is the home page</h1>
         <Link to={"/about-jca"}>
             <button>Go to About Jca 👉</button>
