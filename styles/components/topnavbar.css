@@ -43,7 +43,7 @@
 }
 .nav-container .inner-container figure .logo-name h2 {
   width: 100%;
-  font-family: "Clash Display";
+  font-family: "Clash Display", sans-serif;
   font-weight: 600;
   font-size: 19.17px;
   text-box-trim: NONE;
@@ -58,7 +58,7 @@
   width: 100%;
   transform: 0 deg;
   opacity: 1;
-  font-family: "Clash Grotesk";
+  font-family: "Clash Grotesk", sans-serif;
   font-weight: 600;
   font-size: 19.17px;
   text-box-trim: NONE;
