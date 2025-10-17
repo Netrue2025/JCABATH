@@ -16,7 +16,6 @@
   position: sticky;
   margin: auto;
   box-sizing: border-box;
-  overflow: hidden;
 }
 .nav-container .inner-container {
   display: flex;

@@ -19,6 +19,8 @@ body {
   margin: auto;
   /* background-color: red; */
   /* min-height: 100vh; */
+  box-sizing: border-box;
+  /* position: absolute; */
 }
 @media screen and (max-width: 1040px){
   body{

@@ -1,41 +1,46 @@
-#abouthide {
+#mediahide {
   display: none;
 }
 
-.aboutdropdown {
-  width: auto;
-  height: 350px !important;
+.mediadropdown {
+  width: 240px;
+  height: auto;
   border-bottom-right-radius: 16px;
   border-bottom-left-radius: 16px;
   background-color: #ffffff;
   position: absolute;
+  margin-left: 60%;
+  margin-top: 1px;
   justify-content: center;
   align-items: center;
-  top: 100%;
-  padding: 0;
-  margin-left: 0;
+  padding: 40px 0;
+  margin-top: -45px;
+  text-align: center;
+  left: 0;
 }
-.aboutdropdown .inner-contents {
+.mediadropdown .mini-inner-contents {
   display: flex;
   flex-direction: column;
-  width: auto;
+  width: 174px;
+  height: 148px;
   gap: 5px;
   justify-content: center;
-  margin-top: 0 !important;
+  margin: auto;
 }
-.aboutdropdown .inner-contents .link {
+.mediadropdown .mini-inner-contents .link {
   text-decoration: none;
 }
-.aboutdropdown .inner-contents .link .dropdown-btn {
+.mediadropdown .mini-inner-contents .link .dropdown-btn {
   border: none;
   display: flex;
-  width: auto;
+  width: 172px;
   height: 46px;
   border-top: 0.4px solid #CEC9C9;
   padding: 10px;
   gap: 10px;
+  background-color: white;
 }
-.aboutdropdown .inner-contents .link .dropdown-btn p {
+.mediadropdown .mini-inner-contents .link .dropdown-btn p {
   width: 99px;
   height: 26px;
   font-family: "Montserrat", sans-serif;
@@ -46,4 +51,4 @@
   letter-spacing: -2%;
   color: #000000;
   text-decoration: none;
-}/*# sourceMappingURL=aboutdropdown.css.map */
+}/*# sourceMappingURL=mediadropdown.css.map */

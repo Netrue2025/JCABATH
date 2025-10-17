@@ -6,9 +6,9 @@ export function Aboutdropdown(props){
         <>
             <div className="aboutdropdown" id={props.id}>
                 <div className="inner-contents">
-                    <Link className="link"><div className="dropdown-btn"><p>About RCCG</p></div></Link>
-                    <Link className="link"><div className="dropdown-btn"><p>About RCCG JCA</p></div></Link>
-                    <Link className="link"><div className="dropdown-btn"><p>Leadership</p></div></Link>
+                    <Link className="link" to={props.rccg}><div className="dropdown-btn"><p>About RCCG</p></div></Link>
+                    <Link className="link" to={props.jca}><div className="dropdown-btn"><p>About RCCG JCA</p></div></Link>
+                    <Link className="link" to={props.leadership}><div className="dropdown-btn"><p>Leadership</p></div></Link>
                 </div>
                
             </div>

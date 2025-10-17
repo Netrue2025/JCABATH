@@ -1,28 +1,53 @@
 import { Link } from "react-router-dom"
 import "../styles/pages/home.css"
+import "../styles/components/ministrydropdown.css"
+import "../styles/components/aboutdropdown.css"
 
 //imported components
 import { Topnavbar } from "../components/topnavbar"
-import { Aboutdropdown } from "../components/aboutdropdown"    
+// import { Aboutdropdown } from "../components/aboutdropdown"
+import { Ministriesdropdown } from "../components/ministriesdropdown"    
 import { useState } from "react"
+import { Mediadropdown } from "../components/mediadropdown"
+import { Connectdropdown } from "../components/connectdropdown"
+import { Eventdropdown } from "../components/eventdropdown"
 
 export function Home(){
-  const [drop, setDrop] = useState(false)
+  
+  const [ministry, setMinistry] = useState(false)
+  const [connect, setConnect] = useState(false)
+  const [events, setEvents] = useState(false)
+  const [media, setMedia] = useState(false)
     return(
       <div>
         
-        {drop === false ?
-          <Topnavbar onClick={() => setDrop(true)} />:
-          <Topnavbar onClick={() => setDrop(false)} />
-        }
-        
-  
-        {drop === true ?
-          <Aboutdropdown /> :
-          <Aboutdropdown id="hide"/>
+        { ministry === false && connect === false && events === false && media === false ?
+          <Topnavbar onClick={() => setDrop(true)} ministryClick={() => { setMinistry(true) }} eventsClick = {() => {setEvents(true)}} connectClick = {() => {setConnect(true)}} mediaClick = {() => {setMedia(true)}}/>:
+          <Topnavbar onClick={() => setDrop(false)} ministryClick={() => setMinistry(false)} eventsClick = {() => {setEvents(false)}} connectClick = {() => {setConnect(false)}} mediaClick = {() => {setMedia(false)}} />
          
         }
-     
+
+    
+        {ministry === true ?
+          <Ministriesdropdown to={"/about-jca"}/>:
+          <Ministriesdropdown id="ministryhide" />
+
+
+        }
+        {connect === true ?
+          <Connectdropdown />:
+          <Connectdropdown id="connecthide" />
+
+        }
+        {events === true ?
+          <Eventdropdown />:
+          <Eventdropdown id="hide" />
+        }
+        {media === true ? 
+            <Mediadropdown />:
+            <Mediadropdown id="hide" />
+      }
+
      
 
     
