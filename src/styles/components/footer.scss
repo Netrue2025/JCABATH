@@ -1,0 +1,57 @@
+.footer-container{
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 1440px;
+    height: 558.3px;
+    margin: auto;
+    color: white;
+    
+
+    .footer-inset-container{
+        width: 1360px;
+        height: 558px;
+        left: 80px;
+        position: relative;
+
+        .footer-contacts{
+            display: flex;
+            flex-direction: column;
+            width: 338.46px;
+            height: 213px;
+            top: 102px;
+            left: 46px;
+            gap: 17px;
+            position: relative;
+
+            .logo-name{
+                display: flex;
+                flex-direction: column;
+                width: 338.46px;
+                height: 130px;
+
+                .logo{
+                    display: flex;
+                    width: 225.5px;
+                    height: 42.78px;
+                    gap: 8.26px;
+                    margin-top: 0;
+
+                    h1{
+                        margin-top: 0;
+                        line-height: 1;
+                        font-weight: 600;
+                        width: 100%;
+                        font-family: 'Clash Grotesk', sans-serif;
+                        
+                      
+                    }
+                }
+            }
+        }
+    }
+
+    
+}

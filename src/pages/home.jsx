@@ -11,6 +11,7 @@ import { useState } from "react"
 import { Mediadropdown } from "../components/mediadropdown"
 import { Connectdropdown } from "../components/connectdropdown"
 import { Eventdropdown } from "../components/eventdropdown"
+import { Footer } from "../components/footer"
 
 export function Home(){
   
@@ -29,7 +30,7 @@ export function Home(){
 
     
         {ministry === true ?
-          <Ministriesdropdown to={"/about-jca"}/>:
+          <Ministriesdropdown to={"/about-jca"}/> || setDrop(false):
           <Ministriesdropdown id="ministryhide" />
 
 
@@ -49,61 +50,65 @@ export function Home(){
       }
 
      
+        <main>
+          <h1>This is the home page</h1>
+            <Link to={"/about-jca"}>
+              <button>Go to About Jca 👉</button>
+            </Link>
 
+            <Link to={"/about-us"}>
+              <button>Go to About Us 👉</button>
+            </Link>
+
+            <Link to={"/amazing-grace"}>
+              <button>Go to Amazing Grace 👉</button>
+            </Link>
+
+            <Link to={"/children-department"}>
+              <button>Go to Children Department 👉</button>
+            </Link>
+
+            <Link to={"/contact-us"}>
+              <button>Go to Contacts Us 👉</button>
+            </Link>
+
+            <Link to={"/giving"}>
+              <button>Go to Giving 👉</button>
+            </Link>
+
+            <Link to={"/jca-good-women"}>
+              <button>Go to Jca Good Women 👉</button>
+            </Link>
+
+            <Link to={"/leadership"}>
+              <button>Go to Leadership 👉</button>
+            </Link>
+
+            <Link to={"/messages"}>
+              <button>Go to Messages 👉</button>
+            </Link>
+
+            <Link to={"/prayer-request"}>
+              <button>Go to Prayer Request 👉</button>
+            </Link>
+
+            <Link to={"/raising-giant"}>
+              <button>Go to Raising Giant 👉</button>
+            </Link>
+
+            <Link to={"/services"}>
+              <button>Go to Services 👉</button>
+            </Link>
+
+            <Link to={"/testimonies"}>
+              <button>Go to Testimonies 👉</button>
+            </Link>
+        </main>
     
-        <h1>This is the home page</h1>
-        <Link to={"/about-jca"}>
-            <button>Go to About Jca 👉</button>
-          </Link>
 
-          <Link to={"/about-us"}>
-            <button>Go to About Us 👉</button>
-          </Link>
 
-          <Link to={"/amazing-grace"}>
-            <button>Go to Amazing Grace 👉</button>
-          </Link>
+          <Footer />
 
-          <Link to={"/children-department"}>
-            <button>Go to Children Department 👉</button>
-          </Link>
-
-          <Link to={"/contact-us"}>
-            <button>Go to Contacts Us 👉</button>
-          </Link>
-
-          <Link to={"/giving"}>
-            <button>Go to Giving 👉</button>
-          </Link>
-
-          <Link to={"/jca-good-women"}>
-            <button>Go to Jca Good Women 👉</button>
-          </Link>
-
-          <Link to={"/leadership"}>
-            <button>Go to Leadership 👉</button>
-          </Link>
-
-          <Link to={"/messages"}>
-            <button>Go to Messages 👉</button>
-          </Link>
-
-          <Link to={"/prayer-request"}>
-            <button>Go to Prayer Request 👉</button>
-          </Link>
-
-          <Link to={"/raising-giant"}>
-            <button>Go to Raising Giant 👉</button>
-          </Link>
-
-          <Link to={"/services"}>
-            <button>Go to Services 👉</button>
-          </Link>
-
-          <Link to={"/testimonies"}>
-            <button>Go to Testimonies 👉</button>
-          </Link>
-
-        </div>
+      </div>
     )
 }
