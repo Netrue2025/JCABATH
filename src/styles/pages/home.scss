@@ -3,7 +3,9 @@
 // }
 main{
     flex: 1;
-    
+    background-image: url("../../media/images/background.png");
+    background-repeat: none;
+    background-size: cover;
     height: 440px;
 
 }
