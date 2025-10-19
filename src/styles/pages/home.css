@@ -14,12 +14,17 @@ main .home-screen {
   background-position: center;
   height: 77.5rem;
   left: -0.1rem;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   overflow: hidden;
 }
-main .home-screen .heading-container {
+main .home-screen .heading-with-button {
+  display: flex;
+  flex-direction: column;
+}
+main .home-screen .heading-with-button .heading-container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -31,12 +36,14 @@ main .home-screen .heading-container {
   position: relative;
   box-sizing: border-box;
 }
-main .home-screen .heading-container .heading-text {
+main .home-screen .heading-with-button .heading-container .heading-text {
+  display: flex;
+  flex-direction: column;
   width: auto;
   position: relative;
   z-index: 0;
 }
-main .home-screen .heading-container .heading-text h1 {
+main .home-screen .heading-with-button .heading-container .heading-text h1 {
   font-family: "Clash Grotesk" sans-serif;
   font-size: 14.791rem;
   line-height: 1.1;
@@ -44,13 +51,13 @@ main .home-screen .heading-container .heading-text h1 {
   color: rgb(157, 255, 154);
   margin: 0;
 }
-main .home-screen .heading-container .heading-text .to-church {
+main .home-screen .heading-with-button .heading-container .heading-text .to-church {
   display: flex;
   flex-direction: row;
   margin: 0;
   position: relative;
 }
-main .home-screen .heading-container .heading-text .to-church h2 {
+main .home-screen .heading-with-button .heading-container .heading-text .to-church h2 {
   height: 19.6rem;
   top: -22.3rem;
   left: 3.3rem;
@@ -62,7 +69,7 @@ main .home-screen .heading-container .heading-text .to-church h2 {
   position: inherit;
   color: rgb(209, 208, 208);
 }
-main .home-screen .heading-container .heading-text .to-church span {
+main .home-screen .heading-with-button .heading-container .heading-text .to-church span {
   width: 60.4rem;
   height: 14.8rem;
   top: -3.8rem;
@@ -74,6 +81,63 @@ main .home-screen .heading-container .heading-text .to-church span {
   font-weight: 700;
   line-height: 1.1;
   color: rgb(252, 252, 252);
+}
+main .home-screen .heading-with-button .heading-container p {
+  top: 25.38rem;
+  left: -62.8rem;
+  font-family: montserrat-light;
+  font-weight: 300;
+  font-size: 2.4rem;
+  letter-spacing: 0%;
+  text-align: center;
+  position: relative;
+  color: rgb(206, 201, 201);
+}
+main .home-screen .heading-with-button .heading-container p span {
+  font-family: montserrat-medium;
+  font-weight: 500;
+  font-size: 2.4rem;
+  letter-spacing: 0%;
+  color: rgb(206, 201, 201);
+}
+main .home-screen .heading-with-button .link {
+  text-decoration: none;
+}
+main .home-screen .heading-with-button button {
+  display: flex;
+  flex-direction: row;
+  width: 20.1rem;
+  height: 6rem;
+  border-radius: 3rem;
+  border: 1px solid rgb(255, 255, 255);
+  padding-top: 1.6rem;
+  padding-right: 2.4rem;
+  padding-left: 2.4rem;
+  padding-bottom: 1.6rem;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  gap: 1rem;
+  cursor: pointer;
+  position: relative;
+  top: 10.2rem;
+  left: 15.5rem;
+}
+main .home-screen .heading-with-button button p {
+  font-family: montserrat-medium;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.95rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin: 0;
+  color: rgb(15, 26, 26);
+}
+main .home-screen .heading-with-button button .arrow {
+  width: 1.387rem;
+  height: 0.974rem;
+  left: 0.75px;
+  color: rgb(15, 26, 26);
+  margin-top: 0.71rem;
 }
 @media screen and (max-width: 560px) {
   main .home-screen .heading-container {

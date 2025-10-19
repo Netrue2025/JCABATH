@@ -10,7 +10,6 @@ main{
     display: flex;
     flex-direction: column;
     
-
     .home-screen{
         background-image: linear-gradient(to right, rgba(3, 0, 18, 1), rgba(30, 30, 27, 0) ), url("../../media/images/background.png");
         background-repeat: none;
@@ -18,81 +17,156 @@ main{
         background-position: center;
         height: 77.5rem;
         left: -0.1rem;
-        // box-sizing: border-box;
+        box-sizing: border-box;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-
         overflow: hidden;
-
-        .heading-container{
+        
+        .heading-with-button{
             display: flex;
             flex-direction: column;
-            flex-wrap: wrap;
-            max-height: 41.6rem;
-            max-width: 72.4rem;
-            top: 16.819rem;
-            left: 11.6rem;
-            gap: 1.7rem;
-            position: relative;
-            // background-color:
-            box-sizing: border-box;
-            
-
-            .heading-text{
-               
-               width: auto;
-               position: relative;
-               z-index: 0;
-               
-
-                h1{
-                    
-                    font-family: 'Clash Grotesk' sans-serif;
-                    font-size: 14.791rem;
-                    line-height: 1.1;
-                    letter-spacing: 0%;
-                    color: rgba(157, 255, 154, 1);
-                    margin: 0;
+             
+            .heading-container{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                max-height: 41.6rem;
+                max-width: 72.4rem;
+                top: 16.819rem;
+                left: 11.6rem;
+                gap: 1.7rem;
+                position: relative;
+                // background-color:
+                box-sizing: border-box;
                 
-                }
-                .to-church{
-                    display: flex;
-                    flex-direction: row;
-                    margin: 0;
-                    // background-color: red;
-                    position: relative;
 
-                    h2{
-                        height: 19.6rem;
-                        top: -22.3rem;
-                        left: 3.3rem;
-                        font-family: aisyah-demo;
-                        font-weight: 400;
-                        font-style: normal;
-                        font-size: 17.803rem;
-                        letter-spacing: -4%;
-                        position: inherit;
-                        color: rgba(209, 208, 208, 1);
+                .heading-text{
+                display: flex;
+                flex-direction: column;
+                width: auto;
+                position: relative;
+                z-index: 0;
+                
+
+                    h1{
+                        
+                        font-family: 'Clash Grotesk' sans-serif;
+                        font-size: 14.791rem;
+                        line-height: 1.1;
+                        letter-spacing: 0%;
+                        color: rgba(157, 255, 154, 1);
+                        margin: 0;
+                    
                     }
+                    .to-church{
+                        display: flex;
+                        flex-direction: row;
+                        margin: 0;
+                        // background-color: red;
+                        position: relative;
+
+                        h2{
+                            height: 19.6rem;
+                            top: -22.3rem;
+                            left: 3.3rem;
+                            font-family: aisyah-demo;
+                            font-weight: 400;
+                            font-style: normal;
+                            font-size: 17.803rem;
+                            letter-spacing: -4%;
+                            position: inherit;
+                            color: rgba(209, 208, 208, 1);
+                        }
+
+                        span{
+                            width: 60.4rem;
+                            height: 14.8rem;
+                            top: -3.8rem;
+                            left: 4.20rem;
+                            position: relative;
+                            font-family: clash-display-bold;
+                            font-size: 13.468rem;
+                            letter-spacing: 0%;
+                            font-weight: 700;
+                            line-height: 1.1;
+                            color: rgba(252, 252, 252, 1);
+                        }
+                    }
+
+                    
+                }
+
+
+            p{
+                
+                    top: 25.38rem;
+                    left: -62.8rem;
+                    font-family: montserrat-light;
+                    font-weight: 300;
+                    font-size: 2.4rem;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    position: relative;
+                    color: rgba(206, 201, 201, 1);
+                    
 
                     span{
-                        width: 60.4rem;
-                        height: 14.8rem;
-                        top: -3.8rem;
-                        left: 4.20rem;
-                        position: relative;
-                        font-family: clash-display-bold;
-                        font-size: 13.468rem;
+                        font-family: montserrat-medium;
+                        font-weight: 500;
+                        font-size: 2.4rem;
                         letter-spacing: 0%;
-                        font-weight: 700;
-                        line-height: 1.1;
-                        color: rgba(252, 252, 252, 1);
+                        color: rgba(206, 201, 201, 1);
                     }
                 }
-                
+            }
+            .link{
+                text-decoration: none;
+            }
+
+            button{
+                display: flex;
+                flex-direction: row;
+                width: 20.1rem;
+                height: 6.0rem;
+                border-radius: 3.0rem;
+                border: 1px solid rgba(255, 255, 255, 1);
+                padding-top: 1.6rem;
+                padding-right: 2.4rem;
+                padding-left: 2.4rem;
+                padding-bottom: 1.6rem;
+                background-color: rgba(255, 255, 255, 1);
+                justify-content: center;
+                gap: 1.0rem;
+                cursor: pointer;
+                position: relative;
+                top: 10.2rem;
+                left: 15.5rem;
+
+
+                p{
+                    font-family: montserrat-medium;
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                    line-height: 1.95rem;
+                    letter-spacing: 0%;
+                    vertical-align: middle;
+                    margin: 0;
+                    color: rgba(15, 26, 26, 1);
+                    
+                }
+                .arrow{
+                    width: 1.387rem;
+                    height: 0.974rem;
+                    left: 0.75px;
+                    color: rgba(15, 26, 26, 1);
+                    margin-top: 0.71rem;
+                }
             }
         }
+
+
+
         @media screen and (max-width: 560px) {
              .heading-container{
                 width: 100vw;

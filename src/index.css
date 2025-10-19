@@ -14,6 +14,14 @@
   font-family: Clash Grotesk;
   src: url('/ClashGrotesk-Semibold.otf');
 }
+@font-face {
+  font-family: montserrat-light;
+  src: url('/Montserrat-Light.ttf');
+}
+@font-face {
+  font-family: montserrat-medium;
+  src: url('/Montserrat-Medium.ttf');
+}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

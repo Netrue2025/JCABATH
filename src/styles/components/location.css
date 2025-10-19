@@ -1,0 +1,64 @@
+.ride-location {
+  max-width: 144rem;
+  height: 75.5rem;
+  background-color: rgb(255, 240, 252);
+}
+.ride-location .ride-location-sm {
+  max-width: 119.4rem;
+  top: 7.8rem;
+  left: 12.4rem;
+  gap: 4.9rem;
+  position: relative;
+}
+.ride-location .ride-location-sm .ride-container {
+  display: flex;
+  flex-direction: column;
+  width: 55.4rem;
+  height: 56.6rem;
+  gap: 4.7rem;
+}
+.ride-location .ride-location-sm .ride-container .img {
+  width: 100%;
+  height: 42.4rem;
+  border-radius: 1.2rem;
+  position: relative;
+}
+.ride-location .ride-location-sm .ride-container .need-ride {
+  display: flex;
+  flex-direction: column;
+  gap: 1.836rem;
+}
+.ride-location .ride-location-sm .ride-container .need-ride h2 {
+  font-family: clash-display-bold;
+  font-weight: 700;
+  font-size: 3.27rem;
+  line-height: 98%;
+  letter-spacing: 2%;
+  color: rgb(64, 18, 197);
+  margin-bottom: 0;
+}
+.ride-location .ride-location-sm .ride-container .need-ride p {
+  font-family: montserrat-light;
+  font-weight: 400;
+  font-size: 1.635rem;
+  line-height: 2.602rem;
+  letter-spacing: 2%;
+  vertical-align: middle;
+  margin-top: 0;
+}
+.ride-location .ride-location-sm .ride-container .need-ride p span {
+  font-family: montserrat-medium;
+  font-weight: 800;
+  font-size: 1.635rem;
+  line-height: 2.602rem;
+  letter-spacing: 2%;
+  vertical-align: middle;
+  color: rgb(0, 0, 0);
+}
+.ride-location .ride-location-sm .location-container {
+  display: flex;
+  flex-direction: column;
+  width: 59.1rem;
+  height: 56.576rem;
+  gap: 1.6rem;
+}/*# sourceMappingURL=location.css.map */
