@@ -1,35 +1,78 @@
 import "../styles/components/footer.css"
 import logo from "../media/images/logo.png"
-
+import { Link } from "react-router-dom"
+import { HiOutlineMailOpen } from "react-icons/hi";
+import { MdPhoneInTalk } from "react-icons/md";
 
 export function Footer(){
     return(
         <div className="footer-container">
+            
+           
             <div className="footer-inset-container">
-                <div className="footer-contacts">
-                    <div className="logo-name">
-                        <div className="logo">
-                            <img src={logo} alt="Church Logo image" />
-                            <h1>JESUS CHRIST ASSEMBLY BATH</h1>
+                {/* Details main container */}
+                <div className="details-container">
+                    {/* first container */}
+                    <div className="footer-contacts">
+                        <div className="logo-name">
+                            <div className="logo">
+                                <img src={logo} alt="Church Logo image" />
+                                <h1>JESUS CHRIST ASSEMBLY BATH</h1>
+                            </div>
+                            <div className="logo-details">
+                                <p>RCCG JCA is dedicated to discipleship, capacity building, and global impact. </p>
+                            </div>
                         </div>
-                        <div className="loogo-details">
-                            <p>RCCG JCA is dedicated to discipleship, capacity building, and global impact. </p>
+
+                        <div className="email-phone">
+                            <div className="email"><HiOutlineMailOpen className="email-icon"/><p>info@jesuschristassembly.org</p></div>
+                            <div className="phone"><MdPhoneInTalk className="phone-icon"/><p>+443 704 878 2063</p></div>
+
                         </div>
                     </div>
 
-                    <div className="email-phone">
-                        <div className="email"><p>info@jesuschristassembly.org</p></div>
-                        <div className="phone">+443 704 878 2063</div>
-
+                    {/* second container */}
+                    <div className="quick">
+                        <h2>Quick Links</h2>
+                        <div className="quicklinks">
+                            <Link to={"/"}><span>Homepage</span></Link>
+                            <Link to={"/about-us"}><span>Ministries</span></Link>
+                            <Link to={"/contact-us"}><span>Connect</span></Link>
+                            <Link to={"/messages"}><span>Media</span></Link>
+                            <Link to={"/amazing-grace"}><span>Events</span></Link>
+                        </div>
                     </div>
+
+                    {/* third container */}
+                    <div className="church">
+                        <h2>Church</h2>
+                        <div className="church-about">
+                            <Link to={"/about-us"}><span>About Us</span></Link>
+                            <Link to={"/about-jca"}><span>Contact us</span></Link>
+                            <Link to={"/giving"}><span>Give</span></Link>
+                        </div>
+                    </div>
+            
                 </div>
 
+                {/* others */}
+                <div className="others">
+                    <div className="others-details">
+                        <div className="terms-privacy-cookies">
+                            <Link className="link"><span>Terms of service</span></Link>
+                            <Link className="link"><span>Privacy policy</span></Link>
+                            <Link className="link"><span>Cookies Policy</span></Link>
+                        </div>
+                        <p>All rights reserved  2025  </p>
+                    </div>
 
-                <div>
 
                 </div>
-
             </div>
+           
+          
+     
+          
         </div>
     )
 }
