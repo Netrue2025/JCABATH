@@ -3,6 +3,10 @@ import logo from "../media/images/logo.png"
 import { Link } from "react-router-dom"
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { MdPhoneInTalk } from "react-icons/md";
+import { FaTiktok } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 
 export function Footer(){
     return(
@@ -51,6 +55,18 @@ export function Footer(){
                             <Link to={"/about-jca"}><span>Contact us</span></Link>
                             <Link to={"/giving"}><span>Give</span></Link>
                         </div>
+                    </div>
+
+                    {/* Fourth container */}
+                    <div className="social-media">
+                        <h2>Connect with us</h2>
+                        <div className="icons">
+                            <Link to="https://tiktok.com"><FaTiktok className="tiktok"/></Link>
+                            <Link to='https://instagram.com'><FaInstagram className="instagram"/></Link>
+                            <Link to="https://youtube.com"><FaYoutube className="youtube"/></Link>
+                            <Link to="https://whatsapp.com"><FaWhatsapp className="whatsapp"/></Link>
+                        </div>
+
                     </div>
             
                 </div>
