@@ -1,7 +1,82 @@
 main {
-  flex: 1;
-  background-image: url("../../media/images/background.png");
+  margin: 0;
+  top: 11.7rem;
+  left: -0.1rem;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+main .home-screen {
+  background-image: linear-gradient(to right, rgb(3, 0, 18), rgba(30, 30, 27, 0)), url("../../media/images/background.png");
   background-repeat: none;
   background-size: cover;
-  height: 440px;
+  background-position: center;
+  height: 77.5rem;
+  left: -0.1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+main .home-screen .heading-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 41.6rem;
+  max-width: 72.4rem;
+  top: 16.819rem;
+  left: 11.6rem;
+  gap: 1.7rem;
+  position: relative;
+  box-sizing: border-box;
+}
+main .home-screen .heading-container .heading-text {
+  width: auto;
+  position: relative;
+  z-index: 0;
+}
+main .home-screen .heading-container .heading-text h1 {
+  font-family: "Clash Grotesk" sans-serif;
+  font-size: 14.791rem;
+  line-height: 1.1;
+  letter-spacing: 0%;
+  color: rgb(157, 255, 154);
+  margin: 0;
+}
+main .home-screen .heading-container .heading-text .to-church {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  position: relative;
+}
+main .home-screen .heading-container .heading-text .to-church h2 {
+  height: 19.6rem;
+  top: -22.3rem;
+  left: 3.3rem;
+  font-family: aisyah-demo;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17.803rem;
+  letter-spacing: -4%;
+  position: inherit;
+  color: rgb(209, 208, 208);
+}
+main .home-screen .heading-container .heading-text .to-church span {
+  width: 60.4rem;
+  height: 14.8rem;
+  top: -3.8rem;
+  left: 4.2rem;
+  position: relative;
+  font-family: clash-display-bold;
+  font-size: 13.468rem;
+  letter-spacing: 0%;
+  font-weight: 700;
+  line-height: 1.1;
+  color: rgb(252, 252, 252);
+}
+@media screen and (max-width: 560px) {
+  main .home-screen .heading-container {
+    width: 100vw;
+  }
 }/*# sourceMappingURL=home.css.map */

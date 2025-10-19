@@ -15,7 +15,9 @@
   background-color: #FFFFFF;
   position: sticky;
   margin: auto;
+  margin-bottom: 0;
   box-sizing: border-box;
+  z-index: 1000;
 }
 .nav-container .inner-container {
   display: flex;
@@ -47,7 +49,7 @@
 }
 .nav-container .inner-container figure .logo-name h2 {
   width: 100%;
-  font-family: "Clash Display", sans-serif;
+  font-family: clash-display-semibold;
   font-weight: 600;
   font-style: bold;
   font-size: 1.917rem;
@@ -61,9 +63,8 @@
 }
 .nav-container .inner-container figure .logo-name h1 {
   width: 100%;
-  transform: 0 deg;
   opacity: 1;
-  font-family: "Clash Grotesk", sans-serif;
+  font-family: Clash Grotesk;
   font-weight: 600;
   font-size: 1.917rem;
   text-box-trim: NONE;
@@ -109,39 +110,58 @@
   display: none;
 }
 
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 1040px) {
   .nav-container {
     width: 100vw;
-    top: 0;
+    padding-left: 0;
   }
-  .nav-container .inner-container .nav-menu div input {
-    font-size: 1rem;
+  .nav-container .inner-container {
+    width: 100vw;
   }
   .nav-container .inner-container figure {
-    width: 100%;
+    width: 30%;
+    line-height: 0;
+  }
+  .nav-container .inner-container figure .logo {
+    margin: auto;
   }
   .nav-container .inner-container figure .logo-name {
-    width: 50%;
+    height: 0;
+    width: 100%;
+    font-size: 50%;
+    margin: auto;
+    margin-top: 1.5rem;
   }
-  .nav-container .inner-container figure .logo-name h2 {
-    font-size: 1.217rem;
-  }
-  .nav-container .inner-container figure .logo-name h1 {
-    font-size: 1.217rem;
-  }
-  .nav-container .inner-container .pi {
-    font-size: 1.91rem;
-    display: flex;
-    display: none;
+  .nav-container .inner-container figure .logo-name h2, .nav-container .inner-container figure .logo-name h1 {
+    line-height: 1.4;
+    font-size: 50.5%;
+    width: 100%;
   }
 }
-@media screen and (max-width: 560px) {
-  .nav-container .inner-container .nav-menu {
-    display: none;
+@media screen and (max-width: 768px) {
+  .nav-container {
+    width: 100vw;
+    padding-left: 0;
   }
-  .nav-container .inner-container .pi {
-    font-size: 1.91rem;
-    display: flex;
-    display: block;
+  .nav-container .inner-container {
+    width: 100vw;
+  }
+  .nav-container .inner-container figure {
+    width: 40vw;
+    line-height: 0;
+  }
+  .nav-container .inner-container figure .logo {
+    margin: 0;
+    font-size: 25.5%;
+  }
+  .nav-container .inner-container figure .logo-name {
+    height: 0;
+    width: 90%;
+    margin: 0;
+    position: relative;
+    margin-top: 1.5rem;
+  }
+  .nav-container .inner-container figure .logo-name h2, .nav-container .inner-container figure .logo-name h1 {
+    font-size: 25.5%;
   }
 }/*# sourceMappingURL=topnavbar.css.map */

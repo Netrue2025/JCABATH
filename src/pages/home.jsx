@@ -51,6 +51,15 @@ export function Home(){
 
      
         <main>
+          <div className="home-screen">
+            <div className="heading-container">
+              <div className="heading-text">
+                <h1>Welcome</h1>
+                <div className="to-church"><h2>to</h2><span>CHURCH</span></div>
+              </div>
+
+            </div>
+          </div>
           <h1>This is the home page</h1>
             <Link to={"/about-jca"}>
               <button>Go to About Jca 👉</button>

@@ -1,7 +1,6 @@
 .footer-container {
   background-color: #000000;
   position: absolute;
-  bottom: 0;
   left: 0;
   right: 0;
   max-width: 144rem;
@@ -298,6 +297,28 @@
     width: 100vw;
     left: 0;
     justify-content: space-evenly;
+  }
+  .footer-container .footer-inset-container .others {
+    width: 100vw;
+    left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-container .footer-inset-container {
+    width: 100vw;
+    left: 0;
+  }
+  .footer-container .footer-inset-container .details-container {
+    width: 100vw;
+    left: 0;
+    justify-content: space-evenly;
+  }
+  .footer-container .footer-inset-container .details-container .footer-contacts .logo-name .logo {
+    width: 80%;
+  }
+  .footer-container .footer-inset-container .details-container .footer-contacts .logo-name .logo img {
+    width: 4.278rem;
+    height: 4.278rem;
   }
   .footer-container .footer-inset-container .others {
     width: 100vw;
