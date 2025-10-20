@@ -11,6 +11,10 @@
   src: url('/ClashDisplay-Semibold.otf');
 }
 @font-face {
+  font-family: clash-display-light;
+  src: url('/ClashDisplay-Light.otf');
+}
+@font-face {
   font-family: Clash Grotesk;
   src: url('/ClashGrotesk-Semibold.otf');
 }
@@ -22,6 +26,12 @@
   font-family: montserrat-medium;
   src: url('/Montserrat-Medium.ttf');
 }
+@font-face {
+  font-family: montserrat-extrabold;
+  src: url('/Montserrat-ExtraBold.ttf');
+}
+
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -63,7 +73,7 @@ body {
 }
 
 /* Mobile view */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   html{
     font-size: 25.5%;
     background-color: black;

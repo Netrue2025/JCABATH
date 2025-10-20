@@ -1,24 +1,29 @@
 .ride-location{
-    // width: 144.0rem;
     max-width: 144.0rem;
     height: 75.5rem;
     background-color: rgb(255, 240, 252);
+    box-sizing: border-box;
 
     .ride-location-sm{
-        // width: 119.4rem;
         max-width: 119.4rem;
-        top: 7.8rem;
         left: 12.4rem;
         gap: 4.9rem;
-        // margin: auto;
-        position: relative;
+        margin: auto;
+        margin-top: 7.8rem;
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        // background-color: rgb(119, 119, 119);
+        
 
         .ride-container{
             display: flex;
             flex-direction: column;
-            width: 55.4rem;
-            height: 56.6rem;
+            max-width: 55.4rem;
+            max-height: 56.6rem;
             gap: 4.7rem;
+            position: relative;
+            // background-color: red;
             
 
             .img{
@@ -26,11 +31,13 @@
                 height: 42.4rem;
                 border-radius: 1.2rem;
                 position: relative;
+                margin: 0;
             }
             .need-ride{
                 display: flex;
                 flex-direction: column;
                 gap: 1.836rem;
+                margin: 0;
 
                 h2{
                     font-family: clash-display-bold;
@@ -39,7 +46,7 @@
                     line-height: 98%;
                     letter-spacing: 2%;
                     color: rgba(64, 18, 197, 1);
-                    margin-bottom: 0;
+                    margin: 0;
                 }
                 p{
                     font-family: montserrat-light;
@@ -48,7 +55,7 @@
                     line-height: 2.602rem;
                     letter-spacing: 2%;
                     vertical-align: middle;
-                    margin-top: 0;
+                    margin: 0;
 
                     span{
                         font-family: montserrat-medium;
@@ -68,8 +75,97 @@
             display: flex;
             flex-direction: column;
             width: 59.1rem;
-            height: 56.576rem;
-            gap: 1.6rem;
+            max-height: 56.6rem;
+            gap: 1.7rem;
+            position: relative;
+            // background-color: red;
+            
+            .location-details{
+                width: auto;
+                height: 7.676rem;
+                gap: 1.426rem;
+                display: flex;
+                flex-direction: column;
+                // margin: 0;
+                position: relative;
+
+                .icon-with-name{
+                    margin: 0;
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    height: 1.351rem;
+                    gap: 1.125rem;
+                    padding: auto;
+
+                    img{
+                        width: 1.351rem;
+                        height: 1.351rem;
+                    }
+                    p{
+                        width: 100%;
+                        height: 1.3rem;
+                        font-family: clash-display-light;
+                        font-weight: 300;
+                        font-size: 0.975rem;
+                        line-height: 1.268rem;
+                        letter-spacing: 1.88px;
+                        vertical-align: middle;
+                        text-transform: capitalize;
+                        color: rgba(0, 0, 0, 1);
+                        margin-top: 0;
+                        
+                    }
+                }
+
+                h2{
+                    width: 38.716rem;
+                    height: 4.9rem;
+                    font-family: montserrat-extrabold;
+                    font-size: 2.251rem;
+                    font-weight: 800;
+                    line-height: 2.401rem;
+                    letter-spacing: 0.094rem;
+                    vertical-align: middle;
+                    text-transform: capitalize;
+                    color:rgba(0, 0, 0, 1) ;
+                    // margin-top: 0;
+                }
+
+            }
+
+            
+            .map{
+                width: 100%;
+                height: 100%;
+                border-radius: 1.2rem;
+                border: 0.15rem solid rgba(90, 58, 222, 1);
+                margin: auto;
+                // position: relative;
+                margin-top: 2.788rem;
+                border-radius: 1.2rem;
+                // padding: auto;
+                // overflow: hidden;
+                
+
+               
+
+                .iframe{
+                    height: 97.5%;
+                    width: 97.5%;
+                    position: relative;
+                    border-radius: 1.2rem;
+                    margin: auto;
+                  
+                }
+            }
         }
+    }
+
+    @media screen and (max-width: 765px) {
+        .ride-location-sm{
+            width: 98%;
+        }
+        
     }
 }
