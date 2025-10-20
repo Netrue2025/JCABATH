@@ -26,12 +26,15 @@ export function AboutUs() {
           </div>
         </div>
       </section>
+
       {/* Our Goal */}
       <section className="our-goal-container">
         <div className="our_goal-wrapper">
+          
           <div className="our_goal-img">
             <img src={Pastor} alt="Pastor" />
           </div>
+
           <div className="our_goal-content">
             <div className="our_goal-content--title">
               <div className="content--title">
@@ -65,6 +68,7 @@ export function AboutUs() {
           </div>
         </div>
       </section>
+
       {/* Ride with us and location section  */}
       <section className="location">
         <Location />

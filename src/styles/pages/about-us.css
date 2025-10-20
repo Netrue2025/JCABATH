@@ -12,9 +12,11 @@
   width: 65.1rem;
   display: flex;
   flex-direction: column;
-  margin: auto;
-  padding-top: 10.2rem;
+  position: relative;
+  top: 10.2rem;
   line-height: 0;
+  left: 39.5rem;
+  box-sizing: border-box;
   text-align: center;
   align-items: center;
 }
@@ -42,8 +44,10 @@
 .about_us-container .our-goal-container {
   width: 100%;
   color: #000000;
-  padding: 6rem 0;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
 }
 .about_us-container .our-goal-container .our_goal-wrapper {
   width: 90%;
@@ -55,6 +59,10 @@
 .about_us-container .our-goal-container .our_goal-wrapper .our_goal-img {
   width: 59rem;
   height: 73.8rem;
+}
+.about_us-container .our-goal-container .our_goal-wrapper .our_goal-img img {
+  width: 100%;
+  height: auto;
 }
 .about_us-container .our-goal-container .our_goal-wrapper .our_goal-content {
   width: 55rem;
