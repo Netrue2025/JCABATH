@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import { Topnavbar } from "../components/topnavbar";
 import "../styles/pages/about-us.css";
-import { FaChevronDown } from "react-icons/fa";
+import { Location } from "../components/location";
+import { Footer } from "../components/footer";
 
 // Import media
 import Vector from "../media/images/Vector.png";
@@ -64,6 +65,14 @@ export function AboutUs() {
           </div>
         </div>
       </section>
+      {/* Ride with us and location section  */}
+      <section className="location">
+        <Location />
+      </section>
+      {/* Footer */}
+      <footer className="footer">
+        <Footer />
+      </footer>
     </div>
   );
 }

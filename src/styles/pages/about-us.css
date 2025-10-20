@@ -12,10 +12,9 @@
   width: 65.1rem;
   display: flex;
   flex-direction: column;
-  position: relative;
-  top: 10.2rem;
+  margin: auto;
+  padding-top: 10.2rem;
   line-height: 0;
-  left: 39.5rem;
   text-align: center;
   align-items: center;
 }
@@ -33,8 +32,10 @@
   color: rgba(255, 255, 255, 0.831372549);
   letter-spacing: 2.5px;
   font-weight: 400;
+  font-family: montserrat-light;
 }
 .about_us-container .about-us .about-us-content .title p {
+  font-family: clash-display-semibold;
   color: #FFFFFF;
   font-size: 6.5rem;
 }
@@ -59,6 +60,7 @@
   width: 55rem;
   display: flex;
   flex-direction: column;
+  padding-top: 2rem;
   justify-content: space-between;
 }
 .about_us-container .our-goal-container .our_goal-wrapper .our_goal-content .our_goal-content--title {
@@ -70,6 +72,7 @@
   gap: 1.1rem;
 }
 .about_us-container .our-goal-container .our_goal-wrapper .our_goal-content .our_goal-content--title .content--title {
+  font-family: montserrat-light;
   display: flex;
   align-items: center;
   gap: 1.5rem;
@@ -84,6 +87,7 @@
   letter-spacing: 2.5px;
 }
 .about_us-container .our-goal-container .our_goal-wrapper .our_goal-content .our_goal-content--title h1 {
+  font-family: clash-display-bold;
   font-size: 4.8rem;
   letter-spacing: 3%;
   color: #C1C3C8;
@@ -91,11 +95,13 @@
   margin-bottom: 2rem;
 }
 .about_us-container .our-goal-container .our_goal-wrapper .our_goal-content .our_goal-content--title h2 {
+  font-family: clash-display-bold;
   font-size: 4rem;
   font-weight: 700;
   letter-spacing: 3%;
 }
 .about_us-container .our-goal-container .our_goal-wrapper .our_goal-content .our_goal-list {
+  font-family: montserrat-medium;
   font-size: 1.7rem;
   font-weight: 600;
   line-height: 2.55rem;

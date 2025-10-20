@@ -1,3 +1,27 @@
+@font-face {
+  font-family: aisyah-demo;
+  src: url('/Aisyah-Demo.otf');
+}
+@font-face {
+  font-family: clash-display-bold;
+  src: url('/ClashDisplay-Bold.otf');
+}
+@font-face {
+  font-family: clash-display-semibold;
+  src: url('/ClashDisplay-Semibold.otf');
+}
+@font-face {
+  font-family: Clash Grotesk;
+  src: url('/ClashGrotesk-Semibold.otf');
+}
+@font-face {
+  font-family: montserrat-light;
+  src: url('/Montserrat-Light.ttf');
+}
+@font-face {
+  font-family: montserrat-medium;
+  src: url('/Montserrat-Medium.ttf');
+}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -9,6 +33,7 @@
 }
 html{
   font-size: 62.5%;
+  background-color: black;
 }
 
 body {
@@ -24,11 +49,26 @@ body {
   /* position: absolute; */
 
 }
+
+/* Ipad View */
 @media screen and (max-width: 1040px){
+  html{
+    font-size: 50.5%;
+    background-color: black;
+  }
   body{
     width: 100vw;
     
   }
+}
+
+/* Mobile view */
+@media screen and (max-width: 768px) {
+  html{
+    font-size: 25.5%;
+    background-color: black;
+  }
+  
 }
 
 

@@ -12,6 +12,8 @@ import { Mediadropdown } from "../components/mediadropdown"
 import { Connectdropdown } from "../components/connectdropdown"
 import { Eventdropdown } from "../components/eventdropdown"
 import { Footer } from "../components/footer"
+import { FaArrowRightLong } from "react-icons/fa6";
+import { Location } from "../components/location"
 
 export function Home(){
   
@@ -51,58 +53,31 @@ export function Home(){
 
      
         <main>
-          <h1>This is the home page</h1>
-            <Link to={"/about-jca"}>
-              <button>Go to About Jca 👉</button>
-            </Link>
+          <div className="home-screen">
+            <div className="heading-with-button">
+              <div className="heading-container">
+                <div className="heading-text">
+                  <h1>Welcome</h1>
+                  <div className="to-church"><h2>to</h2><span>CHURCH</span></div>
+                </div> 
+                <p>For with God nothing shall be impossible -<span>LUKE 1 : 37</span></p>
+              </div>
 
-            <Link to={"/about-us"}>
-              <button>Go to About Us 👉</button>
-            </Link>
 
-            <Link to={"/amazing-grace"}>
-              <button>Go to Amazing Grace 👉</button>
-            </Link>
+              {/* Contact us Now botton */}
+              <Link to={'/contact-us'} className="link">
+                  <button>
+                    <p>Contact us now</p>
+                    <FaArrowRightLong className="arrow"/>
+                  </button>
+              </Link>
 
-            <Link to={"/children-department"}>
-              <button>Go to Children Department 👉</button>
-            </Link>
+            </div>
 
-            <Link to={"/contact-us"}>
-              <button>Go to Contacts Us 👉</button>
-            </Link>
+          </div>
 
-            <Link to={"/giving"}>
-              <button>Go to Giving 👉</button>
-            </Link>
-
-            <Link to={"/jca-good-women"}>
-              <button>Go to Jca Good Women 👉</button>
-            </Link>
-
-            <Link to={"/leadership"}>
-              <button>Go to Leadership 👉</button>
-            </Link>
-
-            <Link to={"/messages"}>
-              <button>Go to Messages 👉</button>
-            </Link>
-
-            <Link to={"/prayer-request"}>
-              <button>Go to Prayer Request 👉</button>
-            </Link>
-
-            <Link to={"/raising-giant"}>
-              <button>Go to Raising Giant 👉</button>
-            </Link>
-
-            <Link to={"/services"}>
-              <button>Go to Services 👉</button>
-            </Link>
-
-            <Link to={"/testimonies"}>
-              <button>Go to Testimonies 👉</button>
-            </Link>
+          {/* Ride with us and location section */}
+          <Location />
         </main>
     
 
