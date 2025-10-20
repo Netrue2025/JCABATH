@@ -1,12 +1,9 @@
 .ride-location {
   max-width: 144rem;
   height: 75.5rem;
-<<<<<<< HEAD
   background-color: #F0F4FF;
-=======
   background-color: rgb(255, 240, 252);
   box-sizing: border-box;
->>>>>>> 9cdc454738e13bba21556a7aaea5d4d9b5f5dbd5
 }
 .ride-location .ride-location-sm {
   max-width: 119.4rem;

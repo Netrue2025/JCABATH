@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { Topnavbar } from "../components/topnavbar";
 import "../styles/pages/about-us.css";
 import { Location } from "../components/location";
