@@ -1,0 +1,120 @@
+.about_us-container {
+  width: 100%;
+  font-family: Montserrat, sans-serif;
+}
+.about_us-container .about-us {
+  font-family: Montserrat, sans-serif;
+  width: 100%;
+  height: 44.7rem;
+  background-image: linear-gradient(to right, rgb(3, 0, 18), rgba(30, 30, 27, 0.6)), url("../../media/images/background.png");
+}
+.about_us-container .about-us .about-us-content {
+  width: 65.1rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 10.2rem;
+  line-height: 0;
+  left: 39.5rem;
+  text-align: center;
+  align-items: center;
+}
+.about_us-container .about-us .about-us-content .content-subheading {
+  display: flex;
+  gap: 3.25rem;
+  align-items: center;
+}
+.about_us-container .about-us .about-us-content .content-subheading img {
+  width: 1.744rem;
+  height: 1.744rem;
+}
+.about_us-container .about-us .about-us-content .content-subheading span {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.831372549);
+  letter-spacing: 2.5px;
+  font-weight: 400;
+}
+.about_us-container .about-us .about-us-content .title p {
+  color: #FFFFFF;
+  font-size: 6.5rem;
+}
+.about_us-container .our-goal-container {
+  width: 100%;
+  color: #000000;
+  padding: 6rem 0;
+  background-color: #FFFFFF;
+}
+.about_us-container .our-goal-container .our_goal-wrapper {
+  width: 90%;
+  height: 73.8rem;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+.about_us-container .our-goal-container .our_goal-wrapper .our_goal-img {
+  width: 59rem;
+  height: 73.8rem;
+}
+.about_us-container .our-goal-container .our_goal-wrapper .our_goal-content {
+  width: 55rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about_us-container .our-goal-container .our_goal-wrapper .our_goal-content .our_goal-content--title {
+  width: 53.2rem;
+  height: 17.9rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 0.1;
+  gap: 1.1rem;
+}
+.about_us-container .our-goal-container .our_goal-wrapper .our_goal-content .our_goal-content--title .content--title {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.about_us-container .our-goal-container .our_goal-wrapper .our_goal-content .our_goal-content--title .content--title img {
+  width: 1.744rem;
+  height: 1.744rem;
+}
+.about_us-container .our-goal-container .our_goal-wrapper .our_goal-content .our_goal-content--title .content--title p {
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing: 2.5px;
+}
+.about_us-container .our-goal-container .our_goal-wrapper .our_goal-content .our_goal-content--title h1 {
+  font-size: 4.8rem;
+  letter-spacing: 3%;
+  color: #C1C3C8;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.about_us-container .our-goal-container .our_goal-wrapper .our_goal-content .our_goal-content--title h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 3%;
+}
+.about_us-container .our-goal-container .our_goal-wrapper .our_goal-content .our_goal-list {
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 2.55rem;
+  color: #4C4B4B;
+  letter-spacing: 0%;
+  align-items: center;
+}
+.about_us-container .our-goal-container .our_goal-wrapper .our_goal-content .our_goal-btn {
+  width: 19.3rem;
+  align-items: center;
+}
+.about_us-container .our-goal-container .our_goal-wrapper .our_goal-content .our_goal-btn .btn {
+  padding: 1.6rem 2.4rem;
+  border-radius: 3rem;
+  border-style: none;
+  display: flex;
+  gap: 1rem;
+  background-color: #4012C5;
+}
+.about_us-container .our-goal-container .our_goal-wrapper .our_goal-content .our_goal-btn .btn .btn-arrow {
+  margin: auto;
+}/*# sourceMappingURL=about-us.css.map */
