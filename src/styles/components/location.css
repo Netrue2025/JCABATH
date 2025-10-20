@@ -1,32 +1,43 @@
 .ride-location {
   max-width: 144rem;
   height: 75.5rem;
+<<<<<<< HEAD
   background-color: #F0F4FF;
+=======
+  background-color: rgb(255, 240, 252);
+  box-sizing: border-box;
+>>>>>>> 9cdc454738e13bba21556a7aaea5d4d9b5f5dbd5
 }
 .ride-location .ride-location-sm {
   max-width: 119.4rem;
-  top: 7.8rem;
   left: 12.4rem;
   gap: 4.9rem;
-  position: relative;
+  margin: auto;
+  margin-top: 7.8rem;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
 }
 .ride-location .ride-location-sm .ride-container {
   display: flex;
   flex-direction: column;
-  width: 55.4rem;
-  height: 56.6rem;
+  max-width: 55.4rem;
+  max-height: 56.6rem;
   gap: 4.7rem;
+  position: relative;
 }
 .ride-location .ride-location-sm .ride-container .img {
   width: 100%;
   height: 42.4rem;
   border-radius: 1.2rem;
   position: relative;
+  margin: 0;
 }
 .ride-location .ride-location-sm .ride-container .need-ride {
   display: flex;
   flex-direction: column;
   gap: 1.836rem;
+  margin: 0;
 }
 .ride-location .ride-location-sm .ride-container .need-ride h2 {
   font-family: clash-display-bold;
@@ -35,7 +46,7 @@
   line-height: 98%;
   letter-spacing: 2%;
   color: rgb(64, 18, 197);
-  margin-bottom: 0;
+  margin: 0;
 }
 .ride-location .ride-location-sm .ride-container .need-ride p {
   font-family: montserrat-light;
@@ -44,7 +55,7 @@
   line-height: 2.602rem;
   letter-spacing: 2%;
   vertical-align: middle;
-  margin-top: 0;
+  margin: 0;
 }
 .ride-location .ride-location-sm .ride-container .need-ride p span {
   font-family: montserrat-medium;
@@ -59,6 +70,74 @@
   display: flex;
   flex-direction: column;
   width: 59.1rem;
-  height: 56.576rem;
-  gap: 1.6rem;
+  max-height: 56.6rem;
+  gap: 1.7rem;
+  position: relative;
+}
+.ride-location .ride-location-sm .location-container .location-details {
+  width: auto;
+  height: 7.676rem;
+  gap: 1.426rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.ride-location .ride-location-sm .location-container .location-details .icon-with-name {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 1.351rem;
+  gap: 1.125rem;
+  padding: auto;
+}
+.ride-location .ride-location-sm .location-container .location-details .icon-with-name img {
+  width: 1.351rem;
+  height: 1.351rem;
+}
+.ride-location .ride-location-sm .location-container .location-details .icon-with-name p {
+  width: 100%;
+  height: 1.3rem;
+  font-family: clash-display-light;
+  font-weight: 300;
+  font-size: 0.975rem;
+  line-height: 1.268rem;
+  letter-spacing: 1.88px;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: rgb(0, 0, 0);
+  margin-top: 0;
+}
+.ride-location .ride-location-sm .location-container .location-details h2 {
+  width: 38.716rem;
+  height: 4.9rem;
+  font-family: montserrat-extrabold;
+  font-size: 2.251rem;
+  font-weight: 800;
+  line-height: 2.401rem;
+  letter-spacing: 0.094rem;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: rgb(0, 0, 0);
+}
+.ride-location .ride-location-sm .location-container .map {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.2rem;
+  border: 0.15rem solid rgb(90, 58, 222);
+  margin: auto;
+  margin-top: 2.788rem;
+  border-radius: 1.2rem;
+}
+.ride-location .ride-location-sm .location-container .map .iframe {
+  height: 97.5%;
+  width: 97.5%;
+  position: relative;
+  border-radius: 1.2rem;
+  margin: auto;
+}
+@media screen and (max-width: 765px) {
+  .ride-location .ride-location-sm {
+    width: 98%;
+  }
 }/*# sourceMappingURL=location.css.map */

@@ -12,7 +12,8 @@ main{
     
     .home-screen{
         background-image: linear-gradient(to right, rgba(3, 0, 18, 1), rgba(30, 30, 27, 0) ), url("../../media/images/background.png");
-        background-repeat: none;
+        background-repeat: no-repeat;
+        background-position: center center;
         background-size: cover;
         background-position: center;
         height: 77.5rem;
