@@ -1,13 +1,26 @@
 import { Link } from "react-router-dom";
+import { Topnavbar } from "../components/topnavbar";
+import "../styles/pages/about-jca.css";
+
+// Import media
+import Vector from "../media/images/Vector.png"
 
 export function AboutJca(){
     return(
-        <>
-          <h1>This is About Jca page</h1>
-          <Link to={"/"}>
-            <button>👈Back Home</button>
-          </Link>
-          
-        </>
+        <div>
+          <Topnavbar/>
+          <main>
+            {/* About RCCG JCA screen */}
+            <section className="about-jca-screen">
+              <div className="inner-container">
+                <div className="icon-with-name">
+                  <img src={Vector} alt="" />
+                  <p>ABOUT RCCG JCA</p>
+                </div>
+                <p>MISSION & VISION</p>
+              </div>
+            </section>
+          </main>
+        </div>
     )
 }

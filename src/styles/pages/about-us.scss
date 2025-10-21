@@ -1,11 +1,11 @@
 // About us
 .about_us {
-  width: 100%;
+  max-width: 100%;
   font-family: Montserrat, sans-serif;
 
   .about-us-home {
     font-family: Montserrat, sans-serif;
-    width: 100%;
+    max-width: 100%;
     height: 44.7rem;
     background-image: linear-gradient(
         to right,
@@ -22,7 +22,7 @@
       top: 10.2rem;
       line-height: 0;
       margin: auto;
-    //   left: 39.5rem;
+      //   left: 39.5rem;
       box-sizing: border-box;
       align-items: center;
 
@@ -64,7 +64,7 @@
   box-sizing: border-box;
 
   .our-goal-container {
-    width: 90%;
+    max-width: 90%;
     height: 73.8rem;
     position: relative;
     top: 14.6rem;
@@ -73,21 +73,25 @@
     justify-content: space-between;
     // border: 1px solid red;
 
-    img {
-      width: 59rem;
-      height: 73.8rem;
-      border-radius: 2.85rem;
+    .our-goal-img {
+        max-width: 59rem;
+        max-height: 73.8rem;
+
+      img {
+        width: 100%;
+        height: 73.8rem;
+        border-radius: 2.85rem;
+      }
     }
 
     .our_goal-content {
-      width: 55rem;
-      height: 71.8rem;
+      max-width: 55rem;
+      max-height: 71.8rem;
       display: flex;
-    //   gap: 3.2rem;
-    justify-content: space-between;
+      justify-content: space-between;
       flex-direction: column;
       padding-top: 2rem;
-    //   border: 1px solid green;
+      //   border: 1px solid green;
 
       .our_goal-content-title {
         width: 53.2rem;

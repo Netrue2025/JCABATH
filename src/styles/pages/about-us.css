@@ -1,10 +1,10 @@
 .about_us {
-  width: 100%;
+  max-width: 100%;
   font-family: Montserrat, sans-serif;
 }
 .about_us .about-us-home {
   font-family: Montserrat, sans-serif;
-  width: 100%;
+  max-width: 100%;
   height: 44.7rem;
   background-image: linear-gradient(to right, rgb(3, 0, 18), rgba(30, 30, 27, 0)), url("../../media/images/background.png");
 }
@@ -50,7 +50,7 @@
   box-sizing: border-box;
 }
 .our-goal .our-goal-container {
-  width: 90%;
+  max-width: 90%;
   height: 73.8rem;
   position: relative;
   top: 14.6rem;
@@ -58,14 +58,18 @@
   margin: auto;
   justify-content: space-between;
 }
-.our-goal .our-goal-container img {
-  width: 59rem;
+.our-goal .our-goal-container .our-goal-img {
+  max-width: 59rem;
+  max-height: 73.8rem;
+}
+.our-goal .our-goal-container .our-goal-img img {
+  width: 100%;
   height: 73.8rem;
   border-radius: 2.85rem;
 }
 .our-goal .our-goal-container .our_goal-content {
-  width: 55rem;
-  height: 71.8rem;
+  max-width: 55rem;
+  max-height: 71.8rem;
   display: flex;
   justify-content: space-between;
   flex-direction: column;

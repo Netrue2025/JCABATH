@@ -30,7 +30,9 @@ export function AboutUs() {
         {/* Our Goal */}
         <section className="our-goal">
           <div className="our-goal-container">
-            <img src={Pastor} alt="Our Pastor" />
+            <div className="our-goal-img">
+              <img src={Pastor} alt="img" />
+            </div>
             <div className="our_goal-content">
               <div className="our_goal-content-title">
                 <div className="icon-with-name">
