@@ -60,11 +60,10 @@ body {
 
 }
 
-/* Ipad View */
-@media screen and (max-width: 1040px){
-  html{
-    font-size: 50.5%;
-    background-color: black;
+/* Tablet Landscape View */
+@media (max-width: 1200px) {
+  html {
+    font-size: 58%;
   }
   body{
     width: 100vw;
@@ -72,13 +71,19 @@ body {
   }
 }
 
+/* Tablet Portrait  View*/
+@media (max-width: 900px) {
+  html {
+    font-size: 55%;
+  }
+}
+
 /* Mobile view */
-@media screen and (max-width: 767px) {
-  html{
-    font-size: 25.5%;
+@media (max-width: 600px) {
+  html {
+    font-size: 43.7%;
     background-color: black;
   }
-  
 }
 
 

@@ -1,157 +1,169 @@
-.about_us-container {
-    width: 100%;
+// About us
+.about_us {
+  width: 100%;
+  font-family: Montserrat, sans-serif;
+
+  .about-us-home {
     font-family: Montserrat, sans-serif;
+    width: 100%;
+    height: 44.7rem;
+    background-image: linear-gradient(
+        to right,
+        rgba(3, 0, 18, 1),
+        rgba(30, 30, 27, 0)
+      ),
+      url("../../media/images/background.png");
 
-    .about-us {
-        font-family: Montserrat, sans-serif;
-        width: 100%;
-        height: 44.7rem;
-        background-image: linear-gradient(to right, rgba(3, 0, 18, 1), rgba(30, 30, 27, 0.6) ), url("../../media/images/background.png");
+    .about-rccg {
+      width: 65.1rem;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 10.2rem;
+      line-height: 0;
+      margin: auto;
+    //   left: 39.5rem;
+      box-sizing: border-box;
+      align-items: center;
 
-        .about-us-content {
-            width: 65.1rem;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            top: 10.2rem;
-            line-height: 0;
-            left: 39.5rem;
-            box-sizing: border-box;
-            text-align: center;
-            align-items: center;
-           
+      .icon-with-name {
+        display: flex;
+        flex-direction: row;
+        gap: 3.25rem;
+        align-items: center;
 
-            .content-subheading {
-                display: flex;
-                gap: 3.25rem;
-                align-items: center;
-
-                img {
-                    width: 1.744rem;
-                    height: 1.744rem;
-                }
-                span {
-                    font-size: 1.3rem;
-                    color: #FFFFFFD4;
-                    letter-spacing: 2.5px;
-                    font-weight: 400;
-                    font-family: montserrat-light;
-                }
-            }
-
-            .title p {
-                font-family: clash-display-semibold;
-                color: #FFFFFF;
-                font-size: 6.5rem;
-            }
+        img {
+          width: 1.744rem;
+          height: 1.744rem;
         }
+
+        p {
+          font-size: 1.3rem;
+          color: #ffffffd4;
+          letter-spacing: 2.5px;
+          font-weight: 400;
+          font-family: montserrat-light;
+        }
+      }
+
+      p {
+        font-family: clash-display-semibold;
+        color: #ffffff;
+        font-size: 6.5rem;
+      }
+    }
+  }
+}
+
+// Our Goal
+.our-goal {
+  width: 100%;
+  height: 102.7rem;
+  background-color: #ffffff;
+  color: #000000;
+  box-sizing: border-box;
+
+  .our-goal-container {
+    width: 90%;
+    height: 73.8rem;
+    position: relative;
+    top: 14.6rem;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    // border: 1px solid red;
+
+    img {
+      width: 59rem;
+      height: 73.8rem;
+      border-radius: 2.85rem;
     }
 
-    // Our Goal
-    .our-goal-container {
-        width: 100%;
-        color: #000000;
-        // padding: 6rem 0;
-        background-color: #ffffff;
-        position: relative;
-        box-sizing: border-box;
+    .our_goal-content {
+      width: 55rem;
+      height: 71.8rem;
+      display: flex;
+    //   gap: 3.2rem;
+    justify-content: space-between;
+      flex-direction: column;
+      padding-top: 2rem;
+    //   border: 1px solid green;
+
+      .our_goal-content-title {
+        width: 53.2rem;
+        height: 17.9rem;
+        display: flex;
+        gap: 1.1rem;
+        line-height: 0;
+        flex-direction: column;
+        // border: 1px solid green;
+
+        .icon-with-name {
+          display: flex;
+          flex-direction: row;
+          gap: 1.5rem;
+          align-items: center;
+
+          img {
+            width: 1.744rem;
+            height: 1.744rem;
+          }
+          p {
+            font-size: 1.3rem;
+            letter-spacing: 0.25rem;
+            font-weight: 300;
+            font-family: clash-display-light;
+            color: #000000;
+          }
+        }
+        h1 {
+          font-size: 4.8rem;
+          letter-spacing: 3%;
+          color: #c1c3c8;
+          font-family: clash-display-bold;
+          margin-bottom: 2rem;
+        }
+        h2 {
+          font-size: 4rem;
+          letter-spacing: 3%;
+          color: #000000;
+          font-family: clash-display-bold;
+        }
+      }
+      ol {
         margin: 0;
-        
+        list-style-position: outside;
+        padding-left: 2rem;
+        letter-spacing: 0%;
+        font-size: 1.7rem;
+        color: #4c4b4b;
+        font-weight: 600;
+        font-family: Montserrat;
+        overflow-wrap: break-word;
 
-        .our_goal-wrapper {
-            width: 90%;
-            height: 73.8rem;
-            display: flex;
-            margin: auto;
-            justify-content: space-between;
-            // background-color: gray;
-
-            .our_goal-img{
-                width: 59rem;
-                height: 73.8rem;
-
-                img{
-                    width: 100%;
-                    height: auto;
-                }
-            }
-
-            .our_goal-content {
-                width: 55rem;
-                display: flex;
-                flex-direction: column;
-                padding-top: 2rem;
-                justify-content: space-between;
-                // height: 63.6rem;
-
-                .our_goal-content--title {
-                    width: 53.2rem;
-                    height: 17.9rem;
-                    display: flex;
-                    flex-direction: column;
-                    line-height: 0.1;
-                    gap: 1.1rem;
-
-                    .content--title {
-                        font-family: montserrat-light;
-                        display: flex;
-                        align-items: center;
-                        gap: 1.5rem;
-
-                        img {
-                            width: 1.744rem;
-                            height: 1.744rem;
-                        }
-                        p {
-                            font-size: 1.3rem;
-                            font-weight: 300;
-                            letter-spacing: 2.5px;
-                        }
-                    }
-
-                    h1 {
-                        font-family: clash-display-bold;
-                        font-size: 4.8rem;
-                        letter-spacing: 3%;
-                        color: #C1C3C8;
-                        font-weight: 700;
-                        margin-bottom: 2rem;
-                    }
-                    h2 {
-                        font-family: clash-display-bold;
-                        font-size: 4rem;
-                        font-weight: 700;
-                        letter-spacing: 3%;
-                    }
-                }
-
-                .our_goal-list {
-                    font-family: montserrat-medium;
-                    font-size: 1.7rem;
-                    font-weight: 600;
-                    line-height: 2.55rem;
-                    color: #4C4B4B;
-                    letter-spacing: 0%;
-                    align-items: center;
-                }
-
-                .our_goal-btn {
-                    width: 19.3rem;
-                    align-items: center;
-                    .btn {
-                        padding: 1.6rem 2.4rem;
-                        border-radius: 3rem;
-                        border-style: none;
-                        display: flex;
-                        gap: 1rem;
-                        background-color: #4012C5;
-
-                        .btn-arrow {
-                            margin: auto;
-                        }
-                    }
-                }
-            }
+        li {
+          margin-bottom: 2.55rem;
+          line-height: 1.6;
+          text-align: justify;
         }
+      }
+      .link {
+        text-decoration: none;
+
+        button {
+          padding: 1.6rem 2.4rem;
+          cursor: pointer;
+          border-radius: 3rem;
+          background-color: #4012c5;
+          border-style: none;
+          display: flex;
+          gap: 1rem;
+
+          .arrow {
+            margin: auto;
+          }
+        }
+      }
     }
+  }
 }
