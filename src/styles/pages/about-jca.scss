@@ -14,13 +14,40 @@ main {
       ),
       url("../../media/images//aboutJcaBackground.png");
 
-      .inner-container{
-        max-width: 65.1rem;
-        max-height: 11.6rem;
-        margin: auto;
-        position: relative;
-        top: 16.6rem;
-        border: 1px solid yellow;
+    .inner-container {
+      width: 65.1rem;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 10.2rem;
+      line-height: 0;
+      margin: auto;
+      box-sizing: border-box;
+      align-items: center;
+
+      .icon-with-name {
+        display: flex;
+        flex-direction: row;
+        gap: 3.25rem;
+        align-items: center;
+
+        img {
+          width: 1.744rem;
+          height: 1.744rem;
+        }
+        p {
+          font-size: 1.3rem;
+          color: #ffffffd4;
+          letter-spacing: 2.5px;
+          font-weight: 400;
+          font-family: montserrat-light;
+        }
       }
+      p {
+        font-family: clash-display-semibold;
+        color: #ffffff;
+        font-size: 6.5rem;
+      }
+    }
   }
 }
