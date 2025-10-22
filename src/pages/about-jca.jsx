@@ -1,6 +1,8 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { Topnavbar } from "../components/topnavbar";
 import "../styles/pages/about-jca.css";
+import { Location } from "../components/location"
+import { Footer } from "../components/footer"
 
 // Import media
 import Vector from "../media/images/Vector.png"
@@ -32,6 +34,12 @@ export function AboutJca(){
               </div>
             </section>
           </main>
+
+          {/* Location Component */}
+          <Location />
+
+          {/* Footer Component */}
+          <Footer />
         </div>
     )
 }
