@@ -11,6 +11,10 @@
   src: url('/ClashDisplay-Semibold.otf');
 }
 @font-face {
+  font-family: clash-display-medium;
+  src: url('/ClashDisplay-Medium.otf');
+}
+@font-face {
   font-family: clash-display-light;
   src: url('/ClashDisplay-Light.otf');
 }
@@ -23,12 +27,20 @@
   src: url('/Montserrat-Light.ttf');
 }
 @font-face {
+  font-family: montserrat-semibold;
+  src: url('/Montserrat-SemiBold.ttf');
+}
+@font-face {
   font-family: montserrat-medium;
   src: url('/Montserrat-Medium.ttf');
 }
 @font-face {
   font-family: montserrat-extrabold;
   src: url('/Montserrat-ExtraBold.ttf');
+}
+@font-face {
+  font-family: bricolage-grotesgue-semibold;
+  src: url('/BricolageGrotesque-SemiBold.ttf');
 }
 
 
