@@ -110,6 +110,7 @@ main .church-vision .mission-statements h2 {
   font-family: clash-display-bold;
 }
 main .church-vision .mission-statements .mission-statements-cards {
+  max-width: 90%;
   display: flex;
   gap: 2.2rem;
   margin: auto;
@@ -126,7 +127,7 @@ main .church-vision .mission-statements .mission-statements-cards .card {
   text-align: center;
 }
 main .church-vision .mission-statements .mission-statements-cards .card h3 {
-  width: 32.219rem;
+  max-width: 32.219rem;
   font-size: 2.428rem;
   letter-spacing: 4%;
   font-family: clash-display-bold;
@@ -137,7 +138,7 @@ main .church-vision .mission-statements .mission-statements-cards .card p {
   font-size: 1.412rem;
   font-weight: 400;
   font-family: montserrat-light;
-  width: 32.2rem;
+  max-width: 32.2rem;
   letter-spacing: 0%;
   line-height: 2.119rem;
 }
