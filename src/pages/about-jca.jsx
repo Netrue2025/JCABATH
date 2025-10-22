@@ -5,8 +5,8 @@ import { Location } from "../components/location"
 import { Footer } from "../components/footer"
 
 // Import media
-import Vector from "../media/images/Vector.png"
-import VectorOrange from "../media/images/VectorOrange.png"
+import Vector from "../media/images/Vector.png";
+import VectorOrange from "../media/images/VectorOrange.png";
 
 export function AboutJca(){
     return(
@@ -34,12 +34,6 @@ export function AboutJca(){
               </div>
             </section>
           </main>
-
-          {/* Location Component */}
-          <Location />
-
-          {/* Footer Component */}
-          <Footer />
         </div>
     )
 }

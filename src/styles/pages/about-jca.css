@@ -47,6 +47,7 @@ main .church-vision {
   height: 114.5rem;
   background-color: #ffffff;
   color: #000;
+  text-align: center;
   padding-top: 12.2rem;
 }
 main .church-vision .church-vision-box {
@@ -58,6 +59,7 @@ main .church-vision .church-vision-box {
   line-height: 0;
   margin: auto;
   text-align: center;
+  margin-bottom: 14.4rem;
 }
 main .church-vision .church-vision-box .icon-with-name {
   display: flex;
@@ -71,7 +73,7 @@ main .church-vision .church-vision-box .icon-with-name img {
   height: 1.744rem;
 }
 main .church-vision .church-vision-box .icon-with-name p {
-  color: #AEAEAE;
+  color: #aeaeae;
   font-size: 1.3rem;
   font-weight: 600;
   letter-spacing: 0.25rem;
@@ -91,8 +93,63 @@ main .church-vision .church-vision-box p {
 }
 main .church-vision .church-vision-box p span {
   font-size: 2.4rem;
-  color: #6E6E6E;
+  color: #6e6e6e;
   letter-spacing: 0%;
   font-weight: 600;
   font-family: montserrat-medium;
+}
+main .church-vision .mission-statements {
+  display: flex;
+  flex-direction: column;
+  gap: 7.7rem;
+}
+main .church-vision .mission-statements h2 {
+  font-size: 4.5rem;
+  letter-spacing: 10%;
+  font-weight: 700;
+  font-family: clash-display-bold;
+}
+main .church-vision .mission-statements .mission-statements-cards {
+  display: flex;
+  gap: 2.2rem;
+  margin: auto;
+}
+main .church-vision .mission-statements .mission-statements-cards .card {
+  max-width: 38.219rem;
+  height: 29.08rem;
+  border-radius: 2.493rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.81rem;
+  padding: 3.905rem 3rem;
+  color: #ffffff;
+  text-align: center;
+}
+main .church-vision .mission-statements .mission-statements-cards .card h3 {
+  width: 32.219rem;
+  font-size: 2.428rem;
+  letter-spacing: 4%;
+  font-family: clash-display-bold;
+  font-weight: 700;
+  line-height: 2.914rem;
+}
+main .church-vision .mission-statements .mission-statements-cards .card p {
+  font-size: 1.412rem;
+  font-weight: 400;
+  font-family: montserrat-light;
+  width: 32.2rem;
+  letter-spacing: 0%;
+  line-height: 2.119rem;
+}
+main .church-vision .mission-statements .mission-statements-cards .card1 {
+  background-color: #056402;
+  outline: 0.4rem solid rgba(42, 132, 39, 0.4784313725);
+}
+main .church-vision .mission-statements .mission-statements-cards .card2 {
+  background-color: #24156a;
+  outline: 0.4rem solid rgba(36, 21, 106, 0.4784313725);
+}
+main .church-vision .mission-statements .mission-statements-cards .card3 {
+  background-color: #6a1534;
+  outline: 0.4rem solid rgba(106, 21, 52, 0.4784313725);
 }/*# sourceMappingURL=about-jca.css.map */

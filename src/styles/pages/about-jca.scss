@@ -55,6 +55,7 @@ main {
     height: 114.5rem;
     background-color: #ffffff;
     color: #000;
+    text-align: center;
     padding-top: 12.2rem;
 
     .church-vision-box {
@@ -66,7 +67,8 @@ main {
       line-height: 0;
       margin: auto;
       text-align: center;
-    //   border: 1px solid black;
+      margin-bottom: 14.4rem;
+      //   border: 1px solid black;
 
       .icon-with-name {
         display: flex;
@@ -80,10 +82,10 @@ main {
           height: 1.744rem;
         }
         p {
-            color: #AEAEAE;
-            font-size: 1.3rem;
-            font-weight: 600;
-            letter-spacing: 0.25rem;
+          color: #aeaeae;
+          font-size: 1.3rem;
+          font-weight: 600;
+          letter-spacing: 0.25rem;
         }
       }
       h2 {
@@ -100,11 +102,69 @@ main {
         font-family: montserrat;
 
         span {
-            font-size: 2.4rem;
-            color: #6E6E6E;
+          font-size: 2.4rem;
+          color: #6e6e6e;
+          letter-spacing: 0%;
+          font-weight: 600;
+          font-family: montserrat-medium;
+        }
+      }
+    }
+    .mission-statements {
+      display: flex;
+      flex-direction: column;
+      gap: 7.7rem;
+      h2 {
+        font-size: 4.5rem;
+        letter-spacing: 10%;
+        font-weight: 700;
+        font-family: clash-display-bold;
+      }
+
+      .mission-statements-cards {
+        display: flex;
+        gap: 2.2rem;
+        margin: auto;
+
+        .card {
+          max-width: 38.219rem;
+          height: 29.08rem;
+          border-radius: 2.493rem;
+          display: flex;
+          flex-direction: column;
+          gap: 0.81rem;
+          padding: 3.905rem 3rem;
+          color: #ffffff;
+          text-align: center;
+
+          h3 {
+            width: 32.219rem;
+            font-size: 2.428rem;
+            letter-spacing: 4%;
+            font-family: clash-display-bold;
+            font-weight: 700;
+            line-height: 2.914rem;
+          }
+          p {
+            font-size: 1.412rem;
+            font-weight: 400;
+            font-family: montserrat-light;
+            width: 32.2rem;
             letter-spacing: 0%;
-            font-weight: 600;
-            font-family: montserrat-medium;
+            line-height: 2.119rem;
+          }
+        }
+        .card1 {
+          background-color: #056402;
+          outline: 0.4rem solid #2A84277A;
+        }
+        .card2 {
+          background-color: #24156a;
+          outline: 0.4rem solid #24156A7A;
+        }
+        .card3 {
+          background-color: #6a1534;
+          outline: 0.4rem solid #6A15347A;
         }
       }
     }
