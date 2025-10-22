@@ -176,6 +176,61 @@ main{
 
     }
 
+    .contacts-main-container{
+        display: flex;
+        flex-direction: row;
+        background-color: #1D038D;
+        height: 5.9rem;
+        top: 89.2rem;
+        gap: 1.3rem;
+        color: white;
+        box-sizing: border-box;
+
+        .contact-inner-container{
+            display: flex;
+            flex-direction: row;
+            max-width: 95.536rem;
+            height: 2.0rem;
+            gap: 6.565rem;
+            margin: auto;
+            box-sizing: border-box;
+            overflow: hidden;
+
+            // justify-content: space-between;
+            
+
+            .email, .instagram, .charity{
+                height: 2.0rem;
+                gap: 0.68rem;
+                display: flex;
+                flex-direction: row;
+                // margin-top: auto;
+                max-width: 30rem;
+
+
+                p, .contact-icon{
+                    margin:0 ;
+                    font-family: clash-display-light;
+                    font-weight: 400;
+                    font-size: 1.514rem;
+                    line-height: 1.10;
+                    letter-spacing: -2%;
+                    color: #FFFFFF;
+                }
+                
+                
+            }
+            .email{
+                width: 27.5rem;
+            }
+            .instagram{
+                width: 13.7rem;
+            }
+            .charity{
+                width: 33.3rem;
+            }
+        }
+    }
    
 
 }

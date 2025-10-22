@@ -14,6 +14,9 @@ import { Eventdropdown } from "../components/eventdropdown"
 import { Footer } from "../components/footer"
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Location } from "../components/location"
+import { FaChurch } from "react-icons/fa6";
+import { RiInstagramLine } from "react-icons/ri";
+import { MdEmail } from "react-icons/md";
 
 export function Home(){
   
@@ -47,12 +50,13 @@ export function Home(){
           <Eventdropdown id="hide" />
         }
         {media === true ? 
-            <Mediadropdown />:
-            <Mediadropdown id="hide" />
-      }
+          <Mediadropdown />:
+          <Mediadropdown id="hide" />
+        }
 
-     
+        {/* Main body contents */}
         <main>
+          {/* First Container */}
           <div className="home-screen">
             <div className="heading-with-button">
               <div className="heading-container">
@@ -73,6 +77,26 @@ export function Home(){
               </Link>
 
             </div>
+
+          </div>
+
+          {/* Second Container */}
+          <div className="contacts-main-container">
+            <div className="contact-inner-container">
+              <div className="email">
+                  <MdEmail className="contact-icon"/>
+                  <p>info@jesuschristassembly.org  I</p>
+              </div>
+              <div className="instagram">
+                <RiInstagramLine className="contact-icon"/>
+                <p>@rccgjcabath  I</p>
+              </div>
+              <div className="charity">
+                  <FaChurch className="contact-icon"/>
+                  <p>Charity Organization Number: 1125740</p>
+              </div>
+            </div>
+
 
           </div>
 

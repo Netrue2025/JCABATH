@@ -92,8 +92,12 @@ body {
 
 /* Mobile view */
 @media (max-width: 600px) {
+  body{
+    width: 100vw;
+    
+  }
   html {
-    font-size: 43.7%;
+    font-size: 25.5%;
     background-color: black;
   }
 }

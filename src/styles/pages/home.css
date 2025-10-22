@@ -144,4 +144,49 @@ main .home-screen .heading-with-button button .arrow {
   main .home-screen .heading-container {
     width: 100vw;
   }
+}
+main .contacts-main-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #1D038D;
+  height: 5.9rem;
+  top: 89.2rem;
+  gap: 1.3rem;
+  color: white;
+  box-sizing: border-box;
+}
+main .contacts-main-container .contact-inner-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 95.536rem;
+  height: 2rem;
+  gap: 6.565rem;
+  margin: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+main .contacts-main-container .contact-inner-container .email, main .contacts-main-container .contact-inner-container .instagram, main .contacts-main-container .contact-inner-container .charity {
+  height: 2rem;
+  gap: 0.68rem;
+  display: flex;
+  flex-direction: row;
+  max-width: 30rem;
+}
+main .contacts-main-container .contact-inner-container .email p, main .contacts-main-container .contact-inner-container .email .contact-icon, main .contacts-main-container .contact-inner-container .instagram p, main .contacts-main-container .contact-inner-container .instagram .contact-icon, main .contacts-main-container .contact-inner-container .charity p, main .contacts-main-container .contact-inner-container .charity .contact-icon {
+  margin: 0;
+  font-family: clash-display-light;
+  font-weight: 400;
+  font-size: 1.514rem;
+  line-height: 1.1;
+  letter-spacing: -2%;
+  color: #FFFFFF;
+}
+main .contacts-main-container .contact-inner-container .email {
+  width: 27.5rem;
+}
+main .contacts-main-container .contact-inner-container .instagram {
+  width: 13.7rem;
+}
+main .contacts-main-container .contact-inner-container .charity {
+  width: 33.3rem;
 }/*# sourceMappingURL=home.css.map */
