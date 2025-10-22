@@ -76,8 +76,8 @@
   padding-top: 2rem;
 }
 .our-goal .our-goal-container .our_goal-content .our_goal-content-title {
-  width: 53.2rem;
-  height: 17.9rem;
+  max-width: 53.2rem;
+  max-height: 17.9rem;
   display: flex;
   gap: 1.1rem;
   line-height: 0;
