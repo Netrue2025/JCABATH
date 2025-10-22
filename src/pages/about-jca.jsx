@@ -1,6 +1,8 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { Topnavbar } from "../components/topnavbar";
 import "../styles/pages/about-jca.css";
+import { Location } from "../components/location";
+import { Footer } from "../components/footer";
 
 // Import media
 import Vector from "../media/images/Vector.png";
@@ -9,7 +11,10 @@ import VectorOrange from "../media/images/VectorOrange.png";
 export function AboutJca() {
   return (
     <div>
+      {/* Top navigation bar section */}
       <Topnavbar />
+
+      {/* main body contents */}
       <main>
         {/* About RCCG JCA screen */}
         <section className="about-jca-screen">
@@ -21,6 +26,7 @@ export function AboutJca() {
             <p>MISSION & VISION</p>
           </div>
         </section>
+
         <section className="church-vision">
           <div className="church-vision-box">
             <div className="icon-with-name">
@@ -62,7 +68,13 @@ export function AboutJca() {
             </div>
           </div>
         </section>
+
+        {/* Location section */}
+        <Location />
       </main>
+
+      {/* Footer Section */}
+      <Footer />
     </div>
   );
 }
