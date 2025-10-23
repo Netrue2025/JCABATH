@@ -364,4 +364,266 @@ main{
         }
     }
 
+    // Fourth Container
+    .fourth-continer{
+        background-image: linear-gradient(27deg, rgba(255, 255, 255, 0)), url("../../media/images/Image+Overlay.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        max-width: 1440rem;
+        height: 86.4rem;
+        top: 204.5rem;
+        box-sizing: border-box;
+
+        .f-c-inset{
+            display: flex;
+            flex-direction: row;
+            box-sizing: border-box;
+            max-height: 69.2rem;
+            // background-color: red;
+            overflow: hidden;
+            margin: 0;
+            
+
+
+            .tittle-container{
+            display: flex;
+            flex-direction: row;
+            max-width: 51.8rem;
+            height: 10.2rem;
+            top: 9.2rem;
+           margin-left: 22.1rem;
+            gap: 8.0rem;
+            padding: 0;
+            // margin: 0;
+           
+
+            .f-c-tag{
+                display: flex;
+                flex-direction: 11.1rem;
+                height: 1.8rem;
+                gap: 1.5rem;
+                width: 11.1rem;
+                margin: auto;
+
+                img{
+                    width: 1.8rem;
+                    height: 1.8rem;
+                    margin: 0;
+                }
+                p{
+                    font-family: clash-display-light;
+                    font-weight: 300;
+                    font-size: 1.3rem;
+                    line-height: 1.69rem;
+                    letter-spacing: 0.25rem;
+                    vertical-align: middle;
+                    text-transform: capitalize;
+                    color: #000000;
+                    margin: 0;
+                }
+            }
+            .f-c-tittle{
+                width: 38.3rem;
+                display: flex;
+                flex-direction: column;
+
+                h3{
+                    font-family: clash-display-light;
+                    font-weight: 400;
+                    font-size: 4.0rem;
+                    line-height: 98%;
+                    letter-spacing: 1%;
+                    margin: 0;
+                }
+                h2{
+                    font-family: clash-display-bold;
+                    font-weight: 700;
+                    font-size: 6.0rem;
+                    line-height: 98%;
+                    letter-spacing: 1%;
+                    color: #000000;
+                    margin: 0;
+                }
+            }
+            }
+            .inner-boxes{
+                display: flex;
+                flex-direction: column;
+                height: 39.6rem;
+                max-width: 72.3rem;
+                margin-top: 21.5rem;
+                margin-left: 10rem;
+                margin-bottom: 0;
+                
+                .box-one{
+                    max-width: 60.1rem;
+                    height: 18.9rem;
+                    border-radius: 1.6rem;
+                    background-color: #1A0651;
+                    box-shadow: 0px 4px 4px 0px #00000040;
+                    text-align: center;
+                    margin-left: 11.9rem;
+                    margin-bottom: 0;
+
+                    h4{
+                        font-family: clash-display-bold;
+                        font-weight: 700;
+                        font-size: 2.0rem;
+                        line-height: 2.4rem;
+                        letter-spacing: 15%;
+                        vertical-align: middle;
+                        text-transform: capitalize;
+                        color: #FFFFFF;
+                        width: 32.4rem;
+                        margin-top: 4rem;
+                        margin-bottom: 0;
+                        
+                    }
+                    p{
+                        max-width: 30.9rem;
+                        height: 2.6rem;
+                        font-family: montserrat-light;
+                        font-weight: 400;
+                        font-size: 3.4rem;
+                        line-height: 2.55rem;
+                        letter-spacing: 0%;
+                        vertical-align: middle;
+                        color: #BBBBBB;
+                        margin-left: 6rem;
+                        margin-top: 2.5rem;
+                        
+
+                    }
+                }
+                .box-two-three{
+                    max-width: 72.3rem;
+                    height: 20.7rem;
+                    display: flex;
+                    flex-direction: row;
+                    margin-top:-2rem;
+
+                    .box-two{
+                        width: 38.4rem;
+                        height: 20.7rem;
+                        border-radius: 16px 0.3px 0.3px 16px;
+                        background-color: #0B002A;
+                        border-right: 0.3px solid #FFFFFF;
+
+                        .b-t-contents{
+                            max-width: 19.2rem;
+                            height: 14.5rem;
+                            top: 3.6rem;
+                            margin-left: 8.1rem;
+                            gap: 1.9rem;
+                            
+
+                            h4{
+                                font-family: clash-display-bold;
+                                font-weight: 700;
+                                font-size: 2.0rem;
+                                line-height: 2.4rem;
+                                letter-spacing: 15%;
+                                vertical-align: middle;
+                                text-transform: capitalize;
+                                color: #FFFFFF;
+                                margin-bottom: 0;
+
+                                span{
+                                    font-family: clash-display-bold;
+                                    color: #FFD952;
+
+                                }
+                            }
+                            p{
+                                font-family: montserrat-light;
+                                font-weight: 400;
+                                font-size: 3.2rem;
+                                line-height: 3.9rem;
+                                vertical-align: middle;
+                                letter-spacing: 0%;
+                                color: #D0CDCDD4;
+                                margin-top: 0;
+                            }
+                        }
+                    }
+
+                    .box-three{
+                        width: 38.4rem;
+                        height: 20.7rem;
+                        background-color: #0B002A;
+
+                        .b-t-content{
+                            display: flex;
+                            flex-direction: column;
+                            width: 21.5rem;
+                            height: 14.5rem;
+                            top: 3.6rem;
+                            margin-left: 3.7rem;
+                            gap: 1.9rem;
+                            // margin-top: 0;
+
+                            h4{
+                                font-family: clash-display-bold;
+                                font-weight: 700;
+                                font-size: 2.0rem;
+                                line-height: 2.4rem;
+                                letter-spacing: 15%;
+                                vertical-align: middle;
+                                text-transform: capitalize;
+                                margin-bottom: 0;
+                                color: #FFFFFF;
+
+                                span{
+                                    color:#FFD952;
+                                }
+                            }
+                            p{
+                                width: 21.5rem;
+                                height: 7.8rem;
+                                font-family: montserrat-light;
+                                font-weight: 400;
+                                font-size: 3.2rem;
+                                line-height: 3.9rem;
+                                letter-spacing: 0%;
+                                vertical-align: middle;
+                                color: #D0CDCDD4;
+                                margin-top: -1.7rem;
+                            }
+                        }
+                    }
+
+
+                }
+            }
+
+            .f-c-image-lg{
+                max-width: 50.6rem;
+                height: 69.2rem;
+                // left: 81.0rem;
+                border-left: 2px solid #FFFFFF;
+                margin-top: 0;
+                margin: 0;
+                margin-left: -2rem;
+
+                img{
+                    max-width: 100%;
+                    height: 69.2rem;
+                    margin: 0;
+                    vector-effect: #00000040;
+
+                }
+                // position: relative;
+
+            }
+
+        }
+        
+       
+
+
+       
+    }
+
 }
