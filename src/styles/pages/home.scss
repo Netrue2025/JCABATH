@@ -232,5 +232,136 @@ main{
         }
     }
    
+    // Third container
+    .third-container{
+        max-width: 144.0rem;
+        height: 102.7rem;
+        top: 95.1rem;
+        left: 0.3rem;
+        box-sizing: border-box;
+        overflow: hidden;
+        margin: 0;
+        flex-wrap: wrap;
+
+        
+
+        .third-container-inset{
+            display: flex;
+            flex-direction: row;
+            max-width: 120.2rem;
+            height: 64.319rem;
+            top: 14.6rem;
+            gap: 6.2rem;
+            margin: auto;
+            position: relative;
+            box-sizing: border-box;
+            
+            
+
+            .images-container{
+                // height: 100%;
+                max-width: 59.0rem;
+                gap: 3.0;
+
+                .lg-image img{
+                    max-width: 59.0rem;
+                    height: 42.9rem;
+                    border-radius: 2.852rem;
+                    
+                }
+                .sm-image{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    img{
+                        max-width: 27.57rem;
+                        height: 19.016rem;
+                        border-radius: 2.852rem;
+
+                    }
+                }
+            }
+
+            .third-container-details{
+                display: flex;
+                flex-direction: column;
+                max-width: 55.0rem;
+                max-height: 64.1rem;
+                gap: 2.4rem;
+
+                .t-c-header-container{
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 53.2rem;
+                    height: 19.2rem;
+                    gap: 1.1rem;
+                    background-color: #FFFFFF;
+
+                    .t-c-tag{
+                        width: 15.4rem;
+                        height: 1.8rem;
+                        gap: 1.5rem;
+                        display: flex;
+
+                        img{
+                            width: 1.8rem;
+                            height: 1.8rem;
+                            // margin: auto;
+                        }
+                        p{
+                            font-family: clash-display-light;
+                            font-weight: 300;
+                            font-size: 1.3rem;
+                            line-height: 1.69rem;
+                            letter-spacing: 0.25rem;
+                            vertical-align: middle;
+                            text-transform: capitalize;
+                            color: #000000;
+                            margin-top: 0;
+                        }
+                    }
+                    h2{
+                        font-family: clash-display-bold;
+                        font-weight: 700;
+                        font-size: 4.8rem;
+                        line-height: 120%;
+                        letter-spacing: 3%;
+                        color: #132B63;
+                        max-width: 53.2rem;
+                        height: 5.8rem;
+                        margin: 0;
+                    }
+                    h3{
+                        max-width: 53.2rem;
+                        height: 9.4rem;
+                        font-family: clash-display-bold;
+                        font-weight: 700;
+                        font-size: 4.0rem;
+                        line-height: 117%;
+                        letter-spacing: 3%;
+                        color: #000000;
+                        margin-top: 0;
+                    }
+                }
+
+                p{
+                    font-family: montserrat-semibold;
+                    font-weight: 600;
+                    font-size: 1.7rem;
+                    line-height: 2.55rem;
+                    letter-spacing: 0%;
+                    vertical-align: middle;
+                    color: #6E6E6E;
+
+                    span{
+                        font-family: montserrat-light;
+                    }
+
+
+                }
+            }
+        }
+    }
 
 }

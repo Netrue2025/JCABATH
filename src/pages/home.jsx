@@ -17,6 +17,10 @@ import { Location } from "../components/location"
 import { FaChurch } from "react-icons/fa6";
 import { RiInstagramLine } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
+import pastorandwife from "../media/images/pastorandwife.png"
+import pstmrs from "../media/images/pstmrs.png"
+import congregation from "../media/images/congregation.png"
+import yellowicon from "../media/images/yellow-icon.png"
 
 export function Home(){
   
@@ -98,6 +102,48 @@ export function Home(){
             </div>
 
 
+          </div>
+
+          {/* Third container */}
+          <div className="third-container">
+            <div className="third-container-inset">
+              <div className="images-container">
+                <div className="lg-image">
+                  <img src={pastorandwife} alt="Image of pastor Farouq and wife" />
+                </div>
+                <div className="sm-image">
+                  <img src={pstmrs} alt="image of pastor Mrs" />
+                  <img src={congregation} alt="Image of congregation" />
+                </div>
+              </div>
+              <div className="third-container-details">
+                <div className="t-c-header-container">
+                  <div className="t-c-tag">
+                    <img src={yellowicon} alt="yellow icon" />
+                    <p>RCCGJCABATH</p>
+                  </div>
+                  <h2>Welcome to</h2>
+                  <h3>JESUS CHRIST ASSEMBLY, BATH.</h3>
+                 
+                </div>
+
+                <p>
+                  We’re a family in Christ, 
+                  <span>
+                  committed to discipleship, capacity building, and global impact. 
+
+                  We believe God calls us to rise and build — strengthening lives and transforming communities through His Word and Spirit.
+                  “Then I said to them, ‘You see the trouble we are in: Jerusalem lies in ruins, and its gates have been destroyed by fire.
+                   Come, let us rebuild the wall of Jerusalem, that we may no longer suffer disgrace.’ … A
+                  nd they said, ‘Let us rise up and build.’ So they strengthened their hands for the good work.” 
+                  </span>
+                  — Nehemiah 2:17–18 (ESV)
+                  <span>
+                  Join us as we obey that call — equipping disciples for local and global impact.
+                  </span>
+                </p>
+              </div>
+            </div>
           </div>
 
           {/* Ride with us and location section */}
