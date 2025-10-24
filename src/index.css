@@ -75,7 +75,7 @@ body {
 /* Tablet Landscape View */
 @media (max-width: 1200px) {
   html {
-    font-size: 58%;
+    font-size: 60%;
   }
   body{
     width: 100vw;
@@ -85,8 +85,12 @@ body {
 
 /* Tablet Portrait  View*/
 @media (max-width: 900px) {
+  body{
+    width: 100vw;
+    
+  }
   html {
-    font-size: 55%;
+    font-size: 50%;
   }
 }
 
@@ -97,8 +101,7 @@ body {
     
   }
   html {
-    font-size: 25.5%;
-    background-color: black;
+    font-size: 25%;
   }
 }
 
