@@ -1,7 +1,8 @@
 // About us
-.about_us {
+main {
   max-width: 100%;
   font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
 
   .about-us-home {
     font-family: Montserrat, sans-serif;
@@ -13,6 +14,10 @@
         rgba(30, 30, 27, 0)
       ),
       url("../../media/images/background.png");
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    left: -0.1rem;
 
     .about-rccg {
       width: 65.1rem;
@@ -47,7 +52,7 @@
       }
 
       p {
-        font-family: clash-display-semibold;
+        font-family: clash-display-medium;
         color: #ffffff;
         font-size: 6.5rem;
       }
@@ -68,6 +73,7 @@
     height: 73.8rem;
     position: relative;
     top: 14.6rem;
+    padding: 0 1rem;
     display: flex;
     margin: auto;
     justify-content: space-between;
@@ -75,15 +81,14 @@
     box-sizing: border-box;
 
     .our-goal-img {
-        max-width: 59rem;
-        max-height: 73.8rem;
-        box-sizing: border-box;
+      max-width: 59rem;
+      max-height: 73.8rem;
+      box-sizing: border-box;
 
       img {
         width: 100%;
         height: 100%;
         border-radius: 2.85rem;
-        
       }
     }
 

@@ -13,6 +13,9 @@ main {
         rgba(30, 30, 27, 0)
       ),
       url("../../media/images//aboutJcaBackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .inner-container {
       width: 65.1rem;
@@ -157,15 +160,15 @@ main {
         }
         .card1 {
           background-color: #056402;
-          outline: 0.4rem solid #2A84277A;
+          outline: 0.4rem solid #2a84277a;
         }
         .card2 {
           background-color: #24156a;
-          outline: 0.4rem solid #24156A7A;
+          outline: 0.4rem solid #24156a7a;
         }
         .card3 {
           background-color: #6a1534;
-          outline: 0.4rem solid #6A15347A;
+          outline: 0.4rem solid #6a15347a;
         }
       }
     }

@@ -1,14 +1,16 @@
-.about_us {
+main {
   max-width: 100%;
   font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
 }
-.about_us .about-us-home {
+main .about-us-home {
   font-family: Montserrat, sans-serif;
   max-width: 100%;
   height: 44.7rem;
   background-image: linear-gradient(to right, rgb(3, 0, 18), rgba(30, 30, 27, 0)), url("../../media/images/background.png");
+  left: -0.1rem;
 }
-.about_us .about-us-home .about-rccg {
+main .about-us-home .about-rccg {
   width: 65.1rem;
   display: flex;
   flex-direction: column;
@@ -19,25 +21,25 @@
   box-sizing: border-box;
   align-items: center;
 }
-.about_us .about-us-home .about-rccg .icon-with-name {
+main .about-us-home .about-rccg .icon-with-name {
   display: flex;
   flex-direction: row;
   gap: 3.25rem;
   align-items: center;
 }
-.about_us .about-us-home .about-rccg .icon-with-name img {
+main .about-us-home .about-rccg .icon-with-name img {
   width: 1.744rem;
   height: 1.744rem;
 }
-.about_us .about-us-home .about-rccg .icon-with-name p {
+main .about-us-home .about-rccg .icon-with-name p {
   font-size: 1.3rem;
   color: rgba(255, 255, 255, 0.831372549);
   letter-spacing: 2.5px;
   font-weight: 400;
   font-family: montserrat-light;
 }
-.about_us .about-us-home .about-rccg p {
-  font-family: clash-display-semibold;
+main .about-us-home .about-rccg p {
+  font-family: clash-display-medium;
   color: #ffffff;
   font-size: 6.5rem;
 }
@@ -54,6 +56,7 @@
   height: 73.8rem;
   position: relative;
   top: 14.6rem;
+  padding: 0 1rem;
   display: flex;
   margin: auto;
   justify-content: space-between;

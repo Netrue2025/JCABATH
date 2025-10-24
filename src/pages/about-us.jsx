@@ -12,9 +12,11 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export function AboutUs() {
   return (
-    <div className="about_us">
+    <div>
       {/* Top navigation bar */}
       <Topnavbar />
+
+      {/* main body contents */}
       <main>
         {/* Who We Are */}
         <section className="about-us-home">
