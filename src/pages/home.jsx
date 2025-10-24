@@ -187,17 +187,74 @@ export function Home(){
                 </div>
               </div>
 
-              <div className="f-c-image-lg">
+             
                 <img src={praying} alt="Image of Congregtion praying mode" />
-              </div>
+             
             </div>
 
-            <Link to={'/contact-us'} className="link">
-                <button>
-                  <p>Learn more</p>
-                  <FaArrowRightLong className="arrow"/>
-                </button>
+            <Link to={'/services'} className="link-f">
+              <button>
+                <p>Learn more</p>
+                <FaArrowRightLong className="arrow"/>
+              </button>
             </Link>
+          </div>
+
+          {/* Fifth Container */}
+          <div className="fifth-container">
+            <div className="fifth-inner-con">
+              <div className="inner-content-one">
+                <div className="one-content">
+                  <div className="icon-with-name">
+                    <img src={yellowicon} alt="Yellow icon" />
+                    <p>PRAYER & TESTIMONY</p>
+                  </div>
+                  <h2>We can stand with You</h2>
+                  <p>Let us join you in prayer and rejoice with
+                    you in testimonies of answered prayers.
+                  </p>
+                </div>
+
+              </div>
+
+              <div className="inner-content-twonthree">
+                <div className="inner-content-two">
+                  <div className="two-content">
+                    <div className="two-text">
+                      <h2>Need Prayers?</h2>
+                      <p>
+                        We believe in the power of prayer. Whatever your need, our prayer team
+                         is ready to stand with you in faith. Be rest assured that your requests will be kept private.
+                      </p>
+                    </div>
+                    <Link to={'/praying'}>
+                      <button>
+                        <p>Send a Prayer Request</p>
+                        <FaArrowRightLong className="arrow"/>
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+
+                <div className="inner-content-three">
+                  <div className="inner-three">
+                    <div className="three-text">
+                      <h2>Do you have a testimony?</h2>
+                      <p>Your story can inspire faith in others! Share how God has answered 
+                        your prayers or transformed your life
+                      </p>
+                    </div>
+                    {/* Button */}
+                    <Link>
+                      <button>
+                        <p>Share Your Testimony</p>
+                         <FaArrowRightLong className="arrow"/>
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Ride with us and location section */}
