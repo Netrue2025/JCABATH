@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "../styles/pages/leadership.css";
 import { Topnavbar } from "../components/topnavbar";
 import { Location } from "../components/location";
@@ -10,6 +10,7 @@ import pastorFarouq from "../media/images/pastorFarouq.png";
 import dcnsAdetunbi from "../media/images/dcnsAdetunbi.png";
 import pstBlessing from "../media/images/pstBlessing.png";
 import mrsTeclar from "../media/images/mrsTeclar.png";
+import { Header } from "../components/header"
 
 export function Leadership() {
   return (
@@ -20,7 +21,9 @@ export function Leadership() {
       {/* main body contents */}
       <main>
         {/* Leadership screen */}
-        <section className="leadership-screen">
+        <Header tag={Vector} tagname="RCCG JCA" tittle="Leadership"/>
+
+        {/* <section className="leadership-screen">
           <div className="inner-container">
             <div className="icon-with-name">
               <img src={Vector} alt="icon" />
@@ -28,7 +31,7 @@ export function Leadership() {
             </div>
             <h1>Leadership</h1>
           </div>
-        </section>
+        </section> */}
 
         {/* Meet our leaders */}
         <section className="our-leaders">
