@@ -12,6 +12,7 @@ main .leadership-screen {
   background-image: linear-gradient(to right, rgb(3, 0, 18), rgba(30, 30, 27, 0)), url("../../media/images/background.png");
   left: -0.1rem;
   box-sizing: border-box;
+  position: relative;
 }
 main .leadership-screen .inner-container {
   width: 65.1rem;
@@ -23,6 +24,7 @@ main .leadership-screen .inner-container {
   margin: auto;
   box-sizing: border-box;
   align-items: center;
+  position: relative;
 }
 main .leadership-screen .inner-container .icon-with-name {
   display: flex;
@@ -55,14 +57,16 @@ main .our-leaders {
 }
 main .our-leaders .inner-container {
   max-width: 90%;
+  max-height: 183.1rem;
   display: flex;
-  position: relative;
+  position: inherit;
   top: 14.9rem;
   gap: 14.9rem;
   margin: auto;
   text-align: center;
   flex-direction: column;
   line-height: 0%;
+  overflow: scroll;
 }
 main .our-leaders .inner-container .subheading {
   max-width: 87.2rem;
@@ -93,12 +97,16 @@ main .our-leaders .inner-container .our-leaders-profile-cards {
 }
 main .our-leaders .inner-container .our-leaders-profile-cards .card {
   max-width: 55rem;
-  height: 57.6rem;
+  max-height: 57.6rem;
   box-sizing: border-box;
+  position: relative;
 }
 main .our-leaders .inner-container .our-leaders-profile-cards .card img {
   max-width: 55rem;
-  height: 57.6rem;
+  max-height: 57.6rem;
   border-radius: 1.6rem;
   box-sizing: border-box;
+}
+main .our-leaders .inner-container::-webkit-scrollbar {
+  display: none;
 }/*# sourceMappingURL=leadership.css.map */
