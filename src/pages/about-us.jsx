@@ -3,12 +3,14 @@ import { Topnavbar } from "../components/topnavbar";
 import "../styles/pages/about-us.css";
 import { Location } from "../components/location";
 import { Footer } from "../components/footer";
+import { Header } from "../components/header"
 
 // Import media
 import Vector from "../media/images/Vector.png";
 import Pastor from "../media/images/Pastor.png";
 import VectorOrange from "../media/images/VectorOrange.png";
 import { FaArrowRightLong } from "react-icons/fa6";
+
 
 export function AboutUs() {
   return (
@@ -19,7 +21,8 @@ export function AboutUs() {
       {/* main body contents */}
       <main>
         {/* Who We Are */}
-        <section className="about-us-home">
+        <Header tag={Vector} tagname="ABOUT RCCG" tittle="Who We Are"/>
+        {/* <section className="about-us-home">
           <div className="about-rccg">
             <div className="icon-with-name">
               <img src={Vector} alt="vector" />
@@ -27,7 +30,7 @@ export function AboutUs() {
             </div>
             <p>Who We Are</p>
           </div>
-        </section>
+        </section> */}
 
         {/* Our Goal */}
         <section className="our-goal">
