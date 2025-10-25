@@ -4,61 +4,10 @@ main {
   max-width: 100%;
   background-color: #fff;
   color: #000;
+  // position: relative;
 
-  .leadership-screen {
-    font-family: Montserrat, sans-serif;
-    max-width: 100%;
-    height: 44.7rem;
-    background-image: linear-gradient(
-        to right,
-        rgba(3, 0, 18, 1),
-        rgba(30, 30, 27, 0)
-      ),
-      url("../../media/images/background.png");
-    left: -0.1rem;
-    box-sizing: border-box;
 
-    .inner-container {
-      width: 65.1rem;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      top: 10.2rem;
-      line-height: 0;
-      margin: auto;
-      box-sizing: border-box;
-      align-items: center;
-
-      .icon-with-name {
-        display: flex;
-        flex-direction: row;
-        gap: 3.25rem;
-        align-items: center;
-
-        img {
-          width: 1.744rem;
-          height: 1.744rem;
-        }
-
-        p {
-          font-size: 1.3rem;
-          color: #ffffffd4;
-          letter-spacing: 0.255rem;
-          font-weight: 400;
-          font-family: montserrat-light;
-        }
-      }
-
-      h1 {
-        font-family: clash-display-medium;
-        color: #ffffff;
-        font-weight: 500;
-        letter-spacing: 0%;
-        font-size: 6.5rem;
-      }
-    }
-  }
-
+ 
   //   Meet our leaders
   .our-leaders {
     max-width: 100%;
@@ -66,20 +15,28 @@ main {
 
     .inner-container {
       max-width: 90%;
+      max-height: 183.1rem;
       display: flex;
-      position: relative;
+      position: inherit;
       top: 14.9rem;
       gap: 16.6rem;
       margin: auto;
       text-align: center;
       flex-direction: column;
       line-height: 0%;
+<<<<<<< HEAD
       background-image: linear-gradient(27deg, rgba(255, 255, 255, 0)),
         url("../../media/images/Image+Overlay.png");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       //   border: 1px solid red;
+=======
+      // background-color: red;
+      overflow: scroll;
+
+    //   border: 1px solid red;
+>>>>>>> 0d0a418915ba969039f6749b8e76a5d7c12c46b3
 
       .subheading {
         max-width: 87.2rem;
@@ -112,18 +69,30 @@ main {
 
         .card {
           max-width: 55rem;
-          height: 57.6rem;
+          max-height: 57.6rem;
           box-sizing: border-box;
+<<<<<<< HEAD
           //   border: 1px solid green;
+=======
+          // background-color: blue;
+          position: relative;
+        //   border: 1px solid green;
+          
+>>>>>>> 0d0a418915ba969039f6749b8e76a5d7c12c46b3
 
           img {
             max-width: 55rem;
-            height: 57.6rem;
+            max-height: 57.6rem;
             border-radius: 1.6rem;
             box-sizing: border-box;
+            
           }
         }
       }
     }
+    .inner-container::-webkit-scrollbar{
+      display: none;
+     }
+    
   }
 }

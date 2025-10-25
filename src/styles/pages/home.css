@@ -325,7 +325,7 @@ main .fourth-continer .f-c-inset .tittle-container {
   flex-direction: row;
   max-width: 51.8rem;
   height: 10.2rem;
-  top: 9.2rem;
+  margin-top: 9.2rem;
   margin-left: 22.1rem;
   gap: 8rem;
   padding: 0;
@@ -381,7 +381,7 @@ main .fourth-continer .f-c-inset .inner-boxes {
   flex-direction: column;
   height: 39.6rem;
   max-width: 72.3rem;
-  margin-top: 21.5rem;
+  margin-top: 12rem;
   margin-bottom: 0;
   position: relative;
 }
