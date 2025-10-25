@@ -27,6 +27,7 @@ export function AboutJca() {
           </div>
         </section>
 
+        {/* Church Vision */}
         <section className="church-vision">
           <div className="church-vision-box">
             <div className="icon-with-name">

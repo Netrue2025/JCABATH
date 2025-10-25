@@ -63,19 +63,23 @@ main {
   .our-leaders {
     max-width: 100%;
     height: 183.1rem;
-    background-color: #ffffff;
 
     .inner-container {
       max-width: 90%;
       display: flex;
       position: relative;
       top: 14.9rem;
-      gap: 14.9rem;
+      gap: 16.6rem;
       margin: auto;
       text-align: center;
       flex-direction: column;
       line-height: 0%;
-    //   border: 1px solid red;
+      background-image: linear-gradient(27deg, rgba(255, 255, 255, 0)),
+        url("../../media/images/Image+Overlay.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      //   border: 1px solid red;
 
       .subheading {
         max-width: 87.2rem;
@@ -110,8 +114,7 @@ main {
           max-width: 55rem;
           height: 57.6rem;
           box-sizing: border-box;
-        //   border: 1px solid green;
-          
+          //   border: 1px solid green;
 
           img {
             max-width: 55rem;

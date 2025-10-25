@@ -1,13 +1,25 @@
 import { Link } from "react-router-dom";
+import "../styles/pages/giving.css";
 
-export function Giving(){
-    return(
-        <>
-          <h1>This is the Giving page</h1>
-          <Link to={"/"}>
-            <button>👈Back Home</button>
-          </Link>
-          
-        </>
-    )
+// Import Components
+import { Topnavbar } from "../components/topnavbar";
+import { Location } from "../components/location";
+import { Footer } from "../components/footer";
+
+export function Giving() {
+  return (
+    <div>
+      {/* Top navigation bar */}
+      <Topnavbar/>
+
+      {/* Main body of Giving page */}
+      <main>
+        {/* Location */}
+        <Location/>
+      </main>
+
+      {/* Footer */}
+      <Footer/>
+    </div>
+  );
 }

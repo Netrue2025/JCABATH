@@ -56,10 +56,10 @@ export function Leadership() {
             </div>
           </div>
         </section>
+        
+        {/* Locaton */}
+        <Location />
       </main>
-
-      {/* Locaton */}
-      <Location />
 
       {/* Footer */}
       <Footer />
