@@ -1,0 +1,301 @@
+.main{
+    max-width: 144.0rem;
+    height: 237.9rem;
+    // position: static;
+    top: 50.8rem;
+
+    // Mission statement section
+    .mission-statement-con{
+        display: flex;
+        flex-direction: column;
+        max-width: 106.3rem;
+        height: 47.96rem;
+        position: relative;
+        top: 10.3rem;
+        margin-left: auto;
+        margin-right: auto;
+       
+        .tag-with-name{
+            width: 17.5rem;
+            height: 1.8rem;
+            margin: 0 auto;
+            // background-color: red;
+
+            img{
+                width: 1.8rem;
+                height: 1.8rem;
+                margin: 0;
+            }
+            p{
+                position: relative;
+                top: -2rem;
+                left: 3.2rem;
+                font-family: clash-display-light;
+                font-weight: 400;
+                font-size: 1.4rem;
+                line-height: 1.69rem;
+                letter-spacing: 0.25rem;
+                vertical-align: middle;
+                text-transform: capitalize;
+                color: #000000;
+                margin: 0;
+            }
+        }
+        .m-s-header{
+            max-width: 106.3rem;
+            height: 10.76rem;
+            margin: 0 auto;
+            
+            h2{
+                font-family: clash-display-bold;
+                font-size: 4.5rem;
+                font-weight: 700;
+                line-height: 5.4rem;
+                letter-spacing: 10%;
+                vertical-align: middle;
+                text-transform: capitalize;
+                color: #0F1A1A;
+                
+            }
+        }
+        .m-s-contents{
+            max-width: 106.3rem;
+            max-height: 35.4rem;
+
+            p{
+                font-family: montserrat-light;
+                font-weight: 400;
+                font-size: 2.2rem;
+                line-height: 5.9rem;
+                letter-spacing: 0%;
+                vertical-align: middle;
+                text-align: center;
+                color: #000000;
+
+                span{
+                    font-family: montserrat-semibold;
+                    font-weight: 600;
+                    font-size: 2.2rem;
+
+                }
+            }
+        }
+
+    }
+
+    // Amazing grace outreach section
+    .a-g-outreach-container{
+        display: flex;
+        flex-direction: row;
+        max-height: 35.4rem;
+        max-width: 120.1rem;
+        position: relative;
+        top: 30rem;
+        gap: 2.2rem;
+        margin: 0 auto;
+
+        .a-g-header{
+            width: 39.2rem;
+            height: 15.804rem;
+            margin: 0;
+
+            h3{
+                font-family: clash-display-bold;
+                font-size: 3.5rem;
+                font-weight: 700;
+                line-height: 3.3rem;
+                letter-spacing: 10%;
+                vertical-align: middle;
+                text-transform: capitalize;
+
+                span{
+                    font-family: clash-display-light;
+                    font-weight: 400;
+                    font-size: 2.8rem;
+                    line-height: 4.768rem;
+                    letter-spacing: 10%;
+                    vertical-align: middle;
+                    text-transform: capitalize;
+                }
+            }
+        }
+        .a-g-contents{
+            max-width: 78.7rem;
+            height: 35.4rem;
+            margin: 0;
+
+            p{
+                font-family: montserrat-semibold;
+                font-weight: 600;
+                font-size: 2.2rem;
+                line-height: 5.9rem;
+                letter-spacing: 0%;
+                vertical-align: middle;
+                color: #000000;
+                
+                span{
+                    font-family: montserrat-light;
+                    font-weight: 400;
+
+                }
+
+            }
+        }
+
+
+
+    }
+
+    // Green and black box section
+    .boxes-container{
+        display: flex;
+        flex-direction: row;
+        max-width: 120.1rem;
+        max-height: 53.126rem;
+        position: relative;
+        top: 50rem;
+        margin: 0 auto;
+        gap: 3.692rem;
+        
+
+        .green-box{
+            display: flex;
+            flex-direction: column;
+            max-width: 58.204rem;
+            max-height: 53.126rem;
+            border: 3.91px solid hsla(118, 54%, 34%, 0.48);
+            border-radius: 2.434rem;
+            padding: 3.814rem 4.787rem;
+            gap: 0.811rem;
+            background-color: #056402;
+        
+            .g-b-header{
+                width: 33.299rem;
+                height: 7.248rem;
+                margin: 0;
+
+                h3{
+                    font-family: clash-display-light;
+                    font-weight: 400;
+                    font-size: 2.55rem;
+                    line-height: 3.061rem;
+                    letter-spacing: 4%;
+                    vertical-align: middle;
+                    text-transform: capitalize;
+                    color: hsla(0, 0%, 100%, 1);
+                    margin: 0;
+
+                    span{
+                        font-family: clash-display-bold;
+                        font-weight: 700;
+
+                    }
+                }
+
+            }
+            .g-b-paragraph{
+                max-width: 49.219rem;
+                max-height: 38.477rem;
+                margin: 0;
+
+                p{
+                    font-family: montserrat-light;
+                    font-weight: 400;
+                    font-size: 1.33rem;
+                    line-height: 2.539rem;
+                    letter-spacing: 0%;
+                    vertical-align: middle;
+                    color: hsla(0, 0%, 100%, 0.83);
+                    margin: 0;
+                    position: relative;
+                    height: 38.477rem;
+                }
+            }
+
+        }
+        // Black box section
+        .black-box{
+            display: flex;
+            flex-direction: column;
+            max-width: 58.204rem;
+            max-height: 53.126rem;
+            border: 3.91px solid hsla(0, 0%, 0%, 0.48);
+            border-radius: 2.434rem;
+            padding: 3.814rem 4.787rem;
+            gap: 0.811rem;
+            background-color: #000000;
+
+            .b-b-header{
+                width: 33.299rem;
+                height: 7.248rem;
+                margin: 0;
+
+                h3{
+                    font-family: clash-display-light;
+                    font-weight: 400;
+                    font-size: 2.55rem;
+                    line-height: 3.061rem;
+                    letter-spacing: 4%;
+                    vertical-align: middle;
+                    text-transform: capitalize;
+                    color: hsla(0, 0%, 100%, 1);
+                    margin: 0;
+
+                    span{
+                        font-family: clash-display-bold;
+                        font-weight: 700;
+
+                    }
+                }
+            }
+            .b-b-paragraph{
+                max-width: 49.219rem;
+                max-height: 38.477rem;
+                margin: 0;
+
+                p{
+                    font-family: montserrat-light;
+                    font-weight: 400;
+                    font-size: 1.33rem;
+                    line-height: 2.539rem;
+                    letter-spacing: 0%;
+                    vertical-align: middle;
+                    color: hsla(0, 0%, 100%, 0.83);
+                    margin: 0;
+                    position: relative;
+                    height: 38.477rem;
+                }
+            }
+
+        }
+
+    }
+
+    // Others section
+    .others-container{
+        max-width: 106.8rem;
+        max-height: 36.0rem;
+        position: relative;
+        top: 30rem;
+        margin: auto;
+
+        p{
+            font-family: montserrat-medium;
+            font-weight: 500;
+            font-size: 2.2rem;
+            line-height: 4.3rem;
+            letter-spacing: 0%;
+            vertical-align: middle;
+            text-transform: capitalize;
+            color: hsla(180, 27%, 8%, 1);
+
+            span{
+                font-family: montserrat-light;
+                font-weight: 400;
+                font-size: 2.2rem;
+                text-transform: lowercase;
+            }
+        }
+    }
+
+}

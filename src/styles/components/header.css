@@ -22,8 +22,8 @@
 .leadership-screen .inner-container .icon-with-name {
   display: flex;
   flex-direction: row;
-  gap: 3.25rem;
   align-items: center;
+  gap: 1.25rem;
 }
 .leadership-screen .inner-container .icon-with-name img {
   width: 1.744rem;
@@ -35,6 +35,8 @@
   letter-spacing: 0.255rem;
   font-weight: 400;
   font-family: montserrat-light;
+  position: relative;
+  left: 0;
 }
 .leadership-screen .inner-container h1 {
   font-family: clash-display-medium;
