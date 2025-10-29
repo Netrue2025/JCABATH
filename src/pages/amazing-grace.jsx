@@ -17,7 +17,7 @@ export function AmazingGrace(){
         <Header tag={yellowicon} tagname="MINISTRIES" tittle="AMAZING GRACE"/>
 
         {/* Main body contents */}
-        <main className="main">
+        <div className="main">
           {/* Mission statement section */}
           <div className="mission-statement-con">
             <div className="tag-with-name">
@@ -131,7 +131,7 @@ export function AmazingGrace(){
               </span>
             </p>
           </div>
-        </main>
+        </div>
 
         {/* Location Section */}
         <Location />

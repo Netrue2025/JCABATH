@@ -24,6 +24,7 @@ export function Topnavbar(props){
                         <div className="log"><img src={logo} alt="Logo" /></div>
                         <div className="logo-name"><h2>JESUS CHRIST</h2> <h1>ASSEMBLY, BATH</h1></div>
                     </figure>
+
                     <aside className="nav-menu">
                         <div><Link to={"../"}><input type="button" value="Home" /></Link></div>
 
@@ -56,6 +57,7 @@ export function Topnavbar(props){
                         </div>
                         <div><Link to={"/giving"}><input type="button" value="Give"/></Link></div>
                     </aside>
+                    
                     <i className="pi pi-align-justify"></i>
                 </div>
 

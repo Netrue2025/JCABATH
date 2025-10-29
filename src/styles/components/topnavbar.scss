@@ -1,7 +1,4 @@
-#hide{
-    display: none;
-    opacity: 0;
-}
+
 
 .nav-container{
     width: 100%;
@@ -138,61 +135,7 @@
 
 }
 
-// @media screen and (max-width: 865px){
-//     .nav-container{
-//         width: 100vw;
-//         top: 0;
 
-
-
-//         .inner-container{
-//             .nav-menu{
-//                 // display: none;    
-//                 div{
-//                     input{
-//                         font-size: 1rem;
-//                     }
-                
-//                 }
-//             }
-
-//             figure{
-                
-//                 width: 100%;
-            
-
-//                 .logo-name{
-
-//                     width: 50%;
-                
-
-//                     h2{
-//                         font-size: 1.217rem;
-
-//                     }
-//                     h1{
-                  
-//                         font-size: 1.217rem;
-                
-                        
-
-//                     }
-//                 }
-//             }
-
-//             .pi{
-//                     font-size: 1.91rem;
-//                     display: flex;
-//                     display: none;
-
-//             }
-//         }
-
-
-        
-//     }
-
-// }
 
 @media screen and (max-width: 1040px){
     .nav-container{
@@ -228,39 +171,63 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 600px){
     .nav-container{
         width: 100vw;
         padding-left: 0;
+        height: auto;
         
         .inner-container{
             width: 100vw;
+            
 
             figure{
-                width: 40vw;
-                line-height: 0;
+                width: auto;
+                height: 3.513rem;
+                gap: 0.668rem;
 
                 .logo{
+                    display: flex;
+                    flex-direction: row;
                     margin: 0;
-                    font-size: 25.5%;
+                    width: 5.5rem;
+                    height: 5rem;
+
                 }
                 .logo-name{
-                    height: 0;
-                    width: 90%;
-                    margin: 0;
-
+                    height: auto;
+                    width: auto;
                     position: relative;
-                    margin-top: 1.5rem;
+                   
+                    
 
                     h2, h1{
-
+                    font-family: clash-display-semibold;
+                    font-weight: 600;
+                    font-size: 2.552rem;
                     //   line-height: 1.4;
-                      font-size: 25.5%;
-                    //   width: 100%;
+                      font-size: 2.55rem;
+                      width: 100%;
+                      
                       
                     }
                 }
 
+            }
+            .nav-menu{
+                display: none;
+            }
+            .pi{
+                font-size: 1.91rem;
+                display: flex;
+                flex-direction: column;
+                font-size: large;
+                font-weight: 700;
+                left: 12rem;
+        
+                margin: auto;
+                position: relative;
+                
             }
         }
     }

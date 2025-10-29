@@ -1,8 +1,11 @@
 .main{
     max-width: 144.0rem;
-    height: 237.9rem;
-    // position: static;
-    top: 50.8rem;
+    // top: 50.8rem;
+    min-height: 144.0rem;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    position: relative;
+
 
     // Mission statement section
     .mission-statement-con{
@@ -11,7 +14,7 @@
         max-width: 106.3rem;
         height: 47.96rem;
         position: relative;
-        top: 10.3rem;
+        padding-top: 10.3rem;
         margin-left: auto;
         margin-right: auto;
        
@@ -90,9 +93,9 @@
         max-height: 35.4rem;
         max-width: 120.1rem;
         position: relative;
-        top: 30rem;
+        padding-top: 50px;
         gap: 2.2rem;
-        margin: 0 auto;
+        margin: 20rem auto;
 
         .a-g-header{
             width: 39.2rem;
@@ -151,11 +154,13 @@
         display: flex;
         flex-direction: row;
         max-width: 120.1rem;
-        max-height: 53.126rem;
+        // max-height: 53.126rem;
+        height: auto;
         position: relative;
-        top: 50rem;
-        margin: 0 auto;
+        // top: 50rem;
+        margin: 20rem auto;
         gap: 3.692rem;
+        // background-color: red;
         
 
         .green-box{
@@ -276,8 +281,10 @@
         max-width: 106.8rem;
         max-height: 36.0rem;
         position: relative;
-        top: 30rem;
+        // top: 30rem;
         margin: auto;
+        margin-bottom:-3rem ;
+        padding-bottom: 20rem;
 
         p{
             font-family: montserrat-medium;
@@ -298,4 +305,119 @@
         }
     }
 
+}
+/* Mobile view */
+@media (max-width: 600px) {
+    .main{
+        margin: 0;
+        max-width: 100vw;
+        // min-height: 237.9rem;
+        // overflow: hidden;
+       
+
+        .mission-statement-con{
+            width: 100vw;
+            position: relative;
+            height: auto;
+            margin: 0;
+            
+        }
+
+        .a-g-outreach-container{
+            width: 95vw;
+            display: flex;
+            flex-direction: column;
+            margin: 15rem  auto;
+            margin-top: 0;
+            // background-color: red;
+            // top: 150px;
+            position: relative;
+
+            .a-g-header{
+                margin: auto;
+            }
+            .a-g-contents{
+                width: 100vw;
+                
+                p{
+                    width: 95vw;
+                    margin: auto;
+                    position: relative;
+                }
+            }
+            
+        }
+        .boxes-container{
+            display: flex;
+            flex-direction: column;
+            width: 95vw;
+            margin:30rem auto;
+            // margin-left: 5rem;
+            
+            
+            
+
+
+            .green-box{
+                margin: auto;
+                // width: 90%;
+                position: relative;
+                height: auto;
+
+                .g-b-paragraph{
+                    max-width: 49.219rem;
+                    max-height: 38.477rem;
+                    margin: 0;
+
+                    p{
+                        min-width: 100%;
+                        margin: auto;
+                        font-size: 1.8rem;
+                
+                    }
+                }
+           
+            }
+
+            .black-box{
+                margin: auto;
+                position: relative;
+                height: auto;
+                // width: 90%;
+                
+                .b-b-header{
+                    width: 100%;
+                    
+
+                    h3{
+                        width: 70%;
+                        right: 10rem;
+                        // margin-left: 0rem;
+                        
+                    }
+                }
+                
+                .b-b-paragraph{
+                    width: 100%;
+                    margin: auto;
+
+                    p{
+                        font-size: 1.8rem;  
+                        min-width: 100%;
+                        margin: auto;
+                    }
+                }
+
+                
+            }
+
+            
+        }
+        .others-container{
+            position: relative;
+            margin: auto;
+            width: 90vw;
+            
+        }
+    }
 }

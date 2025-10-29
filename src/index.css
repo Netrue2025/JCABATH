@@ -96,13 +96,36 @@ body {
 
 /* Mobile view */
 @media (max-width: 600px) {
-  body{
+  main{
     width: 100vw;
+  }
+  body{
+    min-width: 100vw;
     
   }
   html {
-    font-size: 25%;
+    font-size: 35%;
+    width: 100vw;
   }
+
+    
+  
+}
+@media (max-width: 412px) {
+  main{
+    width: 100vw;
+  }
+  body{
+    min-width: 100vw;
+    
+  }
+  html {
+    font-size: 30%;
+    width: 100vw;
+  }
+
+    
+  
 }
 
 
