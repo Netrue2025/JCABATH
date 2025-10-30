@@ -40,7 +40,7 @@ export function Home(){
 
     
         {ministry === true ?
-          <Ministriesdropdown to={"/about-jca"}/> || setDrop(false):
+          <Ministriesdropdown to={"/amazing-grace"}/> || setDrop(false):
           <Ministriesdropdown id="ministryhide" />
 
 

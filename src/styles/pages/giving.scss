@@ -1,6 +1,193 @@
 main {
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  .ways-to-donate {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.27)),
+      url("../../media/images/Image+Overlay.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     max-width: 100%;
+    height: 96.7rem;
+    top: 204.5rem;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
+    .inner-container {
+      max-width: 90%;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 3rem;
+      gap: 6.4rem;
+      margin: auto;
+      box-sizing: border-box;
+
+      .ways-to-give {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        box-sizing: border-box;
+        justify-content: space-between;
+        // border: 1px solid red;
+
+        .donations {
+          max-width: 42rem;
+          display: flex;
+          flex-direction: column;
+          // gap: 1.7rem;
+          line-height: 0;
+          box-sizing: border-box;
+
+          .icon-with-name {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+
+            img {
+              width: 1.744rem;
+              height: 1.744rem;
+            }
+
+            p {
+              font-size: 1.3rem;
+              letter-spacing: 0.255rem;
+              color: #000000;
+              font-weight: 300;
+              font-family: clash-display-light;
+            }
+          }
+
+          h1 {
+            font-size: 4.685rem;
+            letter-spacing: 2%;
+            font-weight: 700;
+            font-family: montserrat;
+          }
+        }
+
+        p {
+          max-width: 42.6rem;
+          font-size: 1.9rem;
+          letter-spacing: 2%;
+          font-family: clash-display-light;
+          font-weight: 300;
+          text-align: left;
+        }
+      }
+
+      //Bank details section
+      .amazing-grace-bank-details {
+        max-width: 100%;
+        // height: 65.3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 6.4rem;
+        box-sizing: border-box;
+        // border: 1px solid green;
+
+        .account-details {
+          max-width: 100%;
+          padding: 5.5rem 5.1rem;
+          display: flex;
+          flex-direction: column;
+          gap: 5.8rem;
+          background-color: #f7f9ff;
+        //   border: 1px solid purple;
+          box-sizing: border-box;
+
+          .want-to-donate {
+            display: flex;
+            font-size: 2.194rem;
+            letter-spacing: 0.152rem;
+            justify-content: space-between;
+            color: #000000;
+            box-sizing: border-box;
+
+            .first-paragraph {
+              //font-family: clash-display-regular;
+              font-weight: 400;
+            }
+
+            .second-paragraph {
+              font-family: clash-display-light;
+              font-weight: 300;
+            }
+
+            .amazing-grace {
+              font-family: clash-display-bold;
+              font-weight: 700;
+            }
+
+            .bank-details {
+              font-family: clash-display-regular;
+              font-weight: 400;
+            }
+          }
+
+          .account-information-card {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 3.5rem;
+            box-sizing: border-box;
+            max-width: 100%;
+
+            .card {
+              width: 47.2rem;
+              padding: 1rem;
+              font-size: 1.3rem;
+              line-height: 0;
+              box-sizing: border-box;
+              background-color: #ffffff;
+
+              P {
+                font-weight: 400;
+                color: #999090;
+                letter-spacing: 0.134rem;
+              }
+
+              .name-with-icon {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                box-sizing: border-box;
+
+                h2 {
+                  font-weight: 600;
+                  color: #000000;
+                  font-family: clash-display-semibold;
+                }
+
+                img {
+                  max-width: 2.6rem;
+                  height: 2.6rem;
+                }
+              }
+            }
+          }
+        }
+
+        .contact-btn {
+          background-color: transparent;
+          box-sizing: border-box;
+
+          button {
+            display: flex;
+            align-items: center;
+            background-color: #4012c5;
+            color: #fff;
+            margin: auto;
+            gap: 1rem;
+            border-radius: 3rem;
+            padding: 1.6rem 2.4rem;
+            box-sizing: border-box;
+            border: 1px solid #4012c5;
+          }
+        }
+      }
+    }
+  }
 }

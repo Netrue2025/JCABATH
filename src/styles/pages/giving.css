@@ -3,4 +3,159 @@ main {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+main .ways-to-donate {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.27)), url("../../media/images/Image+Overlay.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 96.7rem;
+  top: 204.5rem;
+  box-sizing: border-box;
+}
+main .ways-to-donate .inner-container {
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 3rem;
+  gap: 6.4rem;
+  margin: auto;
+  box-sizing: border-box;
+}
+main .ways-to-donate .inner-container .ways-to-give {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+main .ways-to-donate .inner-container .ways-to-give .donations {
+  max-width: 42rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 0;
+  box-sizing: border-box;
+}
+main .ways-to-donate .inner-container .ways-to-give .donations .icon-with-name {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+main .ways-to-donate .inner-container .ways-to-give .donations .icon-with-name img {
+  width: 1.744rem;
+  height: 1.744rem;
+}
+main .ways-to-donate .inner-container .ways-to-give .donations .icon-with-name p {
+  font-size: 1.3rem;
+  letter-spacing: 0.255rem;
+  color: #000000;
+  font-weight: 300;
+  font-family: clash-display-light;
+}
+main .ways-to-donate .inner-container .ways-to-give .donations h1 {
+  font-size: 4.685rem;
+  letter-spacing: 2%;
+  font-weight: 700;
+  font-family: montserrat;
+}
+main .ways-to-donate .inner-container .ways-to-give p {
+  max-width: 42.6rem;
+  font-size: 1.9rem;
+  letter-spacing: 2%;
+  font-family: clash-display-light;
+  font-weight: 300;
+  text-align: left;
+}
+main .ways-to-donate .inner-container .amazing-grace-bank-details {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+  box-sizing: border-box;
+}
+main .ways-to-donate .inner-container .amazing-grace-bank-details .account-details {
+  max-width: 100%;
+  padding: 5.5rem 5.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5.8rem;
+  background-color: #f7f9ff;
+  box-sizing: border-box;
+}
+main .ways-to-donate .inner-container .amazing-grace-bank-details .account-details .want-to-donate {
+  display: flex;
+  font-size: 2.194rem;
+  letter-spacing: 0.152rem;
+  justify-content: space-between;
+  color: #000000;
+  box-sizing: border-box;
+}
+main .ways-to-donate .inner-container .amazing-grace-bank-details .account-details .want-to-donate .first-paragraph {
+  font-weight: 400;
+}
+main .ways-to-donate .inner-container .amazing-grace-bank-details .account-details .want-to-donate .second-paragraph {
+  font-family: clash-display-light;
+  font-weight: 300;
+}
+main .ways-to-donate .inner-container .amazing-grace-bank-details .account-details .want-to-donate .amazing-grace {
+  font-family: clash-display-bold;
+  font-weight: 700;
+}
+main .ways-to-donate .inner-container .amazing-grace-bank-details .account-details .want-to-donate .bank-details {
+  font-family: clash-display-regular;
+  font-weight: 400;
+}
+main .ways-to-donate .inner-container .amazing-grace-bank-details .account-details .account-information-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3.5rem;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+main .ways-to-donate .inner-container .amazing-grace-bank-details .account-details .account-information-card .card {
+  width: 47.2rem;
+  padding: 1rem;
+  font-size: 1.3rem;
+  line-height: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+main .ways-to-donate .inner-container .amazing-grace-bank-details .account-details .account-information-card .card P {
+  font-weight: 400;
+  color: #999090;
+  letter-spacing: 0.134rem;
+}
+main .ways-to-donate .inner-container .amazing-grace-bank-details .account-details .account-information-card .card .name-with-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+main .ways-to-donate .inner-container .amazing-grace-bank-details .account-details .account-information-card .card .name-with-icon h2 {
+  font-weight: 600;
+  color: #000000;
+  font-family: clash-display-semibold;
+}
+main .ways-to-donate .inner-container .amazing-grace-bank-details .account-details .account-information-card .card .name-with-icon img {
+  max-width: 2.6rem;
+  height: 2.6rem;
+}
+main .ways-to-donate .inner-container .amazing-grace-bank-details .contact-btn {
+  background-color: transparent;
+  box-sizing: border-box;
+}
+main .ways-to-donate .inner-container .amazing-grace-bank-details .contact-btn button {
+  display: flex;
+  align-items: center;
+  background-color: #4012c5;
+  color: #fff;
+  margin: auto;
+  gap: 1rem;
+  border-radius: 3rem;
+  padding: 1.6rem 2.4rem;
+  box-sizing: border-box;
+  border: 1px solid #4012c5;
 }/*# sourceMappingURL=giving.css.map */

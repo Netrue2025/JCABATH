@@ -17,26 +17,17 @@ main {
       max-width: 90%;
       max-height: 183.1rem;
       display: flex;
-      position: inherit;
+      position: relative;
       top: 14.9rem;
       gap: 16.6rem;
       margin: auto;
       text-align: center;
       flex-direction: column;
       line-height: 0%;
-<<<<<<< HEAD
-      background-image: linear-gradient(27deg, rgba(255, 255, 255, 0)),
-        url("../../media/images/Image+Overlay.png");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      //   border: 1px solid red;
-=======
       // background-color: red;
       overflow: scroll;
 
     //   border: 1px solid red;
->>>>>>> 0d0a418915ba969039f6749b8e76a5d7c12c46b3
 
       .subheading {
         max-width: 87.2rem;

@@ -5,67 +5,22 @@ main {
   background-color: #fff;
   color: #000;
 }
-main .leadership-screen {
-  font-family: Montserrat, sans-serif;
-  max-width: 100%;
-  height: 44.7rem;
-  background-image: linear-gradient(to right, rgb(3, 0, 18), rgba(30, 30, 27, 0)), url("../../media/images/background.png");
-  left: -0.1rem;
-  box-sizing: border-box;
-}
-main .leadership-screen .inner-container {
-  width: 65.1rem;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 10.2rem;
-  line-height: 0;
-  margin: auto;
-  box-sizing: border-box;
-  align-items: center;
-}
-main .leadership-screen .inner-container .icon-with-name {
-  display: flex;
-  flex-direction: row;
-  gap: 3.25rem;
-  align-items: center;
-}
-main .leadership-screen .inner-container .icon-with-name img {
-  width: 1.744rem;
-  height: 1.744rem;
-}
-main .leadership-screen .inner-container .icon-with-name p {
-  font-size: 1.3rem;
-  color: rgba(255, 255, 255, 0.831372549);
-  letter-spacing: 0.255rem;
-  font-weight: 400;
-  font-family: montserrat-light;
-}
-main .leadership-screen .inner-container h1 {
-  font-family: clash-display-medium;
-  color: #ffffff;
-  font-weight: 500;
-  letter-spacing: 0%;
-  font-size: 6.5rem;
-}
 main .our-leaders {
   max-width: 100%;
   height: 183.1rem;
 }
 main .our-leaders .inner-container {
   max-width: 90%;
+  max-height: 183.1rem;
   display: flex;
   position: relative;
   top: 14.9rem;
-  gap: rem;
+  gap: 16.6rem;
   margin: auto;
   text-align: center;
   flex-direction: column;
   line-height: 0%;
-  background-image: linear-gradient(27deg, rgba(255, 255, 255, 0)), url("../../media/images/Image+Overlay.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  overflow: scroll;
 }
 main .our-leaders .inner-container .subheading {
   max-width: 87.2rem;
@@ -96,12 +51,16 @@ main .our-leaders .inner-container .our-leaders-profile-cards {
 }
 main .our-leaders .inner-container .our-leaders-profile-cards .card {
   max-width: 55rem;
-  height: 57.6rem;
+  max-height: 57.6rem;
   box-sizing: border-box;
+  position: relative;
 }
 main .our-leaders .inner-container .our-leaders-profile-cards .card img {
   max-width: 55rem;
-  height: 57.6rem;
+  max-height: 57.6rem;
   border-radius: 1.6rem;
   box-sizing: border-box;
+}
+main .our-leaders .inner-container::-webkit-scrollbar {
+  display: none;
 }/*# sourceMappingURL=leadership.css.map */
