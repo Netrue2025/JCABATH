@@ -4,7 +4,7 @@
 
 .aboutdropdown {
   width: auto;
-  height: 25rem !important;
+  height: 21rem !important;
   border-bottom-right-radius: 16px;
   border-bottom-left-radius: 16px;
   background-color: #ffffff;
@@ -18,7 +18,7 @@
 .aboutdropdown .inner-contents {
   display: flex;
   flex-direction: column;
-  width: auto;
+  width: 172px;
   gap: 5px;
   justify-content: center;
   margin-top: 0 !important;
@@ -41,9 +41,11 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-style: medium;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 160%;
   letter-spacing: -2%;
   color: #000000;
+  text-align: left;
+  margin: auto;
   text-decoration: none;
 }/*# sourceMappingURL=aboutdropdown.css.map */

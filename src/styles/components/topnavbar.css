@@ -181,4 +181,13 @@
     margin: auto;
     position: relative;
   }
+  .nav-container .inner-container .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20rem;
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(208, 208, 208);
+  }
 }/*# sourceMappingURL=topnavbar.css.map */

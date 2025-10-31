@@ -3,7 +3,7 @@
 }
 .aboutdropdown{
     width: auto;
-    height: 25rem !important;
+    height: 21rem !important;
     border-bottom-right-radius: 16px;
     border-bottom-left-radius: 16px;
     background-color: #ffffff;
@@ -19,7 +19,7 @@
     .inner-contents{
         display: flex;
         flex-direction: column;
-        width: auto;
+        width: 172px;
         // height: 148px;
         gap: 5px;
         justify-content: center;
@@ -48,11 +48,13 @@
                     font-family: 'Montserrat', sans-serif;
                     font-weight: 500;
                     font-style: medium;
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                     line-height: 160%;
                     letter-spacing: -2%;
                     color: #000000;
-                    // margin: 0;
+                    text-align: left;
+                    margin: auto;
+                    
                     text-decoration: none;
                     
                     

@@ -1,33 +1,34 @@
 
-#mediahide{
+#hidemedia{
     display: none;
 }
 
 .mediadropdown{
-    width: 240px;
-    height:auto;
+    width: auto;
+    height: 15rem !important;
     border-bottom-right-radius: 16px;
     border-bottom-left-radius: 16px;
     background-color: #ffffff;
     position: absolute;
     // z-index: 1;
-    margin-left: 60%;
-    margin-top: 1px;
+    
+    top: 100%;
     justify-content: center;
-    align-items: center;
-    padding: 40px 0;
-    margin-top: -45px;
-    text-align: center;
-    left: 0;
+    
+    
+    
+    
+    
 
     .mini-inner-contents{
         display: flex;
         flex-direction: column;
-        width: 174px;
+        width: auto;
         height: 148px;
         gap: 5px;
         justify-content: center;
-        margin:auto;
+        position: relative;
+        margin-top: 0 !important;
         
       
 
@@ -52,11 +53,13 @@
                     font-family: 'Montserrat', sans-serif;
                     font-weight: 500;
                     font-style: medium;
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                     line-height: 160%;
                     letter-spacing: -2%;
                     color: #000000;
-                    // margin: 0;
+                    text-align: left;
+                    margin: auto;
+                    
                     text-decoration: none;
                     
                     

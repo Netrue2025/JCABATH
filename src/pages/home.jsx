@@ -24,40 +24,9 @@ import yellowicon from "../media/images/yellow-icon.png"
 import praying from "../media/images/praying.png"
 
 export function Home(){
-  
-  const [ministry, setMinistry] = useState(false)
-  const [connect, setConnect] = useState(false)
-  const [events, setEvents] = useState(false)
-  const [media, setMedia] = useState(false)
     return(
       <div>
-        
-        { ministry === false && connect === false && events === false && media === false ?
-          <Topnavbar onClick={() => setDrop(true)} ministryClick={() => { setMinistry(true) }} eventsClick = {() => {setEvents(true)}} connectClick = {() => {setConnect(true)}} mediaClick = {() => {setMedia(true)}}/>:
-          <Topnavbar onClick={() => setDrop(false)} ministryClick={() => setMinistry(false)} eventsClick = {() => {setEvents(false)}} connectClick = {() => {setConnect(false)}} mediaClick = {() => {setMedia(false)}} />
-         
-        }
-
-    
-        {ministry === true ?
-          <Ministriesdropdown to={"/amazing-grace"}/> || setDrop(false):
-          <Ministriesdropdown id="ministryhide" />
-
-
-        }
-        {connect === true ?
-          <Connectdropdown />:
-          <Connectdropdown id="connecthide" />
-
-        }
-        {events === true ?
-          <Eventdropdown />:
-          <Eventdropdown id="hide" />
-        }
-        {media === true ? 
-          <Mediadropdown />:
-          <Mediadropdown id="hide" />
-        }
+        <Topnavbar />
 
         {/* Main body contents */}
         <main>
