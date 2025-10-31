@@ -321,6 +321,9 @@
             height: auto;
             margin: 0;
             
+       
+           
+            
         }
 
         .a-g-outreach-container{
@@ -332,6 +335,7 @@
             // background-color: red;
             // top: 150px;
             position: relative;
+            
 
             .a-g-header{
                 margin: auto;
@@ -343,6 +347,16 @@
                     width: 95vw;
                     margin: auto;
                     position: relative;
+                    font-size: 2.2rem;
+                    line-height: 5.3rem;
+                    
+                    
+                    span{
+                        font-family: montserrat-light;
+                        color: hsla(0, 0%, 0%, 1);
+                        font-weight: 400;
+                        letter-spacing: 0%;
+                    }
                 }
             }
             
@@ -402,7 +416,7 @@
                     margin: auto;
 
                     p{
-                        font-size: 1.8rem;  
+                        font-size: 1.9rem;  
                         min-width: 100%;
                         margin: auto;
                     }

@@ -1,0 +1,239 @@
+.j-g-w-main-section{
+    max-width: 144.0rem;
+    height: auto;
+    position: relative;
+    // top: 50.8rem;
+    display: flex;
+    flex-direction: row;
+    background-color: hsla(0, 0%, 100%, 1);
+    overflow: hidden;
+    padding-bottom: 50.8rem;
+    box-sizing: border-box;
+
+    // Image section
+    .g-w-image{
+        max-width: 59.0rem;
+        max-height: 73.8rem;
+        gap: 3.0rem;
+        position: relative;
+        top:11.2rem;
+        left: 12.0rem;
+        background-color: hsla(0, 0%, 100%, 1);
+        border-radius: 2.852rem;
+
+        img{
+           width: 100%;
+           height: 100%;
+           border-radius: 2.852rem;
+
+        }
+
+    }
+
+    // main contents section
+    .g-w-contents{
+        display: flex;
+        flex-direction: column;
+        max-width: 55.0rem;
+        height: 54.2rem;
+        position: relative;
+        top: 11.2rem;
+        left: 17.0rem;
+        gap: 6.7rem;
+        
+        .g-w-section-one{
+            display: flex;
+            flex-direction: column;
+            height: 29.2rem;
+            width: 100%;
+            gap: 1.6rem;
+            margin: 0;
+
+            .section-one-head{
+                max-width: 53.2rem;
+                height: 11.0rem;
+                gap: 1.1rem;
+                
+                .tag-container{
+                    display: flex;
+                    flex-direction: row;
+                    width: auto;
+                    height: 5.1rem;
+                    gap: 1.5rem;
+
+                    img{
+                        width: 1.744rem;
+                        height: 1.744rem;
+                        position: relative;
+                        margin-top: 0;
+                        left: 0.028rem;
+                    }
+                    p{
+                        width: auto;
+                        height: 1.7rem;
+                        font-family: clash-display-light;
+                        font-weight: 400;
+                        font-size: 1.4rem;
+                        line-height: 1.69rem;
+                        letter-spacing: 2.5px;
+                        vertical-align: middle;
+                        text-transform: uppercase;
+                        color: hsla(0, 0%, 0%, 1);
+                        position: relative;
+                        margin-top: 0;
+                    }
+                }
+                h3{
+                    font-family: clash-display-bold;
+                    font-weight: 700;
+                    font-size: 4.0rem;
+                    line-height: 120%;
+                    letter-spacing: 3%;
+                    color: hsla(0, 0%, 0%, 1);
+                    position: relative;
+                    margin-top: 0;
+                }
+
+            }
+           
+            p{
+               font-family: montserrat-semibold;
+               font-weight: 600;
+               font-size: 1.7rem;
+               line-height: 2.55rem;
+               letter-spacing: 0%;
+               vertical-align: middle; 
+               color: hsla(0, 1%, 30%, 1);
+               margin: 0;
+            }
+
+        }
+
+        .g-w-section-two{
+            max-width: 55.0rem;
+            height: 18.3rem;
+            gap: 2.3rem;
+            margin: 0;
+
+            h3{
+                width: auto;
+                font-family: clash-display-medium;
+                font-weight: 500;
+                font-size: 3.2rem;
+                line-height: 120%;
+                letter-spacing: 3%;
+                color: hsla(0, 0%, 0%, 1);
+            }
+            p{
+                font-family: montserrat-light;
+                font-weight: 400;
+                font-size: 1.7rem;
+                line-height: 3.7rem;
+                letter-spacing: 0%;
+                vertical-align: middle;
+                align-items: justify;
+                color: hsla(0, 1%, 30%, 1);
+
+                span{
+                    width: auto;
+                    font-family: montserrat-semibold;
+                    font-weight: 600;
+                    font-size: 1.7rem;
+                    line-height: 3.7rem;
+                    letter-spacing: 0%;
+                    vertical-align: middle;
+                    align-items: justify;
+                }
+            }
+        }
+
+
+    }
+    h4{
+    font-family: clash-display-medium;
+    font-weight: 500;
+    font-size: 2.0rem;
+    line-height: 4.3rem;
+    letter-spacing: 10%;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: hsla(180, 27%, 8%, 1);
+    position: absolute;
+    top: 65rem;
+    left: 2.0rem;
+    
+    
+    }
+
+}
+/* Mobile view */
+@media (max-width: 600px) {
+    .j-g-w-main-section{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-left: 0;
+        
+        
+     
+
+        .g-w-image{
+            top: 5rem;
+            left: 0;
+            margin-left: 0;
+            width: auto;
+            margin: auto;
+            height: auto;
+
+            img{
+                height: auto;
+            }
+
+    
+        }
+        .g-w-contents{
+            width: 90%;
+            margin-left: -10rem;
+            padding: 0;
+            
+
+            .g-w-section-one{
+                .section-one-head{
+                    width: 50%;
+                    margin: auto;
+                    
+                    
+
+                    .tag-container{
+                        margin-left: -5rem;
+                     }
+
+                }
+                p{
+                    font-size: 2.0rem;
+                }
+
+            }
+            .g-w-section-two{
+                margin: 0;
+                padding-left: 0;
+
+                h3{
+                    width: 50%;
+                    margin: auto;
+                }
+                p{
+                text-align: left;
+                margin-left: 0;
+                font-size: 2.0rem;
+                }
+            }
+      
+        }
+        h4{
+            margin: auto;
+           left: 4.5rem;
+           
+        }
+    }
+}

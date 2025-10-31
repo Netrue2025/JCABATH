@@ -101,6 +101,7 @@ body {
   body{
     min-width: 100vw;
     
+    
   }
   html {
     font-size: 35%;
@@ -116,11 +117,14 @@ body {
   }
   body{
     min-width: 100vw;
+
+
     
   }
   html {
-    font-size: 30%;
+    font-size: 35%;
     width: 100vw;
+
   }
 
     

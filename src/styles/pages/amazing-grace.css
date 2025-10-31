@@ -284,6 +284,14 @@
     width: 95vw;
     margin: auto;
     position: relative;
+    font-size: 2.2rem;
+    line-height: 5.3rem;
+  }
+  .main .a-g-outreach-container .a-g-contents p span {
+    font-family: montserrat-light;
+    color: hsl(0, 0%, 0%);
+    font-weight: 400;
+    letter-spacing: 0%;
   }
   .main .boxes-container {
     display: flex;
@@ -323,7 +331,7 @@
     margin: auto;
   }
   .main .boxes-container .black-box .b-b-paragraph p {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     min-width: 100%;
     margin: auto;
   }

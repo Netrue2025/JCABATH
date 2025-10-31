@@ -159,17 +159,40 @@
                     position: relative;
                     border-radius: 1.2rem;
                     margin: auto;              
-                    border: 0.15rem solid rgba(90, 58, 222, 1);
+                    border: 0.09rem solid hsla(251, 72%, 55%, 1);
                   
                 }
             }
         }
     }
 
-    @media screen and (max-width: 765px) {
+
+}
+
+// Mobile View
+@media screen and (max-width: 600px) {
+    .ride-location{
+        height: auto;
+        padding: 0;
+        width: 100vw;
+        position: relative;
+        padding-bottom: 6rem;
+
         .ride-location-sm{
-            width: 98%;
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+
+            .location-container{
+
+                .map{
+                    height: 35.4rem;
+                    width: 90%;
+                }
+            }
         }
-        
     }
+
+    
 }

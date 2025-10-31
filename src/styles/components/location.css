@@ -130,10 +130,25 @@
   position: relative;
   border-radius: 1.2rem;
   margin: auto;
-  border: 0.15rem solid rgb(90, 58, 222);
+  border: 0.09rem solid hsl(251, 72%, 55%);
 }
-@media screen and (max-width: 765px) {
+
+@media screen and (max-width: 600px) {
+  .ride-location {
+    height: auto;
+    padding: 0;
+    width: 100vw;
+    position: relative;
+    padding-bottom: 6rem;
+  }
   .ride-location .ride-location-sm {
-    width: 98%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .ride-location .ride-location-sm .location-container .map {
+    height: 35.4rem;
+    width: 90%;
   }
 }/*# sourceMappingURL=location.css.map */
