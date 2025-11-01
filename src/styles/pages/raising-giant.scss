@@ -1,0 +1,134 @@
+.raising-giant-page {
+  max-width: 100%;
+  color: #000000;
+  background-color: #ffffff;
+  box-sizing: border-box;
+
+  .raising-giant-container {
+    max-width: 100%;
+    height: 125.5rem;
+    box-sizing: border-box;
+
+    .inner-container {
+      max-width: 90%;
+      display: flex;
+      gap: 6rem;
+      flex-direction: row;
+      margin: auto;
+      position: relative;
+      top: 11.2rem;
+      box-sizing: border-box;
+      //   border: 1px solid red;
+
+      .inner-container-image {
+        max-width: 59rem;
+        height: 100.416rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 4.2rem;
+        align-items: center;
+        // border: 1px solid green;
+
+        .RaisingGiantImg1 {
+          max-width: 59rem;
+          height: 77.2rem;
+          border-radius: 2.852rem;
+        }
+        .bottom-images {
+          max-width: 59rem;
+          display: flex;
+          flex-direction: row;
+          gap: 3rem;
+
+          .RaisingGiantImg2 {
+            max-width: 27.574rem;
+            height: 19.016rem;
+            border-radius: 2.852rem;
+          }
+          .RaisingGiantImg3 {
+            max-width: 28.4rem;
+            height: 19rem;
+            border-radius: 2.852rem;
+          }
+        }
+      }
+
+      .inner-container-texts {
+        max-width: 55rem;
+        height: 101.6rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.4rem;
+        align-items: center;
+        box-sizing: border-box;
+        // border: 1px solid black;
+
+        .sub-tittle {
+          width: 53.2rem;
+          display: flex;
+          line-height: 0;
+          flex-direction: column;
+          position: relative;
+          line-height: 120%;
+          top: 1rem;
+          gap: 1.1rem;
+          box-sizing: border-box;
+
+          .icon-with-name {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            gap: 1.5rem;
+            box-sizing: border-box;
+
+            img {
+              width: 1.744rem;
+              height: 1.744rem;
+            }
+
+            p {
+              font-size: 1.3rem;
+              font-family: clash-display-light;
+              font-weight: 300;
+              letter-spacing: 0.25rem;
+            }
+          }
+          h3 {
+            font-size: 4rem;
+            letter-spacing: 3%;
+            color: #8c8787;
+            font-weight: 500;
+            font-family: clash-display-medium;
+          }
+        }
+        .top-paragraph {
+            max-width: 55rem; 
+            box-sizing: border-box;
+
+          p {
+            font-size: 1.7rem;
+            font-weight: 400;
+            color: #4c4b4b;
+            letter-spacing: 0%;
+            line-height: 3.5rem;
+            font-family: montserrat-light;
+          }
+        }
+        .bottom-paragraph {
+            max-width: 55rem;
+            box-sizing: border-box;
+
+          p {
+            font-size: 1.7rem;
+            font-weight: 400;
+            color: #4c4b4b;
+            letter-spacing: 0%;
+            line-height: 3.5rem;
+            font-family: montserrat-light;
+          }
+        }
+      }
+    }
+  }
+}

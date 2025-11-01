@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom"
-import "../styles/pages/home.css"
-import "../styles/components/ministrydropdown.css"
-import "../styles/components/aboutdropdown.css"
+import { Link } from "react-router-dom";
+import "../styles/pages/home.css";
+import "../styles/components/ministrydropdown.css";
+import "../styles/components/aboutdropdown.css";
 
 //imported components
 import { Topnavbar } from "../components/topnavbar"
