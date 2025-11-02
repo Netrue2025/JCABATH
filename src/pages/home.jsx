@@ -6,11 +6,11 @@ import "../styles/components/aboutdropdown.css";
 //imported components
 import { Topnavbar } from "../components/topnavbar"
 // import { Aboutdropdown } from "../components/aboutdropdown"
-import { Ministriesdropdown } from "../components/ministriesdropdown"    
-import { useState } from "react"
-import { Mediadropdown } from "../components/mediadropdown"
-import { Connectdropdown } from "../components/connectdropdown"
-import { Eventdropdown } from "../components/eventdropdown"
+// import { Ministriesdropdown } from "../components/ministriesdropdown"    
+// import { useState } from "react"
+// import { Mediadropdown } from "../components/mediadropdown"
+// import { Connectdropdown } from "../components/connectdropdown"
+// import { Eventdropdown } from "../components/eventdropdown"
 import { Footer } from "../components/footer"
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Location } from "../components/location"
