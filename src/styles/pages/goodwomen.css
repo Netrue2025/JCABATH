@@ -88,12 +88,18 @@
 .j-g-w-main-section .g-w-contents .g-w-section-one p {
   font-family: montserrat-semibold;
   font-weight: 600;
+  height: auto;
   font-size: 1.7rem;
   line-height: 2.55rem;
   letter-spacing: 0%;
   vertical-align: middle;
   color: hsl(0, 1%, 30%);
   margin: 0;
+  position: relative;
+  left: 0;
+}
+.j-g-w-main-section .g-w-contents .g-w-section-one p li:last-child {
+  margin-top: 2rem;
 }
 .j-g-w-main-section .g-w-contents .g-w-section-two {
   max-width: 55rem;

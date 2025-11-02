@@ -1,0 +1,359 @@
+.contents {
+  max-width: 144rem;
+  height: auto;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 25.8rem;
+}
+.contents .aim {
+  display: flex;
+  flex-direction: column;
+  max-width: 59rem;
+  height: auto;
+  position: relative;
+  top: 11.2rem;
+  left: 10rem;
+  gap: 4.2rem;
+}
+.contents .aim .aim-image img {
+  max-width: 59rem;
+  max-height: 77.2rem;
+  border-radius: 2.852rem;
+}
+.contents .aim .inset-image {
+  display: flex;
+  flex-direction: row;
+  max-width: 59rem;
+  height: 19.016rem;
+  gap: 3rem;
+}
+.contents .aim .inset-image img {
+  width: 27.574rem;
+  height: 19.016rem;
+  border-radius: 2.852rem;
+}
+.contents .aimcontens {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 10.4rem;
+  left: 14rem;
+  gap: 3.7rem;
+}
+.contents .aimcontens .tags {
+  width: 53.2rem;
+  height: 5.1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1.1rem;
+}
+.contents .aimcontens .tags img {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-top: 0;
+}
+.contents .aimcontens .tags h5 {
+  width: auto;
+  font-family: clash-display-light;
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 1.69rem;
+  letter-spacing: 2.5px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 0%);
+  margin-top: 0;
+}
+.contents .aimcontens h3 {
+  font-family: clash-display-bold;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 120%;
+  letter-spacing: 3%;
+  color: hsl(0, 0%, 0%);
+  margin: 0;
+}
+.contents .aimcontens p {
+  max-width: 55rem;
+  margin: 0;
+  position: relative;
+  left: -3rem;
+}
+.contents .aimcontens p ol li {
+  width: auto;
+  font-family: montserrat-medium;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 3.3rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: hsl(0, 1%, 30%);
+}
+.contents .aimcontens h4 {
+  font-family: montserrat-semibold;
+  font-weight: 600;
+  font-size: 1.7rem;
+  line-height: 3.3rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: hsl(0, 2%, 20%);
+  margin-top: 0;
+}
+.contents .aimcontens p {
+  font-family: montserrat-medium;
+  font-weight: 500;
+  font-size: 1.7rem;
+  letter-spacing: 0%;
+  line-height: 3.3rem;
+  vertical-align: middle;
+  color: hsl(0, 1%, 30%);
+  margin-top: 0;
+  margin-left: 2.8rem;
+}
+
+.scripture-truth {
+  max-width: 144rem;
+  height: auto;
+  position: relative;
+  background-color: hsl(224, 100%, 97%);
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 6.2rem;
+  overflow: hidden;
+}
+.scripture-truth .content {
+  max-width: 57.6rem;
+  height: auto;
+  left: 13.1rem;
+  gap: 2.3rem;
+  top: 6.3rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  bottom: 6.3rem;
+}
+.scripture-truth .content h3 {
+  font-family: clash-display-light;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 120%;
+  letter-spacing: 3%;
+  color: hsl(0, 0%, 0%);
+  width: 100%;
+  margin: 0;
+  height: auto;
+}
+.scripture-truth .content h3 span {
+  font-family: clash-display-semibold;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 120%;
+  letter-spacing: 3%;
+}
+.scripture-truth .content p {
+  font-family: montserrat-medium;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 3.3rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: hsl(0, 1%, 22%);
+  margin-left: 0;
+  width: 100%;
+  margin: 0;
+  margin-left: -3rem;
+}
+.scripture-truth .content p span {
+  font-family: montserrat-semibold;
+  font-weight: 600;
+  font-size: 1, 7rem;
+  letter-spacing: 0%;
+}
+.scripture-truth .children-image {
+  height: auto;
+  max-width: 50.6rem;
+  position: relative;
+  margin-left: 10rem;
+  gap: 1.2rem;
+  margin: auto;
+}
+.scripture-truth .children-image img {
+  width: auto;
+  border-left: 2px solid hsl(0, 0%, 100%);
+  position: relative;
+  left: 2px;
+}
+
+.why {
+  max-width: 144rem;
+  height: auto;
+  background-color: #ffffff;
+  padding: 10rem;
+}
+.why .content {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+  gap: 5.3rem;
+  position: relative;
+}
+.why .content .content-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 9.7rem;
+  gap: 13.5rem;
+  margin-bottom: 0;
+}
+.why .content .content-header .tag {
+  display: flex;
+  flex-direction: row;
+  max-width: 53.2rem;
+  gap: 1.1rem;
+  margin: auto;
+  margin-left: 0;
+}
+.why .content .content-header .tag img {
+  height: 1.8rem;
+  width: 1.8rem;
+  margin: 0;
+}
+.why .content .content-header .tag p {
+  font-family: clash-display-light;
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 1.69rem;
+  letter-spacing: 2.5px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  margin: 0;
+  width: auto;
+}
+.why .content .content-header h3 {
+  font-family: clash-display-light;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 120%;
+  letter-spacing: 3%;
+  color: hsl(0, 0%, 0%);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 47.7rem;
+  float: right;
+  position: relative;
+  margin-right: 0;
+}
+.why .content .content-header h3 span {
+  font-family: clash-display-semibold;
+  font-size: 4rem;
+  font-weight: 600;
+}
+.why .content p {
+  font-family: montserrat-medium;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 3.9rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: hsl(0, 1%, 22%);
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+}
+.why .content p span {
+  font-family: montserrat-semibold;
+  font-weight: 600;
+  font-size: 1.7rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 600px) {
+  .contents {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .contents .aim {
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    width: 100vw;
+  }
+  .contents .aim .aim-image, .contents .aim .inset-image {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .contents .aimcontens {
+    width: 90%;
+    margin: auto;
+    left: 0;
+  }
+  .contents .aimcontens .tags {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 10rem;
+  }
+  .contents .aimcontens h3 {
+    width: 40%;
+    margin: auto;
+    margin-top: -5rem;
+  }
+  .scripture-truth {
+    display: flex;
+    flex-direction: column;
+  }
+  .scripture-truth .content {
+    left: 0;
+    width: 90%;
+    margin: auto;
+  }
+  .scripture-truth .children-image {
+    margin-top: 6.6rem;
+    padding: 0;
+  }
+  .scripture-truth .children-image img {
+    left: 0;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+  .why {
+    width: auto;
+    position: relative;
+    left: 0;
+  }
+  .why .content {
+    width: 125%;
+    position: relative;
+    margin: 0;
+    left: -6rem;
+  }
+  .why .content .content-header {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+  }
+  .why .content .content-header .tag {
+    margin-bottom: 0;
+  }
+  .why .content .content-header h3 {
+    top: -12rem;
+    position: relative;
+  }
+  .why .content p {
+    margin-top: 12rem;
+  }
+}/*# sourceMappingURL=children-department.css.map */

@@ -8,7 +8,7 @@
   position: relative;
 }
 .leadership-screen .inner-container {
-  width: 65.1rem;
+  width: auto;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -44,4 +44,15 @@
   font-weight: 500;
   letter-spacing: 0%;
   font-size: 6.5rem;
+  width: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .leadership-screen .inner-container h1 {
+    width: 50%;
+    height: auto;
+    line-height: 8rem;
+    margin: auto;
+    text-align: center;
+  }
 }/*# sourceMappingURL=header.css.map */
