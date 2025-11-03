@@ -74,7 +74,7 @@ export function Testimonies(){
 
             </div>
             <Form 
-              formheader="Share Your Testimony"
+            formheader="Share Your Testimony"
             btntext="Submit Testimonies"
             h4one="Inspire Others"
             h4two="Glorify God"
