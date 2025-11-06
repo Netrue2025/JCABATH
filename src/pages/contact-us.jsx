@@ -26,7 +26,7 @@ export function ContactUs() {
       <main>
         {/* Import Contact-us screen */}
         <Header tag={VectorOrange} tagname="CONNECT" tittle="Contact Us" />
-        
+
         {/* Contact details section */}
         <section className="contact-container">
           <div className="inner-container">
@@ -102,19 +102,26 @@ export function ContactUs() {
                   placeholder="Tell us about your request"
                 />
               </label>
-              <button className="submit-btn" type="submit">
-                Submit <img src={submitarrowicon} alt="icon" className="arrow-icon" />
-              </button>
+              <div className="submit-btn">
+                <button type="submit">
+                  Submit{" "}
+                  <img
+                    src={submitarrowicon}
+                    alt="icon"
+                    className="arrow-icon"
+                  />
+                </button>
+              </div>
             </form>
           </div>
         </section>
 
         {/* Import Location component */}
-        <Location/>
+        <Location />
       </main>
 
       {/* Import Footer component */}
-      <Footer/>
+      <Footer />
     </>
   );
 }
