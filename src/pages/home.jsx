@@ -100,15 +100,15 @@ export function Home(){
                 <p>
                   We’re a family in Christ, 
                   <span>
-                  committed to discipleship, capacity building, and global impact. 
+                  committed to discipleship, capacity building, and global impact. <br /><br />
 
-                  We believe God calls us to rise and build — strengthening lives and transforming communities through His Word and Spirit.
+                  We believe God calls us to rise and build — strengthening lives and transforming communities through His Word and Spirit. <br /><br />
                   “Then I said to them, ‘You see the trouble we are in: Jerusalem lies in ruins, and its gates have been destroyed by fire.
                    Come, let us rebuild the wall of Jerusalem, that we may no longer suffer disgrace.’ … A
                   nd they said, ‘Let us rise up and build.’ So they strengthened their hands for the good work.” 
-                  </span>
+                  <br /></span>
                   — Nehemiah 2:17–18 (ESV)
-                  <span>
+                  <span><br /><br />
                   Join us as we obey that call — equipping disciples for local and global impact.
                   </span>
                 </p>
@@ -155,10 +155,8 @@ export function Home(){
 
                 </div>
               </div>
-
-             
                 <img src={praying} alt="Image of Congregtion praying mode" />
-             
+              
             </div>
 
             <Link to={'/services'} className="link-f">

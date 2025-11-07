@@ -140,11 +140,6 @@ main .home-screen .heading-with-button button .arrow {
   color: rgb(15, 26, 26);
   margin-top: 0.71rem;
 }
-@media screen and (max-width: 560px) {
-  main .home-screen .heading-container {
-    width: 100vw;
-  }
-}
 main .contacts-main-container {
   display: flex;
   flex-direction: row;
@@ -787,4 +782,139 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
   height: 1.52rem;
   margin: auto;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: 20% !important;
+  }
+  main .home-screen .heading-with-button {
+    margin: 0;
+    position: relative;
+    max-width: 100vw;
+    padding: 0;
+  }
+  main .home-screen .heading-with-button .heading-container {
+    max-width: 100vw;
+    padding: 0 10px;
+    left: 0;
+  }
+  main .home-screen .heading-with-button .heading-container .heading-text h1 {
+    font-size: 12.79rem;
+  }
+  main .home-screen .heading-with-button .heading-container .heading-text .to-church h2 {
+    font-size: 15.803rem;
+  }
+  main .home-screen .heading-with-button .heading-container .heading-text .to-church span {
+    font-size: 11.468rem;
+  }
+  main .home-screen .heading-with-button .heading-container p {
+    margin-left: -6.5rem;
+  }
+  main .third-container {
+    max-width: 100vw;
+    height: auto;
+  }
+  main .third-container .third-container-inset {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    margin-bottom: 30rem;
+  }
+  main .third-container .third-container-inset .images-container {
+    margin: auto;
+  }
+  main .third-container .third-container-inset .third-container-details {
+    margin: auto;
+    height: auto;
+    text-align: center;
+  }
+  main .third-container .third-container-inset .third-container-details .t-c-header-container {
+    text-align: center;
+    margin: auto;
+  }
+  main .third-container .third-container-inset .third-container-details .t-c-header-container .t-c-tag {
+    height: auto;
+    margin: auto;
+  }
+  main .third-container .third-container-inset .third-container-details p {
+    height: auto;
+    text-align: left;
+    font-size: 2.2rem;
+  }
+  main .fourth-continer {
+    max-width: 100vw;
+    height: auto;
+  }
+  main .fourth-continer .f-c-inset {
+    width: 95%;
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    margin-bottom: 75rem;
+    overflow: visible;
+  }
+  main .fourth-continer .f-c-inset .tittle-container {
+    left: 0;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 50%;
+  }
+  main .fourth-continer .f-c-inset .tittle-container .f-c-tag {
+    bottom: 12rem;
+    position: relative;
+    margin: auto;
+  }
+  main .fourth-continer .f-c-inset .tittle-container .f-c-tittle {
+    position: relative;
+    margin: auto;
+    left: 5rem;
+    bottom: 10rem;
+  }
+  main .fourth-continer .f-c-inset img {
+    top: 80rem;
+    width: 95%;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  main .fourth-continer .f-c-inset .inner-boxes {
+    top: 71rem;
+    margin: auto;
+    height: auto;
+    position: relative;
+  }
+  main .fifth-container {
+    height: auto;
+    max-width: 100vw;
+  }
+  main .fifth-container .fifth-inner-con {
+    height: auto;
+    width: 95vw;
+    position: relative;
+    left: -10rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  main .fifth-container .fifth-inner-con .inner-content-one {
+    min-width: 100%;
+  }
+  main .fifth-container .fifth-inner-con .inner-content-twonthree {
+    height: auto;
+    min-width: 95vw;
+  }
+  main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three {
+    min-width: 100%;
+  }
+  main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three p {
+    font-size: 2rem;
+  }
 }/*# sourceMappingURL=home.css.map */

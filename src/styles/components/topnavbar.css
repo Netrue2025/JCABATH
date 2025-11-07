@@ -134,6 +134,15 @@
     font-size: 50.5%;
     width: 100%;
   }
+  .nav-container .inner-container .cancel {
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    left: 12rem;
+    border: none;
+    margin: auto;
+    float: right;
+  }
 }
 @media screen and (max-width: 600px) {
   .nav-container {

@@ -10,7 +10,8 @@ import { Mediadropdown } from "../components/mediadropdown"
 //imported Style sheet
 import "../styles/components/topnavbar.css"
 import "../styles/components/aboutdropdown.css"
-
+import { MdOutlineCancel } from "react-icons/md"
+import { Menu } from "../components/menu"
 
 import { useState } from "react";
 
@@ -20,6 +21,25 @@ export function Topnavbar(props){
         const [connect, setConnect] = useState(false)
         const [events, setEvents] = useState(false)
         const [media, setMedia] = useState(false)
+        const [menu, setMenu] = useState(false)
+        const [hideid, setHideid] = useState("hide")
+
+        const menuclick = () =>{
+            if(menu === false){
+                setMenu(true)
+                setHideid("show")
+                
+                
+            }
+            else if(menu === true){
+                setMenu(false)
+                setHideid("hide")
+            }
+            else{
+                setHideid("hide")
+            }
+
+        }
 
 
     return(
@@ -107,8 +127,21 @@ export function Topnavbar(props){
                         </div>
                         <div><Link to={"/giving"}><input type="button" value="Give"/></Link></div>
                     </aside>
+
+                    <i className="pi pi-align-justify" onClick={menuclick}></i>
                     
-                    <i className="pi pi-align-justify"></i>
+                    <Menu id={hideid} />
+                    
+             
+
+                    
+                    
+                       
+                        
+
+                        
+                  
+           
                 </div>
 
             </section>
