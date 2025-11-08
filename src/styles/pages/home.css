@@ -813,6 +813,9 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     left: 0;
     margin: 0 auto;
   }
+  main .home-screen .heading-with-button .heading-container .heading-text {
+    max-height: 50dvh;
+  }
   main .home-screen .heading-with-button .heading-container .heading-text h1 {
     font-size: 12.79rem;
   }
@@ -833,9 +836,9 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
   main .home-screen .heading-with-button .heading-container p {
     margin: auto;
     margin-left: -5.5rem;
-    top: -30rem;
+    top: -30dvh;
   }
-  main .home-screen .heading-with-button button {
+  main .home-screen .heading-with-button .link {
     margin: 0 auto;
     margin-top: 14rem;
   }

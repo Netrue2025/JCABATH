@@ -992,6 +992,7 @@ main{
                     
                     .heading-text{
                         // background-color: red;
+                        max-height: 50dvh;
                         
                         
                         h1{
@@ -1018,11 +1019,11 @@ main{
                      margin: auto;
                      margin-left: -5.5rem;
 
-                     top: -30rem;
+                     top: -30dvh;
                     }
                 
                 }
-                button{
+                .link{
                     
                     margin:  0 auto;
                     margin-top: 14rem;
