@@ -24,7 +24,6 @@ main .home-screen {
   z-index: 0;
   filter: none;
   max-height: 90dvh;
-  max-height: 90vh;
 }
 main .home-screen .heading-with-button {
   display: flex;
@@ -114,13 +113,10 @@ main .home-screen .heading-with-button .heading-container p span {
 }
 main .home-screen .heading-with-button .link {
   text-decoration: none;
-  margin: 0;
-}
-main .home-screen .heading-with-button button {
   display: flex;
   flex-direction: row;
   width: 20.1rem;
-  height: 6dvh;
+  max-height: 6dvh;
   border-radius: 3rem;
   border: 1px solid rgb(255, 255, 255);
   padding-top: 1.6rem;
@@ -134,8 +130,9 @@ main .home-screen .heading-with-button button {
   cursor: pointer;
   margin: auto 40rem;
   margin-top: 10rem;
+  position: inherit;
 }
-main .home-screen .heading-with-button button p {
+main .home-screen .heading-with-button .link p {
   font-family: montserrat-medium;
   font-weight: 600;
   font-size: 1.5rem;
@@ -145,7 +142,7 @@ main .home-screen .heading-with-button button p {
   margin: 0;
   color: rgb(15, 26, 26);
 }
-main .home-screen .heading-with-button button .arrow {
+main .home-screen .heading-with-button .link .arrow {
   width: 1.387rem;
   height: 0.974rem;
   left: 0.75px;

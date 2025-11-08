@@ -28,7 +28,7 @@ main{
         z-index: 0;
         filter: none;
         max-height: 90dvh;
-        max-height: 90vh;
+        
         
         .heading-with-button{
             display: flex;
@@ -141,14 +141,10 @@ main{
             }
             .link{
                 text-decoration: none;
-                margin: 0;
-            }
-
-            button{
                 display: flex;
                 flex-direction: row;
                 width: 20.1rem;
-                height: 6.0dvh;
+                max-height: 6.0dvh;
                 border-radius: 3.0rem;
                 border: 1px solid rgba(255, 255, 255, 1);
                 padding-top: 1.6rem;
@@ -163,29 +159,36 @@ main{
                 // position: relative;
                 margin: auto 40rem;
                 margin-top: 10rem;
+                position: inherit;
                 
-                // left: 15.5rem;
-
-
-                p{
-                    font-family: montserrat-medium;
-                    font-weight: 600;
-                    font-size: 1.5rem;
-                    line-height: 1.95rem;
-                    letter-spacing: 0%;
-                    vertical-align: middle;
-                    margin: 0;
-                    color: rgba(15, 26, 26, 1);
                     
-                }
-                .arrow{
-                    width: 1.387rem;
-                    height: 0.974rem;
-                    left: 0.75px;
-                    color: rgba(15, 26, 26, 1);
-                    margin-top: 0.71rem;
-                }
+                    // left: 15.5rem;
+
+
+                    p{
+                        font-family: montserrat-medium;
+                        font-weight: 600;
+                        font-size: 1.5rem;
+                        line-height: 1.95rem;
+                        letter-spacing: 0%;
+                        vertical-align: middle;
+                        margin: 0;
+                        color: rgba(15, 26, 26, 1);
+                        
+                    }
+                    .arrow{
+                        width: 1.387rem;
+                        height: 0.974rem;
+                        left: 0.75px;
+                        color: rgba(15, 26, 26, 1);
+                        margin-top: 0.71rem;
+                    }
+                
+
+                
             }
+
+
         }
 
 

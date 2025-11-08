@@ -43,11 +43,11 @@ export function Home(){
 
 
               {/* Contact us Now botton */}
-              <Link to={'/contact-us'} className="link">
-                  <button>
-                    <p>Contact us now</p>
-                    <FaArrowRightLong className="arrow"/>
-                  </button>
+              <Link to={"/services"} className="link">
+                
+                  <p>Contact us now</p>
+                  <FaArrowRightLong className="arrow"/>
+                
               </Link>
 
             </div>
