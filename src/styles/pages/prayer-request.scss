@@ -46,3 +46,18 @@
         }
     }
 }
+
+@media screen and (max-width:600px) {
+    .p-r-contents{
+        .inner-cont{
+            h1{
+                left: -8rem;
+                position: relative;
+            }
+            p{
+                left: -4rem;
+                position: relative;
+            }
+        }
+    }
+}

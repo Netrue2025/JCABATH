@@ -39,13 +39,13 @@
   border-radius: 2.852rem;
 }
 .contents .aimcontens {
-  width: auto;
+  max-width: auto;
   height: auto;
   display: flex;
   flex-direction: column;
   position: relative;
   top: 10.4rem;
-  left: 14rem;
+  left: 12rem;
   gap: 3.7rem;
 }
 .contents .aimcontens .tags {
@@ -80,18 +80,19 @@
   letter-spacing: 3%;
   color: hsl(0, 0%, 0%);
   margin: 0;
+  max-width: 90%;
 }
-.contents .aimcontens p {
-  max-width: 55rem;
+.contents .aimcontens .list {
+  max-width: 55dvw;
   margin: 0;
   position: relative;
   left: -3rem;
 }
-.contents .aimcontens p ol li {
-  width: auto;
+.contents .aimcontens .list ol li {
+  max-width: 85%;
   font-family: montserrat-medium;
   font-weight: 500;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   line-height: 3.3rem;
   letter-spacing: 0%;
   vertical-align: middle;
@@ -106,6 +107,7 @@
   vertical-align: middle;
   color: hsl(0, 2%, 20%);
   margin-top: 0;
+  max-width: 85%;
 }
 .contents .aimcontens p {
   font-family: montserrat-medium;
@@ -117,6 +119,7 @@
   color: hsl(0, 1%, 30%);
   margin-top: 0;
   margin-left: 2.8rem;
+  max-width: 80%;
 }
 
 .scripture-truth {
@@ -147,7 +150,7 @@
   line-height: 120%;
   letter-spacing: 3%;
   color: hsl(0, 0%, 0%);
-  width: 100%;
+  max-width: 100%;
   margin: 0;
   height: auto;
 }
@@ -157,6 +160,9 @@
   font-size: 4rem;
   line-height: 120%;
   letter-spacing: 3%;
+}
+.scripture-truth .content h4 {
+  width: 90%;
 }
 .scripture-truth .content p {
   font-family: montserrat-medium;
@@ -305,10 +311,33 @@
     margin-bottom: 0;
     margin-top: 10rem;
   }
+  .contents .aimcontens .list {
+    left: -6rem;
+  }
+  .contents .aimcontens .list ol {
+    margin: auto;
+  }
+  .contents .aimcontens .list ol li {
+    min-width: 90dvw;
+    margin: auto;
+    font-size: 2.2rem;
+    line-height: 4rem;
+    justify-content: space-between;
+  }
   .contents .aimcontens h3 {
     width: 40%;
     margin: auto;
     margin-top: -5rem;
+  }
+  .contents .aimcontens p {
+    font-size: 2.5rem;
+    min-width: 90dvw;
+    left: -2.5rem;
+    position: relative;
+  }
+  .contents .aimcontens h4 {
+    font-size: 2.2rem;
+    min-width: 90dvw;
   }
   .scripture-truth {
     display: flex;
@@ -355,5 +384,8 @@
   }
   .why .content p {
     margin-top: 12rem;
+    left: -5rem;
+    width: 100dvw;
+    position: relative;
   }
 }/*# sourceMappingURL=children-department.css.map */

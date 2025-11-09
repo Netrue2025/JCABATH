@@ -45,16 +45,16 @@
 
             }
         }
-    }
 
+    }
     .aimcontens{
-        width: auto;
+        max-width: auto;
         height: auto;
         display: flex;
         flex-direction: column;
         position: relative;
         top: 10.4rem;
-        left: 14rem;
+        left: 12rem;
         gap: 3.7rem;
 
         .tags{
@@ -92,21 +92,23 @@
             letter-spacing: 3%;
             color: hsla(0, 0%, 0%, 1);
             margin: 0;
+            max-width: 90%;
         }
-        p{
-            max-width: 55.0rem;
+        .list{
+            max-width: 55.0dvw;
             margin: 0;
             position: relative;
             left: -3rem;
             
+            
             ol{
                 li{
-                    width: auto;
+                    max-width: 85%;
                     font-family: montserrat-medium;
                     font-weight: 500;
-                    font-size: 1.7rem;
+                    font-size: 1.5rem;
                     line-height: 3.3rem;
-                    letter-spacing: 0%;
+                    letter-spacing: 0%; 
                     vertical-align: middle;
                     color: hsla(0, 1%, 30%, 1);
                 }
@@ -121,6 +123,7 @@
             vertical-align: middle;
             color: hsla(0, 2%, 20%, 1);
             margin-top: 0;
+            max-width: 85%;
         }
         p{
             font-family: montserrat-medium;
@@ -132,11 +135,13 @@
             color: hsla(0, 1%, 30%, 1);
             margin-top: 0;
             margin-left: 2.8rem;
+            max-width: 80%;
             
         }
 
     }
 }
+
 
 // criptural truth section
 .scripture-truth{
@@ -169,7 +174,7 @@
             line-height: 120%;
             letter-spacing: 3%;
             color: hsla(0, 0%, 0%, 1);
-            width: 100%;
+            max-width: 100%;
             margin: 0;
             height: auto;
 
@@ -180,6 +185,9 @@
                 line-height: 120%;
                 letter-spacing: 3%;
             }
+        }
+        h4{
+            width: 90%;
         }
         p{
             font-family: montserrat-medium;
@@ -354,6 +362,19 @@
                 margin-bottom: 0;
                 margin-top: 10rem;
             }
+            .list{
+               left: -6rem;
+                ol{
+                    margin: auto;
+                    li{
+                        min-width: 90dvw;
+                        margin: auto;
+                        font-size: 2.2rem;
+                        line-height: 4rem;
+                        justify-content: space-between;
+                    }
+                }
+            }
             h3{
                 width: 40%;
                 
@@ -361,7 +382,19 @@
                 margin-top: -5rem;
 
             }
+            p{
+                font-size: 2.5rem;
+                min-width: 90dvw;
+                left: -2.5rem;
+                position: relative;
+            }
+            h4{
+                font-size: 2.2rem;
+                min-width: 90dvw;
+            }
+         
         }
+
     }
 
     // criptural truth section
@@ -423,6 +456,10 @@
             }
             p{
                 margin-top: 12rem;
+                left: -5rem;
+                width: 100dvw;
+                position: relative;
+                
             }
         }
     }

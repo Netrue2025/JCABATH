@@ -266,12 +266,15 @@
     height: auto;
     margin: 0;
   }
+  .main .mission-statement-con .m-s-contents p {
+    font-size: 2.5rem;
+  }
   .main .a-g-outreach-container {
     width: 95vw;
     display: flex;
     flex-direction: column;
     margin: 15rem auto;
-    margin-top: 0;
+    margin-top: 12rem;
     position: relative;
   }
   .main .a-g-outreach-container .a-g-header {
@@ -284,7 +287,7 @@
     width: 95vw;
     margin: auto;
     position: relative;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     line-height: 5.3rem;
   }
   .main .a-g-outreach-container .a-g-contents p span {
@@ -312,7 +315,7 @@
   .main .boxes-container .green-box .g-b-paragraph p {
     min-width: 100%;
     margin: auto;
-    font-size: 1.8rem;
+    font-size: 1.82rem;
   }
   .main .boxes-container .black-box {
     margin: auto;
@@ -331,7 +334,7 @@
     margin: auto;
   }
   .main .boxes-container .black-box .b-b-paragraph p {
-    font-size: 1.9rem;
+    font-size: 1.95rem;
     min-width: 100%;
     margin: auto;
   }
@@ -339,5 +342,8 @@
     position: relative;
     margin: auto;
     width: 90vw;
+  }
+  .main .others-container p {
+    font-size: 2.5rem;
   }
 }/*# sourceMappingURL=amazing-grace.css.map */
