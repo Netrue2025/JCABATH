@@ -14,7 +14,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export function AboutUs() {
   return (
-    <div>
+    <div id="about-us">
       {/* Top navigation bar */}
       <Topnavbar />
 
