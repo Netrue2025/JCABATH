@@ -4,44 +4,77 @@ import smicontwo from "../media/images/smicontwo.png"
 import smiconthree from "../media/images/smiconthree.png"
 import smiconfour from "../media/images/smiconfour.png"
 import "../styles/components/form.css"
+import { useState } from "react";
+import Swal from 'sweetalert2'
 
 export function Form(props){
+    const [result, setResult] = useState("");
+
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        setResult("Sending....");
+        const formData = new FormData(event.target);
+        formData.append("access_key", "9827dd45-4565-4004-8428-a63fab8a508c");
+
+        const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+        });
+
+        const data = await response.json();
+        if (data.success) {
+            Swal.fire({
+                title: "Form Submited!",
+                text: "Thank your for shareing your testimony with us!",
+                icon: "success"
+            });
+            } else {
+            setResult("Error");
+        }
+    }
     return(
         <>
             <div className="form-container">
                 {/* form section */}
                 <div className="form-section">
                     <div className="inner-section">
-                    <h2>{props.formheader}</h2>
+                        <h2>{props.formheader}</h2>
                         <div className="input-box-section">
-                            <div className="input">
-                                <div className="input-one">
-                                    <div className="first-name">
-                                        <p>First Name</p>
-                                        <input type="text" placeholder="First Name"/>
+                            <form onSubmit={onSubmit}> 
+                                <div className="input">
+                                
+                                    <div className="input-one">
+                                        <div className="first-name">
+                                            <p>First Name</p>
+                                            <input type="text" placeholder="First Name" name="First-name" required/>
+                                        </div>
+                                        <div className="last-name">
+                                            <p>Last Name</p>
+                                            <input type="text" placeholder="Last Name" name="Last-name" required/>
+                                        </div>
                                     </div>
-                                    <div className="last-name">
-                                        <p>Last Name</p>
-                                        <input type="text" placeholder="Last Name"/>
+                                    <div className="input-two">
+                                        <div className="email">
+                                            <p>Email</p>
+                                            <input type="email" placeholder="Email" name="Email" required/>
+                                        </div>
+                                        <div className="subject">
+                                            <p>Subject</p>
+                                            <input type="text" placeholder="subject" name="subject" required/>
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="input-two">
-                                    <div className="email">
-                                        <p>Email</p>
-                                        <input type="email" placeholder="Email"/>
+                                    <div className="text-area">
+                                        <p>Message</p>
+                                        <input type="texarea" color="4" placeholder="Messages" name="Message" required/>
                                     </div>
-                                    <div className="subject">
-                                        <p>Subject</p>
-                                        <input type="text" placeholder="subject" />
-                                    </div>
-                                </div>
-                                <div className="text-area">
-                                    <p>Message</p>
-                                    <input type="texarea" color="4" placeholder="Messages"/>
-                                </div>
-                            </div>
+                                
 
-                            <button><p>{props.btntext}</p> <FaArrowRightLong className="arrow"/></button>
+                                </div>
+                                <button type="submit"><p>{props.btntext}</p> <FaArrowRightLong className="arrow"/></button>
+                            </form>
+
+                            <h1>{result}</h1>
+
                         </div>
                     </div>
                 </div>
