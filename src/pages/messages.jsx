@@ -137,6 +137,20 @@ export function Messages(){
                             🔰GOD CALLED YOU TO THAT INDUSTRY TO DO HIS WILL; REPRESENT HIM WELL.
                         </p>
                     </div>
+
+                    
+                    <div className="left-prev-next">
+                        <h5>Prev</h5>
+                        <div className="round">
+                            <p>1</p>
+                        </div>
+                        <div className="round">
+                            <p>2</p>
+                        </div>
+                        
+                        <h5>...</h5>
+                        <h5>Next</h5>
+                    </div>
                 </div>
             </div>
 

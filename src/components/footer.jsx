@@ -40,7 +40,7 @@ export function Footer(){
                         <h2>Quick Links</h2>
                         <div className="quicklinks">
                             <Link to={"/"}><span>Homepage</span></Link>
-                            <Link to={"/about-us"}><span>Ministries</span></Link>
+                            <Link to={"/jca-good-women"}><span>Ministries</span></Link>
                             <Link to={"/contact-us"}><span>Connect</span></Link>
                             <Link to={"/messages"}><span>Media</span></Link>
                             <Link to={"/amazing-grace"}><span>Events</span></Link>
@@ -61,9 +61,9 @@ export function Footer(){
                     <div className="social-media">
                         <h2>Connect with us</h2>
                         <div className="icons">
-                            <Link to="https://tiktok.com"><FaTiktok className="tiktok"/></Link>
-                            <Link to='https://instagram.com'><FaInstagram className="instagram"/></Link>
-                            <Link to="https://youtube.com"><FaYoutube className="youtube"/></Link>
+                            <Link to="https://www.tiktok.com/@rccg_jcabath?_r=1&_t=ZN-91I3CnaSGSw"><FaTiktok className="tiktok"/></Link>
+                            <Link to='https://www.instagram.com/rccgjcabath?igsh=MTNjYXF2cGUxcDd1eg=='><FaInstagram className="instagram"/></Link>
+                            <Link to="https://youtube.com/@rccgbath?si=KLDW3IZU7TMjKMHq"><FaYoutube className="youtube"/></Link>
                             <Link to="https://whatsapp.com"><FaWhatsapp className="whatsapp"/></Link>
                         </div>
 
