@@ -56,6 +56,7 @@
   height: 9.15dvh;
   justify-content: space-between;
   margin-bottom: 3.5rem;
+  color: hsl(0, 0%, 43%);
 }
 .form-container .form-section .inner-section .input-box-section .input .input-one .first-name, .form-container .form-section .inner-section .input-box-section .input .input-one .last-name, .form-container .form-section .inner-section .input-box-section .input .input-one .email, .form-container .form-section .inner-section .input-box-section .input .input-one .subject, .form-container .form-section .inner-section .input-box-section .input .input-two .first-name, .form-container .form-section .inner-section .input-box-section .input .input-two .last-name, .form-container .form-section .inner-section .input-box-section .input .input-two .email, .form-container .form-section .inner-section .input-box-section .input .input-two .subject {
   margin: auto;
@@ -73,13 +74,14 @@
   height: 5.9dvh;
   position: relative;
   border-radius: 1rem;
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 43%);
   border: 1px solid hsla(0, 0%, 100%, 0.27);
 }
 .form-container .form-section .inner-section .input-box-section .input .text-area {
   max-width: 53.7rem;
   height: 20.3rem;
   gap: 1.2rem;
+  margin: auto;
 }
 .form-container .form-section .inner-section .input-box-section .input .text-area p {
   font-family: montserrat-light;
@@ -91,9 +93,10 @@
 }
 .form-container .form-section .inner-section .input-box-section .input .text-area input {
   width: 53.7rem;
-  height: 16.8rem;
+  height: 16.8dvh;
   border-radius: 1rem;
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 43%);
+  margin: auto;
   border: 1px solid hsla(0, 0%, 100%, 0.27);
 }
 .form-container .form-section .inner-section .input-box-section button {

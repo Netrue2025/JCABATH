@@ -57,6 +57,7 @@
                         height: 9.15dvh;
                         justify-content: space-between;
                         margin-bottom: 3.5rem;
+                        color: hsla(0, 0%, 43%, 1);
 
                         .first-name, .last-name, .email, .subject{
                             margin: auto;
@@ -76,9 +77,9 @@
                                height: 5.9dvh;
                                position: relative;
                                
-                            //    left: 1.0rem;
+                                
                                border-radius: 1.0rem;
-                               color: hsla(0, 0%, 100%, 1);
+                               color: hsla(0, 0%, 43%, 1);
                                border: 1px solid hsla(0, 0%, 100%, 0.27);
                             //    margin-bottom: 10.25rem;
                             }
@@ -92,6 +93,7 @@
                         max-width: 53.7rem;
                         height: 20.3rem;
                         gap: 1.2rem;
+                        margin: auto;
 
                         p{
                            font-family: montserrat-light;
@@ -102,10 +104,11 @@
                            color: hsla(43, 33%, 92%, 1); 
                         }
                         input{
-                            width: 53.7rem;
-                            height: 16.8rem;
+                           width: 53.7rem;
+                            height: 16.8dvh;
                             border-radius: 1.0rem;
-                            color: hsla(0, 0%, 100%, 1);
+                            color: hsla(0, 0%, 43%, 1);
+                            margin: auto;
                             border: 1px solid hsla(0, 0%, 100%, 0.27);
                         }
                     }
