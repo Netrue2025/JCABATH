@@ -12,7 +12,7 @@ export function Form(props){
 
     const onSubmit = async (event) => {
         event.preventDefault();
-        setResult("Sending....");
+        setResult("Sending....");n
         const formData = new FormData(event.target);
         formData.append("access_key", "9827dd45-4565-4004-8428-a63fab8a508c");
 
