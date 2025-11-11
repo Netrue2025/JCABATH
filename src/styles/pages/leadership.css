@@ -4,10 +4,11 @@ main {
   max-width: 100%;
   background-color: #fff;
   color: #000;
+  height: auto;
 }
 main .our-leaders {
   max-width: 100%;
-  height: 183.1rem;
+  height: auto;
 }
 main .our-leaders .inner-container {
   max-width: 90%;
@@ -20,7 +21,6 @@ main .our-leaders .inner-container {
   text-align: center;
   flex-direction: column;
   line-height: 0%;
-  overflow: scroll;
 }
 main .our-leaders .inner-container .subheading {
   max-width: 87.2rem;
@@ -63,4 +63,21 @@ main .our-leaders .inner-container .our-leaders-profile-cards .card img {
 }
 main .our-leaders .inner-container::-webkit-scrollbar {
   display: none;
+}
+
+@media screen and (max-width: 600px) {
+  main .our-leaders {
+    position: relative;
+    height: auto;
+  }
+  main .our-leaders .inner-container {
+    height: auto;
+    position: relative;
+    margin: auto;
+    padding-bottom: 120rem;
+  }
+  main .our-leaders .inner-container .subheading p {
+    line-height: 1.5;
+    font-size: 2.7rem;
+  }
 }/*# sourceMappingURL=leadership.css.map */

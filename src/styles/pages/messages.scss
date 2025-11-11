@@ -254,7 +254,7 @@
                     font-family: montserrat-light;
                     font-weight: 600;
                     font-size: 2.4rem;
-                    line-height: 3.3rem;
+                    line-height: 2.3;
                     letter-spacing: 0%;
                     vertical-align: middle;
                     // color: hsla(0, 1%, 18%, 1);
@@ -290,9 +290,7 @@
                 width: 28.5rem;
                 min-height: 5.4dvh;
                 margin: auto;
-                
-
-             
+              
             }
             .message-tittle-container{
                 margin: auto;
@@ -309,8 +307,8 @@
                     h3{
                         color: hsla(255, 83%, 42%, 1);
                         font-size: 3.2rem;
-
-width: 100%;                    }
+                        width: 100%;                
+                    }
                     p{
                         color: hsla(255, 83%, 42%, 1);
                         font-size: 2.2rem;

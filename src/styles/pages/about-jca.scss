@@ -177,3 +177,42 @@ main {
     }
   }
 }
+
+// Mobile View
+@media screen and (max-width:600px) {
+  main{
+    height: auto;
+     .church-vision{
+      height: auto;
+      padding-bottom: 10rem;
+      width: 100dvw;
+
+      .mission-statements{
+        width: 100dvw;
+       
+        .mission-statements-cards{
+          display: flex;
+          flex-direction: column;
+          width: 90dvw;
+          margin: auto;
+
+          .card, .card1, .card2, .card3{
+            min-width: 90%;
+
+            h3{
+              font-size: 4.4rem;
+              margin: 1rem auto;
+            }
+            p{
+              font-size: 2.65rem;
+              min-width: 100%;
+              line-height: 1.2;
+            }
+          }
+        }
+       
+      }
+     }
+  }
+  
+}

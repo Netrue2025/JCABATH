@@ -2,58 +2,18 @@ main {
   max-width: 100%;
   font-family: Montserrat, sans-serif;
   box-sizing: border-box;
+  height: auto;
 }
-main .about-us-home {
-  font-family: Montserrat, sans-serif;
-  max-width: 100%;
-  height: 44.7rem;
-  background-image: linear-gradient(to right, rgb(3, 0, 18), rgba(30, 30, 27, 0)), url("../../media/images/background.png");
-  left: -0.1rem;
-}
-main .about-us-home .about-rccg {
-  width: 65.1rem;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 10.2rem;
-  line-height: 0;
-  margin: auto;
-  box-sizing: border-box;
-  align-items: center;
-}
-main .about-us-home .about-rccg .icon-with-name {
-  display: flex;
-  flex-direction: row;
-  gap: 3.25rem;
-  align-items: center;
-}
-main .about-us-home .about-rccg .icon-with-name img {
-  width: 1.744rem;
-  height: 1.744rem;
-}
-main .about-us-home .about-rccg .icon-with-name p {
-  font-size: 1.3rem;
-  color: rgba(255, 255, 255, 0.831372549);
-  letter-spacing: 2.5px;
-  font-weight: 400;
-  font-family: montserrat-light;
-}
-main .about-us-home .about-rccg p {
-  font-family: clash-display-medium;
-  color: #ffffff;
-  font-size: 6.5rem;
-}
-
-.our-goal {
+main .our-goal {
   width: 100%;
-  height: 102.7rem;
+  min-height: 102.7rem;
   background-color: #ffffff;
   color: #000000;
   box-sizing: border-box;
 }
-.our-goal .our-goal-container {
+main .our-goal .our-goal-container {
   max-width: 120rem;
-  height: 73.8rem;
+  height: auto;
   position: relative;
   top: 14.6rem;
   padding: 0 1rem;
@@ -62,25 +22,26 @@ main .about-us-home .about-rccg p {
   justify-content: space-between;
   box-sizing: border-box;
 }
-.our-goal .our-goal-container .our-goal-img {
+main .our-goal .our-goal-container .our-goal-img {
   max-width: 59rem;
   max-height: 73.8rem;
   box-sizing: border-box;
 }
-.our-goal .our-goal-container .our-goal-img img {
+main .our-goal .our-goal-container .our-goal-img img {
   width: 100%;
   height: 100%;
   border-radius: 2.85rem;
 }
-.our-goal .our-goal-container .our_goal-content {
+main .our-goal .our-goal-container .our_goal-content {
   max-width: 55rem;
-  max-height: 71.8rem;
+  height: auto;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   box-sizing: border-box;
+  padding-bottom: 20rem;
 }
-.our-goal .our-goal-container .our_goal-content .our_goal-content-title {
+main .our-goal .our-goal-container .our_goal-content .our_goal-content-title {
   max-width: 53.2rem;
   max-height: 17.9rem;
   display: flex;
@@ -88,56 +49,59 @@ main .about-us-home .about-rccg p {
   line-height: 0;
   flex-direction: column;
 }
-.our-goal .our-goal-container .our_goal-content .our_goal-content-title .icon-with-name {
+main .our-goal .our-goal-container .our_goal-content .our_goal-content-title .icon-with-name {
   display: flex;
   flex-direction: row;
   gap: 1.5rem;
   align-items: center;
 }
-.our-goal .our-goal-container .our_goal-content .our_goal-content-title .icon-with-name img {
+main .our-goal .our-goal-container .our_goal-content .our_goal-content-title .icon-with-name img {
   width: 1.744rem;
   height: 1.744rem;
 }
-.our-goal .our-goal-container .our_goal-content .our_goal-content-title .icon-with-name p {
+main .our-goal .our-goal-container .our_goal-content .our_goal-content-title .icon-with-name p {
   font-size: 1.3rem;
   letter-spacing: 0.25rem;
   font-weight: 300;
   font-family: clash-display-light;
   color: #000000;
 }
-.our-goal .our-goal-container .our_goal-content .our_goal-content-title h1 {
+main .our-goal .our-goal-container .our_goal-content .our_goal-content-title h1 {
   font-size: 4.8rem;
   letter-spacing: 3%;
   color: #c1c3c8;
   font-family: clash-display-bold;
   margin-bottom: 2rem;
 }
-.our-goal .our-goal-container .our_goal-content .our_goal-content-title h2 {
+main .our-goal .our-goal-container .our_goal-content .our_goal-content-title h2 {
   font-size: 4rem;
   letter-spacing: 3%;
   color: #000000;
   font-family: clash-display-bold;
 }
-.our-goal .our-goal-container .our_goal-content ol {
+main .our-goal .our-goal-container .our_goal-content ol {
   margin: 0;
   list-style-position: outside;
   padding-left: 2rem;
   letter-spacing: 0%;
-  font-size: 1.7rem;
+  font-size: 2.2rem;
   color: #4c4b4b;
   font-weight: 600;
-  font-family: Montserrat;
+  font-family: Montserrat-semibold;
   overflow-wrap: break-word;
+  line-height: 2.55rem;
 }
-.our-goal .our-goal-container .our_goal-content ol li {
+main .our-goal .our-goal-container .our_goal-content ol li {
   margin-bottom: 2.55rem;
-  line-height: 1.6;
+  line-height: 1.55;
   text-align: justify;
+  letter-spacing: 0%;
 }
-.our-goal .our-goal-container .our_goal-content .link {
+main .our-goal .our-goal-container .our_goal-content .link {
   text-decoration: none;
+  margin: 0;
 }
-.our-goal .our-goal-container .our_goal-content .link button {
+main .our-goal .our-goal-container .our_goal-content .link button {
   padding: 1.6rem 2.4rem;
   cursor: pointer;
   border-radius: 3rem;
@@ -145,7 +109,22 @@ main .about-us-home .about-rccg p {
   border-style: none;
   display: flex;
   gap: 1rem;
+  color: #ffffff;
 }
-.our-goal .our-goal-container .our_goal-content .link button .arrow {
+main .our-goal .our-goal-container .our_goal-content .link button .arrow {
   margin: auto;
+}
+@media screen and (max-width: 600px) {
+  main .our-goal {
+    height: auto;
+  }
+  main .our-goal .our-goal-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  main .our-goal .our-goal-container .our_goal-content {
+    margin: auto;
+    margin-top: 10rem;
+  }
 }/*# sourceMappingURL=about-us.css.map */

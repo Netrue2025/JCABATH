@@ -209,7 +209,7 @@
             
 
             figure{
-                width: auto;
+                width: 80dvw;
                 height: 3.513rem;
                 gap: 0.668rem;
 
@@ -223,8 +223,12 @@
                 }
                 .logo-name{
                     height: auto;
-                    width: auto;
+                    width: 40dvw;
                     position: relative;
+                    float: left;
+                    padding: 0;
+                    margin-left: 0;
+                    // top: -2.5rem;
                    
                     
 
@@ -243,6 +247,7 @@
             }
             .nav-menu{
                 display: none;
+                width: auto;
             }
             .pi{
                 font-size: 1.91rem;
@@ -251,9 +256,9 @@
                 font-size: large;
                 font-weight: 700;
                 
-                width: 5vw;
+                width: 5dvw;
                 height: 4dvh;
-                margin-left: 50%;
+                // margin-left: 50%;
                 margin-top: 5%;
         
                

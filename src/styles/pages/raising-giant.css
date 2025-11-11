@@ -116,4 +116,47 @@
   letter-spacing: 0%;
   line-height: 3.5rem;
   font-family: montserrat-light;
+}
+
+@media screen and (max-width: 600px) {
+  .raising-giant-page {
+    height: auto;
+  }
+  .raising-giant-page .raising-giant-container {
+    height: auto;
+  }
+  .raising-giant-page .raising-giant-container .inner-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-width: 90vw;
+    padding-bottom: 20rem;
+  }
+  .raising-giant-page .raising-giant-container .inner-container .inner-container-image {
+    max-width: 90vw;
+  }
+  .raising-giant-page .raising-giant-container .inner-container .inner-container-image .RaisingGiantImg1 {
+    width: 100%;
+  }
+  .raising-giant-page .raising-giant-container .inner-container .inner-container-image .bottom-images {
+    width: 100%;
+  }
+  .raising-giant-page .raising-giant-container .inner-container .inner-container-image .bottom-images .RaisingGiantImg2 {
+    width: 47%;
+  }
+  .raising-giant-page .raising-giant-container .inner-container .inner-container-image .bottom-images .RaisingGiantImg3 {
+    width: 47%;
+  }
+  .raising-giant-page .raising-giant-container .inner-container .inner-container-texts {
+    height: auto;
+    margin: auto;
+  }
+  .raising-giant-page .raising-giant-container .inner-container .inner-container-texts .top-paragraph p {
+    font-size: 2.7rem;
+    line-height: 1.45;
+  }
+  .raising-giant-page .raising-giant-container .inner-container .inner-container-texts .bottom-paragraph p {
+    font-size: 2.7rem;
+    line-height: 1.45;
+  }
 }/*# sourceMappingURL=raising-giant.css.map */

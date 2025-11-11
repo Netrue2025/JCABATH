@@ -65,7 +65,9 @@ export function Form(props){
                                     </div>
                                     <div className="text-area">
                                         <p>Message</p>
-                                        <input type="texarea" color="4" placeholder="Messages" name="Message" required/>
+                                            <textarea name="" id="" rows="4" cols="50">
+                                                
+                                            </textarea>
                                     </div>
                                 
 

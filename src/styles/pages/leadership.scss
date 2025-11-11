@@ -4,6 +4,7 @@ main {
   max-width: 100%;
   background-color: #fff;
   color: #000;
+  height: auto;
   // position: relative;
 
 
@@ -11,7 +12,7 @@ main {
   //   Meet our leaders
   .our-leaders {
     max-width: 100%;
-    height: 183.1rem;
+    height: auto;
 
     .inner-container {
       max-width: 90%;
@@ -25,7 +26,7 @@ main {
       flex-direction: column;
       line-height: 0%;
       // background-color: red;
-      overflow: scroll;
+      // overflow: scroll;
 
     //   border: 1px solid red;
 
@@ -82,4 +83,31 @@ main {
      }
     
   }
+}
+
+// Mobile view
+@media screen and (max-width: 600px) {
+  main{
+    .our-leaders{
+      position: relative;
+      height: auto;
+    
+      
+      .inner-container{
+        height: auto;
+       
+        position: relative;
+        margin: auto;
+        padding-bottom: 120rem;
+
+        .subheading{
+          p{
+            line-height: 1.5;
+            font-size: 2.7rem;
+          }
+        }
+      }
+    }
+  }
+  
 }
