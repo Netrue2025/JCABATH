@@ -65,7 +65,7 @@ export function Form(props){
                                     </div>
                                     <div className="text-area">
                                         <p>Message</p>
-                                            <textarea name="" id="" rows="4" cols="50">
+                                            <textarea name="" id="" rows="4" cols="50" required>
                                                 
                                             </textarea>
                                     </div>
