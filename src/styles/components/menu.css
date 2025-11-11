@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .menu-container {
     position: absolute;
     background-color: #ffffff;
@@ -12,6 +12,8 @@
     padding-bottom: 10rem;
     transition: width 2s, height 2s, transform 2s;
     transition-delay: 2s;
+    display: flex;
+    flex-direction: column;
   }
   .menu-container .inset-container {
     width: 90%;
@@ -50,6 +52,51 @@
   }
   .menu-container .inset-container .inner-one .menu-btn h2 .arrow {
     margin: auto 0;
+  }
+  .menu-container .inset-container .inner-one .about-dropdown-hide {
+    display: none;
+  }
+  .menu-container .inset-container .inner-one .about-dropdown-show {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-container .inset-container .inner-one .ministry-dropdown-hide {
+    display: none;
+  }
+  .menu-container .inset-container .inner-one .ministry-dropdown-show {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-container .inset-container .inner-one .connect-dropdown-hide {
+    display: none;
+  }
+  .menu-container .inset-container .inner-one .connect-dropdown-show {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-container .inset-container .inner-one .media-dropdown-hide {
+    display: none;
+  }
+  .menu-container .inset-container .inner-one .media-dropdown-show {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-container .inset-container .inner-one .evts-dropdown-hide {
+    display: none;
+  }
+  .menu-container .inset-container .inner-one .evts-dropdown-show {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-container .inset-container .inner-one .about-dropdown-show .link, .menu-container .inset-container .inner-one .ministry-dropdown-show .link, .menu-container .inset-container .inner-one .connect-dropdown-show .link, .menu-container .inset-container .inner-one .media-dropdown-show .link, .menu-container .inset-container .inner-one .evts-dropdown-show .link {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .menu-container .inset-container .inner-one .about-dropdown-show .link h2, .menu-container .inset-container .inner-one .ministry-dropdown-show .link h2, .menu-container .inset-container .inner-one .connect-dropdown-show .link h2, .menu-container .inset-container .inner-one .media-dropdown-show .link h2, .menu-container .inset-container .inner-one .evts-dropdown-show .link h2 {
+    font-size: 2.2rem;
+    font-family: montserrat-light;
+    color: hsl(216, 7%, 13%);
+    font-weight: 300;
   }
   .menu-container button {
     display: flex;
