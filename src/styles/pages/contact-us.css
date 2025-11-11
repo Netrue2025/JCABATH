@@ -226,10 +226,28 @@ main .contact-container .inner-container .contact-form .submit-btn .arrow-icon {
     height: fit-content;
     text-align: center;
   }
+  main .contact-container .inner-container .contact-details .get-in-touch h2 {
+    font-size: 6rem;
+  }
+  main .contact-container .inner-container .contact-details .get-in-touch p {
+    font-size: 3.2rem;
+  }
   main .contact-container .inner-container .contact-details .get-in-touch .contact-information {
     width: 100%;
     height: -moz-fit-content;
     height: fit-content;
+  }
+  main .contact-container .inner-container .contact-details .get-in-touch .contact-information .contact p {
+    font-size: 2.8rem;
+  }
+  main .contact-container .inner-container .contact-details .get-in-touch .contact-information .contact a {
+    font-size: 2.4rem;
+  }
+  main .contact-container .inner-container .contact-details .get-in-touch .contact-information .contact-email {
+    padding: 2rem 0;
+  }
+  main .contact-container .inner-container .contact-details .get-in-touch .contact-information whatsapp.-email {
+    padding: 5rem 0;
   }
   main .contact-container .inner-container .contact-form {
     width: 100%;

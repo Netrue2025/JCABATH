@@ -17,11 +17,11 @@ import { Location } from "../components/location"
 import { FaChurch } from "react-icons/fa6";
 import { RiInstagramLine } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
-import pastorandwife from "../media/images/pastorandwife.png"
-import pstmrs from "../media/images/pstmrs.png"
-import congregation from "../media/images/congregation.png"
-import yellowicon from "../media/images/yellow-icon.png"
-import praying from "../media/images/praying.png"
+import pastorandwife from "../media/images/pastorandwife.png";
+import pstmrs from "../media/images/pstmrs.png";
+import congregation from "../media/images/congregation.png";
+import yellowicon from "../media/images/yellow-icon.png";
+import praying from "../media/images/praying.png";
 
 export function Home(){
     return(
