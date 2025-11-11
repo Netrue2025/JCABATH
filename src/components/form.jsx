@@ -12,7 +12,7 @@ export function Form(props){
 
     const onSubmit = async (event) => {
         event.preventDefault();
-        setResult("Sending....");n
+        setResult("Sending....");
         const formData = new FormData(event.target);
         formData.append("access_key", "9827dd45-4565-4004-8428-a63fab8a508c");
 
@@ -65,14 +65,16 @@ export function Form(props){
                                     </div>
                                     <div className="text-area">
                                         <p>Message</p>
-                                            <textarea name="" id="" rows="4" cols="50" required>
-                                                
+                                            <textarea name="message" rows="4" cols="50"  required>
+                                                Input Message
                                             </textarea>
                                     </div>
+                                    
                                 
 
                                 </div>
-                                <button type="submit"><p>{props.btntext}</p> <FaArrowRightLong className="arrow"/></button>
+                                <h1>{result}</h1>
+                                <button type="submit" ><p>{props.btntext}</p> <FaArrowRightLong className="arrow"/></button>
                             </form>
 
                             <h1>{result}</h1>
