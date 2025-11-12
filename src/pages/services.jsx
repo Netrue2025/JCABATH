@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import "../styles/pages/services.css";
 import { FaArrowRight } from "react-icons/fa6";
@@ -78,22 +77,3 @@ export function Services() {
     </div>
   );
 }
-=======
-
-// import "../styles/pages/home.css";
-import yellowicon from "../media/images/yellow-icon.png";
-import praying from "../media/images/praying.png"
-import "../styles/pages/services.css";
-import { Topnavbar } from "../components/topnavbar";
-
-export function Services(){
-    return(
-        <>
-          {/* Top nav bar */}
-          <Topnavbar />
-   
-          
-        </>
-    )
-}
->>>>>>> 21ed42a557d44aa2a63fe575cfc6fed74bd35a2d
