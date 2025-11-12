@@ -17,7 +17,7 @@ import { RaisingGiant } from "./pages/raising-giant"
 import { Services } from "./pages/services"
 import { Testimonies } from "./pages/testimonies"
 import { ScrollToTop } from "./components/scrolltotop"
-import { Admin } from "./pages/admin/admin"
+
 
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
           <Route path="/raising-giant" element={<RaisingGiant />}></Route>
           <Route path="/services" element={<Services />}></Route>
           <Route path="/testimonies" element={<Testimonies />}></Route>
-          <Route path="/admin" element={<Admin />}></Route>
+          {/* <Route path="/admin" element={<Admin />}></Route> */}
           
         </Routes>
       </Router>
