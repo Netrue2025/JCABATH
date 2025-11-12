@@ -1,11 +1,11 @@
 main {
   margin: 0;
-  top: 11.7rem;
-  left: -0.1rem;
   padding: 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  position: relative;
+  max-width: 100vw;
 }
 main .home-screen {
   background-image: linear-gradient(to right, rgb(3, 0, 18), rgba(30, 30, 27, 0)), url("../../media/images/background.png");
@@ -20,16 +20,25 @@ main .home-screen {
   flex-direction: column;
   flex-wrap: wrap;
   overflow: hidden;
+  position: relative;
+  z-index: 0;
+  filter: none;
+  max-height: 90dvh;
+  max-width: 100vw;
 }
 main .home-screen .heading-with-button {
   display: flex;
   flex-direction: column;
+  height: 90dvh;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
 }
 main .home-screen .heading-with-button .heading-container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  max-height: 41.6rem;
+  max-height: 41.6dvh;
   max-width: 72.4rem;
   top: 16.819rem;
   left: 11.6rem;
@@ -40,7 +49,7 @@ main .home-screen .heading-with-button .heading-container {
 main .home-screen .heading-with-button .heading-container .heading-text {
   display: flex;
   flex-direction: column;
-  width: auto;
+  max-width: 95vw;
   position: relative;
   z-index: 0;
 }
@@ -51,29 +60,30 @@ main .home-screen .heading-with-button .heading-container .heading-text h1 {
   letter-spacing: 0%;
   color: rgb(157, 255, 154);
   margin: 0;
+  position: relative;
 }
 main .home-screen .heading-with-button .heading-container .heading-text .to-church {
   display: flex;
   flex-direction: row;
-  margin: 0;
+  margin: auto;
   position: relative;
 }
 main .home-screen .heading-with-button .heading-container .heading-text .to-church h2 {
-  height: 19.6rem;
-  top: -22.3rem;
+  max-height: 19.6rem;
+  top: -22rem;
   left: 3.3rem;
   font-family: aisyah-demo;
   font-weight: 400;
   font-style: normal;
   font-size: 17.803rem;
   letter-spacing: -4%;
-  position: inherit;
+  position: relative;
   color: rgb(209, 208, 208);
 }
 main .home-screen .heading-with-button .heading-container .heading-text .to-church span {
   width: 60.4rem;
-  height: 14.8rem;
-  top: -3.8rem;
+  max-height: 14.8dvh;
+  top: -3rem;
   left: 4.2rem;
   position: relative;
   font-family: clash-display-bold;
@@ -84,14 +94,15 @@ main .home-screen .heading-with-button .heading-container .heading-text .to-chur
   color: rgb(252, 252, 252);
 }
 main .home-screen .heading-with-button .heading-container p {
-  top: 25.38rem;
-  left: -62.8rem;
+  top: -40.38rem;
+  left: 6.8rem;
   font-family: montserrat-light;
   font-weight: 300;
   font-size: 2.4rem;
   letter-spacing: 0%;
   text-align: center;
   position: relative;
+  margin: auto;
   color: rgb(206, 201, 201);
 }
 main .home-screen .heading-with-button .heading-container p span {
@@ -103,12 +114,10 @@ main .home-screen .heading-with-button .heading-container p span {
 }
 main .home-screen .heading-with-button .link {
   text-decoration: none;
-}
-main .home-screen .heading-with-button button {
   display: flex;
   flex-direction: row;
   width: 20.1rem;
-  height: 6rem;
+  max-height: 6dvh;
   border-radius: 3rem;
   border: 1px solid rgb(255, 255, 255);
   padding-top: 1.6rem;
@@ -118,12 +127,13 @@ main .home-screen .heading-with-button button {
   background-color: rgb(255, 255, 255);
   justify-content: center;
   gap: 1rem;
+  text-align: center;
   cursor: pointer;
-  position: relative;
-  top: 10.2rem;
-  left: 15.5rem;
+  margin: auto 40rem;
+  margin-top: 10rem;
+  position: inherit;
 }
-main .home-screen .heading-with-button button p {
+main .home-screen .heading-with-button .link p {
   font-family: montserrat-medium;
   font-weight: 600;
   font-size: 1.5rem;
@@ -133,7 +143,7 @@ main .home-screen .heading-with-button button p {
   margin: 0;
   color: rgb(15, 26, 26);
 }
-main .home-screen .heading-with-button button .arrow {
+main .home-screen .heading-with-button .link .arrow {
   width: 1.387rem;
   height: 0.974rem;
   left: 0.75px;
@@ -144,7 +154,7 @@ main .contacts-main-container {
   display: flex;
   flex-direction: row;
   background-color: #1D038D;
-  height: 5.9rem;
+  height: 5.9dvh;
   top: 89.2rem;
   gap: 1.3rem;
   color: white;
@@ -153,19 +163,19 @@ main .contacts-main-container {
 main .contacts-main-container .contact-inner-container {
   display: flex;
   flex-direction: row;
-  max-width: 95.536rem;
-  height: 2rem;
+  max-width: 100%;
+  height: auto;
   gap: 6.565rem;
   margin: auto;
   box-sizing: border-box;
   overflow: hidden;
 }
 main .contacts-main-container .contact-inner-container .email, main .contacts-main-container .contact-inner-container .instagram, main .contacts-main-container .contact-inner-container .charity {
-  height: 2rem;
   gap: 0.68rem;
   display: flex;
   flex-direction: row;
-  max-width: 30rem;
+  text-wrap: wrap;
+  width: auto;
 }
 main .contacts-main-container .contact-inner-container .email p, main .contacts-main-container .contact-inner-container .email .contact-icon, main .contacts-main-container .contact-inner-container .instagram p, main .contacts-main-container .contact-inner-container .instagram .contact-icon, main .contacts-main-container .contact-inner-container .charity p, main .contacts-main-container .contact-inner-container .charity .contact-icon {
   margin: 0;
@@ -175,31 +185,31 @@ main .contacts-main-container .contact-inner-container .email p, main .contacts-
   line-height: 1.1;
   letter-spacing: -2%;
   color: #FFFFFF;
+  width: auto;
 }
 main .contacts-main-container .contact-inner-container .email {
-  width: 27.5rem;
+  width: auto;
 }
 main .contacts-main-container .contact-inner-container .instagram {
-  width: 13.7rem;
+  width: auto;
 }
 main .contacts-main-container .contact-inner-container .charity {
-  width: 33.3rem;
+  width: auto;
 }
 main .third-container {
   max-width: 144rem;
-  height: 102.7rem;
+  height: 102.7dvh;
   top: 95.1rem;
   left: 0.3rem;
   box-sizing: border-box;
   overflow: hidden;
   margin: 0;
-  flex-wrap: wrap;
 }
 main .third-container .third-container-inset {
   display: flex;
   flex-direction: row;
   max-width: 120.2rem;
-  height: 64.319rem;
+  height: 64.319dvh;
   top: 14.6rem;
   gap: 6.2rem;
   margin: auto;
@@ -207,54 +217,58 @@ main .third-container .third-container-inset {
   box-sizing: border-box;
 }
 main .third-container .third-container-inset .images-container {
+  height: 100%;
   max-width: 59rem;
   gap: 3;
 }
 main .third-container .third-container-inset .images-container .lg-image img {
   max-width: 59rem;
-  height: 42.9rem;
+  max-height: 42.9dvh;
   border-radius: 2.852rem;
+  margin: auto;
 }
 main .third-container .third-container-inset .images-container .sm-image {
+  max-width: 59rem;
   display: flex;
+  height: auto;
   flex-direction: row;
   justify-content: space-between;
 }
 main .third-container .third-container-inset .images-container .sm-image img {
   max-width: 27.57rem;
-  height: 19.016rem;
+  max-height: 19.016dvh;
   border-radius: 2.852rem;
 }
 main .third-container .third-container-inset .third-container-details {
   display: flex;
   flex-direction: column;
   max-width: 55rem;
-  max-height: 64.1rem;
+  max-height: 64.1dvh;
   gap: 2.4rem;
 }
 main .third-container .third-container-inset .third-container-details .t-c-header-container {
   display: flex;
   flex-direction: column;
   max-width: 53.2rem;
-  height: 19.2rem;
+  height: 19.2dvh;
   gap: 1.1rem;
   background-color: #FFFFFF;
 }
 main .third-container .third-container-inset .third-container-details .t-c-header-container .t-c-tag {
   width: 15.4rem;
-  height: 1.8rem;
+  height: 1.8dvh;
   gap: 1.5rem;
   display: flex;
 }
 main .third-container .third-container-inset .third-container-details .t-c-header-container .t-c-tag img {
   width: 1.8rem;
-  height: 1.8rem;
+  height: 1.8dvh;
 }
 main .third-container .third-container-inset .third-container-details .t-c-header-container .t-c-tag p {
   font-family: clash-display-light;
   font-weight: 300;
   font-size: 1.3rem;
-  line-height: 1.69rem;
+  line-height: 1.69dvh;
   letter-spacing: 0.25rem;
   vertical-align: middle;
   text-transform: capitalize;
@@ -274,7 +288,7 @@ main .third-container .third-container-inset .third-container-details .t-c-heade
 }
 main .third-container .third-container-inset .third-container-details .t-c-header-container h3 {
   max-width: 53.2rem;
-  height: 9.4rem;
+  height: 9.4dvh;
   font-family: clash-display-bold;
   font-weight: 700;
   font-size: 4rem;
@@ -287,7 +301,7 @@ main .third-container .third-container-inset .third-container-details p {
   font-family: montserrat-semibold;
   font-weight: 600;
   font-size: 1.7rem;
-  line-height: 2.55rem;
+  line-height: 2.55dvh;
   letter-spacing: 0%;
   vertical-align: middle;
   color: #6E6E6E;
@@ -300,8 +314,7 @@ main .fourth-continer {
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 1440rem;
-  height: 86.4rem;
-  top: 204.5rem;
+  max-height: 86.4dvh;
   box-sizing: border-box;
   background-color: #F0F4FF;
 }
@@ -309,8 +322,7 @@ main .fourth-continer .f-c-inset {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
-  max-height: 69.2rem;
-  max-width: 90%;
+  max-height: 69.2dvh;
   overflow: hidden;
   max-width: 120.2rem;
   margin: 0 auto;
@@ -319,7 +331,7 @@ main .fourth-continer .f-c-inset .tittle-container {
   display: flex;
   flex-direction: row;
   max-width: 51.8rem;
-  height: 10.2rem;
+  height: 10.2dvh;
   margin-top: 9.2rem;
   margin-left: 22.1rem;
   gap: 8rem;
@@ -328,7 +340,7 @@ main .fourth-continer .f-c-inset .tittle-container {
 main .fourth-continer .f-c-inset .tittle-container .f-c-tag {
   display: flex;
   flex-direction: 11.1rem;
-  height: 1.8rem;
+  height: 1.8dvh;
   gap: 1.5rem;
   width: 11.1rem;
   margin: auto;
@@ -342,7 +354,7 @@ main .fourth-continer .f-c-inset .tittle-container .f-c-tag p {
   font-family: clash-display-light;
   font-weight: 300;
   font-size: 1.3rem;
-  line-height: 1.69rem;
+  line-height: 1.69dvh;
   letter-spacing: 0.25rem;
   vertical-align: middle;
   text-transform: capitalize;
@@ -374,7 +386,7 @@ main .fourth-continer .f-c-inset .tittle-container .f-c-tittle h2 {
 main .fourth-continer .f-c-inset .inner-boxes {
   display: flex;
   flex-direction: column;
-  height: 39.6rem;
+  height: 39.6dvh;
   max-width: 72.3rem;
   margin-top: 12rem;
   margin-bottom: 0;
@@ -382,7 +394,7 @@ main .fourth-continer .f-c-inset .inner-boxes {
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-one {
   max-width: 60.1rem;
-  height: 18.9rem;
+  height: 18.9dvh;
   border-radius: 1.6rem;
   background-color: #1A0651;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
@@ -406,7 +418,7 @@ main .fourth-continer .f-c-inset .inner-boxes .box-one h4 {
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-one p {
   max-width: 30.9rem;
-  height: 2.6rem;
+  height: 2.6dvh;
   font-family: montserrat-light;
   font-weight: 400;
   font-size: 3.4rem;
@@ -419,7 +431,7 @@ main .fourth-continer .f-c-inset .inner-boxes .box-one p {
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three {
   max-width: 72.3rem;
-  height: 20.7rem;
+  height: 20.7dvh;
   display: flex;
   flex-direction: row;
   margin-top: -2rem;
@@ -427,14 +439,14 @@ main .fourth-continer .f-c-inset .inner-boxes .box-two-three {
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two {
   width: 38.4rem;
-  height: 20.7rem;
+  height: 20.7dvh;
   border-radius: 16px 0.3px 0.3px 16px;
   background-color: #0B002A;
   border-right: 0.3px solid #FFFFFF;
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-contents {
-  max-width: 19.2rem;
-  height: 14.5rem;
+  width: auto;
+  height: 14.5dvh;
   top: 3.6rem;
   margin-left: 8.1rem;
   gap: 1.9rem;
@@ -443,12 +455,14 @@ main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-conte
   font-family: clash-display-bold;
   font-weight: 700;
   font-size: 2rem;
-  line-height: 2.4rem;
+  line-height: 2.4dvh;
   letter-spacing: 15%;
   vertical-align: middle;
   text-transform: capitalize;
   color: #FFFFFF;
   margin-bottom: 0;
+  position: relative;
+  width: 90%;
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-contents h4 span {
   font-family: clash-display-bold;
@@ -458,15 +472,16 @@ main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-conte
   font-family: montserrat-light;
   font-weight: 400;
   font-size: 3.2rem;
-  line-height: 3.9rem;
+  line-height: 3dvh;
   vertical-align: middle;
   letter-spacing: 0%;
   color: rgba(208, 205, 205, 0.831372549);
   margin-top: 0;
+  max-width: 21.5rem;
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three {
   width: 38.4rem;
-  height: 20.7rem;
+  height: 20.7dvh;
   position: relative;
   background-color: #0B002A;
 }
@@ -474,7 +489,7 @@ main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-con
   display: flex;
   flex-direction: column;
   width: 21.5rem;
-  height: 14.5rem;
+  height: 14.5dvh;
   top: 3.6rem;
   margin-left: 3.7rem;
   gap: 1.9rem;
@@ -483,7 +498,7 @@ main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-con
   font-family: clash-display-bold;
   font-weight: 700;
   font-size: 2rem;
-  line-height: 2.4rem;
+  line-height: 2.4dvh;
   letter-spacing: 15%;
   vertical-align: middle;
   text-transform: capitalize;
@@ -494,8 +509,8 @@ main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-con
   color: #FFD952;
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-content p {
-  width: 21.5rem;
-  height: 7.8rem;
+  max-width: 21.5rem;
+  height: 7.8dvh;
   font-family: montserrat-light;
   font-weight: 400;
   font-size: 3.2rem;
@@ -526,6 +541,7 @@ main .fourth-continer button {
   padding: 1.6rem 2.4rem;
   gap: 1rem;
   margin-top: 7.8rem;
+  position: relative;
 }
 main .fourth-continer button p {
   font-family: montserrat-semibold;
@@ -552,12 +568,16 @@ main .fifth-container {
   display: flex;
   flex-direction: column;
   max-width: 144rem;
-  height: 115.1rem;
-  top: 291.5rem;
-  padding: 18rem 12.1rem;
+  height: auto;
+  top: 65.5dvh;
+  padding-bottom: 100rem;
+  padding-top: 0;
+  padding-left: 11rem;
   gap: 1rem;
   overflow: hidden;
   box-sizing: border-box;
+  position: relative;
+  margin: auto;
 }
 main .fifth-container .fifth-inner-con {
   display: flex;
@@ -631,7 +651,7 @@ main .fifth-container .fifth-inner-con .inner-content-one .one-content p {
   margin-top: 0;
 }
 main .fifth-container .fifth-inner-con .inner-content-twonthree {
-  max-width: 62.5rem;
+  max-width: 62.5dvw;
   height: 74.5rem;
   gap: 4.5rem;
   display: flex;
@@ -640,11 +660,12 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree {
 main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-two {
   display: flex;
   flex-direction: column;
-  max-width: 62.5rem;
-  height: 35rem;
+  max-width: 62.5dvw;
+  max-height: 35dvh;
   border-radius: 3rem;
   padding: 4.7rem 5.9rem;
   gap: 1rem;
+  margin: auto;
   background-color: #056402;
 }
 main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-two .two-content {
@@ -682,6 +703,9 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
   color: rgba(255, 255, 255, 0.831372549);
   margin-top: 0;
 }
+main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-two .two-content .link {
+  text-decoration: none;
+}
 main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-two .two-content button {
   display: flex;
   flex-direction: row;
@@ -713,26 +737,26 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
   color: #FFFFFF;
 }
 main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three {
-  max-width: 62.5rem;
-  height: 35rem;
+  max-width: 62.5dvw;
+  max-height: 35dvh;
   border-radius: 3rem;
   background-color: #000000;
 }
 main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three .inner-three {
   display: flex;
   flex-direction: column;
-  height: 23.9rem;
-  max-width: 50.6rem;
-  top: 6.3rem;
+  height: 23.9dvh;
+  max-width: 50.6dvw;
+  top: 6.3dvh;
   left: 5.1rem;
-  gap: 6.4rem;
+  gap: 9.4rem;
   margin: auto;
 }
 main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three .inner-three .three-text {
   display: flex;
   flex-direction: column;
-  max-width: 50.6rem;
-  height: 11.5rem;
+  max-width: auto;
+  height: 11.5dvh;
   gap: 0.7rem;
 }
 main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three .inner-three .three-text h2 {
@@ -789,45 +813,65 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-size: 20% !important;
   }
   main .home-screen .heading-with-button {
     margin: 0;
     position: relative;
     max-width: 100vw;
     padding: 0;
+    margin-left: 0rem;
   }
   main .home-screen .heading-with-button .heading-container {
     max-width: 100vw;
     padding: 0 10px;
     left: 0;
+    margin: 0 auto;
+  }
+  main .home-screen .heading-with-button .heading-container .heading-text {
+    max-height: 50dvh;
   }
   main .home-screen .heading-with-button .heading-container .heading-text h1 {
     font-size: 12.79rem;
   }
+  main .home-screen .heading-with-button .heading-container .heading-text .to-church {
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+  }
   main .home-screen .heading-with-button .heading-container .heading-text .to-church h2 {
     font-size: 15.803rem;
+    top: -14.5dvh;
+    position: relative;
   }
   main .home-screen .heading-with-button .heading-container .heading-text .to-church span {
     font-size: 11.468rem;
+    top: -2dvh;
   }
   main .home-screen .heading-with-button .heading-container p {
-    margin-left: -6.5rem;
+    margin: auto;
+    margin-left: -5.5rem;
+    top: -25dvh;
+  }
+  main .home-screen .heading-with-button .link {
+    margin: 0 auto;
+    margin-top: 14rem;
   }
   main .third-container {
-    max-width: 100vw;
+    max-width: 100dvw;
     height: auto;
+    margin: auto;
+    padding-bottom: 10rem;
   }
   main .third-container .third-container-inset {
     height: auto;
-    width: 100%;
-    display: flex;
     flex-direction: column;
     padding: auto;
     margin-bottom: 30rem;
   }
   main .third-container .third-container-inset .images-container {
     margin: auto;
+    width: auto;
+    position: relative;
   }
   main .third-container .third-container-inset .third-container-details {
     margin: auto;
@@ -843,21 +887,26 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     margin: auto;
   }
   main .third-container .third-container-inset .third-container-details p {
-    height: auto;
+    margin: auto;
     text-align: left;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
+    max-width: 90%;
+    position: relative;
+    justify-self: center;
+    height: auto;
   }
   main .fourth-continer {
     max-width: 100vw;
     height: auto;
+    position: relative;
   }
   main .fourth-continer .f-c-inset {
     width: 95%;
     display: flex;
     flex-direction: column-reverse;
     height: auto;
-    margin-bottom: 75rem;
     overflow: visible;
+    margin: 0 auto;
   }
   main .fourth-continer .f-c-inset .tittle-container {
     left: 0;
@@ -880,20 +929,25 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     bottom: 10rem;
   }
   main .fourth-continer .f-c-inset img {
-    top: 80rem;
+    top: 80dvh;
     width: 95%;
     margin: auto;
-    margin-top: 5rem;
   }
   main .fourth-continer .f-c-inset .inner-boxes {
-    top: 71rem;
-    margin: auto;
+    top: 70dvh;
+    margin-top: 0;
     height: auto;
     position: relative;
+  }
+  main .fourth-continer button {
+    top: 75dvh;
+    margin: auto;
   }
   main .fifth-container {
     height: auto;
     max-width: 100vw;
+    margin-top: 20rem;
+    position: relative;
   }
   main .fifth-container .fifth-inner-con {
     height: auto;

@@ -1,8 +1,8 @@
 
 
 .nav-container{
-    width: 100%;
-    height: 117px;
+    max-width: 100vw;
+    height: 11.7dvh;
     border: 1px solid #00000017;
     justify-content: space-between;
     padding: 28px;
@@ -18,18 +18,21 @@
     z-index: 1000;
     // overflow: hidden;
     
+    
     .inner-container{
         display: flex;
         // flex-direction: row;
-        width: 95%;
-        height: 42.78px;
+        max-width: 95vw;
+        max-height: 4.278dvh;
         // gap: 185px;
         margin: auto;
+        
+
         
         figure{
             display: flex;
             width: 25%;
-            // height: 4.2vh;
+            max-height: 4.2dvh;
             gap: 8.26px;
             // background-color: red;
             // box-sizing: border-box;
@@ -39,9 +42,9 @@
 
             .logo{
                 width: 30%;
-                height: 2.228vh;
+                max-height: 2.228dvh;
                 border-radius: 21.39px;
-                padding: 4.06px;
+                padding:4.06px;
                 gap: 0.6px;
                 float: left;
                 
@@ -49,8 +52,12 @@
             .logo-name{
                 display: flex;
                 flex-direction: column;
-                width: 100%;
-                height: 4.2vh;
+                width: auto;
+                max-height: 4.2dvh;
+                margin: auto 0;
+               
+                
+                
 
                 h2{
                     width: 100%;
@@ -65,7 +72,8 @@
                     vertical-align: middle;
                     text-transform: capitalize;
                     color: #000000;
-                    margin: 0;
+                    margin: auto;
+                    margin-top: -1.2rem;
 
                 }
                 h1{
@@ -82,7 +90,7 @@
                     vertical-align: middle;
                     text-transform: capitalize;
                     color: #000000;
-                    margin: 0;
+                    margin: auto;
                     
 
                 }
@@ -92,7 +100,7 @@
         .nav-menu{
             display: flex;
             width: 100%;
-            height: 1.354vh;
+            height: 1.354dvh;
             justify-content: space-between;
            float: right;
            margin: auto;
@@ -128,6 +136,9 @@
         .pi{
             font-size: 1.91rem;
             display: none;
+            margin: auto;
+            width: 4dvw;
+            height: 2dvh;
         }
 
     }
@@ -190,6 +201,7 @@
         width: 100vw;
         padding-left: 0;
         height: auto;
+        padding-bottom: 6.5rem;
 
         
         .inner-container{
@@ -238,22 +250,17 @@
                 flex-direction: column;
                 font-size: large;
                 font-weight: 700;
-                left: 12rem;
+                
+                width: 5vw;
+                height: 4dvh;
+                margin-left: 50%;
+                margin-top: 5%;
         
-                margin: auto;
-                position: relative;
+               
+               
                 
             }
-            // .mobile-nav{
-            //     display: flex;
-            //     flex-direction: column;
-            //     position: absolute;
-            //     top: 20rem;
-            //     width: 100vw;
-            //     height: 80vh;
-            //     background-color: rgb(208, 208, 208);
 
-            // }
         }
 
     }

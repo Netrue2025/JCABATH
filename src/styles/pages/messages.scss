@@ -2,6 +2,7 @@
     max-width: 144.0rem;
     height: auto;
     background-color: #ffffff;
+
     .messages-container{
         width: 90%;
         height: auto;
@@ -260,9 +261,134 @@
 
                 }
             }
+
+            .left-prev-next{
+                display: none;
+            }
         }
 
 
 
     }
+}
+
+@media screen and (max-width: 600px) {
+.teaching-main-cont{
+    .messages-container{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+
+        .message-left-cont{
+            height: 15dvh;
+            overflow: hidden;
+            margin: auto;
+            width: 90vw;
+            margin-bottom: 5rem;
+
+            .search-box{
+                width: 28.5rem;
+                min-height: 5.4dvh;
+                margin: auto;
+                
+
+             
+            }
+            .message-tittle-container{
+                margin: auto;
+                width: 50%;
+
+                 .messages-tittles{
+                    display: none;
+                 }
+
+                .messages-tittles:first-child{
+                    display: flex;
+                    flex-direction: column;
+                    width: 90vw;
+                    h3{
+                        color: hsla(255, 83%, 42%, 1);
+                        font-size: 3.2rem;
+
+width: 100%;                    }
+                    p{
+                        color: hsla(255, 83%, 42%, 1);
+                        font-size: 2.2rem;
+
+                    }
+                }
+
+                
+            }
+
+            .left-prev-next{
+                display: none;
+            }
+        }
+
+        .message-right-cont{
+            .left-prev-next{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                height: 3.255rem;
+                gap: 2.0rem;
+                margin: 0;
+                position: relative;
+                top:-5rem;
+                justify-content: space-between;
+
+                h5:first-child{
+                    color: hsla(0, 0%, 80%, 1);
+                }
+
+                h5{
+                    font-family: montserrat-bold;
+                    font-weight: 700;
+                    font-size: 1.322rem;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    // margin-top: 0;
+                    cursor: pointer;
+                    color: hsla(0, 0%, 20%, 1);
+                    
+                }
+ 
+                .round{
+                    margin-top: 0;
+                    display: flex;
+                    flex-direction: column;
+                    height: 3.166rem;
+                    width: 3.166rem;
+                    border-radius: 9.894rem;
+                    gap: 9.89px;
+                    cursor: pointer;
+                    padding: 9.89px;
+                    border: 1.99px solid hsla(0, 0%, 95%, 1);
+                    background-color: hsla(0, 0%, 100%, 1);
+
+                    p{
+                        margin: auto;
+                        font-family: clash-display-medium;
+                        font-weight: 500;
+                        font-size: 1.286rem;
+                        letter-spacing: 0%;
+                        line-height: 100%;
+                        color: hsla(0, 0%, 20%, 1);
+                    }
+                    
+                }
+
+                .round:first-of-type{
+                    background-color: hsla(255, 83%, 42%, 1);
+                    p{
+                        color: hsla(0, 0%, 100%, 1);
+                    }
+                }
+
+            }
+        }
+    }
+}  
+
 }

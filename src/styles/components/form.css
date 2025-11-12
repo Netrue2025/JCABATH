@@ -1,7 +1,7 @@
 .form-container {
   background-image: url("../../media/images/praying.png");
   max-width: 144.5rem;
-  min-height: 99.7rem;
+  min-height: 99.7dvh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -12,7 +12,7 @@
 }
 .form-container .form-section {
   width: 64.724rem;
-  height: 77.29rem;
+  height: 77.29dvh;
   position: relative;
   top: 9.3rem;
   left: 8.1rem;
@@ -24,7 +24,7 @@
   display: flex;
   flex-direction: column;
   width: 55.722rem;
-  height: 65.6rem;
+  height: 65.6dvh;
   gap: 6rem;
   margin: auto;
 }
@@ -42,20 +42,21 @@
 }
 .form-container .form-section .inner-section .input-box-section {
   max-width: 55.722rem;
-  height: 53.8rem;
+  height: 53.8dvh;
   gap: 5.7rem;
   margin: auto;
 }
 .form-container .form-section .inner-section .input-box-section .input {
-  height: 42.4rem;
+  height: 42.4dvh;
 }
 .form-container .form-section .inner-section .input-box-section .input .input-one, .form-container .form-section .inner-section .input-box-section .input .input-two {
   display: flex;
   flex-direction: row;
   max-width: 55.722rem;
-  height: 9.15rem;
+  height: 9.15dvh;
   justify-content: space-between;
   margin-bottom: 3.5rem;
+  color: hsl(0, 0%, 43%);
 }
 .form-container .form-section .inner-section .input-box-section .input .input-one .first-name, .form-container .form-section .inner-section .input-box-section .input .input-one .last-name, .form-container .form-section .inner-section .input-box-section .input .input-one .email, .form-container .form-section .inner-section .input-box-section .input .input-one .subject, .form-container .form-section .inner-section .input-box-section .input .input-two .first-name, .form-container .form-section .inner-section .input-box-section .input .input-two .last-name, .form-container .form-section .inner-section .input-box-section .input .input-two .email, .form-container .form-section .inner-section .input-box-section .input .input-two .subject {
   margin: auto;
@@ -70,16 +71,17 @@
 }
 .form-container .form-section .inner-section .input-box-section .input .input-one .first-name input, .form-container .form-section .inner-section .input-box-section .input .input-one .last-name input, .form-container .form-section .inner-section .input-box-section .input .input-one .email input, .form-container .form-section .inner-section .input-box-section .input .input-one .subject input, .form-container .form-section .inner-section .input-box-section .input .input-two .first-name input, .form-container .form-section .inner-section .input-box-section .input .input-two .last-name input, .form-container .form-section .inner-section .input-box-section .input .input-two .email input, .form-container .form-section .inner-section .input-box-section .input .input-two .subject input {
   width: 25.861rem;
-  height: 5.9rem;
+  height: 5.9dvh;
   position: relative;
   border-radius: 1rem;
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 43%);
   border: 1px solid hsla(0, 0%, 100%, 0.27);
 }
 .form-container .form-section .inner-section .input-box-section .input .text-area {
   max-width: 53.7rem;
   height: 20.3rem;
   gap: 1.2rem;
+  margin: auto;
 }
 .form-container .form-section .inner-section .input-box-section .input .text-area p {
   font-family: montserrat-light;
@@ -91,34 +93,35 @@
 }
 .form-container .form-section .inner-section .input-box-section .input .text-area input {
   width: 53.7rem;
-  height: 16.8rem;
+  height: 16.8dvh;
   border-radius: 1rem;
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 43%);
+  margin: auto;
   border: 1px solid hsla(0, 0%, 100%, 0.27);
 }
 .form-container .form-section .inner-section .input-box-section button {
-  width: 55.722rem;
-  height: 5.7rem;
+  height: 5.7dvh;
   border-radius: 9.9rem;
   border: 1px solid hsl(255, 83%, 42%);
-  padding: 18px 157px;
+  padding: 1.8rem 15.7rem;
   gap: 10px;
   margin-top: 6.5rem;
   display: flex;
   background-color: hsl(255, 83%, 42%);
   color: hsl(0, 0%, 100%);
   font-family: montserrat-semibold;
-  font-weight: 600;
-  font-size: 1.5rem;
   cursor: pointer;
 }
 .form-container .form-section .inner-section .input-box-section button p {
   margin: auto;
-  width: 70%;
+  font-size: 1.5rem;
+  width: auto;
   letter-spacing: 0%;
   font-family: montserrat-semibold;
   vertical-align: middle;
+  position: relative;
   text-transform: capitalize;
+  font-weight: 600;
 }
 .form-container .sm-container {
   display: flex;
@@ -194,9 +197,9 @@
     max-width: 95%;
   }
   .sm-container {
-    position: relative;
     margin-left: -8rem;
     margin-top: 8rem;
     left: 0;
+    position: relative;
   }
 }/*# sourceMappingURL=form.css.map */

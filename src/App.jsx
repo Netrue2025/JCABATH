@@ -16,6 +16,7 @@ import { PrayerRequest } from "./pages/prayer-request"
 import { RaisingGiant } from "./pages/raising-giant"
 import { Services } from "./pages/services"
 import { Testimonies } from "./pages/testimonies"
+import { ScrollToTop } from "./components/scrolltotop"
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about-jca" element={<AboutJca />}></Route>

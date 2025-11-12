@@ -42,7 +42,7 @@ export function Menu(props){
                             setMinistry("ministry-dropdown-show"): 
                             setMinistry("ministry-dropdown-hide")
                             }}>
-                            <h2>Ministrie</h2>
+                            <h2>Ministries</h2>
                             <FaChevronDown className="arrow"/>
                         </div>
                         <div className={ministry}>

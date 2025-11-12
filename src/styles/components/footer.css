@@ -292,6 +292,8 @@
   .footer-container .footer-inset-container {
     width: 100vw;
     left: 0;
+    padding: 0;
+    margin: 0;
   }
   .footer-container .footer-inset-container .details-container {
     width: 100vw;
@@ -301,17 +303,24 @@
   .footer-container .footer-inset-container .others {
     width: 100vw;
     left: 0;
+    height: 10dvh;
+    padding-bottom: 5rem;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .footer-container .footer-inset-container {
     width: 100vw;
     left: 0;
+    font-size: 20%;
   }
   .footer-container .footer-inset-container .details-container {
     width: 100vw;
     left: 0;
+    padding: 0;
     justify-content: space-evenly;
+  }
+  .footer-container .footer-inset-container .details-container .footer-contacts {
+    margin-left: -5rem;
   }
   .footer-container .footer-inset-container .details-container .footer-contacts .logo-name .logo {
     width: 80%;
@@ -319,6 +328,14 @@
   .footer-container .footer-inset-container .details-container .footer-contacts .logo-name .logo img {
     width: 4.278rem;
     height: 4.278rem;
+  }
+  .footer-container .footer-inset-container .details-container .footer-contacts .logo-name .logo h1 {
+    font-size: 2.2rem;
+  }
+  .footer-container .footer-inset-container .details-container .social-media {
+    margin: 0;
+    margin: auto;
+    margin-top: -10rem;
   }
   .footer-container .footer-inset-container .others {
     width: 100vw;

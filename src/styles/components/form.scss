@@ -1,7 +1,7 @@
 .form-container{
     background-image: url("../../media/images/praying.png");
     max-width: 144.5rem;
-    min-height: 99.7rem;
+    min-height: 99.7dvh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,7 +12,7 @@
 
     .form-section{
         width: 64.724rem;
-        height: 77.29rem;
+        height: 77.29dvh;
         position: relative;
         top: 9.3rem;
         left: 8.1rem;
@@ -24,7 +24,7 @@
             display: flex;
             flex-direction: column;
             width: 55.722rem;
-            height: 65.6rem;
+            height: 65.6dvh;
             gap: 6.0rem;
             margin: auto;
 
@@ -43,20 +43,21 @@
 
             .input-box-section{
                 max-width: 55.722rem;
-                height: 53.8rem;
+                height: 53.8dvh;
                 gap: 5.7rem;
                 margin: auto;
 
                 .input{
-                    height: 42.4rem;
+                    height: 42.4dvh;
 
                     .input-one, .input-two{
                         display: flex;
                         flex-direction: row;
                         max-width: 55.722rem;
-                        height: 9.15rem;
+                        height: 9.15dvh;
                         justify-content: space-between;
                         margin-bottom: 3.5rem;
+                        color: hsla(0, 0%, 43%, 1);
 
                         .first-name, .last-name, .email, .subject{
                             margin: auto;
@@ -73,12 +74,12 @@
                             }
                             input{
                                width: 25.861rem;
-                               height: 5.9rem;
+                               height: 5.9dvh;
                                position: relative;
                                
-                            //    left: 1.0rem;
+                                
                                border-radius: 1.0rem;
-                               color: hsla(0, 0%, 100%, 1);
+                               color: hsla(0, 0%, 43%, 1);
                                border: 1px solid hsla(0, 0%, 100%, 0.27);
                             //    margin-bottom: 10.25rem;
                             }
@@ -92,6 +93,7 @@
                         max-width: 53.7rem;
                         height: 20.3rem;
                         gap: 1.2rem;
+                        margin: auto;
 
                         p{
                            font-family: montserrat-light;
@@ -102,28 +104,29 @@
                            color: hsla(43, 33%, 92%, 1); 
                         }
                         input{
-                            width: 53.7rem;
-                            height: 16.8rem;
+                           width: 53.7rem;
+                            height: 16.8dvh;
                             border-radius: 1.0rem;
-                            color: hsla(0, 0%, 100%, 1);
+                            color: hsla(0, 0%, 43%, 1);
+                            margin: auto;
                             border: 1px solid hsla(0, 0%, 100%, 0.27);
                         }
                     }
                 }
                 button{
-                    width: 55.722rem;
-                    height: 5.7rem;
+                    
+                    height: 5.7dvh;
                     border-radius: 9.9rem;
                     border: 1px solid hsla(255, 83%, 42%, 1);
-                    padding: 18px 157px;
+                    padding: 1.8rem 15.7rem;
                     gap: 10px;
                     margin-top: 6.5rem;
                     display: flex;
                     background-color: hsla(255, 83%, 42%, 1);
                     color: hsla(0, 0%, 100%, 1);
                     font-family: montserrat-semibold;
-                    font-weight: 600;
-                    font-size: 1.5rem;
+                    
+                    
                     cursor: pointer;
                     // margin-left: auto;
                     // margin-right: auto;
@@ -131,11 +134,14 @@
 
                     p{
                         margin: auto;
-                        width: 70%;
+                        font-size: 1.5rem;
+                        width: auto;
                         letter-spacing: 0%;
                         font-family: montserrat-semibold;
                         vertical-align: middle;
+                        position: relative;
                         text-transform: capitalize;
+                        font-weight: 600;
                     }
                 }
             }
@@ -224,10 +230,10 @@
         max-width: 95%;
     }
     .sm-container{
-        position: relative;
         margin-left: -8rem;
         margin-top: 8rem;
         left: 0;
+         position: relative;
         // background-color: red;
     }
 

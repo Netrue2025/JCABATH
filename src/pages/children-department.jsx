@@ -36,7 +36,7 @@ export function ChildrenDepartment(){
               <h5>JCA CHILDREN</h5>
             </div>
             <h3>Aims</h3>
-            <p>
+            <div className="list">
               <ol>
                 <li>To reveal the person and ministry of Jesus and the 
                   Holy Spirit in all fullness to our children.
@@ -58,7 +58,7 @@ export function ChildrenDepartment(){
 
 
               
-            </p>
+            </div>
 
             <h4>
               Genesis 42:2 - Even a prophet can die without food,

@@ -118,7 +118,7 @@
   color: rgb(0, 0, 0);
 }
 .ride-location .ride-location-sm .location-container .map {
-  width: 100%;
+  max-width: 100dvw;
   height: 100%;
   border-radius: 1.2rem;
   margin-top: 2.788rem;
@@ -137,9 +137,10 @@
   .ride-location {
     height: auto;
     padding: 0;
-    width: 100vw;
+    max-width: 100vw;
     position: relative;
     padding-bottom: 6rem;
+    overflow: hidden;
   }
   .ride-location .ride-location-sm {
     width: 90%;
@@ -148,7 +149,7 @@
     flex-direction: column;
   }
   .ride-location .ride-location-sm .location-container .map {
-    height: 35.4rem;
-    width: 90%;
+    height: 35.4dvh;
+    max-width: 90dvw;
   }
 }/*# sourceMappingURL=location.css.map */

@@ -23,7 +23,7 @@ export function ContactUs() {
       <Topnavbar />
 
       {/* Main section of the webpage */}
-      <main>
+      <main id="contact-us">
         {/* Import Contact-us screen */}
         <Header tag={VectorOrange} tagname="CONNECT" tittle="Contact Us" />
 

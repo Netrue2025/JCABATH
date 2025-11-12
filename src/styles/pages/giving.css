@@ -158,4 +158,11 @@ main .ways-to-donate .inner-container .amazing-grace-bank-details .contact-btn b
   padding: 1.6rem 2.4rem;
   box-sizing: border-box;
   border: 1px solid #4012c5;
+}
+
+@media screen and (max-width: 600px) {
+  main .ways-to-donate .inner-container .ways-to-give {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=giving.css.map */

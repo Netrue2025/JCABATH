@@ -220,4 +220,102 @@
   line-height: 3.3rem;
   letter-spacing: 0%;
   vertical-align: middle;
+}
+.teaching-main-cont .messages-container .message-right-cont .left-prev-next {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .teaching-main-cont .messages-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .teaching-main-cont .messages-container .message-left-cont {
+    height: 15dvh;
+    overflow: hidden;
+    margin: auto;
+    width: 90vw;
+    margin-bottom: 5rem;
+  }
+  .teaching-main-cont .messages-container .message-left-cont .search-box {
+    width: 28.5rem;
+    min-height: 5.4dvh;
+    margin: auto;
+  }
+  .teaching-main-cont .messages-container .message-left-cont .message-tittle-container {
+    margin: auto;
+    width: 50%;
+  }
+  .teaching-main-cont .messages-container .message-left-cont .message-tittle-container .messages-tittles {
+    display: none;
+  }
+  .teaching-main-cont .messages-container .message-left-cont .message-tittle-container .messages-tittles:first-child {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+  }
+  .teaching-main-cont .messages-container .message-left-cont .message-tittle-container .messages-tittles:first-child h3 {
+    color: hsl(255, 83%, 42%);
+    font-size: 3.2rem;
+    width: 100%;
+  }
+  .teaching-main-cont .messages-container .message-left-cont .message-tittle-container .messages-tittles:first-child p {
+    color: hsl(255, 83%, 42%);
+    font-size: 2.2rem;
+  }
+  .teaching-main-cont .messages-container .message-left-cont .left-prev-next {
+    display: none;
+  }
+  .teaching-main-cont .messages-container .message-right-cont .left-prev-next {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 3.255rem;
+    gap: 2rem;
+    margin: 0;
+    position: relative;
+    top: -5rem;
+    justify-content: space-between;
+  }
+  .teaching-main-cont .messages-container .message-right-cont .left-prev-next h5:first-child {
+    color: hsl(0, 0%, 80%);
+  }
+  .teaching-main-cont .messages-container .message-right-cont .left-prev-next h5 {
+    font-family: montserrat-bold;
+    font-weight: 700;
+    font-size: 1.322rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    cursor: pointer;
+    color: hsl(0, 0%, 20%);
+  }
+  .teaching-main-cont .messages-container .message-right-cont .left-prev-next .round {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    height: 3.166rem;
+    width: 3.166rem;
+    border-radius: 9.894rem;
+    gap: 9.89px;
+    cursor: pointer;
+    padding: 9.89px;
+    border: 1.99px solid hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 100%);
+  }
+  .teaching-main-cont .messages-container .message-right-cont .left-prev-next .round p {
+    margin: auto;
+    font-family: clash-display-medium;
+    font-weight: 500;
+    font-size: 1.286rem;
+    letter-spacing: 0%;
+    line-height: 100%;
+    color: hsl(0, 0%, 20%);
+  }
+  .teaching-main-cont .messages-container .message-right-cont .left-prev-next .round:first-of-type {
+    background-color: hsl(255, 83%, 42%);
+  }
+  .teaching-main-cont .messages-container .message-right-cont .left-prev-next .round:first-of-type p {
+    color: hsl(0, 0%, 100%);
+  }
 }/*# sourceMappingURL=messages.css.map */
