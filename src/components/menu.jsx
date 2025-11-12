@@ -115,7 +115,7 @@ export function Menu(props){
             </div>
             <Link to="/admin" className="link">
                 <button><p>Admin Login</p></button>
-            </Link>
+           </Link>
             
         </div>
 
