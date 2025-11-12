@@ -113,8 +113,8 @@ export function Menu(props){
 
                 </div>
             </div>
-            <Link to="/contact-us" className="link">
-                <button><p>Contact us now</p></button>
+            <Link to="/admin" className="link">
+                <button><p>Admin Login</p></button>
             </Link>
             
         </div>
