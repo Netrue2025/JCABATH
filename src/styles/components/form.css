@@ -91,7 +91,7 @@
   vertical-align: middle;
   color: hsl(43, 33%, 92%);
 }
-.form-container .form-section .inner-section .input-box-section .input .text-area input {
+.form-container .form-section .inner-section .input-box-section .input .text-area textarea {
   width: 53.7rem;
   height: 16.8dvh;
   border-radius: 1rem;

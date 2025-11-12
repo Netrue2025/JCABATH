@@ -84,6 +84,7 @@ export function AboutUs() {
         <section className="location">
           <Location />
         </section>
+        
       </main>
 
       {/* Footer */}
@@ -91,5 +92,5 @@ export function AboutUs() {
         <Footer />
       </footer>
     </div>
-  );
+  )
 }

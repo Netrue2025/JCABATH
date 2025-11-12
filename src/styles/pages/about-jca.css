@@ -158,4 +158,36 @@ main .church-vision .mission-statements .mission-statements-cards .card2 {
 main .church-vision .mission-statements .mission-statements-cards .card3 {
   background-color: #6a1534;
   outline: 0.4rem solid rgba(106, 21, 52, 0.4784313725);
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    height: auto;
+  }
+  main .church-vision {
+    height: auto;
+    padding-bottom: 10rem;
+    width: 100dvw;
+  }
+  main .church-vision .mission-statements {
+    width: 100dvw;
+  }
+  main .church-vision .mission-statements .mission-statements-cards {
+    display: flex;
+    flex-direction: column;
+    width: 90dvw;
+    margin: auto;
+  }
+  main .church-vision .mission-statements .mission-statements-cards .card, main .church-vision .mission-statements .mission-statements-cards .card1, main .church-vision .mission-statements .mission-statements-cards .card2, main .church-vision .mission-statements .mission-statements-cards .card3 {
+    min-width: 90%;
+  }
+  main .church-vision .mission-statements .mission-statements-cards .card h3, main .church-vision .mission-statements .mission-statements-cards .card1 h3, main .church-vision .mission-statements .mission-statements-cards .card2 h3, main .church-vision .mission-statements .mission-statements-cards .card3 h3 {
+    font-size: 4.4rem;
+    margin: 1rem auto;
+  }
+  main .church-vision .mission-statements .mission-statements-cards .card p, main .church-vision .mission-statements .mission-statements-cards .card1 p, main .church-vision .mission-statements .mission-statements-cards .card2 p, main .church-vision .mission-statements .mission-statements-cards .card3 p {
+    font-size: 2.65rem;
+    min-width: 100%;
+    line-height: 1.2;
+  }
 }/*# sourceMappingURL=about-jca.css.map */

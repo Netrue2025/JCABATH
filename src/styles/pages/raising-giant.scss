@@ -132,3 +132,62 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .raising-giant-page{
+    height: auto;
+
+    .raising-giant-container{
+      height: auto;
+
+      .inner-container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        max-width: 90vw;
+        
+        padding-bottom: 20rem;
+
+        .inner-container-image{
+          max-width: 90vw;
+
+          .RaisingGiantImg1{
+            width: 100%;
+
+          }
+          .bottom-images{
+            width: 100%;
+
+            .RaisingGiantImg2 {
+              width: 47%;
+            }
+            .RaisingGiantImg3 {
+              width: 47%;
+            }
+          }
+        }
+
+        .inner-container-texts{
+          height: auto;
+          
+          margin: auto;
+
+          .top-paragraph{
+            p{
+              font-size: 2.7rem;
+              line-height: 1.45;
+            }
+          }
+          
+          .bottom-paragraph{
+            p{
+              font-size: 2.7rem;
+              line-height: 1.45;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+}

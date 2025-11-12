@@ -144,18 +144,36 @@
 }
 
 @media screen and (max-width: 600px) {
-    .testimonies-containers{
-       
-        // display: flex;
-        // flex-direction: column;
-        flex-wrap: wrap;
-        margin: auto;
-
-        .cont{
-            margin: auto;
-            // margin-left: 25%;
+    .testimonies{
+        .head-section{
+            p{
+                font-size: 2.7rem;
+                line-height: 1.5;
+            }
         }
-      
-    }
+
+        .testimonies-containers{
+            flex-wrap: wrap;
+            margin: auto;
+            margin-top: 10rem;
+
+            .cont{
+                margin: auto;
+                // margin-left: 25%;
+                height: auto;
+                
+                padding-bottom: 8rem;
+
+                p{
+                    font-size: 2.2rem;
+                    line-height: 1.5;
+                    height: auto;
+                    position: relative;
+                }
+            }
+            
+        }
+    }    
+
     
 }

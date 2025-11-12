@@ -113,9 +113,11 @@ export function Menu(props){
 
                 </div>
             </div>
-            <Link to="/contact-us" className="link">
-                <button><p>Contact us now</p></button>
-            </Link>
+            <Link to="https://netrue.io/admin/" className="link">
+               
+                <button><p>Admin Login</p></button>
+           
+           </Link>
             
         </div>
 

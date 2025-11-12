@@ -161,7 +161,7 @@
     width: 100vw;
   }
   .nav-container .inner-container figure {
-    width: auto;
+    width: 80dvw;
     height: 3.513rem;
     gap: 0.668rem;
   }
@@ -174,8 +174,11 @@
   }
   .nav-container .inner-container figure .logo-name {
     height: auto;
-    width: auto;
+    width: 40dvw;
     position: relative;
+    float: left;
+    padding: 0;
+    margin-left: 0;
   }
   .nav-container .inner-container figure .logo-name h2, .nav-container .inner-container figure .logo-name h1 {
     font-family: clash-display-semibold;
@@ -186,6 +189,7 @@
   }
   .nav-container .inner-container .nav-menu {
     display: none;
+    width: auto;
   }
   .nav-container .inner-container .pi {
     font-size: 1.91rem;
@@ -193,9 +197,8 @@
     flex-direction: column;
     font-size: large;
     font-weight: 700;
-    width: 5vw;
+    width: 5dvw;
     height: 4dvh;
-    margin-left: 50%;
     margin-top: 5%;
   }
 }/*# sourceMappingURL=topnavbar.css.map */

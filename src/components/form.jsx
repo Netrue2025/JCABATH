@@ -65,12 +65,16 @@ export function Form(props){
                                     </div>
                                     <div className="text-area">
                                         <p>Message</p>
-                                        <input type="texarea" color="4" placeholder="Messages" name="Message" required/>
+                                            <textarea name="message" rows="4" cols="50"  required>
+                                                Input Message
+                                            </textarea>
                                     </div>
+                                    
                                 
 
                                 </div>
-                                <button type="submit"><p>{props.btntext}</p> <FaArrowRightLong className="arrow"/></button>
+                                <h1>{result}</h1>
+                                <button type="submit" ><p>{props.btntext}</p> <FaArrowRightLong className="arrow"/></button>
                             </form>
 
                             <h1>{result}</h1>
