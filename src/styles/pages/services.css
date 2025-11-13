@@ -25,12 +25,14 @@ main .services-container .inner-container .wrap {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: -moz-fit-content;
-  height: fit-content;
+  gap: 1rem;
+  box-sizing: border-box;
 }
 main .services-container .inner-container .wrap .title {
+  max-width: 110rem;
   width: 100%;
   display: flex;
+  margin: auto !important;
   box-sizing: border-box;
 }
 main .services-container .inner-container .wrap .title p {
@@ -50,8 +52,10 @@ main .services-container .inner-container .wrap .title p span {
   font-family: clash-display-bold;
 }
 main .services-container .inner-container .wrap .services-wrap {
+  max-width: 110rem;
   width: 100%;
   display: flex;
+  margin: auto;
   box-sizing: border-box;
 }
 main .services-container .inner-container .wrap .services-wrap .services-content {
@@ -235,7 +239,6 @@ main .services-container .inner-container .wrap .services-wrap .services-content
     height: -moz-fit-content;
     height: fit-content;
     flex-direction: column-reverse;
-    border: 1px solid blue;
   }
   main .services-container .inner-container .wrap .services-wrap .services-content {
     max-width: 100%;
@@ -328,6 +331,7 @@ main .services-container .inner-container .wrap .services-wrap .services-content
   }
   main .services-container .inner-container .wrap .services-wrap .services-image {
     max-width: 100%;
+    width: 100%;
     height: -moz-fit-content;
     height: fit-content;
     position: unset;
@@ -363,9 +367,149 @@ main .services-container .inner-container .wrap .services-image img {
   }
 }
 @media (max-width: 660px) {
+  main .services-container .inner-container .wrap {
+    gap: 4rem;
+    padding: 3rem 0;
+  }
+}
+@media (max-width: 660px) {
   main .services-container {
     padding-bottom: 6rem;
     height: -moz-fit-content;
     height: fit-content;
   }
+}
+main .week-days-services {
+  width: 100%;
+  height: 70rem;
+  box-sizing: border-box;
+}
+main .week-days-services .inner-container {
+  max-width: 110rem;
+  width: 100%;
+  position: relative;
+  display: flex;
+  top: 3rem;
+  margin: auto;
+  box-sizing: border-box;
+}
+main .week-days-services .inner-container .week-days-services-image {
+  max-width: 50.6rem;
+  width: 100%;
+  height: 53.9rem;
+}
+main .week-days-services .inner-container .week-days-services-image img {
+  width: 100%;
+  height: 53.9rem;
+}
+main .week-days-services .inner-container .week-days-services-content {
+  max-width: 60.2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 0.5rem;
+  bottom: 2.2rem;
+  box-sizing: border-box;
+}
+main .week-days-services .inner-container .week-days-services-content .sub-title {
+  max-width: 39.3rem;
+  width: 100%;
+  margin-left: 1rem;
+  box-sizing: border-box;
+}
+main .week-days-services .inner-container .week-days-services-content .sub-title p {
+  font-size: 4.685rem;
+  letter-spacing: 2%;
+  color: #000;
+  font-weight: 400;
+  margin: 0;
+}
+main .week-days-services .inner-container .week-days-services-content .sub-title p span {
+  font-size: 7.28rem;
+  font-family: clash-display-bold;
+}
+main .week-days-services .inner-container .week-days-services-content .midweek-services {
+  max-width: 70.2rem;
+  width: 100%;
+  height: 21.5rem;
+  border-top-right-radius: 1.6rem;
+  background-color: #0b002a;
+  box-sizing: border-box;
+  color: #fff;
+}
+main .week-days-services .inner-container .week-days-services-content .midweek-services .mid-week-container {
+  max-width: 44.1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 4.9rem;
+  left: 8.5rem;
+}
+main .week-days-services .inner-container .week-days-services-content .midweek-services .mid-week-container .mid-week-wrap {
+  width: 20rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+main .week-days-services .inner-container .week-days-services-content .midweek-services .mid-week-container .mid-week-wrap h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  font-family: clash-display-bold;
+  letter-spacing: 15%;
+  margin: 0;
+}
+main .week-days-services .inner-container .week-days-services-content .midweek-services .mid-week-container .mid-week-wrap p {
+  color: #d0cdcd;
+  font-size: 2.2rem;
+  font-weight: 400;
+  letter-spacing: 15%;
+  margin: 0;
+}
+main .week-days-services .inner-container .week-days-services-content .midweek-services .mid-week-container span {
+  width: 18.6rem;
+  font-size: 3.2rem;
+  color: rgba(208, 205, 205, 0.831372549);
+}
+main .week-days-services .inner-container .week-days-services-content .night-vigil {
+  max-width: 70.2rem;
+  width: 100%;
+  height: 18.9rem;
+  background-color: #033e01;
+  box-sizing: border-box;
+  color: #fff;
+}
+main .week-days-services .inner-container .week-days-services-content .night-vigil .night-vigil-container {
+  width: 44.1rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 4.9rem;
+  left: 8.5rem;
+}
+main .week-days-services .inner-container .week-days-services-content .night-vigil .night-vigil-container .night-vigil-wrap {
+  width: 20rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+main .week-days-services .inner-container .week-days-services-content .night-vigil .night-vigil-container .night-vigil-wrap h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  font-family: clash-display-bold;
+  letter-spacing: 15%;
+  margin: 0;
+}
+main .week-days-services .inner-container .week-days-services-content .night-vigil .night-vigil-container .night-vigil-wrap p {
+  color: #d0cdcd;
+  font-size: 2.2rem;
+  font-weight: 400;
+  letter-spacing: 15%;
+  margin: 0;
+}
+main .week-days-services .inner-container .week-days-services-content .night-vigil .night-vigil-container span {
+  width: 18.6rem;
+  font-size: 3.2rem;
+  color: rgba(208, 205, 205, 0.831372549);
 }/*# sourceMappingURL=services.css.map */
