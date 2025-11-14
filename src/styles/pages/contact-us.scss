@@ -242,11 +242,11 @@ main {
         margin: auto;
 
         .contact-details {
-          width: 100%;
+          max-width: 100%;
           height: fit-content;
 
           .get-in-touch {
-            width: 100%;
+            max-width: 100%;
             height: fit-content;
             text-align: center;
 
@@ -259,7 +259,7 @@ main {
             }
 
             .contact-information {
-              width: 100%;
+              max-width: 100%;
               height: fit-content;
 
               .contact {
@@ -280,13 +280,13 @@ main {
           }
         }
         .contact-form {
-          width: 100%;
+          max-width: 100%;
           height: fit-content;
           margin: auto;
           background-color: #f5f5f5;
 
           label {
-            width: 100%;
+            max-width: 100%;
 
             p {
               font-size: 2.8rem;
@@ -299,6 +299,7 @@ main {
             }
           }
           .submit-btn {
+            max-width: 100%;
             button {
               font-size: 2.5rem;
             }
