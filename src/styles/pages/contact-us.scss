@@ -22,7 +22,8 @@ main {
       //   border: 1px solid black;
 
       .contact-details {
-        width: 43.8rem;
+        max-width: 43.8rem;
+        width: 100%;
         padding-top: 2.9rem;
         box-sizing: border-box;
         display: flex;
@@ -31,7 +32,8 @@ main {
         // border: 1px solid green;
 
         .get-in-touch {
-          width: 43.8rem;
+          max-width: 43.8rem;
+          width: 100%;
           display: flex;
           gap: 2rem;
           flex-direction: column;
@@ -55,7 +57,8 @@ main {
             margin-top: 0;
           }
           .contact-information {
-            width: 43.8rem;
+            max-width: 43.8rem;
+            width: 100%;
             height: 22rem;
             display: flex;
             flex-direction: column;
@@ -106,7 +109,8 @@ main {
           }
         }
         .social-media-handles {
-          width: 43.8rem;
+          max-width: 43.8rem;
+          max-width: 100%;
           display: flex;
           flex-direction: column;
           gap: 0.7rem;
