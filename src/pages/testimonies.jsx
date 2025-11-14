@@ -7,8 +7,38 @@ import { Form } from "../components/form"
 import radiow from "../media/images/radiow.png"
 import radiob from "../media/images/radiob.png"
 import "../styles/pages/testimonies.css"
+import { useEffect, useState  } from "react";
 
 export function Testimonies(){
+      const [backend, setBackend] = useState("");
+      const [load, setLoad] = useState(true);
+      const [error, setError] = useState("");
+      const [paragraph, setParagraph] = useState("");
+     
+  
+      useEffect(()=>{
+          fetch("https://netrue.io/admin/fetchtestimony.php")
+            .then((response)=>{
+                if(!response.ok){
+                    throw new Error("Server lost. check your server connection")
+                }
+                return response.json();
+            })
+            .then((data)=>{
+                setBackend(data)
+                setLoad(false)
+                
+            })
+            .catch((error)=>{
+                setError(error.Messages)
+                setLoad(false)
+            })
+        
+        }, [])
+  
+  
+        const alldata = Array.from(backend)
+
     return(
         <>
           {/* Top nav bar section */}
@@ -30,7 +60,7 @@ export function Testimonies(){
 
               <div>
                 <div className="testimonies-containers">
-                  <div className="cont">
+                  {/* <div className="cont">
                     <div className="top-head">
                       <h3>Esther AJ</h3>
                       <h4>Testifier</h4>
@@ -50,18 +80,18 @@ export function Testimonies(){
                       ago. The doctors said it might be deadly. But as Pastor called my case, I shouted Amen and checked.
                       Behold, God delivered me! The growth is gone!
                     </p>
-                  </div>
-                  <div className="cont">
-                    <div className="top-head">
-                      <h3>Ben Ose</h3>
-                      <h4>Testifier</h4>
+                  </div> */}
+
+                  {alldata.slice(0, 3).map((testimony, index)=>(
+                    <div className="cont" key={index}>        
+                      <div className="top-head">
+                        <h3>{testimony.name}</h3>
+                        <h4>Testifier</h4>
+                      </div>
+                      <p>{testimony.testimony}
+                      </p>
                     </div>
-                    <p>I was diagnosed with Cancer over a year
-                      ago. The doctors said it might be deadly.
-                      But as Pastor called my case, I shouted Amen and 
-                      checked. Behold, God delivered me! The growth is gone!
-                    </p>
-                  </div>
+                  ))}
                 </div>
 
                 <div className="radio">
