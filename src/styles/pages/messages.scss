@@ -300,7 +300,8 @@
             .message-tittle-container{
                 margin: 5rem auto;
                 max-height: 30dvh;
-                
+                 margin-bottom: 5rem;
+                overflow-y: scroll;
                 //  .messages-tittles{
                 //     max-width: 20dvh;
 
@@ -313,8 +314,9 @@
                 .messages-tittles{
                     display: flex;
                     flex-direction: column;
-                    width: 95dvvw;
+                    width: 95dvw;
                     left: 0;
+                    // overflow-y: scroll;
                     margin: auto;
                     // background-color: red;
                     

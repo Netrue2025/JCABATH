@@ -246,11 +246,13 @@
   .teaching-main-cont .messages-container .message-left-cont .message-tittle-container {
     margin: 5rem auto;
     max-height: 30dvh;
+    margin-bottom: 5rem;
+    overflow-y: scroll;
   }
   .teaching-main-cont .messages-container .message-left-cont .message-tittle-container .messages-tittles {
     display: flex;
     flex-direction: column;
-    width: 95dvvw;
+    width: 95dvw;
     left: 0;
     margin: auto;
     margin-left: 0;
