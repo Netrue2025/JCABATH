@@ -468,7 +468,7 @@ main {
         .sub-title {
           max-width: 39.3rem;
           width: 100%;
-          margin-left: 1rem;
+          margin-left: 2rem;
           box-sizing: border-box;
           // border: 1px solid red;
 
@@ -575,6 +575,7 @@ main {
                 font-weight: 400;
                 letter-spacing: 15%;
                 margin: 0;
+                text-transform: uppercase;
               }
             }
 
@@ -582,6 +583,132 @@ main {
               width: 18.6rem;
               font-size: 3.2rem;
               color: #d0cdcdd4;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 900px){
+    .week-days-services {
+      max-width: 100%;
+
+      .inner-container {
+        max-width: 90%;
+      }
+    }
+  }
+  @media (max-width: 660px) {
+    .week-days-services {
+      max-width: 100%;
+      height: fit-content;
+
+      .inner-container {
+        max-width: 90%;
+        flex-direction: column;
+        height: fit-content;
+        top: unset;
+        padding-bottom: 7.8rem;
+        // border: 1px solid red;
+
+        .week-days-services-image {
+          max-width: 100%;
+          height: fit-content;
+          margin-top: 22rem;
+
+          img {
+            width: 100%;
+            height: fit-content;
+          }
+        }
+        .week-days-services-content {
+          max-width: 100%;
+          position: unset;
+          height: auto;
+          bottom: unset;
+
+          .sub-title {
+            max-width: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            position: absolute;
+            z-index: 10;
+            top: 3rem;
+
+            p {
+              max-width: 39rem;
+            }
+          }
+
+          .midweek-services {
+            max-width: 100%;
+            height: auto;
+            border-top-right-radius: 0;
+            padding: 3rem 0;
+
+            .mid-week-container {
+              flex-direction: column;
+              gap: 3rem;
+              top: unset;
+              left: unset;
+              max-width: 100%;
+              width: 36rem;
+              margin: auto;
+              height: auto;
+
+              .mid-week-wrap {
+                width: 100%;
+
+                h3 {
+                  font-size: 3.2rem;
+                }
+
+                p {
+                  font-size: 3.2rem;
+                }
+              }
+              span {
+                width: 100%;
+                font-size: 4rem;
+              }
+            }
+          }
+
+          .night-vigil {
+            max-width: 100%;
+            height: auto;
+            border-bottom-left-radius: 1.6rem;
+            border-bottom-right-radius: 1.6rem;
+
+            .night-vigil-container {
+              flex-direction: column;
+              gap: 3rem;
+              top: unset;
+              left: unset;
+              max-width: 100%;
+              width: 36rem;
+              padding: 3rem 0;
+              margin: auto;
+              height: auto;
+
+              .night-vigil-wrap {
+                width: 100%;
+
+                h3 {
+                  font-size: 3.2rem;
+                }
+
+                p {
+                  font-size: 3.2rem;
+                }
+              }
+
+              span {
+                width: 100%;
+                font-size: 4rem;
+              }
             }
           }
         }

@@ -103,7 +103,7 @@ export function Services() {
               <div className="midweek-services">
                 <div className="mid-week-container">
                   <div className="mid-week-wrap">
-                    <h3>MIDWEEK SERVICE: </h3>
+                    <h3>MIDWEEK SERVICE : </h3>
                     <p>EVERY WEDNESDAY</p>
                   </div>
                   <span>5:30 PM - 6:30 PM</span>
@@ -114,7 +114,7 @@ export function Services() {
               <div className="night-vigil">
                 <div className="night-vigil-container">
                   <div className="night-vigil-wrap">
-                    <h3>NIGHT VIGIL:</h3>
+                    <h3>NIGHT VIGIL :</h3>
                     <p>3rd Friday of every month</p>
                   </div>
                   <span>11:00 PM - 1:00 AM</span>
