@@ -114,7 +114,7 @@ main .contact-container .inner-container .contact-details .social-media-handles 
 main .contact-container .inner-container .contact-details .social-media-handles .social-media-icons {
   display: flex;
   max-width: 20.524rem;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 main .contact-container .inner-container .contact-details .social-media-handles .social-media-icons a {
   max-width: 4.57rem;
@@ -127,6 +127,7 @@ main .contact-container .inner-container .contact-details .social-media-handles 
   background-color: rgba(230, 221, 255, 0.5019607843);
 }
 main .contact-container .inner-container .contact-form {
+  max-width: 66.5rem;
   width: 100%;
   height: 60rem;
   border-radius: 3.2rem;
@@ -175,6 +176,7 @@ main .contact-container .inner-container .contact-form label #input-message {
 }
 main .contact-container .inner-container .contact-form .submit-btn {
   max-width: 60rem;
+  width: 100%;
   box-sizing: border-box;
 }
 main .contact-container .inner-container .contact-form .submit-btn button {
@@ -259,7 +261,36 @@ main .contact-container .inner-container .contact-form .submit-btn .arrow-icon {
   main .contact-container .inner-container .contact-form label {
     width: 100%;
   }
+  main .contact-container .inner-container .contact-form label p {
+    font-size: 2.8rem;
+  }
   main .contact-container .inner-container .contact-form label input {
     width: 100%;
+    font-size: 2.8rem;
+    padding: 3.2rem;
+  }
+  main .contact-container .inner-container .contact-form .submit-btn button {
+    font-size: 2.5rem;
+  }
+  main .contact-container .inner-container .contact-form .submit-btn .arrow-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  main .contact-container .inner-container .social-media-handles {
+    width: 100%;
+  }
+  main .contact-container .inner-container .social-media-handles p {
+    font-size: 2.6rem !important;
+  }
+  main .contact-container .inner-container .social-media-handles .social-media-icons {
+    max-width: 100%;
+    gap: 5rem;
+  }
+  main .contact-container .inner-container .social-media-handles .social-media-icons a {
+    max-width: 4rem !important;
+  }
+  main .contact-container .inner-container .social-media-handles .social-media-icons a img {
+    width: 4rem !important;
+    height: 4rem !important;
   }
 }/*# sourceMappingURL=contact-us.css.map */
