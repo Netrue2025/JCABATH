@@ -342,20 +342,20 @@ main .fourth-continer {
   width: 100%;
   height: auto;
   box-sizing: border-box;
-  position: relative;
   border: 1px solid red;
 }
 main .fourth-continer .f-c-inset {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
-  max-height: 88dvh;
+  height: 88rem;
+  background-color: #f0f4ff;
   overflow: hidden;
   max-width: 120.2rem;
+  width: 100%;
   margin: 0 auto;
   position: relative;
-  top: 0;
-  margin-top: 0;
+  border: 1px solid red;
 }
 main .fourth-continer .f-c-inset .tittle-container {
   display: flex;
@@ -558,7 +558,14 @@ main .fourth-continer .f-c-inset img {
   align-items: center;
   flex-wrap: wrap;
 }
-main .fourth-continer button {
+main .fourth-continer .f-c-inset .link-f {
+  max-width: 120.2rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border: 1px solid red;
+}
+main .fourth-continer .f-c-inset .link-f button {
   display: flex;
   flex-direction: row;
   width: 19.3rem;
@@ -569,11 +576,9 @@ main .fourth-continer button {
   border-radius: 3rem;
   padding: 1.6rem 2.4rem;
   gap: 1rem;
-  margin-top: 7.8rem;
-  position: relative;
   justify-content: center;
 }
-main .fourth-continer button p {
+main .fourth-continer .f-c-inset .link-f button p {
   font-family: montserrat-semibold;
   font-weight: 600;
   font-size: 1.5rem;
@@ -582,7 +587,7 @@ main .fourth-continer button p {
   margin-top: 0;
   margin-bottom: 0;
 }
-main .fourth-continer button .arrow {
+main .fourth-continer .f-c-inset .link-f button .arrow {
   width: 1.387rem;
   height: 0.974rem;
   top: 0.31rem;
