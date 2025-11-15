@@ -55,7 +55,7 @@
   line-height: 1;
   font-weight: 600;
   width: 100%;
-  font-family: "Clash Grotesk", sans-serif;
+  font-family: Clash Grotesk;
 }
 .footer-container .footer-inset-container .details-container .footer-contacts .logo-name .logo-details {
   width: 100%;
@@ -64,7 +64,7 @@
   letter-spacing: 0%;
 }
 .footer-container .footer-inset-container .details-container .footer-contacts .logo-name .logo-details p {
-  font-family: "montserrat", sans-serif;
+  font-family: montserrat-light, sans-serif;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.831372549);
   font-size: 1.5rem;
@@ -94,7 +94,7 @@
   font-weight: 400;
   font-size: 1.437rem;
   letter-spacing: -2%;
-  font-family: "montserrat", sans-serif;
+  font-family: montserrat-light, sans-serif;
   vertical-align: middle;
   color: #FFFFFF;
   margin-left: 1.2rem;
@@ -116,7 +116,7 @@
   height: 2.6rem;
   top: -0.1rem;
   left: 3rem;
-  font-family: "montserrat", sans-serif;
+  font-family: montserrat-light, sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 2.55rem;
@@ -141,7 +141,7 @@
   vertical-align: middle;
   color: #FFFFFF;
   font-weight: 400;
-  font-family: "clash display", sans-serif;
+  font-family: clash-display-light, sans-serif;
 }
 .footer-container .footer-inset-container .details-container .quick .quicklinks {
   width: auto;
@@ -162,7 +162,7 @@
   letter-spacing: 0%;
   vertical-align: middle;
   color: rgba(255, 255, 255, 0.831372549);
-  font-family: "montserrat", sans-serif;
+  font-family: montserrat-light, sans-serif;
 }
 .footer-container .footer-inset-container .details-container .church {
   display: flex;
@@ -185,7 +185,7 @@
   height: 2.4rem;
   top: 9.5rem;
   left: 73.4rem;
-  font-family: "clash display", sans-serif;
+  font-family: clash-display-light, sans-serif;
   font-style: normal;
   font-size: 2rem;
   line-height: 2.4rem;
@@ -198,7 +198,7 @@
   width: 7rem;
   height: 2.6rem;
   top: -0.1rem;
-  font-family: "montserrat", sans-serif;
+  font-family: montserrat-light, sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 2.55rem;
@@ -214,7 +214,7 @@
   width: 100%;
   margin-top: 8.9rem;
   left: 97.4rem;
-  font-family: "Bricolage Grotesque" sans-serif;
+  font-family: bricolage-grotesgue-semibold, sans-serif;
   font-weight: 700;
   line-height: 2.4rem;
   letter-spacing: 0%;
@@ -269,7 +269,7 @@
   margin-top: 1.7rem;
 }
 .footer-container .footer-inset-container .others .others-details .terms-privacy-cookies .link, .footer-container .footer-inset-container .others .others-details .terms-privacy-cookies span {
-  font-family: "montserrat", sans-serif;
+  font-family: montserrat-light, sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1.7rem;
@@ -279,7 +279,7 @@
   text-decoration: none;
 }
 .footer-container .footer-inset-container .others .others-details p {
-  font-family: "montserrat", sans-serif;
+  font-family: montserrat-light, sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1.7rem;
@@ -309,21 +309,29 @@
 }
 @media screen and (max-width: 600px) {
   .footer-container .footer-inset-container {
-    width: 100vw;
-    left: 0;
+    max-width: 100dvw;
+    left: -2rem;
+    height: auto;
     font-size: 20%;
+    margin-left: 0;
   }
   .footer-container .footer-inset-container .details-container {
-    width: 100vw;
+    max-width: 100dvw;
     left: 0;
+    margin-left: 0;
+    height: auto;
     padding: 0;
+    flex-wrap: wrap;
     justify-content: space-evenly;
   }
   .footer-container .footer-inset-container .details-container .footer-contacts {
-    margin-left: -5rem;
+    margin-left: 0;
+  }
+  .footer-container .footer-inset-container .details-container .footer-contacts .logo-name {
+    max-width: 90%;
   }
   .footer-container .footer-inset-container .details-container .footer-contacts .logo-name .logo {
-    width: 80%;
+    max-width: 90%;
   }
   .footer-container .footer-inset-container .details-container .footer-contacts .logo-name .logo img {
     width: 4.278rem;
@@ -335,7 +343,7 @@
   .footer-container .footer-inset-container .details-container .social-media {
     margin: 0;
     margin: auto;
-    margin-top: -10rem;
+    margin-top: 0;
   }
   .footer-container .footer-inset-container .others {
     width: 100vw;
