@@ -12,7 +12,7 @@
 }
 .footer-container .footer-inset-container {
   width: 136rem;
-  height: 55.8rem;
+  height: 55.8dvh;
   left: 8rem;
   position: relative;
   display: flex;
@@ -26,6 +26,8 @@
   flex-wrap: wrap;
   width: 136rem;
   justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
 }
 .footer-container .footer-inset-container .details-container .footer-contacts {
   display: flex;
@@ -288,31 +290,11 @@
   letter-spacing: -4%;
   color: rgba(252, 252, 252, 0.8);
 }
-@media screen and (max-width: 1040px) {
-  .footer-container .footer-inset-container {
-    width: 100vw;
-    left: 0;
-    padding: 0;
-    margin: 0;
-  }
-  .footer-container .footer-inset-container .details-container {
-    width: 100vw;
-    left: 0;
-    justify-content: space-evenly;
-  }
-  .footer-container .footer-inset-container .others {
-    width: 100vw;
-    left: 0;
-    height: 10dvh;
-    padding-bottom: 5rem;
-  }
-}
 @media screen and (max-width: 600px) {
   .footer-container .footer-inset-container {
     max-width: 100dvw;
     left: -2rem;
     height: auto;
-    font-size: 20%;
     margin-left: 0;
   }
   .footer-container .footer-inset-container .details-container {
@@ -321,17 +303,17 @@
     margin-left: 0;
     height: auto;
     padding: 0;
-    flex-wrap: wrap;
     justify-content: space-evenly;
   }
   .footer-container .footer-inset-container .details-container .footer-contacts {
     margin-left: 0;
   }
   .footer-container .footer-inset-container .details-container .footer-contacts .logo-name {
-    max-width: 90%;
+    position: relative;
+    max-width: 75%;
   }
   .footer-container .footer-inset-container .details-container .footer-contacts .logo-name .logo {
-    max-width: 90%;
+    width: auto;
   }
   .footer-container .footer-inset-container .details-container .footer-contacts .logo-name .logo img {
     width: 4.278rem;
@@ -341,12 +323,11 @@
     font-size: 2.2rem;
   }
   .footer-container .footer-inset-container .details-container .social-media {
-    margin: 0;
     margin: auto;
-    margin-top: 0;
+    position: relative;
   }
   .footer-container .footer-inset-container .others {
-    width: 100vw;
+    width: 100dvw;
     left: 0;
   }
 }/*# sourceMappingURL=footer.css.map */
