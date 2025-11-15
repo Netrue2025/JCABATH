@@ -6,6 +6,8 @@ import { Topnavbar } from "../components/topnavbar";
 import { Header } from "../components/header";
 import { Location } from "../components/location";
 import { Footer } from "../components/footer";
+import { useState } from "react";
+import Swal from 'sweetalert2'
 
 // Import media
 import VectorOrange from "../media/images/VectorOrange.png";
@@ -17,7 +19,31 @@ import facebookicon from "../media/images/facebookicon.png";
 import submitarrowicon from "../media/images/submitarrowicon.png";
 
 export function ContactUs() {
+  const [result, setResult] = useState("");
 
+  const onSubmit = async (event) => {
+      event.preventDefault();
+      setResult("Sending....");
+      const formData = new FormData(event.target);
+      formData.append("access_key", "9827dd45-4565-4004-8428-a63fab8a508c");
+
+      const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+      });
+
+      const data = await response.json();
+      if (data.success) {
+          Swal.fire({
+              title: "Form Submited!",
+              text: "Thank your for reaching out to us, we will get back to you shortly!",
+              icon: "success"
+          });
+          } else {
+          setResult("Error");
+      }
+    setResult("");
+  }
 
   return (
     <>
@@ -79,22 +105,24 @@ export function ContactUs() {
                 </div>
               </div>
             </div>
-            <form className="contact-form">
+            <form className="contact-form" onSubmit={onSubmit}>
               <label htmlFor="">
                 <p>Full Name</p>
                 <input
                   type="text"
                   id="input-name"
                   placeholder="Enter full name"
+                  name="Full-Name"
+                  required
                 />
               </label>
               <label htmlFor="">
                 <p>Email</p>
-                <input type="email" id="" placeholder="Enter email" />
+                <input type="email" id="" placeholder="Enter email" name="Email" required/>
               </label>
               <label htmlFor="">
                 <p>Phone number</p>
-                <input type="number" id="" placeholder="Enter phone number" />
+                <input type="number" id="" placeholder="Enter phone number" name="Phone-Number" required/>
               </label>
               <label htmlFor="">
                 <p>Message</p>
@@ -102,6 +130,8 @@ export function ContactUs() {
                   type="text"
                   id="input-message"
                   placeholder="Tell us about your request"
+                  name="Messages"
+                  required
                 />
               </label>
               <div className="submit-btn">
@@ -112,8 +142,10 @@ export function ContactUs() {
                     alt="icon"
                     className="arrow-icon"
                   />
+                  {result}
                 </button>
               </div>
+              
             </form>
           </div>
         </section>
