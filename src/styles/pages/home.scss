@@ -112,16 +112,19 @@ main {
         }
 
         p {
-          top: -40.38rem;
-          left: 6.8rem;
+          top: -40rem;
+          // left: 6.8rem;
           font-family: montserrat-light;
           font-weight: 300;
           font-size: 2.4rem;
           letter-spacing: 0%;
           text-align: center;
           position: relative;
+          width: auto;
+          text-wrap: wrap;
 
-          margin: auto;
+
+          // margin: auto;
           color: rgba(206, 201, 201, 1);
 
           span {
@@ -178,11 +181,7 @@ main {
       }
     }
 
-    // @media screen and (max-width: 560px) {
-    //      .heading-container{
-    //         width: 100vw;
-    //      }
-    // }
+  
   }
 
   .contacts-main-container {
@@ -1079,9 +1078,9 @@ main {
           }
           p {
             margin: auto;
-            margin-left: -8.5rem;
-
-            top: -25dvh;
+            // margin-left: -8.5rem;
+            max-width: 90dvw;
+            margin-top: 12rem;
           }
         }
         .link {

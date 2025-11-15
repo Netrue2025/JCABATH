@@ -45,6 +45,7 @@ main .about-jca-screen .inner-container p {
   color: #ffffff;
   font-size: 6.5rem;
   margin-right: auto;
+  margin-left: auto;
 }
 main .church-vision {
   max-width: 100%;

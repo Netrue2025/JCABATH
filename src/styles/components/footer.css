@@ -325,6 +325,7 @@
   .footer-container .footer-inset-container .details-container .social-media {
     margin: auto;
     position: relative;
+    margin-top: -5rem;
   }
   .footer-container .footer-inset-container .others {
     width: 100dvw;
