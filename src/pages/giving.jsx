@@ -109,7 +109,7 @@ export function Giving() {
                     <div
                       style={{
                         position: "fixed",
-                        top: "70.0rem",
+                        top: "22.0rem",
                         right: "40px",
                         background: "#4caf50",
                         color: "white",
