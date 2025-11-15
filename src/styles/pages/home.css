@@ -570,7 +570,7 @@ main .fourth-continer .f-c-inset .link-f {
   max-width: 120.2rem;
   width: 100%;
   position: absolute;
-  bottom: 1rem;
+  bottom: 3rem;
 }
 main .fourth-continer .f-c-inset .link-f button {
   display: flex;
@@ -610,29 +610,25 @@ main .fifth-container {
   display: flex;
   flex-direction: column;
   max-width: 144rem;
-  height: auto;
-  top: 65.5dvh;
-  padding-bottom: 100rem;
-  padding-top: 0;
-  padding-left: 11rem;
-  gap: 1rem;
-  overflow: hidden;
+  width: 100%;
+  height: 115.1rem;
   box-sizing: border-box;
-  position: relative;
   margin: auto;
 }
 main .fifth-container .fifth-inner-con {
   display: flex;
   flex-direction: row;
-  flex-direction: row;
   max-width: 119.7rem;
-  height: auto;
+  width: 100%;
+  height: 74.5rem;
   gap: 6.4rem;
   margin: auto;
+  box-sizing: border-box;
 }
 main .fifth-container .fifth-inner-con .inner-content-one {
   max-width: 50.8rem;
-  height: auto;
+  width: 100%;
+  height: 74.5rem;
   border-radius: 3.96rem;
   background-image: linear-gradient(to bottom, rgba(11, 2, 38, 0.39), rgb(13, 10, 10)), url("../../media/images/gradient.jpg");
   background-size: cover;
@@ -641,16 +637,18 @@ main .fifth-container .fifth-inner-con .inner-content-one {
   background-blend-mode: darken;
   border-radius: 3.96rem;
   padding: 0;
+  box-sizing: border-box;
 }
 main .fifth-container .fifth-inner-con .inner-content-one .one-content {
   display: flex;
   flex-direction: column;
-  width: 43.019rem;
+  max-width: 43.019rem;
   height: auto;
   margin: auto;
   margin-top: 42.1rem;
   gap: 2.022rem;
   margin-left: 4.581rem;
+  box-sizing: border-box;
 }
 main .fifth-container .fifth-inner-con .inner-content-one .one-content .icon-with-name {
   display: flex;
@@ -695,17 +693,20 @@ main .fifth-container .fifth-inner-con .inner-content-one .one-content p {
   margin-top: 0;
 }
 main .fifth-container .fifth-inner-con .inner-content-twonthree {
-  max-width: 62.5dvw;
-  height: 74.5dvh;
+  max-width: 62.5rem;
+  width: 100%;
+  height: 74.5rem;
   gap: 3.5rem;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid red;
 }
 main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-two {
   display: flex;
   flex-direction: column;
-  max-width: 62.5dvw;
-  height: auto;
+  max-width: 62.5rem;
+  height: 35rem;
   border-radius: 3rem;
   padding: 2.7rem 5.9rem;
   gap: 1rem;
@@ -754,7 +755,7 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
 main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-two .two-content button {
   display: flex;
   flex-direction: row;
-  height: 6dvh;
+  height: 6rem;
   max-width: 25.1rem;
   border-radius: 3rem;
   border: 1px solid #ffffff;
@@ -785,8 +786,8 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
   color: #ffffff;
 }
 main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three {
-  max-width: 62.5dvw;
-  height: auto;
+  max-width: 62.5rem;
+  height: 35rem;
   border-radius: 3rem;
   padding: 2.7rem 5.9rem;
   background-color: #000000;
@@ -1021,9 +1022,6 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     position: unset;
     margin-top: 20rem;
     margin-left: 0;
-  }
-  main .fourth-continer .f-c-inset .link-f {
-    bottom: 3rem;
   }
   main .fourth-continer .f-c-inset .fifth-container {
     height: auto;
