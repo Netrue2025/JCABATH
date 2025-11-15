@@ -131,7 +131,7 @@ export function Home() {
         {/* Fourth Container */}
         <div className="fourth-continer">
           <div className="f-c-inset">
-            <div>
+            <div className="f-c-inset-wrapper">
               <div className="tittle-container">
                 <div className="f-c-tag">
                   <img src={yellowicon} alt="Yellow icon" />
