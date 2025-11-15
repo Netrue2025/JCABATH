@@ -71,7 +71,7 @@ export function AboutUs() {
               </ol>
 
               {/* Link to RCCG button */}
-              <Link to={"/"} className="link">
+              <Link to={"/about-jca"} className="link">
                 <button>
                   See more <FaArrowRightLong className="arrow" />
                 </button>
