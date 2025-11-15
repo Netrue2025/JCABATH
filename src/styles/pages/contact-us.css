@@ -125,7 +125,7 @@ main .contact-container .inner-container .contact-details .social-media-handles 
   max-width: 4.57rem;
   height: 4.57rem;
 }
-main .contact-container .inner-container .contact-details .social-media-handles .social-media-icons a img {
+main .contact-container .inner-container .contact-details .social-media-handles .social-media-icons a img, main .contact-container .inner-container .contact-details .social-media-handles .social-media-icons a .tiktok {
   width: 2.28rem;
   height: 2.28rem;
   border-radius: 50%;

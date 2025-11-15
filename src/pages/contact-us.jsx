@@ -8,6 +8,7 @@ import { Location } from "../components/location";
 import { Footer } from "../components/footer";
 import { useState } from "react";
 import Swal from 'sweetalert2'
+import { FaTiktok } from "react-icons/fa";
 
 // Import media
 import VectorOrange from "../media/images/VectorOrange.png";
@@ -15,7 +16,7 @@ import whatsappicon from "../media/images/whatsappicon.png";
 import whatsappiconsvg from "../media/images/whatsappiconsvg.png";
 import instagramicon from "../media/images/instagramicon.png";
 import youtubeicon from "../media/images/youtubeicon.png";
-import facebookicon from "../media/images/facebookicon.png";
+// import tiktokicon from "../media/images/tiktokicon.png";
 import submitarrowicon from "../media/images/submitarrowicon.png";
 
 export function ContactUs() {
@@ -80,8 +81,8 @@ export function ContactUs() {
                     <p>
                       WhatsApp <br />
                       (Pastor Farouq)
-                    </p>
-                    <a href="#">
+                    </p>  
+                    <a href="http://whatsapp.com/">
                       <img src={whatsappicon} alt="icon" />
                     </a>
                   </div>
@@ -90,16 +91,17 @@ export function ContactUs() {
               <div className="social-media-handles">
                 <p>Follow our Social Media handles</p>
                 <div className="social-media-icons">
-                  <a href="#" className="facebook-link">
-                    <img src={facebookicon} alt="facebook-icon" />
+                  <a href="https://www.tiktok.com/@rccg_jcabath?_r=1&_t=ZN-91I3CnaSGSw" className="facebook-link">
+                    {/* <img src={facebookicon} alt="facebook-icon" /> */}
+                    <FaTiktok className="tiktok"/>
                   </a>
-                  <a href="#" className="instagram-link">
+                  <a href="https://www.instagram.com/rccgjcabath?igsh=MTNjYXF2cGUxcDd1eg==" className="instagram-link">
                     <img src={instagramicon} alt="instagram-icon" />
                   </a>
-                  <a href="#" className="youtube-link">
+                  <a href="https://youtube.com/@rccgbath?si=KLDW3IZU7TMjKMHq" className="youtube-link">
                     <img src={youtubeicon} alt="youtubeicon-icon" />
                   </a>
-                  <a href="#" className="whatsapp-link">
+                  <a href="http://whatsapp.com/" className="whatsapp-link">
                     <img src={whatsappiconsvg} alt="whatsappiconsvg-icon" />
                   </a>
                 </div>

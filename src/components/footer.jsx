@@ -78,6 +78,7 @@ export function Footer(){
                             <Link className="link"><span>Terms of service</span></Link>
                             <Link className="link"><span>Privacy policy</span></Link>
                             <Link className="link"><span>Cookies Policy</span></Link>
+                            <Link className="link" to={"https://netrue.io"}><span>Developed by Netrue Ltd</span></Link>
                         </div>
                         <p>All rights reserved  2025  </p>
                     </div>

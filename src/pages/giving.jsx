@@ -128,10 +128,13 @@ export function Giving() {
               </div>
               {/* Contact button */}
               <div className="contact-btn">
-                <button>
-                  Contact Pst. Farouq
-                  <FaArrowRightLong className="arrow" />
-                </button>
+                <Link to={"https://whatsapp.comcler"}>
+                  <button>
+                    Contact Pst. Farouq
+                    <FaArrowRightLong className="arrow" />
+                  </button>
+                </Link>
+              
               </div>
             </div>
           </div>
