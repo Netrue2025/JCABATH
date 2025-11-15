@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../styles/pages/giving.css";
 import { FaArrowRightLong } from "react-icons/fa6";
-
+import { useState } from "react";
 // Import media
 import VectorOrange from "../media/images/VectorOrange.png";
 import Clippathgroup from "../media/images/Clippathgroup.png";
@@ -13,6 +13,39 @@ import { Footer } from "../components/footer";
 import { Header } from "../components/header";
 
 export function Giving() {
+    const [copied, setCopied] = useState(false);
+
+     const accountName = "AMAZING GRACE";
+    const handleCopyName = () => {
+      navigator.clipboard.writeText(accountName); 
+
+      setCopied(true);
+
+      setTimeout(() => {
+        setCopied(false);
+      }, 1200);
+    }
+
+    const accountNo = "13891518";
+    const handleCopy = () => {
+      navigator.clipboard.writeText(accountNo); 
+        setCopied(true);
+
+      setTimeout(() => {
+        setCopied(false);
+      }, 1200);
+    }
+
+    const sortcode = "20-68-15";
+    const handleCopySortCode = () => {
+      navigator.clipboard.writeText(sortcode); 
+        setCopied(true);
+
+      setTimeout(() => {
+        setCopied(false);
+      }, 1200);
+    }
+
   return (
     <div>
       {/* Top navigation bar */}
@@ -55,22 +88,40 @@ export function Giving() {
                   <div className="card card-item1">
                     <p>NAME:</p>
                     <div className="name-with-icon">
-                      <h2>AMAZING GRACE</h2>
-                      <img src={Clippathgroup} alt="icon" />
+                      <h2>{accountName}</h2>
+                      <img src={Clippathgroup} alt="icon" onClick={handleCopyName}/>
                     </div>
                   </div>
                   <div className="card card-item2">
                     <p>ACCOUNT NUMBER: </p>
                     <div className="name-with-icon">
-                      <h2>13891518</h2>
-                      <img src={Clippathgroup} alt="icon" />
+                      <h2>{accountNo}</h2>
+                      <img src={Clippathgroup} alt="icon" onClick={handleCopy}/>
                     </div>
+                 
                   </div>
                   <div className="card card-item3">
                     <p>SORT CODE: </p>
                     <div className="name-with-icon">
-                      <h2>20-68-15</h2>
-                      <img src={Clippathgroup} alt="icon" />
+                      <h2>{sortcode}</h2>
+                      <img src={Clippathgroup} alt="icon" onClick={handleCopySortCode}/>
+                    </div>
+                    <div
+                      style={{
+                        position: "fixed",
+                        top: "70.0rem",
+                        right: "40px",
+                        background: "#4caf50",
+                        color: "white",
+                        padding: "10px 16px",
+                        borderRadius: "8px",
+                        opacity: copied ? 1 : 0,
+                        transform: copied ? "translateY(0)" : "translateY(-10px)",
+                        transition: "opacity 0.3s ease, transform 0.3s ease",
+                        pointerEvents: "none",
+                      }}
+                      >
+                      Copied!
                     </div>
                   </div>
                 </div>
