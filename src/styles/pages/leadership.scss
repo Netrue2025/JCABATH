@@ -108,15 +108,19 @@ main {
         }
 
         .our-leaders-profile-cards{
+
+          margin: 0;
           .card {
             .card-1, .card-2, .card-3, .card-4{
               max-width: 90vw;
               margin: auto;
               overflow: hidden;
-              img{
-                width: 100%;
-              }
+             
             }
+            .img{
+                max-width: 100%;
+
+              }
           }
         }
       }
