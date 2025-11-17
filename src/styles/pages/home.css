@@ -2,6 +2,9 @@ main {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
   max-width: 100dvw;
 }
 main .home-screen {
@@ -204,7 +207,7 @@ main .contacts-main-container .contact-inner-container .charity {
 main .third-container {
   max-width: 144rem;
   width: 100%;
-  height: 102.7rem;
+  min-height: 102.7rem;
   box-sizing: border-box;
   margin: 0;
 }
@@ -334,9 +337,8 @@ main .fourth-continer {
   background-image: linear-gradient(27deg, rgba(255, 255, 255, 0)), url("../../media/images/Image+Overlay.png");
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 1440rem;
-  width: 100%;
-  height: 86.4;
+  max-width: 100dvw;
+  height: auto;
   box-sizing: border-box;
   position: relative;
 }
@@ -614,24 +616,26 @@ main .fifth-container {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 144rem;
-  width: 100dvw;
+  max-width: 100dvw;
   height: auto;
   box-sizing: border-box;
   position: relative;
-  padding: auto;
+  padding: 0;
   margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  margin-bottom: 10rem;
 }
 main .fifth-container .fifth-inner-con {
   display: flex;
   flex-direction: row;
   max-width: 90%;
-  height: 74.5rem;
+  height: auto;
   gap: 6.4rem;
   margin: auto;
   justify-content: center;
-  position: inherit;
-  box-sizing: border-box;
+  position: relative;
 }
 main .fifth-container .fifth-inner-con .inner-content-one {
   max-width: 50.8rem;
@@ -836,6 +840,7 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
   vertical-align: middle;
   color: #ffffff;
   margin: 0;
+  max-width: 95%;
 }
 main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three .inner-three .three-text p {
   font-family: montserrat-light;
@@ -845,6 +850,7 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
   vertical-align: middle;
   color: rgba(255, 255, 255, 0.831372549);
   margin: 0;
+  max-width: 90%;
 }
 main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three .inner-three button {
   display: flex;
@@ -960,7 +966,7 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     height: fit-content;
   }
   main .third-container .third-container-inset .images-container .sm-image img {
-    width: 27.574rem;
+    width: 42.574dvw;
     height: -moz-fit-content;
     height: fit-content;
   }
@@ -997,7 +1003,6 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     flex-direction: column-reverse;
     height: -moz-fit-content;
     height: fit-content;
-    gap: 1rem;
     padding: 2rem 0;
     position: relative;
   }
@@ -1020,6 +1025,8 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     height: fit-content;
     margin-bottom: 12rem;
     position: unset;
+    top: 0;
+    margin-top: 0;
   }
   main .fourth-continer .f-c-inset .inner-boxes .box-one {
     max-width: 100%;
@@ -1063,6 +1070,7 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     position: unset;
     margin-top: 20rem;
     margin-left: 0;
+    margin-bottom: -10rem;
   }
   main .fourth-continer .f-c-inset .fifth-container {
     height: auto;
