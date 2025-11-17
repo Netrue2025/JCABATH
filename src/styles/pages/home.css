@@ -474,19 +474,17 @@ main .fourth-continer .f-c-inset .inner-boxes .box-two-three {
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two {
   max-width: 36.8rem;
-  width: 100%;
   height: 22.9rem;
   border-radius: 16px 0.3px 0.3px 16px;
   background-color: #0b002a;
   border-right: 0.3px solid #ffffff;
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-contents {
-  width: 30.1rem;
+  max-width: 30.1rem;
   height: 14.5rem;
   top: 3.6rem;
   margin-left: 8.1rem;
   gap: 1.9rem;
-  border: 1px solid red;
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-contents h4 {
   font-family: clash-display-bold;
@@ -542,6 +540,7 @@ main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-con
   text-transform: capitalize;
   margin-bottom: 0;
   color: #ffffff;
+  width: 90%;
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-content h4 span {
   color: #ffd952;
@@ -701,7 +700,6 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-two {
   display: flex;
@@ -712,7 +710,6 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
   padding: 2.7rem 5.9rem;
   gap: 1rem;
   margin: auto;
-  background-color: #056402;
 }
 main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-two .two-content {
   max-width: 50.6rem;
@@ -1013,12 +1010,28 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     margin: 0;
   }
   main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two {
+    max-width: 100%;
     border-radius: 0;
+    position: unset;
     border-bottom-left-radius: 1.6rem;
   }
+  main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-contents {
+    margin: 3rem auto;
+  }
+  main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-contents p {
+    max-width: 100%;
+  }
   main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three {
+    max-width: 100%;
+    position: unset;
     border-radius: 0;
     border-bottom-right-radius: 1.6rem;
+  }
+  main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-content {
+    margin: 3rem auto;
+  }
+  main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-content p {
+    max-width: 100%;
   }
   main .fourth-continer .f-c-inset img {
     max-width: 100%;

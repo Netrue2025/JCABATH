@@ -123,7 +123,6 @@ main {
           width: auto;
           text-wrap: wrap;
 
-
           // margin: auto;
           color: rgba(206, 201, 201, 1);
 
@@ -180,8 +179,6 @@ main {
         }
       }
     }
-
-  
   }
 
   .contacts-main-container {
@@ -559,19 +556,19 @@ main {
 
           .box-two {
             max-width: 36.8rem;
-            width: 100%;
+            // width: 100%;
             height: 22.9rem;
             border-radius: 16px 0.3px 0.3px 16px;
             background-color: #0b002a;
             border-right: 0.3px solid #ffffff;
 
             .b-t-contents {
-              width: 30.1rem;
+              max-width: 30.1rem;
               height: 14.5rem;
               top: 3.6rem;
               margin-left: 8.1rem;
               gap: 1.9rem;
-              border: 1px solid red;
+              // border: 1px solid red;
 
               h4 {
                 font-family: clash-display-bold;
@@ -632,6 +629,7 @@ main {
                 text-transform: capitalize;
                 margin-bottom: 0;
                 color: #ffffff;
+                width: 90%;
 
                 span {
                   color: #ffd952;
@@ -867,7 +865,7 @@ main {
         display: flex;
         flex-direction: column;
         box-sizing: border-box;
-        border: 1px solid red;
+        // border: 1px solid red;
 
         .inner-content-two {
           display: flex;
@@ -879,7 +877,7 @@ main {
           padding: 2.7rem 5.9rem;
           gap: 1rem;
           margin: auto;
-          background-color: #056402;
+          // background-color: #056402;
 
           .two-content {
             max-width: 50.6rem;
@@ -1228,13 +1226,33 @@ main {
             margin: 0;
 
             .box-two {
+              max-width: 100%;
               border-radius: 0;
+              position: unset;
               border-bottom-left-radius: 1.6rem;
+
+              .b-t-contents {
+                margin: 3rem auto;
+
+                p {
+                  max-width: 100%;
+                }
+              }
             }
 
             .box-three {
+              max-width: 100%;
+              position: unset;
               border-radius: 0;
               border-bottom-right-radius: 1.6rem;
+
+              .b-t-content {
+                margin: 3rem auto;
+
+                p {
+                  max-width: 100%;
+                }
+              }
             }
           }
         }

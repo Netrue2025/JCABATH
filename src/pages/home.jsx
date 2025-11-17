@@ -155,7 +155,7 @@ export function Home() {
                         <span>1ST</span> SUNDAY <br /> OF THE MONTH
                       </h4>
                       <p>
-                        2:00 PM - <br /> 4:30 PM
+                        2:00 PM -  4:30 PM
                       </p>
                     </div>
                   </div>
@@ -166,7 +166,7 @@ export function Home() {
                         <span>OTHER</span> SUNDAYS <br /> OF THE MONTH
                       </h4>
                       <p>
-                        2:00 PM - <br /> 4:00 PM
+                        2:00 PM - 4:00 PM
                       </p>
                     </div>
                   </div>
