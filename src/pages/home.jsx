@@ -218,7 +218,7 @@ export function Home() {
                       assured that your requests will be kept private.
                     </p>
                   </div>
-                  <Link to={"/prayer-request"}>
+                  <Link to={"/prayer-request"} className="link">
                     <button>
                       <p>Send a Prayer Request</p>
                       <FaArrowRightLong className="arrow" />
