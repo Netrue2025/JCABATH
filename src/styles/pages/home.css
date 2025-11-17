@@ -2,7 +2,7 @@ main {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 100%;
+  max-width: 100dvw;
 }
 main .home-screen {
   background-image: linear-gradient(to right, rgb(3, 0, 18), rgba(30, 30, 27, 0)), url("../../media/images/background.png");
@@ -243,18 +243,18 @@ main .third-container .third-container-inset .images-container .lg-image img {
 }
 main .third-container .third-container-inset .images-container .sm-image {
   max-width: 59rem;
-  width: 100%;
   display: flex;
-  height: 19.16rem;
+  height: auto;
   flex-direction: row;
   justify-content: space-between;
   box-sizing: border-box;
+  overflow: hidden;
 }
 main .third-container .third-container-inset .images-container .sm-image img {
-  max-width: 27.574rem;
-  width: 100%;
-  height: 19.16rem;
+  width: auto;
+  height: auto;
   border-radius: 2.852rem;
+  position: relative;
 }
 main .third-container .third-container-inset .third-container-details {
   display: flex;
@@ -275,7 +275,6 @@ main .third-container .third-container-inset .third-container-details .t-c-heade
 }
 main .third-container .third-container-inset .third-container-details .t-c-header-container .t-c-tag {
   max-width: 15.4rem;
-  width: 100%;
   gap: 1.5rem;
   display: flex;
   align-items: center;
@@ -287,7 +286,7 @@ main .third-container .third-container-inset .third-container-details .t-c-heade
 main .third-container .third-container-inset .third-container-details .t-c-header-container .t-c-tag p {
   font-family: clash-display-light;
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 2.2rem;
   line-height: 1.69rem;
   letter-spacing: 0.25rem;
   vertical-align: middle;
@@ -339,6 +338,7 @@ main .fourth-continer {
   width: 100%;
   height: 86.4;
   box-sizing: border-box;
+  position: relative;
 }
 main .fourth-continer .f-c-inset {
   display: flex;
@@ -618,6 +618,7 @@ main .fifth-container {
   width: 100%;
   height: 115.1rem;
   box-sizing: border-box;
+  position: relative;
 }
 main .fifth-container .fifth-inner-con {
   display: flex;
@@ -726,7 +727,7 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
   position: relative;
   top: 5rem;
   left: 5.1rem;
-  gap: 6.9rem;
+  gap: 5.5rem;
   box-sizing: border-box;
 }
 main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-two .two-content .two-text {
@@ -980,6 +981,9 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     height: auto;
     margin: auto;
   }
+  main .third-container .third-container-inset .third-container-details p {
+    font-size: 2.5rem;
+  }
   main .fourth-continer {
     max-width: 100%;
     height: -moz-fit-content;
@@ -1105,5 +1109,31 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
   }
   main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three p {
     font-size: 2rem;
+  }
+  main .fifth-container {
+    width: 100dvw;
+    height: auto;
+    position: relative;
+    top: 0;
+    margin-bottom: 0;
+  }
+  main .fifth-container .fifth-inner-con {
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+    margin: auto;
+    gap: 5rem;
+    height: auto;
+    margin-bottom: 25rem;
+  }
+  main .fifth-container .fifth-inner-con .inner-content-one {
+    min-width: 90dvw;
+    margin: auto;
+  }
+  main .fifth-container .fifth-inner-con .inner-content-one .one-content {
+    width: auto;
+  }
+  main .fifth-container .fifth-inner-con .inner-content-twonthree {
+    min-height: 74.5rem;
   }
 }/*# sourceMappingURL=home.css.map */
