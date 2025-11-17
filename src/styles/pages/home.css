@@ -972,7 +972,7 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     height: fit-content;
   }
   main main .third-container .third-container-inset .images-container .sm-image img {
-    width: 27.574rem;
+    width: 42.574dvw;
     height: -moz-fit-content;
     height: fit-content;
   }
@@ -1006,7 +1006,6 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     flex-direction: column-reverse;
     height: -moz-fit-content;
     height: fit-content;
-    gap: 1rem;
     padding: 2rem 0;
     position: relative;
   }
@@ -1029,6 +1028,8 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     height: fit-content;
     margin-bottom: 12rem;
     position: unset;
+    top: 0;
+    margin-top: 0;
   }
   main main .fourth-continer .f-c-inset .inner-boxes .box-one {
     max-width: 100%;
@@ -1072,6 +1073,7 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     position: unset;
     margin-top: 20rem;
     margin-left: 0;
+    margin-bottom: -10rem;
   }
   main main .fourth-continer .f-c-inset .fifth-container {
     height: auto;
