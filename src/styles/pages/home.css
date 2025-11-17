@@ -352,6 +352,7 @@ main .fourth-continer .f-c-inset {
   max-width: 120.2rem;
   width: 100%;
   margin: 0 auto;
+  position: relative;
 }
 main .fourth-continer .f-c-inset .f-c-inset-wrapper {
   max-width: 72.3rem;
