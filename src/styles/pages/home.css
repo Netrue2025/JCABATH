@@ -971,7 +971,7 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     height: -moz-fit-content;
     height: fit-content;
   }
-  main main .third-container .third-container-inset .images-container .sm-image img {
+  main .third-container .third-container-inset .images-container .sm-image img {
     width: 42.574dvw;
     height: -moz-fit-content;
     height: fit-content;
