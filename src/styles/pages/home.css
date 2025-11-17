@@ -616,16 +616,13 @@ main .fifth-container {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 100dvw;
+  max-width: 144rem;
+  width: 100dvw;
   height: auto;
   box-sizing: border-box;
   position: relative;
-  padding: 0;
+  padding: auto;
   margin-top: 20rem;
-  display: flex;
-  flex-direction: column;
-  top: 0;
-  margin-bottom: 10rem;
 }
 main .fifth-container .fifth-inner-con {
   display: flex;
@@ -635,7 +632,8 @@ main .fifth-container .fifth-inner-con {
   gap: 6.4rem;
   margin: auto;
   justify-content: center;
-  position: relative;
+  position: inherit;
+  box-sizing: border-box;
 }
 main .fifth-container .fifth-inner-con .inner-content-one {
   max-width: 50.8rem;
