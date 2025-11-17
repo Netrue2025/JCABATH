@@ -349,39 +349,48 @@ main .fourth-continer .f-c-inset {
   box-sizing: border-box;
   height: 88rem;
   background-color: #f0f4ff;
-  overflow: hidden;
   max-width: 120.2rem;
   width: 100%;
   margin: 0 auto;
-  position: relative;
 }
-main .fourth-continer .f-c-inset .tittle-container {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper {
+  max-width: 72.3rem;
+  width: 100%;
+  height: 69.2rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10.9rem;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .tittle-container {
   display: flex;
   flex-direction: row;
-  max-width: 51.8rem;
-  width: 100%;
+  max-width: 100%;
   height: 10.2rem;
-  align-items: center;
-  margin-top: 9.2rem;
-  margin-left: 22.1rem;
+  justify-content: center;
   gap: 8rem;
-  padding: 0;
+  margin: 0;
+  border: 1px solid blue;
 }
-main .fourth-continer .f-c-inset .tittle-container .f-c-tag {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .tittle-container .f-c-tag {
   display: flex;
   flex-direction: 11.1rem;
   height: 1.8rem;
   gap: 1.5rem;
-  width: 11.1rem;
+  max-width: 11.7rem;
+  width: 100%;
   align-items: center;
   margin: auto;
+  box-sizing: border-box;
 }
-main .fourth-continer .f-c-inset .tittle-container .f-c-tag img {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .tittle-container .f-c-tag img {
   width: 1.8rem;
   height: 1.8rem;
   margin: 0;
 }
-main .fourth-continer .f-c-inset .tittle-container .f-c-tag p {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .tittle-container .f-c-tag p {
   font-family: clash-display-light;
   font-weight: 300;
   font-size: 1.3rem;
@@ -392,12 +401,15 @@ main .fourth-continer .f-c-inset .tittle-container .f-c-tag p {
   color: #000000;
   margin: 0;
 }
-main .fourth-continer .f-c-inset .tittle-container .f-c-tittle {
-  width: 38.3rem;
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .tittle-container .f-c-tittle {
+  max-width: 38.3rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid red;
 }
-main .fourth-continer .f-c-inset .tittle-container .f-c-tittle h3 {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .tittle-container .f-c-tittle h3 {
   font-family: clash-display-light;
   font-weight: 400;
   font-size: 4rem;
@@ -405,7 +417,7 @@ main .fourth-continer .f-c-inset .tittle-container .f-c-tittle h3 {
   letter-spacing: 1%;
   margin: 0;
 }
-main .fourth-continer .f-c-inset .tittle-container .f-c-tittle h2 {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .tittle-container .f-c-tittle h2 {
   font-family: clash-display-bold;
   font-weight: 700;
   font-size: 6rem;
@@ -414,29 +426,33 @@ main .fourth-continer .f-c-inset .tittle-container .f-c-tittle h2 {
   color: #000000;
   margin: 0;
 }
-main .fourth-continer .f-c-inset .inner-boxes {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes {
   display: flex;
   flex-direction: column;
   height: 41.3rem;
   max-width: 72.3rem;
   width: 100%;
-  bottom: -12%;
-  position: relative;
+  justify-content: space-between;
   box-sizing: border-box;
+  border: 1px solid red;
 }
-main .fourth-continer .f-c-inset .inner-boxes .box-one {
-  max-width: 60.1rem;
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-one {
+  max-width: 72.3rem;
   width: 100%;
   height: 18.4rem;
-  border-radius: 1.6rem;
+  border-top-left-radius: 1.6rem;
   background-color: #1a0651;
+  display: flex;
+  flex-direction: column;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
   text-align: center;
-  margin-left: 11.9rem;
-  margin-bottom: 0;
-  position: relative;
+  justify-content: center;
+  gap: 1.6rem;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
 }
-main .fourth-continer .f-c-inset .inner-boxes .box-one h4 {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-one h4 {
   font-family: clash-display-bold;
   font-weight: 700;
   font-size: 2rem;
@@ -445,11 +461,11 @@ main .fourth-continer .f-c-inset .inner-boxes .box-one h4 {
   vertical-align: middle;
   text-transform: capitalize;
   color: #ffffff;
-  width: 32.4rem;
-  margin-top: 4rem;
-  margin-bottom: 0;
+  max-width: 32.4rem;
+  width: 100%;
+  margin: 0;
 }
-main .fourth-continer .f-c-inset .inner-boxes .box-one p {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-one p {
   max-width: 30.9rem;
   height: 2.6rem;
   font-family: montserrat-light;
@@ -459,38 +475,35 @@ main .fourth-continer .f-c-inset .inner-boxes .box-one p {
   letter-spacing: 0%;
   vertical-align: middle;
   color: #bbbbbb;
-  margin-left: 6rem;
-  margin-top: 2.5rem;
+  margin: 0;
 }
-main .fourth-continer .f-c-inset .inner-boxes .box-two-three {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-two-three {
   max-width: 72.3rem;
   width: 100%;
   height: 22.9rem;
   display: flex;
   flex-direction: row;
-  margin-top: -2rem;
-  position: relative;
   box-sizing: border-box;
 }
-main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-two-three .box-two {
   max-width: 36.8rem;
   width: 100%;
   height: 22.9rem;
-  border-radius: 16px 0.3px 0.3px 16px;
+  border-bottom-left-radius: 1.6rem;
   background-color: #0b002a;
   border-right: 0.3px solid #ffffff;
 }
-main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-contents {
-  max-width: 30.1rem;
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-two-three .box-two .b-t-contents {
+  max-width: 85%;
   width: 100%;
   height: 14.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 3.6rem auto;
+  margin: auto;
   gap: 1.9rem;
 }
-main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-contents h4 {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-two-three .box-two .b-t-contents h4 {
   font-family: clash-display-bold;
   font-weight: 700;
   font-size: 2rem;
@@ -503,11 +516,11 @@ main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-conte
   position: relative;
   width: 90%;
 }
-main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-contents h4 span {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-two-three .box-two .b-t-contents h4 span {
   font-family: clash-display-bold;
   color: #ffd952;
 }
-main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-contents p {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-two-three .box-two .b-t-contents p {
   font-family: montserrat-light;
   font-weight: 400;
   font-size: 3.2rem;
@@ -518,22 +531,22 @@ main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-conte
   margin: 0;
   max-width: 100%;
 }
-main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-two-three .box-three {
   max-width: 36.8rem;
   width: 100%;
   height: 22.9rem;
   background-color: #0b002a;
 }
-main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-content {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-two-three .box-three .b-t-content {
   display: flex;
   flex-direction: column;
-  max-width: 30.1rem;
+  max-width: 85%;
   width: 100%;
   height: 14.5rem;
-  margin: 3.6rem auto;
+  margin: auto;
   gap: 1.9rem;
 }
-main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-content h4 {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-two-three .box-three .b-t-content h4 {
   font-family: clash-display-bold;
   font-weight: 700;
   font-size: 2rem;
@@ -545,11 +558,11 @@ main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-con
   color: #ffffff;
   width: 90%;
 }
-main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-content h4 span {
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-two-three .box-three .b-t-content h4 span {
   color: #ffd952;
 }
-main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-content p {
-  max-width: 100%;
+main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-two-three .box-three .b-t-content p {
+  max-width: 21.5rem;
   height: 7.8rem;
   font-family: montserrat-light;
   font-weight: 400;
@@ -564,10 +577,6 @@ main .fourth-continer .f-c-inset img {
   max-width: 50.6rem;
   width: 100%;
   height: 69.2rem;
-  margin: 0;
-  position: relative;
-  margin-left: -2rem;
-  align-items: center;
 }
 main .fourth-continer .f-c-inset .link-f {
   max-width: 120.2rem;
