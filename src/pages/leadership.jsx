@@ -45,16 +45,16 @@ export function Leadership() {
             </div>
             <div className="our-leaders-profile-cards">
               <div className="card card-1">
-                <img src={pastorFarouq} alt="Residential Pastor" />
+                <img src={pastorFarouq} alt="Residential Pastor" className="img"/>
               </div>
               <div className="card card-2">
-                <img src={dcnsAdetunbi} alt="RCCG JCA Leader" />
+                <img src={dcnsAdetunbi} alt="RCCG JCA Leader" className="img" />
               </div>
               <div className="card card-3">
-                <img src={pstBlessing} alt="RCCG JCA Pastor" />
+                <img src={pstBlessing} alt="RCCG JCA Pastor" className="img"/>
               </div>
               <div className="card card-4">
-                <img src={mrsTeclar} alt="RCCG JCA Leader" />
+                <img src={mrsTeclar} alt="RCCG JCA Leader" className="img"/>
               </div>
             </div>
           </div>

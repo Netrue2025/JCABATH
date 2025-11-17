@@ -95,15 +95,15 @@ main .home-screen .heading-with-button .heading-container .heading-text .to-chur
   color: rgb(252, 252, 252);
 }
 main .home-screen .heading-with-button .heading-container p {
-  top: -40.38rem;
-  left: 6.8rem;
+  top: -40rem;
   font-family: montserrat-light;
   font-weight: 300;
   font-size: 2.4rem;
   letter-spacing: 0%;
   text-align: center;
   position: relative;
-  margin: auto;
+  width: auto;
+  text-wrap: wrap;
   color: rgb(206, 201, 201);
 }
 main .home-screen .heading-with-button .heading-container p span {
@@ -486,6 +486,7 @@ main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-conte
   top: 3.6rem;
   margin-left: 8.1rem;
   gap: 1.9rem;
+  border: 1px solid red;
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-contents h4 {
   font-family: clash-display-bold;
@@ -900,8 +901,8 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
   }
   main .home-screen .heading-with-button .heading-container p {
     margin: auto;
-    margin-left: -8.5rem;
-    top: -25dvh;
+    max-width: 90dvw;
+    margin-top: 12rem;
   }
   main .home-screen .heading-with-button .link {
     margin: auto;
@@ -1003,6 +1004,8 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     position: unset;
     margin: 0;
     border-radius: 0;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   main .fourth-continer .f-c-inset .inner-boxes .box-two-three {
     max-width: 100%;

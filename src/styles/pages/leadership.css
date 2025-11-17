@@ -80,4 +80,15 @@ main .our-leaders .inner-container::-webkit-scrollbar {
     line-height: 1.5;
     font-size: 2.7rem;
   }
+  main .our-leaders .inner-container .our-leaders-profile-cards {
+    margin: 0;
+  }
+  main .our-leaders .inner-container .our-leaders-profile-cards .card .card-1, main .our-leaders .inner-container .our-leaders-profile-cards .card .card-2, main .our-leaders .inner-container .our-leaders-profile-cards .card .card-3, main .our-leaders .inner-container .our-leaders-profile-cards .card .card-4 {
+    max-width: 90vw;
+    margin: auto;
+    overflow: hidden;
+  }
+  main .our-leaders .inner-container .our-leaders-profile-cards .card .img {
+    max-width: 100%;
+  }
 }/*# sourceMappingURL=leadership.css.map */
