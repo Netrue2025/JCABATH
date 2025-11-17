@@ -474,6 +474,7 @@ main .fourth-continer .f-c-inset .inner-boxes .box-two-three {
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two {
   max-width: 36.8rem;
+  width: 100%;
   height: 22.9rem;
   border-radius: 16px 0.3px 0.3px 16px;
   background-color: #0b002a;
@@ -481,9 +482,12 @@ main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two {
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-contents {
   max-width: 30.1rem;
+  width: 100%;
   height: 14.5rem;
-  top: 3.6rem;
-  margin-left: 8.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3.6rem auto;
   gap: 1.9rem;
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-contents h4 {
@@ -511,30 +515,29 @@ main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-conte
   vertical-align: middle;
   letter-spacing: 0%;
   color: rgba(208, 205, 205, 0.831372549);
-  margin-top: 0;
-  max-width: 21.5rem;
+  margin: 0;
+  max-width: 100%;
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three {
   max-width: 36.8rem;
   width: 100%;
   height: 22.9rem;
-  position: relative;
   background-color: #0b002a;
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-content {
   display: flex;
   flex-direction: column;
-  width: 21.5rem;
+  max-width: 30.1rem;
+  width: 100%;
   height: 14.5rem;
-  top: 3.6rem;
-  margin-left: 3.7rem;
+  margin: 3.6rem auto;
   gap: 1.9rem;
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-content h4 {
   font-family: clash-display-bold;
   font-weight: 700;
   font-size: 2rem;
-  line-height: 2.4dvh;
+  line-height: 2.4rem;
   letter-spacing: 15%;
   vertical-align: middle;
   text-transform: capitalize;
@@ -546,7 +549,7 @@ main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-con
   color: #ffd952;
 }
 main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-content p {
-  max-width: 21.5rem;
+  max-width: 100%;
   height: 7.8rem;
   font-family: montserrat-light;
   font-weight: 400;
@@ -555,7 +558,7 @@ main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-con
   letter-spacing: 0%;
   vertical-align: middle;
   color: rgba(208, 205, 205, 0.831372549);
-  margin-top: -1.7rem;
+  margin: 0;
 }
 main .fourth-continer .f-c-inset img {
   max-width: 50.6rem;
