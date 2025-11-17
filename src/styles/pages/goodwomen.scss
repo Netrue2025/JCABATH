@@ -97,7 +97,7 @@
             }
            
             p{
-               font-family: montserrat-semibold;
+               font-family: montserrat-light;
                font-weight: 600;
                height: auto;
                font-size: 1.7rem;
@@ -105,9 +105,11 @@
                letter-spacing: 0%;
                vertical-align: middle; 
                color: hsla(0, 1%, 30%, 1);
-               margin: 0;
+               margin: auto;
                position: relative;
                left: 0;
+               width: 100%;
+
                
                li:last-child{
                 margin-top: 2rem;
@@ -200,14 +202,16 @@
     
         }
         .g-w-contents{
-            width: 90%;
-            margin-left: -10rem;
+            max-width: 90dvw;
+            // margin-left: -10rem;
             padding: 0;
+            margin: 0 auto;
+            left: 0;
             
 
             .g-w-section-one{
                 .section-one-head{
-                    width: 50%;
+                    width: 40%;
                     margin: auto;
                     
                     
@@ -218,7 +222,8 @@
 
                 }
                 p{
-                    font-size: 2.0rem;
+                    font-size: 2.2rem;
+                  
                 }
 
             }
@@ -233,7 +238,7 @@
                 p{
                 text-align: left;
                 margin-left: 0;
-                font-size: 2.0rem;
+                font-size: 2.2rem;
                 }
             }
       
