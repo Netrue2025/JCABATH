@@ -1,0 +1,94 @@
+main {
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  background-color: #fff;
+  color: #000;
+  height: auto;
+}
+main .our-leaders {
+  max-width: 100%;
+  height: auto;
+}
+main .our-leaders .inner-container {
+  max-width: 90%;
+  max-height: 183.1rem;
+  display: flex;
+  position: relative;
+  top: 14.9rem;
+  gap: 16.6rem;
+  margin: auto;
+  text-align: center;
+  flex-direction: column;
+  line-height: 0%;
+}
+main .our-leaders .inner-container .subheading {
+  max-width: 87.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin: auto;
+}
+main .our-leaders .inner-container .subheading h1 {
+  font-size: 4.5rem;
+  letter-spacing: 10%;
+  color: #0f1a1a;
+  font-family: clash-display-bold;
+}
+main .our-leaders .inner-container .subheading p {
+  font-size: 2.4rem;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+main .our-leaders .inner-container .our-leaders-profile-cards {
+  display: flex;
+  gap: 5rem 10.1rem;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+main .our-leaders .inner-container .our-leaders-profile-cards .card {
+  max-width: 55rem;
+  max-height: 57.6rem;
+  box-sizing: border-box;
+  position: relative;
+}
+main .our-leaders .inner-container .our-leaders-profile-cards .card img {
+  max-width: 55rem;
+  max-height: 57.6rem;
+  border-radius: 1.6rem;
+  box-sizing: border-box;
+}
+main .our-leaders .inner-container::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  main .our-leaders {
+    position: relative;
+    height: auto;
+  }
+  main .our-leaders .inner-container {
+    height: auto;
+    position: relative;
+    margin: auto;
+    padding-bottom: 120rem;
+  }
+  main .our-leaders .inner-container .subheading p {
+    line-height: 1.5;
+    font-size: 2.7rem;
+  }
+  main .our-leaders .inner-container .our-leaders-profile-cards {
+    margin: 0;
+  }
+  main .our-leaders .inner-container .our-leaders-profile-cards .card .card-1, main .our-leaders .inner-container .our-leaders-profile-cards .card .card-2, main .our-leaders .inner-container .our-leaders-profile-cards .card .card-3, main .our-leaders .inner-container .our-leaders-profile-cards .card .card-4 {
+    max-width: 90vw;
+    margin: auto;
+    overflow: hidden;
+  }
+  main .our-leaders .inner-container .our-leaders-profile-cards .card .img {
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=leadership.css.map */

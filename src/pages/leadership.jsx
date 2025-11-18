@@ -1,5 +1,6 @@
 // import { Link } from "react-router-dom";
 import "../styles/pages/leadership.css";
+
 import { Topnavbar } from "../components/topnavbar";
 import { Location } from "../components/location";
 import { Footer } from "../components/footer";

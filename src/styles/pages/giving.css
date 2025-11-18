@@ -148,7 +148,6 @@ main .ways-to-donate .inner-container .amazing-grace-bank-details .account-detai
   main .ways-to-donate .inner-container .amazing-grace-bank-details .account-details .account-information-card .card {
     max-width: 27.2rem;
     width: 100%;
-    border: 1px solid green;
   }
 }
 main .ways-to-donate .inner-container .amazing-grace-bank-details .contact-btn {
@@ -175,7 +174,6 @@ main .ways-to-donate .inner-container .amazing-grace-bank-details .contact-btn b
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    border: 1px solid red;
   }
   main .ways-to-donate .inner-container .ways-to-give .donations {
     align-items: center;
