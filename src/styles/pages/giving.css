@@ -150,6 +150,11 @@ main .ways-to-donate .inner-container .amazing-grace-bank-details .account-detai
     width: 100%;
   }
 }
+@media (max-width: 600px) {
+  main .ways-to-donate .inner-container .amazing-grace-bank-details .account-details .account-information-card .card {
+    max-width: 100%;
+  }
+}
 main .ways-to-donate .inner-container .amazing-grace-bank-details .contact-btn {
   background-color: transparent;
   box-sizing: border-box;
