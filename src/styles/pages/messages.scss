@@ -6,16 +6,19 @@
     .messages-container{
         width: 90%;
         height: auto;
-        margin: auto;
+        margin: 0 auto;
         display: flex;
         flex-direction: row;
         padding-top: 7.3rem;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 3rem;
+        box-sizing: border-box;
         
         .message-left-cont{
             display: flex;
             flex-direction: column;
-            width: 28.8rem;
+            max-width: 28.8rem;
+            width: 100%;
             height: auto;
             position: relative;
             // left: 12.2rem;
@@ -27,12 +30,14 @@
             .search-box{
                 display: flex;
                 flex-direction: row;
-                width: 28.5rem;
+                max-width: 28.5rem;
+                width: 100%;
                 height: 5.4rem;
                 border-radius: 10px;
                 margin: 0;
                 border: 1px solid hsla(255, 5%, 58%, 1);
                 background-color: hsla(0, 0%, 100%, 1);
+                box-sizing: border-box;
                 
                 input{
                     width: 80%;
@@ -44,8 +49,10 @@
                     line-height: 100%;
                     border-radius: 10px;
                     vertical-align: middle;
+                    outline: none;
                     color: hsla(328, 3%, 71%, 1);
                     border: none;
+                    background-color: hsla(0, 0%, 100%, 1);
                 }
                 img{
                     width: 1.776rem;
@@ -166,14 +173,15 @@
         }
 
         .message-right-cont{
-            min-width: 86.9rem;
+            max-width: 86.9rem;
+            width: 100%;
             height: auto;
             gap: 2.7rem;
             margin: 0;
             
 
             .right-cont-head{
-                width: 100%;
+                max-width: 100%;
                 gap: 2.7rem;
 
                 .tag-cont{
@@ -212,7 +220,7 @@
                 }
 
                 .tittle-cont{
-                    width: 100%;
+                    max-width: 100%;
                     h1{
                        font-family: clash-display-semibold;
                        font-weight: 600;
@@ -239,7 +247,7 @@
 
             
             .paragraph-cont{
-                width: 100%;
+                max-width: 100%;
                 margin-top: 5rem;
                 margin-bottom: 5rem;
 
@@ -255,9 +263,9 @@
 
                 p{
                     font-family: montserrat-light;
-                    font-weight: 600;
-                    font-size: 2.4rem;
-                    line-height: 2.3;
+                    font-weight: 400;
+                    font-size: 2rem;
+                    line-height: 3.3;
                     letter-spacing: 0%;
                     vertical-align: middle;
                     // color: hsla(0, 1%, 18%, 1);
@@ -286,13 +294,15 @@
         
 
         .message-left-cont{
+            max-width: 100%;
             height: auto;
             overflow: hidden;
             margin: auto;
-            width: 95dvw;
+            // width: 95dvw;
 
             .search-box{
-                width: 28.5rem;
+                max-width: 100%;
+                // width: 28.5rem;
                 min-height: 5.4dvh;
                 margin: auto;
               

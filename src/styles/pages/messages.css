@@ -6,16 +6,19 @@
 .teaching-main-cont .messages-container {
   width: 90%;
   height: auto;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   padding-top: 7.3rem;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 3rem;
+  box-sizing: border-box;
 }
 .teaching-main-cont .messages-container .message-left-cont {
   display: flex;
   flex-direction: column;
-  width: 28.8rem;
+  max-width: 28.8rem;
+  width: 100%;
   height: auto;
   position: relative;
   gap: 3.3rem;
@@ -23,12 +26,14 @@
 .teaching-main-cont .messages-container .message-left-cont .search-box {
   display: flex;
   flex-direction: row;
-  width: 28.5rem;
+  max-width: 28.5rem;
+  width: 100%;
   height: 5.4rem;
   border-radius: 10px;
   margin: 0;
   border: 1px solid hsl(255, 5%, 58%);
   background-color: hsl(0, 0%, 100%);
+  box-sizing: border-box;
 }
 .teaching-main-cont .messages-container .message-left-cont .search-box input {
   width: 80%;
@@ -40,8 +45,10 @@
   line-height: 100%;
   border-radius: 10px;
   vertical-align: middle;
+  outline: none;
   color: hsl(328, 3%, 71%);
   border: none;
+  background-color: hsl(0, 0%, 100%);
 }
 .teaching-main-cont .messages-container .message-left-cont .search-box img {
   width: 1.776rem;
@@ -134,13 +141,14 @@
   color: hsl(0, 0%, 100%);
 }
 .teaching-main-cont .messages-container .message-right-cont {
-  min-width: 86.9rem;
+  max-width: 86.9rem;
+  width: 100%;
   height: auto;
   gap: 2.7rem;
   margin: 0;
 }
 .teaching-main-cont .messages-container .message-right-cont .right-cont-head {
-  width: 100%;
+  max-width: 100%;
   gap: 2.7rem;
 }
 .teaching-main-cont .messages-container .message-right-cont .right-cont-head .tag-cont {
@@ -177,7 +185,7 @@
   top: 20%;
 }
 .teaching-main-cont .messages-container .message-right-cont .right-cont-head .tittle-cont {
-  width: 100%;
+  max-width: 100%;
 }
 .teaching-main-cont .messages-container .message-right-cont .right-cont-head .tittle-cont h1 {
   font-family: clash-display-semibold;
@@ -200,7 +208,7 @@
   margin: 0;
 }
 .teaching-main-cont .messages-container .message-right-cont .paragraph-cont {
-  width: 100%;
+  max-width: 100%;
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
@@ -215,9 +223,9 @@
 }
 .teaching-main-cont .messages-container .message-right-cont .paragraph-cont p {
   font-family: montserrat-light;
-  font-weight: 600;
-  font-size: 2.4rem;
-  line-height: 2.3;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.3;
   letter-spacing: 0%;
   vertical-align: middle;
 }
@@ -233,13 +241,13 @@
     width: 95dvw;
   }
   .teaching-main-cont .messages-container .message-left-cont {
+    max-width: 100%;
     height: auto;
     overflow: hidden;
     margin: auto;
-    width: 95dvw;
   }
   .teaching-main-cont .messages-container .message-left-cont .search-box {
-    width: 28.5rem;
+    max-width: 100%;
     min-height: 5.4dvh;
     margin: auto;
   }
