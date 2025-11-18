@@ -154,9 +154,7 @@ export function Home() {
                       <h4>
                         <span>1ST</span> SUNDAY <br /> OF THE MONTH
                       </h4>
-                      <p>
-                        2:00 PM -  4:30 PM
-                      </p>
+                      <p>2:00 PM - 4:30 PM</p>
                     </div>
                   </div>
 
@@ -165,15 +163,15 @@ export function Home() {
                       <h4>
                         <span>OTHER</span> SUNDAYS <br /> OF THE MONTH
                       </h4>
-                      <p>
-                        2:00 PM - 4:00 PM
-                      </p>
+                      <p>2:00 PM - 4:00 PM</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <img src={praying} alt="Image of Congregtion praying mode" />
+            <div className="fourth-container-img">
+              <img src={praying} alt="Image of Congregtion praying mode" />
+            </div>
             <Link to={"/services"} className="link-f">
               <button>
                 <p>Learn more</p>

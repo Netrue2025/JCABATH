@@ -3,13 +3,8 @@
 // }
 main {
   margin: 0;
-  // top: 11.7rem;
-  // left: -0.1rem;
   padding: 0;
   box-sizing: border-box;
-  // display: flex;
-  // flex-direction: column;
-  // position: relative;
   max-width: 100%;
 
   .home-screen {
@@ -413,7 +408,6 @@ main {
       height: 88rem;
       // max-width: 95%;
       background-color: #f0f4ff;
-      // overflow: hidden;
       max-width: 120.2rem;
       width: 100%;
       margin: 0 auto;
@@ -1007,285 +1001,252 @@ main {
       }
     }
   }
-}
 
-// Media Query for mibile
-@media screen and (max-width: 600px) {
-  main {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    // font-size: 20% !important;
-
-    .home-screen {
-      .heading-with-button {
-        margin: 0;
-        position: relative;
-        max-width: 100vw;
-        padding: 0;
-        margin-left: 0rem;
-
-        .heading-container {
-          max-width: 100vw;
-          padding: 0 10px;
-          left: 0;
-          margin: 0 auto;
-
-          .heading-text {
-            // background-color: red;
-            max-height: 50rem;
-
-            h1 {
-              font-size: 12rem;
-            }
-            .to-church {
-              box-sizing: border-box;
-              height: auto;
-              width: 100%;
-              h2 {
-                font-size: 15rem;
-                top: -14.5dvh;
-                position: relative;
-              }
-              span {
-                font-size: 11rem;
-                top: -2dvh;
-              }
-            }
-          }
-          p {
-            margin: auto;
-            // margin-left: -8.5rem;
-            max-width: 90dvw;
-            margin-top: 12rem;
-          }
-        }
-        .link {
-          margin: auto;
-        }
-      }
+  @media (max-width: 900px){
+    main {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
+  }
 
-    .third-container {
-      max-width: 100%;
-      height: fit-content;
-      //   margin: auto;
-      //   padding-bottom: 10rem;
+  // Media Query for mibile
+  @media (max-width: 600px) {
+    main {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
 
-      .third-container-inset {
-        height: fit-content;
-
-        // display: flex;
-        flex-direction: column;
-        padding: auto;
-        margin-bottom: 30rem;
-
-        .images-container {
-          //   margin: auto;
-          height: fit-content;
-          max-width: 100%;
-          //   gap: 3rem;
-          flex-direction: column;
-          //    position: relative;
-
-          .lg-image {
-            max-width: 100%;
-            height: fit-content;
-
-            img {
-              max-width: 100%;
-              height: fit-content;
-            }
-          }
-
-          .sm-image {
-            max-width: 100%;
-            height: fit-content;
-
-            img {
-              width: 27.574rem;
-              height: fit-content;
-            }
-          }
-        }
-        .third-container-details {
-          //   margin: auto;
-          max-width: 100%;
-          height: fit-content;
-          text-align: center;
-
-          .t-c-header-container {
-            max-width: 100%;
-            width: 35.3rem;
-            height: fit-content;
-            margin: auto;
-            text-align: center;
-
-            .t-c-tag {
-              height: auto;
-              margin: auto;
-            }
-          }
-
-          //   p {
-          //     // margin: auto;
-          //     // text-align: left;
-          //     // font-size: 2.5rem;
-          //     // max-width: 90%;
-          //     // position: relative;
-          //     // justify-self: center;
-          //     // height: auto;
-          //   }
-        }
-      }
-    }
-
-    .fourth-continer {
-      max-width: 100%;
-      height: fit-content;
-      position: unset;
-      //   bottom: 0;
-      //   top: -10rem;
-
-      .f-c-inset {
-        max-width: 90%;
-        display: flex;
-        flex-direction: column-reverse;
-        height: fit-content;
-        // overflow: visible;
-        // margin: 0 auto;
-        // top: 0;
-        gap: 1rem;
-        padding: 2rem 0;
-        position: relative;
-        // border: 1px solid red;
-
-        .tittle-container {
-          max-width: 100%;
-          height: fit-content;
-          position: absolute;
-          flex-direction: column;
-          gap: 2rem;
-          top: 4rem;
-          margin: 0 auto;
-          // border: 1px solid red;
-
-          .f-c-tittle {
-            text-align: center;
-          }
-        }
-
-        .inner-boxes {
-          max-width: 100%;
-          height: fit-content;
-          margin-bottom: 12rem;
-          position: unset;
-
-          .box-one {
-            max-width: 100%;
-            position: unset;
-            margin: 0;
-            border-radius: 0;
-            height: fit-content;
-          }
-
-          .box-two-three {
-            max-width: 100%;
-            position: unset;
-            margin: 0;
-
-            .box-two {
-              max-width: 100%;
-              border-radius: 0;
-              position: unset;
-              border-bottom-left-radius: 1.6rem;
-
-              .b-t-contents {
-                margin: 3rem auto;
-
-                p {
-                  max-width: 100%;
-                }
-              }
-            }
-
-            .box-three {
-              max-width: 100%;
-              position: unset;
-              border-radius: 0;
-              border-bottom-right-radius: 1.6rem;
-
-              .b-t-content {
-                margin: 3rem auto;
-
-                p {
-                  max-width: 100%;
-                }
-              }
-            }
-          }
-        }
-
-        img {
-          max-width: 100%;
-          position: unset;
-          margin-top: 20rem;
-          margin-left: 0;
-        }
-
-        .fifth-container {
-          height: auto;
-          max-width: 100vw;
-          margin-top: -10rem;
+      .home-screen {
+        .heading-with-button {
+          margin: 0;
           position: relative;
+          max-width: 100vw;
+          padding: 0;
+          margin-left: 0rem;
 
-          .fifth-inner-con {
-            height: auto;
-            width: 95vw;
-            position: relative;
-            left: -10rem;
-            margin: 0;
-            display: flex;
+          .heading-container {
+            max-width: 100vw;
+            padding: 0 10px;
+            left: 0;
+            margin: 0 auto;
 
+            .heading-text {
+              max-height: 50rem;
+
+              h1 {
+                font-size: 12rem;
+              }
+              .to-church {
+                box-sizing: border-box;
+                height: auto;
+                width: 100%;
+                h2 {
+                  font-size: 15rem;
+                  top: -14.5dvh;
+                  position: relative;
+                }
+                span {
+                  font-size: 11rem;
+                  top: -2dvh;
+                }
+              }
+            }
+            p {
+              margin: auto;
+              max-width: 90%;
+              margin-top: 12rem;
+            }
+          }
+          .link {
+            margin: auto;
+          }
+        }
+      }
+
+      .third-container {
+        max-width: 100%;
+        height: fit-content;
+
+        .third-container-inset {
+          height: fit-content;
+          flex-direction: column;
+          padding: auto;
+          margin-bottom: 30rem;
+
+          .images-container {
+            height: fit-content;
+            max-width: 100%;
             flex-direction: column;
 
-            .inner-content-one {
-              min-width: 100%;
+            .lg-image {
+              max-width: 100%;
+              height: fit-content;
 
-              .one-content {
-                p {
-                  font-size: 2.5rem;
-                }
+              img {
+                max-width: 100%;
+                height: fit-content;
               }
             }
 
-            .inner-content-twonthree {
-              height: auto;
-              min-width: 95vw;
+            .sm-image {
+              max-width: 100%;
+              height: fit-content;
 
-              .inner-content-two {
-                width: 95%;
+              img {
+                width: 27.574rem;
+                height: fit-content;
+              }
+            }
+          }
+          .third-container-details {
+            max-width: 100%;
+            height: fit-content;
+            text-align: center;
 
-                .two-content {
-                  .two-text {
-                    p {
-                      font-size: 2.2rem;
-                    }
-                  }
-                  button {
-                    margin-top: -5rem;
+            .t-c-header-container {
+              max-width: 100%;
+              width: 35.3rem;
+              height: fit-content;
+              margin: auto;
+              text-align: center;
+
+              .t-c-tag {
+                height: auto;
+                margin: auto;
+              }
+            }
+          }
+        }
+      }
+
+      .fourth-continer {
+        max-width: 100%;
+        height: fit-content;
+        position: unset;
+        //   bottom: 0;
+        //   top: -10rem;
+
+        .f-c-inset {
+          max-width: 90%;
+          display: flex;
+          flex-direction: column-reverse;
+          height: fit-content;
+          gap: 1rem;
+          padding: 2rem 0;
+          position: relative;
+
+          .tittle-container {
+            max-width: 100%;
+            height: fit-content;
+            position: absolute;
+            flex-direction: column;
+            gap: 2rem;
+            top: 4rem;
+            margin: 0 auto;
+            // border: 1px solid red;
+
+            .f-c-tittle {
+              text-align: center;
+            }
+          }
+
+          .inner-boxes {
+            max-width: 100%;
+            height: fit-content;
+            margin-bottom: 12rem;
+            position: unset;
+
+            .box-one {
+              max-width: 100%;
+              position: unset;
+              margin: 0;
+              border-radius: 0;
+              height: fit-content;
+            }
+
+            .box-two-three {
+              max-width: 100%;
+              position: unset;
+              margin: 0;
+
+              .box-two {
+                max-width: 100%;
+                border-radius: 0;
+                position: unset;
+                border-bottom-left-radius: 1.6rem;
+
+                .b-t-contents {
+                  margin: 3rem auto;
+
+                  p {
+                    max-width: 100%;
                   }
                 }
               }
 
-              .inner-content-three {
-                margin: auto;
-                width: 95dvw;
+              .box-three {
+                max-width: 100%;
+                position: unset;
+                border-radius: 0;
+                border-bottom-right-radius: 1.6rem;
 
-                .inner-three {
-                  .three-text {
-                    p {
-                      font-size: 2.2rem;
+                .b-t-content {
+                  margin: 3rem auto;
+
+                  p {
+                    max-width: 100%;
+                  }
+                }
+              }
+            }
+          }
+
+          img {
+            max-width: 100%;
+            position: unset;
+            margin-top: 20rem;
+            margin-left: 0;
+          }
+
+          .fifth-container {
+            height: auto;
+            max-width: 100vw;
+            margin-top: -10rem;
+            position: relative;
+
+            .fifth-inner-con {
+              height: auto;
+              width: 95vw;
+              position: relative;
+              left: -10rem;
+              margin: 0;
+              display: flex;
+
+              flex-direction: column;
+
+              .inner-content-one {
+                min-width: 100%;
+
+                .one-content {
+                  p {
+                    font-size: 2.5rem;
+                  }
+                }
+              }
+
+              .inner-content-twonthree {
+                height: auto;
+                min-width: 95vw;
+
+                .inner-content-two {
+                  width: 95%;
+
+                  .two-content {
+                    .two-text {
+                      p {
+                        font-size: 2.2rem;
+                      }
                     }
                     button {
                       margin-top: -5rem;
@@ -1293,8 +1254,24 @@ main {
                   }
                 }
 
-                p {
-                  font-size: 2rem;
+                .inner-content-three {
+                  margin: auto;
+                  width: 95dvw;
+
+                  .inner-three {
+                    .three-text {
+                      p {
+                        font-size: 2.2rem;
+                      }
+                      button {
+                        margin-top: -5rem;
+                      }
+                    }
+                  }
+
+                  p {
+                    font-size: 2rem;
+                  }
                 }
               }
             }
