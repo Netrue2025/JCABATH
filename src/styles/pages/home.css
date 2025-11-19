@@ -884,89 +884,83 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
   margin: 0;
   color: #ffffff;
 }
-@media (max-width: 900px) {
-  main main {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-}
-@media (max-width: 600px) {
-  main main {
+
+@media screen and (max-width: 600px) {
+  main {
     display: flex;
     flex-direction: column;
     margin: 0;
   }
-  main main .home-screen .heading-with-button {
+  main .home-screen .heading-with-button {
     margin: 0;
     position: relative;
     max-width: 100vw;
     padding: 0;
     margin-left: 0rem;
   }
-  main main .home-screen .heading-with-button .heading-container {
+  main .home-screen .heading-with-button .heading-container {
     max-width: 100vw;
     padding: 0 10px;
     left: 0;
     margin: 0 auto;
   }
-  main main .home-screen .heading-with-button .heading-container .heading-text {
+  main .home-screen .heading-with-button .heading-container .heading-text {
     max-height: 50rem;
   }
-  main main .home-screen .heading-with-button .heading-container .heading-text h1 {
+  main .home-screen .heading-with-button .heading-container .heading-text h1 {
     font-size: 12rem;
   }
-  main main .home-screen .heading-with-button .heading-container .heading-text .to-church {
+  main .home-screen .heading-with-button .heading-container .heading-text .to-church {
     box-sizing: border-box;
     height: auto;
     width: 100%;
   }
-  main main .home-screen .heading-with-button .heading-container .heading-text .to-church h2 {
+  main .home-screen .heading-with-button .heading-container .heading-text .to-church h2 {
     font-size: 15rem;
     top: -14.5dvh;
     position: relative;
   }
-  main main .home-screen .heading-with-button .heading-container .heading-text .to-church span {
+  main .home-screen .heading-with-button .heading-container .heading-text .to-church span {
     font-size: 11rem;
     top: -2dvh;
   }
-  main main .home-screen .heading-with-button .heading-container p {
+  main .home-screen .heading-with-button .heading-container p {
     margin: auto;
-    max-width: 90%;
+    max-width: 90dvw;
     margin-top: 12rem;
   }
-  main main .home-screen .heading-with-button .link {
+  main .home-screen .heading-with-button .link {
     margin: auto;
   }
-  main main .third-container {
+  main .third-container {
     max-width: 100%;
     height: -moz-fit-content;
     height: fit-content;
   }
-  main main .third-container .third-container-inset {
+  main .third-container .third-container-inset {
     height: -moz-fit-content;
     height: fit-content;
     flex-direction: column;
     padding: auto;
     margin-bottom: 30rem;
   }
-  main main .third-container .third-container-inset .images-container {
+  main .third-container .third-container-inset .images-container {
     height: -moz-fit-content;
     height: fit-content;
     max-width: 100%;
     flex-direction: column;
   }
-  main main .third-container .third-container-inset .images-container .lg-image {
+  main .third-container .third-container-inset .images-container .lg-image {
     max-width: 100%;
     height: -moz-fit-content;
     height: fit-content;
   }
-  main main .third-container .third-container-inset .images-container .lg-image img {
+  main .third-container .third-container-inset .images-container .lg-image img {
     max-width: 100%;
     height: -moz-fit-content;
     height: fit-content;
   }
-  main main .third-container .third-container-inset .images-container .sm-image {
+  main .third-container .third-container-inset .images-container .sm-image {
     max-width: 100%;
     height: -moz-fit-content;
     height: fit-content;
@@ -976,13 +970,13 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     height: -moz-fit-content;
     height: fit-content;
   }
-  main main .third-container .third-container-inset .third-container-details {
+  main .third-container .third-container-inset .third-container-details {
     max-width: 100%;
     height: -moz-fit-content;
     height: fit-content;
     text-align: center;
   }
-  main main .third-container .third-container-inset .third-container-details .t-c-header-container {
+  main .third-container .third-container-inset .third-container-details .t-c-header-container {
     max-width: 100%;
     width: 35.3rem;
     height: -moz-fit-content;
@@ -990,17 +984,20 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     margin: auto;
     text-align: center;
   }
-  main main .third-container .third-container-inset .third-container-details .t-c-header-container .t-c-tag {
+  main .third-container .third-container-inset .third-container-details .t-c-header-container .t-c-tag {
     height: auto;
     margin: auto;
   }
-  main main .fourth-continer {
+  main .third-container .third-container-inset .third-container-details p {
+    font-size: 2.5rem;
+  }
+  main .fourth-continer {
     max-width: 100%;
     height: -moz-fit-content;
     height: fit-content;
     position: unset;
   }
-  main main .fourth-continer .f-c-inset {
+  main .fourth-continer .f-c-inset {
     max-width: 90%;
     display: flex;
     flex-direction: column-reverse;
@@ -1009,7 +1006,7 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     padding: 2rem 0;
     position: relative;
   }
-  main main .fourth-continer .f-c-inset .tittle-container {
+  main .fourth-continer .f-c-inset .tittle-container {
     max-width: 100%;
     height: -moz-fit-content;
     height: fit-content;
@@ -1019,10 +1016,10 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     top: 4rem;
     margin: 0 auto;
   }
-  main main .fourth-continer .f-c-inset .tittle-container .f-c-tittle {
+  main .fourth-continer .f-c-inset .tittle-container .f-c-tittle {
     text-align: center;
   }
-  main main .fourth-continer .f-c-inset .inner-boxes {
+  main .fourth-continer .f-c-inset .inner-boxes {
     max-width: 100%;
     height: -moz-fit-content;
     height: fit-content;
@@ -1031,7 +1028,7 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     top: 0;
     margin-top: 0;
   }
-  main main .fourth-continer .f-c-inset .inner-boxes .box-one {
+  main .fourth-continer .f-c-inset .inner-boxes .box-one {
     max-width: 100%;
     position: unset;
     margin: 0;
@@ -1039,49 +1036,49 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     height: -moz-fit-content;
     height: fit-content;
   }
-  main main .fourth-continer .f-c-inset .inner-boxes .box-two-three {
+  main .fourth-continer .f-c-inset .inner-boxes .box-two-three {
     max-width: 100%;
     position: unset;
     margin: 0;
   }
-  main main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two {
+  main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two {
     max-width: 100%;
     border-radius: 0;
     position: unset;
     border-bottom-left-radius: 1.6rem;
   }
-  main main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-contents {
+  main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-contents {
     margin: 3rem auto;
   }
-  main main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-contents p {
+  main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-two .b-t-contents p {
     max-width: 100%;
   }
-  main main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three {
+  main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three {
     max-width: 100%;
     position: unset;
     border-radius: 0;
     border-bottom-right-radius: 1.6rem;
   }
-  main main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-content {
+  main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-content {
     margin: 3rem auto;
   }
-  main main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-content p {
+  main .fourth-continer .f-c-inset .inner-boxes .box-two-three .box-three .b-t-content p {
     max-width: 100%;
   }
-  main main .fourth-continer .f-c-inset img {
+  main .fourth-continer .f-c-inset img {
     max-width: 100%;
     position: unset;
     margin-top: 20rem;
     margin-left: 0;
     margin-bottom: -10rem;
   }
-  main main .fourth-continer .f-c-inset .fifth-container {
+  main .fourth-continer .f-c-inset .fifth-container {
     height: auto;
     max-width: 100vw;
     margin-top: -10rem;
     position: relative;
   }
-  main main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con {
+  main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con {
     height: auto;
     width: 95vw;
     position: relative;
@@ -1090,36 +1087,36 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     display: flex;
     flex-direction: column;
   }
-  main main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-one {
+  main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-one {
     min-width: 100%;
   }
-  main main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-one .one-content p {
+  main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-one .one-content p {
     font-size: 2.5rem;
   }
-  main main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-twonthree {
+  main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-twonthree {
     height: auto;
     min-width: 95vw;
   }
-  main main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-two {
+  main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-two {
     width: 95%;
   }
-  main main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-two .two-content .two-text p {
+  main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-two .two-content .two-text p {
     font-size: 2.2rem;
   }
-  main main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-two .two-content button {
+  main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-two .two-content button {
     margin-top: -5rem;
   }
-  main main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three {
+  main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three {
     margin: auto;
     width: 95dvw;
   }
-  main main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three .inner-three .three-text p {
+  main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three .inner-three .three-text p {
     font-size: 2.2rem;
   }
-  main main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three .inner-three .three-text button {
+  main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three .inner-three .three-text button {
     margin-top: -5rem;
   }
-  main main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three p {
+  main .fourth-continer .f-c-inset .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-three p {
     font-size: 2rem;
   }
   main .fifth-container {
