@@ -182,6 +182,7 @@ main .ways-to-donate .inner-container .amazing-grace-bank-details .contact-btn b
   }
   main .ways-to-donate .inner-container .ways-to-give .donations {
     align-items: center;
+    gap: 1.7rem;
   }
   main .ways-to-donate .inner-container .ways-to-give p {
     font-size: 2.5rem;

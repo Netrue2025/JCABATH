@@ -45,6 +45,7 @@
   margin: auto;
   margin-top: 20rem;
   margin-bottom: 10rem;
+  justify-content: center;
 }
 .testimonies .testimonies-containers .cont:first-child {
   background-color: hsl(255, 83%, 42%);
