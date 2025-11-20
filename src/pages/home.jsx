@@ -17,11 +17,11 @@ import { Location } from "../components/location";
 import { FaChurch } from "react-icons/fa6";
 import { RiInstagramLine } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
-import pastorandwife from "../media/images/pastorandwife.png";
-import pstmrs from "../media/images/pstmrs.png";
-import congregation from "../media/images/congregation.png";
+// import pastorandwife from "../media/images/pastorandwife.png";
+// import pstmrs from "../media/images/pstmrs.png";
+// import congregation from "../media/images/congregation.png";
 import yellowicon from "../media/images/yellow-icon.png";
-import praying from "../media/images/praying.png";
+// import praying from "../media/images/praying.png";
 
 export function Home() {
   return (
@@ -79,13 +79,14 @@ export function Home() {
             <div className="images-container">
               <div className="lg-image">
                 <img
-                  src={pastorandwife}
+                  src="images/pastorandwife.png"
                   alt="Image of pastor Farouq and wife"
+                  loading="lazy"
                 />
               </div>
               <div className="sm-image">
-                <img src={pstmrs} alt="image of pastor Mrs" />
-                <img src={congregation} alt="Image of congregation" />
+                <img src="images/pstmrs.png" alt="image of pastor Mrs" />
+                <img src="images/congregation.png" alt="Image of congregation" />
               </div>
             </div>
             <div className="third-container-details">
@@ -170,7 +171,7 @@ export function Home() {
               </div>
             </div>
             <div className="fourth-container-img">
-              <img src={praying} alt="Image of Congregtion praying mode" />
+              <img src="images/praying.png" alt="Image of Congregtion praying mode" loading="lazy" />
             </div>
             <Link to={"/services"} className="link-f">
               <button>
