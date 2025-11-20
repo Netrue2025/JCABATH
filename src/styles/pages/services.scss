@@ -368,14 +368,15 @@ main {
             }
 
             .services-image {
-              max-width: 100%;
-              width: 100%;
-              height: fit-content;
+              max-width: none;
+              width: auto;
+              height: auto;
               position: unset;
 
               img {
-                width: 100%;
-                height: fit-content;
+                width: auto;
+                height: auto;
+                max-width: 100%;
               }
             }
           }
@@ -589,7 +590,7 @@ main {
       }
     }
   }
-  @media (max-width: 900px){
+  @media (max-width: 900px) {
     .week-days-services {
       max-width: 100%;
 
@@ -612,13 +613,15 @@ main {
         // border: 1px solid red;
 
         .week-days-services-image {
-          max-width: 100%;
-          height: fit-content;
+          max-width: none;
+          width: auto;
+          height: auto;
           margin-top: 22rem;
 
           img {
-            width: 100%;
-            height: fit-content;
+            width: auto;
+            height: auto;
+            max-width: 100%;
           }
         }
         .week-days-services-content {

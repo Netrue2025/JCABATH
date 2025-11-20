@@ -330,16 +330,15 @@ main .services-container .inner-container .wrap .services-wrap .services-content
     max-width: 30.9rem;
   }
   main .services-container .inner-container .wrap .services-wrap .services-image {
-    max-width: 100%;
-    width: 100%;
-    height: -moz-fit-content;
-    height: fit-content;
+    max-width: none;
+    width: auto;
+    height: auto;
     position: unset;
   }
   main .services-container .inner-container .wrap .services-wrap .services-image img {
-    width: 100%;
-    height: -moz-fit-content;
-    height: fit-content;
+    width: auto;
+    height: auto;
+    max-width: 100%;
   }
 }
 main .services-container .inner-container .wrap .services-image {
@@ -537,15 +536,15 @@ main .week-days-services .inner-container .week-days-services-content .night-vig
     padding-bottom: 7.8rem;
   }
   main .week-days-services .inner-container .week-days-services-image {
-    max-width: 100%;
-    height: -moz-fit-content;
-    height: fit-content;
+    max-width: none;
+    width: auto;
+    height: auto;
     margin-top: 22rem;
   }
   main .week-days-services .inner-container .week-days-services-image img {
-    width: 100%;
-    height: -moz-fit-content;
-    height: fit-content;
+    width: auto;
+    height: auto;
+    max-width: 100%;
   }
   main .week-days-services .inner-container .week-days-services-content {
     max-width: 100%;
