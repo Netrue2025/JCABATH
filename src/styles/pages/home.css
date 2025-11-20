@@ -8,7 +8,7 @@ main {
   max-width: 100dvw;
 }
 main .home-screen {
-  background-image: linear-gradient(to right, rgb(3, 0, 18), rgba(30, 30, 27, 0)), url("../../media/images/background.png");
+  background-image: linear-gradient(to right, rgb(3, 0, 18), rgba(30, 30, 27, 0)), url("images/background.webp");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -642,7 +642,7 @@ main .fifth-container .fifth-inner-con .inner-content-one {
   width: 100%;
   height: 74.5rem;
   border-radius: 3.96rem;
-  background-image: linear-gradient(to bottom, rgba(11, 2, 38, 0.39), rgb(13, 10, 10)), url("../../media/images/gradient.jpg");
+  background-image: linear-gradient(to bottom, rgba(11, 2, 38, 0.39), rgb(13, 10, 10)), url("images/gradient.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
