@@ -22,6 +22,8 @@ import { MdEmail } from "react-icons/md";
 // import congregation from "../media/images/congregation.png";
 import yellowicon from "../media/images/yellow-icon.png";
 // import praying from "../media/images/praying.png";
+import  {motion} from "framer-motion";
+import { Suspense } from "react";
 
 export function Home() {
   return (
@@ -34,6 +36,12 @@ export function Home() {
         <div className="home-screen">
           <div className="heading-with-button">
             <div className="heading-container">
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8 }}
+                className="my-box"
+              >
               <div className="heading-text">
                 <h1>Welcome</h1>
                 <div className="to-church">
@@ -45,6 +53,7 @@ export function Home() {
                 For with God nothing shall be impossible -
                 <span>LUKE 1 : 37</span>
               </p>
+              </motion.div>
             </div>
 
             {/* Contact us Now botton */}
@@ -74,15 +83,23 @@ export function Home() {
         </div>
 
         {/* Third container */}
+        <motion.div
+          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+        >
         <div className="third-container">
           <div className="third-container-inset">
             <div className="images-container">
               <div className="lg-image">
-                <img
-                  src="images/pastorandwife.png"
-                  alt="Image of pastor Farouq and wife"
-                  loading="lazy"
-                />
+                <Suspense fallback={<div>Loading...</div>}>
+                  <img
+                    src="images/pastorandwife.webp"
+                    alt="Image of pastor Farouq and wife"
+                    loading="lazy"
+                  />
+                </Suspense>
+
               </div>
               <div className="sm-image">
                 <img src="images/pstmrs.png" alt="image of pastor Mrs" />
@@ -128,8 +145,14 @@ export function Home() {
             </div>
           </div>
         </div>
+        </motion.div>
 
         {/* Fourth Container */}
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+        >
         <div className="fourth-continer">
           <div className="f-c-inset">
             <div className="f-c-inset-wrapper">
@@ -188,8 +211,14 @@ export function Home() {
               </button>
             </Link> */}
         </div>
+        </motion.div>
 
         {/* Fifth Container */}
+        <motion.div
+        initial={{ opacity: 0, x: 100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6 }}
+      >
         <div className="fifth-container">
           <div className="fifth-inner-con">
             <div className="inner-content-one">
@@ -247,9 +276,16 @@ export function Home() {
             </div>
           </div>
         </div>
+      </motion.div>
 
         {/* Ride with us and location section */}
-        <Location />
+       <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+        >
+          <Location />
+        </motion.div>
       </main>
 
       <Footer />
