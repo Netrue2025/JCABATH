@@ -7,10 +7,12 @@ import { FaTiktok } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
+import { Login } from "../pages/login";
 
 export function Footer(){
     return(
         <div className="footer-container">
+
             
            
             <div className="footer-inset-container">
@@ -66,6 +68,14 @@ export function Footer(){
                             <Link to="https://youtube.com/@rccgbath?si=KLDW3IZU7TMjKMHq"><FaYoutube className="youtube"/></Link>
                             <Link to="https://whatsapp.com"><FaWhatsapp className="whatsapp"/></Link>
                         </div>
+                        
+                        <Link to="https://netrue.io/login/">
+                            <button class="button" >
+                                <span>Admin Login</span>
+                            </button>
+                        </Link>
+
+
 
                     </div>
             

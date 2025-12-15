@@ -17,6 +17,7 @@ import { RaisingGiant } from "./pages/raising-giant"
 import { Services } from "./pages/services"
 import { Testimonies } from "./pages/testimonies"
 import { ScrollToTop } from "./components/scrolltotop"
+import { Login } from "./pages/login"
 
 
 
@@ -40,6 +41,7 @@ function App() {
           <Route path="/prayer-request" element={<PrayerRequest />}></Route>
           <Route path="/raising-giant" element={<RaisingGiant />}></Route>
           <Route path="/services" element={<Services />}></Route>
+           <Route path="/login" element={<Login />}></Route>
           <Route path="/testimonies" element={<Testimonies />}></Route>
           {/* <Route path="/admin" element={<Admin />}></Route> */}
           
