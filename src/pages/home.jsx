@@ -113,7 +113,7 @@ export function Home() {
                   <p>RCCGJCABATH</p>
                 </div>
                 <h2>Welcome to</h2>
-                <h3>JESUS CHRIST ASSEMBLY, BATH.</h3>
+                <h3>JESUS CHRIST ASSEMBLY, BATH</h3>
               </div>
 
               <p>

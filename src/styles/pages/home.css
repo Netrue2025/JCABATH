@@ -8,7 +8,7 @@ main {
   max-width: 100dvw;
 }
 main .home-screen {
-  background-image: linear-gradient(to right, rgb(3, 0, 18), rgba(30, 30, 27, 0)), url("images/background.webp");
+  background-image: linear-gradient(to right, rgb(3, 0, 18), rgba(30, 30, 27, 0)), url("/images/background.webp");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -642,7 +642,7 @@ main .fifth-container .fifth-inner-con .inner-content-one {
   width: 100%;
   height: 74.5rem;
   border-radius: 3.96rem;
-  background-image: linear-gradient(to bottom, rgba(11, 2, 38, 0.39), rgb(13, 10, 10)), url("images/gradient.webp");
+  background-image: linear-gradient(to bottom, rgba(11, 2, 38, 0.39), rgb(13, 10, 10)), url("/images/gradient.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -1005,23 +1005,23 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
     max-width: 90%;
     display: flex;
     flex-direction: column-reverse;
-    height: -moz-fit-content;
-    height: fit-content;
+    height: auto;
     padding: 2rem 0;
     position: relative;
   }
   main .fourth-continer .f-c-inset .tittle-container {
-    max-width: 100%;
-    height: -moz-fit-content;
-    height: fit-content;
-    position: absolute;
+    display: flex;
     flex-direction: column;
+    max-width: 100%;
+    position: absolute;
     gap: 2rem;
     top: 4rem;
     margin: 0 auto;
   }
   main .fourth-continer .f-c-inset .tittle-container .f-c-tittle {
     text-align: center;
+    display: flex;
+    flex-direction: column;
   }
   main .fourth-continer .f-c-inset .inner-boxes {
     max-width: 100%;

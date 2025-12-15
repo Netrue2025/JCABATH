@@ -70,19 +70,19 @@ export function ContactUs() {
                   <div className="contact contact-email">
                     <p>Email address</p>
                     <a href="mailto:info@jesuschristassembly.org">
-                      info@jesuschristassembly.org
+                      info@jcabath.co.uk
                     </a>
                   </div>
                   <div className="contact contact-phone">
                     <p>Phone number</p>
-                    <a href="tel:+447467160789">+44 7467160789</a>
+                    <a href="tel:+447467160789">+44 7825160238</a>
                   </div>
                   <div className="contact contact-whatsapp">
                     <p>
                       WhatsApp <br />
                       (Pastor Farouq)
                     </p>  
-                    <a href="http://whatsapp.com/">
+                    <a href="https://api.whatsapp.com/send?phone=447825160238">
                       <img src={whatsappicon} alt="icon" />
                     </a>
                   </div>
@@ -101,7 +101,7 @@ export function ContactUs() {
                   <a href="https://youtube.com/@rccgbath?si=KLDW3IZU7TMjKMHq" className="youtube-link">
                     <img src={youtubeicon} alt="youtubeicon-icon" />
                   </a>
-                  <a href="http://whatsapp.com/" className="whatsapp-link">
+                  <a href="https://api.whatsapp.com/send?phone=447825160238" className="whatsapp-link">
                     <img src={whatsappiconsvg} alt="whatsappiconsvg-icon" />
                   </a>
                 </div>

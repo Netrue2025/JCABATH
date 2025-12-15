@@ -40,7 +40,7 @@ export function Services() {
                       10:00 AM - 11:00 AM <span>via Zoom</span>
                     </p>
                     <div className="join-us-link">
-                      <a href="#">
+                      <a href="https://us06web.zoom.us/j/4814554786?pwd=aq6kbxBY2WPzwCQDCScCTBc5c9Fh6A.1">
                         Join Zoom Call <FaArrowRight className="arrow" />
                       </a>
                     </div>

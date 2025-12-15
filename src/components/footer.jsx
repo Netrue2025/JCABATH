@@ -29,7 +29,7 @@ export function Footer(){
                         </div>
 
                         <div className="email-phone">
-                            <div className="email"><HiOutlineMailOpen className="email-icon"/><p>info@jesuschristassembly.org</p></div>
+                            <div className="email"><HiOutlineMailOpen className="email-icon"/><p>info@jcabath.co.uk</p></div>
                             <div className="phone"><MdPhoneInTalk className="phone-icon"/><p>+443 704 878 2063</p></div>
 
                         </div>

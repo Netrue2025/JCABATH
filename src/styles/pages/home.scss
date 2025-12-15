@@ -16,7 +16,7 @@ main {
         rgba(3, 0, 18, 1),
         rgba(30, 30, 27, 0)
       ),
-      url("images/background.webp");
+      url("/images/background.webp");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -750,7 +750,7 @@ main {
             rgba(11, 2, 38, 0.39),
             rgba(13, 10, 10, 1)
           ),
-          url("images/gradient.webp");
+          url("/images/gradient.webp");
         background-size: cover;
         background-repeat: no-repeat;
         background-position-x: center;
@@ -1151,12 +1151,14 @@ main {
       position: unset;
       //   bottom: 0;
       //   top: -10rem;
+      
+     
 
       .f-c-inset {
         max-width: 90%;
         display: flex;
         flex-direction: column-reverse;
-        height: fit-content;
+        height: auto;
         // overflow: visible;
         // margin: 0 auto;
         // top: 0;
@@ -1166,17 +1168,26 @@ main {
         // border: 1px solid red;
 
         .tittle-container {
-          max-width: 100%;
-          height: fit-content;
-          position: absolute;
+          display: flex;
           flex-direction: column;
+          max-width: 100%;
+          position: absolute;
           gap: 2rem;
           top: 4rem;
           margin: 0 auto;
+          // background-color: red;
           // border: 1px solid red;
+
+          // .f-c-tag{
+          //   // display: flex;
+          //   // flex-direction: column;
+          // }
 
           .f-c-tittle {
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            // background-color: red;
           }
         }
 
