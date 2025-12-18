@@ -23,21 +23,20 @@
 }
 .nav-container .inner-container figure {
   display: flex;
-  width: 25%;
-  max-height: 4.2dvh;
+  width: 35%;
+  height: 90%;
   gap: 8.26px;
-  line-height: 0;
-  margin: 0;
-  float: left;
-  margin-left: 2rem;
+  margin: auto;
 }
 .nav-container .inner-container figure .logo {
-  width: 30%;
   max-height: 2.228dvh;
   border-radius: 21.39px;
   padding: 4.06px;
   gap: 0.6px;
   float: left;
+  margin: auto 0;
+  display: none;
+  height: auto;
 }
 .nav-container .inner-container figure .logo-name {
   display: flex;
@@ -122,25 +121,6 @@
   .nav-container .inner-container {
     width: 100vw;
   }
-  .nav-container .inner-container figure {
-    width: 30%;
-    line-height: 0;
-  }
-  .nav-container .inner-container figure .logo {
-    margin: auto;
-  }
-  .nav-container .inner-container figure .logo-name {
-    height: 0;
-    width: 100%;
-    font-size: 50%;
-    margin: auto;
-    margin-top: 1.5rem;
-  }
-  .nav-container .inner-container figure .logo-name h2, .nav-container .inner-container figure .logo-name h1 {
-    line-height: 1.4;
-    font-size: 50.5%;
-    width: 100%;
-  }
   .nav-container .inner-container .cancel {
     width: 5rem;
     height: 5rem;
@@ -151,7 +131,7 @@
     float: right;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .nav-container {
     width: 100vw;
     padding-left: 0;
@@ -162,9 +142,11 @@
     width: 100vw;
   }
   .nav-container .inner-container figure {
-    width: 80dvw;
-    height: 3.513rem;
+    width: auto;
+    height: 90%;
+    margin-top: 1%;
     gap: 0.668rem;
+    margin-left: 5%;
   }
   .nav-container .inner-container figure .logo {
     display: flex;
@@ -175,16 +157,18 @@
   }
   .nav-container .inner-container figure .logo-name {
     height: auto;
-    width: 40dvw;
+    width: auto;
     position: relative;
-    float: left;
     padding: 0;
     margin-left: 0;
+    margin: auto 0;
+    margin-top: 12px;
   }
   .nav-container .inner-container figure .logo-name h2, .nav-container .inner-container figure .logo-name h1 {
     font-family: clash-display-semibold;
     font-weight: 600;
     font-size: 2.552rem;
+    line-height: 1.2;
     font-size: 2.55rem;
     width: 100%;
   }
@@ -198,8 +182,9 @@
     flex-direction: column;
     font-size: large;
     font-weight: 700;
+    margin-right: 5%;
     width: 5dvw;
     height: 4dvh;
-    margin-top: 5%;
+    margin-top: 4%;
   }
 }/*# sourceMappingURL=topnavbar.css.map */

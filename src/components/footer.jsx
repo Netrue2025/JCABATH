@@ -8,6 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { Login } from "../pages/login";
+import "../styles/components/loginbtn.css"
 
 export function Footer(){
     return(
@@ -69,10 +70,49 @@ export function Footer(){
                             <Link to="https://whatsapp.com"><FaWhatsapp className="whatsapp"/></Link>
                         </div>
                         
-                        <Link to="https://netrue.io/login/">
-                            <button class="button" >
-                                <span>Admin Login</span>
-                            </button>
+                        
+                        
+                        
+                       
+                       <Link to="https://netrue.io/login/">
+                            <svg className="svg">
+                            <filter width="300%" x="-100%" height="300%" y="-100%" id="unopaq">
+                                <feColorMatrix
+                                values="1 0 0 0 0 
+                                        0 1 0 0 0 
+                                        0 0 1 0 0 
+                                        0 0 0 9 0"
+                                ></feColorMatrix>
+                            </filter>
+                            <filter width="300%" x="-100%" height="300%" y="-100%" id="unopaq2">
+                                <feColorMatrix
+                                values="1 0 0 0 0 
+                                        0 1 0 0 0 
+                                        0 0 1 0 0 
+                                        0 0 0 3 0"
+                                ></feColorMatrix>
+                            </filter>
+                            <filter width="300%" x="-100%" height="300%" y="-100%" id="unopaq3">
+                                <feColorMatrix
+                                values="1 0 0 0.2 0 
+                                        0 1 0 0.2 0 
+                                        0 0 1 0.2 0 
+                                        0 0 0 2 0"
+                                ></feColorMatrix>
+                            </filter>
+                            </svg>
+                            <button class="real-button"></button>
+                            <div class="backdrop"></div>
+                            <div class="button-container">
+                            <div class="spin spin-blur"></div>
+                            <div class="spin spin-intense"></div>
+                            <div class="backdrop"></div>
+                            <div class="button-border">
+                                <div class="spin spin-inside"></div>
+                                <div class="button">Admin Login</div>
+                            </div>
+                            </div>
+
                         </Link>
 
 

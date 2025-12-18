@@ -179,6 +179,7 @@ main .contacts-main-container .contact-inner-container .charity {
   flex-direction: row;
   text-wrap: wrap;
   width: auto;
+  cursor: pointer;
 }
 main .contacts-main-container .contact-inner-container .email p,
 main .contacts-main-container .contact-inner-container .email .contact-icon,
@@ -200,6 +201,9 @@ main .contacts-main-container .contact-inner-container .email {
 }
 main .contacts-main-container .contact-inner-container .instagram {
   width: auto;
+}
+main .contacts-main-container .contact-inner-container .instagram p:hover {
+  color: gold;
 }
 main .contacts-main-container .contact-inner-container .charity {
   width: auto;
@@ -295,6 +299,7 @@ main .third-container .third-container-inset .third-container-details .t-c-heade
   vertical-align: middle;
   text-transform: capitalize;
   color: #000000;
+  text-align: justify;
 }
 main .third-container .third-container-inset .third-container-details .t-c-header-container h2 {
   font-family: clash-display-bold;
@@ -338,6 +343,7 @@ main .fourth-continer {
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 100dvw;
+  line-height: 0;
   height: auto;
   box-sizing: border-box;
   position: relative;
@@ -346,7 +352,7 @@ main .fourth-continer .f-c-inset {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
-  height: 88rem;
+  height: auto;
   background-color: #f0f4ff;
   max-width: 120.2rem;
   width: 100%;
@@ -463,11 +469,11 @@ main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-one h4 {
   margin: 0;
 }
 main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-one p {
-  max-width: 30.9rem;
+  width: auto;
   height: 2.6rem;
   font-family: montserrat-light;
   font-weight: 400;
-  font-size: 3.4rem;
+  font-size: 2.5rem;
   line-height: 2.55rem;
   letter-spacing: 0%;
   vertical-align: middle;
@@ -520,7 +526,7 @@ main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-two-three 
 main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-two-three .box-two .b-t-contents p {
   font-family: montserrat-light;
   font-weight: 400;
-  font-size: 3.2rem;
+  font-size: 2.5rem;
   line-height: 3rem;
   vertical-align: middle;
   letter-spacing: 0%;
@@ -559,11 +565,11 @@ main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-two-three 
   color: #ffd952;
 }
 main .fourth-continer .f-c-inset .f-c-inset-wrapper .inner-boxes .box-two-three .box-three .b-t-content p {
-  max-width: 21.5rem;
+  width: auto;
   height: 7.8rem;
   font-family: montserrat-light;
   font-weight: 400;
-  font-size: 3.2rem;
+  font-size: 2.5rem;
   line-height: 3.9rem;
   letter-spacing: 0%;
   vertical-align: middle;
@@ -580,6 +586,7 @@ main .fourth-continer .f-c-inset .link-f {
   width: 100%;
   position: absolute;
   bottom: 3rem;
+  z-index: 1000;
 }
 main .fourth-continer .f-c-inset .link-f button {
   display: flex;
@@ -588,11 +595,13 @@ main .fourth-continer .f-c-inset .link-f button {
   height: 6rem;
   background-color: #4012c5;
   border: none;
-  margin: auto;
+  margin: 0 auto;
   border-radius: 3rem;
   padding: 1.6rem 2.4rem;
   gap: 1rem;
   justify-content: center;
+  z-index: 1001;
+  cursor: pointer;
 }
 main .fourth-continer .f-c-inset .link-f button p {
   font-family: montserrat-semibold;
@@ -600,8 +609,7 @@ main .fourth-continer .f-c-inset .link-f button p {
   font-size: 1.5rem;
   vertical-align: middle;
   color: #ffffff;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: auto 0;
 }
 main .fourth-continer .f-c-inset .link-f button .arrow {
   width: 1.387rem;
@@ -609,7 +617,11 @@ main .fourth-continer .f-c-inset .link-f button .arrow {
   top: 0.31rem;
   left: 0.075rem;
   color: #ffffff;
-  margin-top: 0.5rem;
+  margin: auto 0;
+}
+main .fourth-continer .f-c-inset .link-f button:hover {
+  background-color: rgb(82, 82, 238);
+  color: gold;
 }
 main .fifth-container {
   background-image: linear-gradient(68deg, rgba(255, 255, 255, 0.27)), url("../../media//images/Image+Overlay.png");
@@ -703,6 +715,7 @@ main .fifth-container .fifth-inner-con .inner-content-one .one-content p {
   vertical-align: middle;
   color: #ffffff;
   margin-top: 0;
+  text-align: justify;
 }
 main .fifth-container .fifth-inner-con .inner-content-twonthree {
   max-width: 62.5rem;
@@ -764,6 +777,7 @@ main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-t
   vertical-align: middle;
   color: rgba(255, 255, 255, 0.831372549);
   margin: 0;
+  text-align: justify;
 }
 main .fifth-container .fifth-inner-con .inner-content-twonthree .inner-content-two .two-content .link {
   max-width: 25.1rem;

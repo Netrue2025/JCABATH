@@ -31,23 +31,25 @@
         
         figure{
             display: flex;
-            width: 25%;
-            max-height: 4.2dvh;
+            width: 35%;
+            height: 90%;
             gap: 8.26px;
-            // background-color: red;
-            // box-sizing: border-box;
-            line-height: 0;
-            margin: 0;
-            float: left;
-            margin-left: 2rem;
+        //    background-color: red;
+           margin: auto;
+        
+            
 
             .logo{
-                width: 30%;
+                // width: 30%;
                 max-height: 2.228dvh;
                 border-radius: 21.39px;
                 padding:4.06px;
                 gap: 0.6px;
                 float: left;
+                margin: auto 0;
+                display: none;
+                height: auto;
+                
                 
             }
             .logo-name{
@@ -158,28 +160,28 @@
             width: 100vw;
     
 
-            figure{
-                width: 30%;
-                line-height: 0;
-                .logo{
-                    margin: auto;
+            // figure{
+            //     width: 30%;
+                
+            //     // .logo{
+            //     //     margin: auto;
 
-                }
-                .logo-name{
-                    height: 0;
-                    width: 100%;
-                    font-size: 50%;
-                    margin: auto;
-                    margin-top: 1.5rem;
+            //     // }
+            //     // .logo-name{
+            //     //     height: 0;
+            //     //     width: 100%;
+            //     //     font-size: 50%;
+            //     //     margin: auto;
+            //     //     margin-top: 1.5rem;
 
-                    h2, h1{
-                      line-height: 1.4;
-                      font-size: 50.5%;
-                      width: 100%;
-                    }
-                }
+            //     //     h2, h1{
+            //     //       line-height: 1.4;
+            //     //       font-size: 50.5%;
+            //     //       width: 100%;
+            //     //     }
+            //     // }
 
-            }
+            // }
 
             .cancel{
                 width: 5rem;
@@ -197,7 +199,7 @@
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
     .nav-container{
         width: 100vw;
         padding-left: 0;
@@ -207,12 +209,17 @@
         
         .inner-container{
             width: 100vw;
+           
+            
             
 
             figure{
-                width: 80dvw;
-                height: 3.513rem;
+                width: auto;
+                height: 90%;
+                margin-top: 1%;
                 gap: 0.668rem;
+                margin-left: 5%;
+                
 
                 .logo{
                     display: flex;
@@ -224,11 +231,14 @@
                 }
                 .logo-name{
                     height: auto;
-                    width: 40dvw;
+                    width: auto;
                     position: relative;
-                    float: left;
+                    // float: left;
                     padding: 0;
                     margin-left: 0;
+                    margin: auto 0;
+                    margin-top: 12px;
+                    
                     // top: -2.5rem;
                    
                     
@@ -237,7 +247,7 @@
                     font-family: clash-display-semibold;
                     font-weight: 600;
                     font-size: 2.552rem;
-                    //   line-height: 1.4;
+                      line-height: 1.2;
                       font-size: 2.55rem;
                       width: 100%;
                       
@@ -256,11 +266,11 @@
                 flex-direction: column;
                 font-size: large;
                 font-weight: 700;
-                
+                margin-right: 5%;
                 width: 5dvw;
                 height: 4dvh;
                 // margin-left: 50%;
-                margin-top: 5%;
+                margin-top: 4%;
         
                
                

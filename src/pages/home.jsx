@@ -69,11 +69,11 @@ export function Home() {
           <div className="contact-inner-container">
             <div className="email">
               <MdEmail className="contact-icon" />
-              <p>info@jesuschristassembly.org I</p>
+              <p>info@jesuschristassembly.org </p>
             </div>
             <div className="instagram">
               <RiInstagramLine className="contact-icon" />
-              <p>@rccgjcabath I</p>
+              <Link to='https://www.instagram.com/rccgjcabath?igsh=MTNjYXF2cGUxcDd1eg=='><p>@rccgjcabath </p></Link>
             </div>
             <div className="charity">
               <FaChurch className="contact-icon" />
