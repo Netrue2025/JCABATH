@@ -104,6 +104,9 @@
   letter-spacing: 0%;
   line-height: 3.5rem;
   font-family: montserrat-light;
+  text-align: justify;
+  word-spacing: -1px;
+  word-wrap: wrap;
 }
 .raising-giant-page .raising-giant-container .inner-container .inner-container-texts .bottom-paragraph {
   max-width: 55rem;
@@ -116,6 +119,8 @@
   letter-spacing: 0%;
   line-height: 3.5rem;
   font-family: montserrat-light;
+  text-align: justify;
+  word-spacing: -1px;
 }
 
 @media screen and (max-width: 600px) {

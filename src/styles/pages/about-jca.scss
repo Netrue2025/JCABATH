@@ -159,13 +159,16 @@ main {
             font-weight: 400;
             font-family: montserrat-light;
             max-width: 32.2rem;
-            letter-spacing: 0%;
+            letter-spacing: 0px;
+            word-spacing: 0px;
             line-height: 2.119rem;
+            text-align: center;
           }
         }
         .card1 {
           background-color: #056402;
           outline: 0.4rem solid #2a84277a;
+      
         }
         .card2 {
           background-color: #24156a;

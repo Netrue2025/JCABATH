@@ -98,6 +98,7 @@
   position: relative;
   left: 0;
   width: 100%;
+  text-align: justify;
 }
 .j-g-w-main-section .g-w-contents .g-w-section-one p li:last-child {
   margin-top: 2rem;
@@ -126,6 +127,7 @@
   vertical-align: middle;
   align-items: justify;
   color: hsl(0, 1%, 30%);
+  text-align: justify;
 }
 .j-g-w-main-section .g-w-contents .g-w-section-two p span {
   width: auto;

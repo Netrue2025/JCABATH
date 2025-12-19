@@ -72,7 +72,7 @@
                 line-height: 5.9rem;
                 letter-spacing: 0%;
                 vertical-align: middle;
-                text-align: center;
+                text-align: justify;
                 color: #000000;
 
                 span{
@@ -131,10 +131,12 @@
                 font-family: montserrat-semibold;
                 font-weight: 600;
                 font-size: 2.2rem;
-                line-height: 5.9rem;
-                letter-spacing: 0%;
+                line-height: 5rem;
+                letter-spacing: -1px;
                 vertical-align: middle;
                 color: #000000;
+                text-align: justify;
+                word-spacing: 0px;
                 
                 span{
                     font-family: montserrat-light;
@@ -214,6 +216,8 @@
                     margin: 0;
                     position: relative;
                     height: 38.477rem;
+                    text-align: justify;
+                    word-spacing: normal;
                 }
             }
 
@@ -269,6 +273,8 @@
                     margin: 0;
                     position: relative;
                     height: 38.477rem;
+                    text-align: justify;
+                    word-spacing: normal;
                 }
             }
 
@@ -295,6 +301,8 @@
             vertical-align: middle;
             text-transform: capitalize;
             color: hsla(180, 27%, 8%, 1);
+            text-align: justify;
+            word-spacing: -1px;
 
             span{
                 font-family: montserrat-light;

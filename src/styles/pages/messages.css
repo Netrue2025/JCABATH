@@ -228,6 +228,8 @@
   line-height: 1.5;
   letter-spacing: 0%;
   vertical-align: middle;
+  text-align: justify;
+  word-spacing: 0;
 }
 .teaching-main-cont .messages-container .message-right-cont .left-prev-next {
   display: none;
@@ -340,6 +342,7 @@
     font-size: 1.286rem;
     letter-spacing: 0%;
     line-height: 100%;
+    text-align: justify;
     color: hsl(0, 0%, 20%);
   }
   .teaching-main-cont .messages-container .message-right-cont .left-prev-next .round:first-of-type {

@@ -97,6 +97,7 @@
   letter-spacing: 0%;
   vertical-align: middle;
   color: hsl(0, 1%, 30%);
+  text-align: justify;
 }
 .contents .aimcontens h4 {
   font-family: montserrat-semibold;
@@ -120,6 +121,7 @@
   margin-top: 0;
   margin-left: 2.8rem;
   max-width: 80%;
+  text-align: justify;
 }
 
 .scripture-truth {
@@ -176,6 +178,8 @@
   width: 100%;
   margin: 0;
   margin-left: -3rem;
+  text-align: justify;
+  word-spacing: -1px;
 }
 .scripture-truth .content p span {
   font-family: montserrat-semibold;
@@ -275,6 +279,8 @@
   margin-top: 0;
   padding: 0;
   width: 100%;
+  text-align: justify;
+  word-spacing: -1px;
 }
 .why .content p span {
   font-family: montserrat-semibold;
